@@ -1,0 +1,94 @@
+---
+title: "Suivi de la floraison de la vigne"
+---
+
+# Objectif
+
+La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle ou de la modalité étudiée. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.
+
+# Principe de la mesure
+
+La floraison marque le début de la phase reproductive : la chute du capuchon correspond au moment où le pollen va entrer en contact avec les stigmates. Le processus de fécondation des ovules qui suit conditionne la formation des baies et des pépins, il constitue donc un moment crucial dans le cycle de développement.
+
+La floraison est évaluée sur la base d'observations régulières réalisées sur des ceps représentatifs dans chaque zone suivie [@destrac-irvine2019].
+
+# Réalisation de la mesure
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Il est nécessaire de faire au minimum 30 observations par zone homogène. La notation peut-être réalisée à la souche ou sur chaque inflorescence.
+
+### Ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs), formés de manière définitive et en production.
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+
+### Organes à observer
+
+Seules sont observées les deux premières **inflorescences** rencontrées à partir de la base du sarment. Sont exclues les inflorescences portées par les gourmands, les entre-cœurs et les bouts de vrilles.
+
+## Mesure
+
+### Réalisation
+
+L'échelle BBCH est l'échelle de référence à utiliser [@lorenz1995]. On considère qu'une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.
+
+Le taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.
+
+![Inflorescence à mi-floraison (BBCH65)](images/bbch65_vigne.jpg){width="151"}
+
+### Outils
+
+Pas d'outils disponibles à notre connaissance.
+
+### Période de mesure
+
+A partir du moment où l’on observe au minimum 5 % de fleurs ouvertes, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de fleurs ouvertes.
+
+Il s'agit **d'encadrer la date à laquelle 50% des organes ont atteint le stade à observer.**
+
+### Aspects pratiques
+
+La notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.
+
+::: callout-warning
+Attention, l'évaluation des pourcentages sur inflorescence ou grappes est sensible à l'effet observateur. Il est nécessaire de s'entraîner au préalable.
+:::
+
+# Traitement des résultats
+
+::: callout-note
+Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+:::
+
+## Définition des variables
+
+Le pourcentage de floraison pour chaque organe ou cep observé ([OPEN_FLO_PC](https://cropontology.org/term/CO_356:1000181)) est la donnée de base. La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de floraison correspond au stade BBCH61, 20% au stade BBCH62 etc.
+
+La date du stade est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade floraison.
+
+![Exemple d'interpolation entre observations](images/pheno_interpolation.jpg){fig-alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." fig-align="center" width="483"}
+La date de début floraison ([FLO_START](https://cropontology.org/term/CO_356:1000083)) est la date calendaire où les premières fleurs ouvertes sont observées (BBCH61).
+
+La date de mi-floraison est la date calendaire où le seuil de 50% des fleurs ouvertes est atteint ([FLO_50](https://cropontology.org/term/CO_356:1000011)).
+
+## Interprétation des résultats
+
+Pour les comparaisons inter-annuelles, la date de mi-floraison calendaire peut être exprimée en nombre de jours depuis le début de l'année ([DOY_FLO](https://cropontology.org/term/CO_356:1000077)).
+
+Par exemple, le 16 juin 2024 est le jour 168 de l'année.
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+-   [Poster des stades phénologiques de la vigne](https://www.vignevin.com/wp-content/uploads/2019/05/Poster-stades-ph%C3%A9nologiques-de-la-vigne.pdf) sur le site IFV.
+
+-   [Stades phénologiques repères de la vigne](https://api.agrometeo.ch/storage/uploads/Poster_stade-pheno_Vigne_F_Ecran.pdf), fiche de l'Agroscope de Changins.
+
+-   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), 2004
+
+## Références

@@ -1,0 +1,106 @@
+---
+title: "Mesure du potentiel hydrique foliaire de base"
+---
+
+# Objectif
+
+La mesure du potentiel hydrique foliaire de base (Ψ~B~) permet d’estimer l'état hydrique de la vigne en informant sur la disponibilité en eau du sol. Le Ψ~B~ est un indicateur physiologique clé de l’état hydrique de la vigne et sert de référence pour la calibration d’autres outils d’aide à la décision (capteurs du flux de sève, thermomètre infrarouge, capteurs de l’humidité du sol…) [@deloire2020].
+
+# Principe de la mesure
+
+Le potentiel hydrique de la vigne (Ψ) est la tension (c'est-à-dire la pression négative) sous laquelle l'eau circule, principalement par les vaisseaux du xylème, depuis les racines jusqu'à l'interface air-feuille où elle s’évapore [@rienth2023]. En fin de nuit, alors que la transpiration est négligeable (stomates fermés en l'absence de lumière) et que la plante a reconstitué ses réserves en eau, on suppose généralement que le potentiel hydrique foliaire et le potentiel hydrique du sol dans la zone d’implantation des racines ont atteint un niveau d’équilibre. La mesure du potentiel foliaire à cet instant, appelé potentiel hydrique foliaire de base (Ψ~B~), renseigne donc sur la disponibilité en eau du sol pour la plante. Le Ψ~B~ étant peu sensible aux faibles contraintes, sa mesure sera plus pertinente dans les situations de contrainte hydrique modérée à forte (vignobles méditérrannéens ). Dans les situations de contrainte hydrique plus faible, la mesure du potentiel hydrique de tige est plus discriminante.
+
+![Chambre à pression utilisée pour la mesure du potentiel hydrique (source IFV Occitanie)](images/Chambre-pression_IFV81.jpg)
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Les mesures se font sur un échantillon d'au moins 5 feuilles saines par placette ou zone homogène.
+
+### Choix des ceps et feuilles à prélever
+
+-   Sélectionner des ceps d’expression végétative similaire et indemnes de maladies du bois.
+-   Choisir des ceps situés dans la partie médiane d’une parcelle élémentaire pour éviter les effets de bordure.
+-   Prélever les feuilles sur la partie basale d’un rameau primaire.
+
+Les mesures en saison se feront toujours sur les mêmes ceps.
+
+## Mesure
+
+### Réalisation
+
+La mesure se fait en fin de nuit, avant le lever du soleil (à partir de 2h du matin jusqu’à l’aube).
+
+-   Prélever la feuille entière (limbe + pétiole) **juste avant la mesure** par rupture du pétiole au niveau de son insertion sur le nœud.
+-   Amputer l’extrémité du pétiole à l’aide d’un cutter bien aiguisé pour ne pas écraser les tissus.
+-   Introduire le pétiole dans l’orifice du couvercle de la chambre à pression et assurer l’étanchéité autour du pétiole.
+-   Placer la feuille dans la chambre dans laquelle on a déposé un morceau d’ouate humide.
+-   Fermer le couvercle, vérifier son positionnement et le cas échéant mettre en place la sécurité.
+-   Mettre la chambre sous pression très progressivement (la précision de la mesure est très dépendante de la vitesse de montée en pression). Une incrémentation de 0.002 MPa (0.02 Bar) en début de saison, en absence de stress, à 0.004 MPa (0.04 Bar) en fin de saison, stress fort, est recommandée.
+-   Noter le potentiel hydrique lors de l’apparition d’humidité sur la section du faisceau ligneux du pétiole. Cette valeur correspond à la pression de la chambre affichée par le manomètre, au signe près.
+
+![Mesure du potentiel hydrique folaire [@deloire2020]](images/pot_base1.png){width="535"}
+
+-   Si une mesure est aberrante, recommencer sur une autre feuille pour confirmer cette valeur
+
+::: callout-warning
+Pour éviter les accidents, respecter le mode d'emploi et les consignes de sécurité propres à l'appareil, et réaliser les mesures à 2 personnes. Attention au stockage (éviter les fortes températures) et à la manipulation des bouteilles de gaz sous pression.
+:::
+
+### Outils
+
+-   Une chambre à pression (dite de Scholander) munie d’une source d’azote comprimée, d’un régulateur de débit et, si possible, d’un manomètre de précision (0.001 Mpa).
+-   Un cutter bien aiguisé
+-   Une lampe frontale
+-   Une fiche de notation
+
+### Période de mesure
+
+Il ne doit pas y avoir eu de précipitations dans les 4 jours précédents la mesure. Les conditions climatiques au moment de la mesure doivent être constantes d’une fois sur l’autre (vent, humidité). Quatre points de mesure sont nécessaires pour caractériser la dynamique de l’état hydrique de la plante au cours de la période végétative, avec comme recommadation :
+
+-   une mesure avant l’apparition du stress
+-   une à fermeture de grappe
+-   une à mi-véraison
+-   une avant récolte
+
+### Aspects pratiques
+
+Compter en moyenne 10 minutes pour 5 feuilles. Ce temps peut varier selon le niveau de contrainte hydrique : il faudra plus de temps pour atteindre la pression d'équilibre en cas de contrainte hydrique forte. La consommation en gaz sera aussi plus importante.
+
+{{< pagebreak >}}
+
+# Traitement des résultats
+
+## Définition des variables
+
+Le potentiel hydrique foliaire de base est exprimé en MPa (Pas de variable équivalente dans la Vitis Ontology).
+
+## Interprétation des résultats
+
+L'interprétation de la contrainte hydrique doit tenir compte du stade phénologique de la vigne. Une contrainte modérée précoce n'a pas les mêmes conséquences pour la plante et la production que la même contrainte survenant tardivement en saison. C'est la dynamique qui est à interpréter. Les seuils suivants [@deloire2020] donnent une indication.
+
+| Classe | Ψ~B~ en MPa         | Niveau de contrainte hydrique             |
+|--------|---------------------|-------------------------------------------|
+| 1      | 0 ≥ Ψ~B~ ≥ -0,3     | Pas de déficit hydrique                   |
+| 2      | -0,3 \> Ψ~B~ ≥ -0,5 | Déficit hydrique faible à modéré          |
+| 3      | -0,5 \> Ψ~B~ ≥ -0,8 | Déficit hydrique modéré à sévère          |
+| 4      | Ψ~B~ \< -0.8        | Déficit hydrique sévère à élevé (=stress) |
+
+: Potentiel hydrique folaire de base et état hydrique de la vigne
+
+Cependant, les mesures du PHFB peuvent conduire à une sous-estimation du déficit hydrique dans les vignobles irrigués au goutte à goutte et dont la réserve utile du sol est très faible [@deloire2020]. 
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Fiche mesure du potentiel hydrique de base](https://www.vignevin-occitanie.com/fiches-pratiques/mesure-du-potentiel-hydrique-foliaire-de-base/), IFV Occitanie
+
+[Fiche sur l'estimation de l'état hydrique de la vigne](https://www.vignevin-occitanie.com/fiches-pratiques/estimation-de-letat-hydrique-de-la-vigne/), IFV Occitanie
+
+## Références

@@ -1,0 +1,66 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!template_fiche.qmd"
+    - "!fiche_pheno.qmd"
+
+website:
+  title: "Fiches méthodologiques"
+  sidebar:
+    page-navigation: true
+    reader-mode: false
+    style: "docked"
+    background: secondary
+    search: true
+    contents:
+      - text: "Introduction"
+        href: index.qmd
+      - section: "Phénologie"
+        contents:
+          - fiche_pheno_dbr.qmd
+          - fiche_pheno_flo.qmd
+          - fiche_pheno_ver.qmd
+      - section: "Vigueur"
+        contents:
+          - fiche_vigueur_OIV351.qmd
+          - fiche_vigueur_diam_sarment.qmd
+          - fiche_pbt.qmd
+          - fiche_secv.qmd
+      - section: "Statut hydrique"
+        contents:
+          - fiche_notation_apex.qmd
+          - fiche_pot_base.qmd
+          - fiche_pot_tige.qmd
+      - section: "Statut minéral"
+        contents:
+          - fiche_chl_index.qmd
+      - section: "Maladies et carences"
+        contents:
+          - fiche_maladies_OSCAR.qmd
+          - fiche_mildiou_EPPO.qmd
+          - fiche_oidium_EPPO.qmd
+          - fiche_carences.qmd
+      - about.qmd
+  page-footer:
+    right: "Projet CEPOCLIM, 2024"
+    left: "&copy; CC BY-NC-ND"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+  docx:
+    toc: false
+
+date: last-modified
+date-format: long
+bibliography: references.bib
+csl: agronomy.csl
+editor: visual
+
+lang: fr
+
+

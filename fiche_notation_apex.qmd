@@ -1,0 +1,166 @@
+---
+title: "Dynamique de la croissance d'apex"
+date: last-modified
+date-format: long
+lang: fr
+format: 
+  html:
+    toc: false
+  docx: 
+    toc: false
+  pdf:
+    papersize: a4paper
+    documentclass: scrartcl
+    date: last-modified
+    date-format: "[Dernière mise à jour] MMM, YYYY"
+    shift-heading-level-by: -1
+    number-sections: false
+    mainfont: Ebrima
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \rohead{Fiche protocole}
+        \lofoot{Projet CEPOCLIM, 2025. CC BY-NC-ND}
+    colorlinks: true
+    license: "CC BY-NC-ND"
+    geometry:
+      - top=20mm
+      - left=20mm
+      - heightrounded
+editor: visual
+bibliography: references.bib
+---
+
+# Objectif
+
+Modéliser la dynamique de croissance des apex et notamment encadrer précisément leur sénescence.
+
+# Principe de la mesure
+
+La première influence de la sénescence des apex est une réorientation des priorités de la répartition des produits de la photosynthèse. Les éléments de la photosynthèse sont répartis de la façon suivante :
+
+-   En période de croissance, une priorité à la consommation sur place puis à l'exportation vers l'extrémité des rameaux et enfin à l'exportation vers les jeunes baies.
+-   En période de maturation deux cas se présentent. Si les vignes sont faibles, ce qui correspond à une croissance interrompue vers la véraison, la priorité est donnée à la consommation sur place, puis à l'exportation vers les baies et enfin à l'exportation vers les parties vivaces de la plante pour la mise en réserve. En revanche, si les vignes sont vigoureuses, c'est à dire que la croissance est maintenue, l'exportation vers l'extrémité des rameaux prime toujours sur celle vers les baies.
+
+Ainsi l'observation de la croissance d'apex permet un suivi de la dynamique de croissance, une estimation de la vigueur, et un encadrement de l'arrêt de la croissance végétative ; observations qui permettent la caractérisation des terroirs et modalités.
+
+Néanmoins, l'observation ne permet pas d'observer de façon évidente la reprise de la végétation après des rognages et d'autant plus qu'ils sont avancés dans la saison et que les conditions météorologiques favorisent l'arrêt (temps chaud et sec).
+
+# Réalisation de la mesure
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Un minimum de 50 apex doit être observé, sur une zone représentative de la parcelle ou par placette expérimentale.
+
+### Choix des ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+-   Les apex à observer sont ceux des rameaux primaires.
+
+## Mesure
+
+### Echelle
+
+L'observateur classe chaque apex dans l'une des 3 classes [@trambouze2009 ; @lovelle-rodriguez2009] suivantes :
+
+-   C : Chu pour un apex sec ou chu ;
+-   R : Ralenti pour un apex en croissance ralentie (évalué en enfermant l'apex entre les deux dernières feuilles développées ; s'il ne dépasse pas, on considère que l‘apex est en croissance ralentie) ;
+-   P : Poussant pour un apex en croissance, ce qui revient à dire qu'il dépasse des deux dernières feuilles développées refermées l'une sur l'autre.
+
+| Apex en arrêt de croissance        | Apex en croissance ralentie                                                                                        | Apex en croissance                                                                                                        |
+|------------------|--------------------------|----------------------------|
+| ![](images/apex0.jpg){width="200"} | ![](images/apex1.jpg){width="200"}                                                                                 | ![](images/apex2.jpg){width="200"}                                                                                        |
+| L’apex est sec ou à chu            | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci recouvrent l’apex. | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci ne recouvrent pas l’apex. |
+| Classe C                           | Classe R                                                                                                           | Classe P                                                                                                                  |
+
+: Grille de notation des Apex (source : site IFV Occitanie)
+
+### Outils
+
+La notation peut être réalisée grâce à l’application ApexVigne [@brunel2019 ; @pichon2020] disponible sous Android sur [ce lien](https://play.google.com/store/apps/details?id=ag.GB.apex) consulté en novembre 2024.
+
+### Période de mesure
+
+Les mesures doivent commencer après la floraison et avant le premier rognage. Elles sont effectuées toutes les semaines, sauf après un rognage où un délai d'au moins 1 semaine est nécessaire avant la mesure suivante pour permettre la reprise éventuelle de la croissance.
+
+### Aspects pratiques
+
+La notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer 50 apex.
+
+# Traitement des résultats
+
+## Variables brutes
+
+Les données brutes sont l'ensemble des notes d'apex à chaque observation.
+
+## Variables calculées
+
+Les proportions d'apex dans chaque classe sont calculés et notés P~C~, P~R~ et P~P~ (varient entre 0 et 1). À partir des notations d'apex, il est possible de calculer des variables élaborées, en particulier l'indice de croissance et l'indice d'arrêt de croissance. 
+
+### Indice de croissance
+
+L’indice de croissance (*iC~Apex~*) a été proposé par @pichon2020. Il est calculé de la façon suivante :
+
+$$ iC_{Apex} = P_P + 0.5*P_R $$
+
+Cet indice varie entre 0 et 1 : 0 croissance nulle et 1 croissance active
+
+### Indice d'arrêt de croissance
+
+L'indice d'arrêt de croissance (*IAC*) a été proposé par William Trambouze [@lovelle-rodriguez2009]. L'*IAC* varie de 0 (pleine croissance) à 100 (arrêt total de la croissance). 
+
+$$ IAC = \frac{100 (1-P_P + P_R + 2P_C)}{3} $$
+
+::: callout-important
+Etant donnée que différents indices synthétiques peuvent être calculés, il est nécessaire de conserver les données brutes, ou *a minima* les proportions P~P~, P~R~ et P~C~.
+:::
+
+### Date d'arrêt de croissance
+
+C'est la date à laquelle l'indice de croissance atteint la valeur 0.5. Elle est déterminée par interpolation entre deux notations d'apex encadrant la valeur *iC~Apex~* = 0.5.
+
+## Interprétation des résultats
+
+Une relation entre indice de croissance et niveau de contrainte hydrique potentielle a été établie.
+L'*IAC* a été mis au point pour le déclenchement de l'irrigation, il sera plus discriminant en début de saison, alors que la variation de l'*iC~Apex~* est plus linéaire.
+
+
+```{r}
+#| eval: false
+#| echo: false
+#| warning: false
+#| fig-cap: "Relations entre IAC et Ic-Apex"
+#| label: fig-index
+
+valeurs <- seq(0, 1, by = 0.1)
+# Création de toutes les combinaisons possibles pour 3 colonnes
+combinations <- expand.grid(P = valeurs, R = valeurs, C = valeurs)
+
+# Filtrage des combinaisons dont la somme est égale à 1
+combinations <- subset(combinations, P + R + C == 1)
+
+library(dplyr)
+combinations %>%
+  mutate(IAC = 100*(1-P+R+2*C)/3,
+         IcApex = P+0.5*R) -> combinations
+
+library(ggplot2)
+ggplot(data=combinations,aes(IAC,IcApex)) + 
+  geom_point()
+
+```
+
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Fiche disponible en ligne](https://www.vignevin-occitanie.com/fiches-pratiques/methode-des-apex/) sur le site IFV Occitanie
+
+[Fiche en ligne](https://www.institut-rhodanien.com/article/fiche-technique-la-methode-des-apex) de l'Institut Rhodanien.
+
+## Références

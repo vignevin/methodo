@@ -1,0 +1,98 @@
+---
+title: "Mesure de la Surface externe de couvert végétal"
+---
+
+# Objectif
+
+L'objectif de la mesure de la Surface Externe du Couvert Végétal (SECV) est d'approcher de manière simplifiée le potentiel photosynthétique d'une modalité ou d'une parcelle viticole. Cette mesure est limitée à la surface des feuilles exposée à la lumière. En effet, leur activité photosynthétique permet l’essentiel de la production de sucre : 90% de l’interception du rayon lumineux se fait par la couche de feuilles directement exposée.
+
+Cette mesure simple et pratique à mettre en œuvre peut être mise en regard du rendement pour appréhender l'équilibre physiologique de la vigne [@murisier1997]. Les paramètres mesurés permettent aussi de calculer le coefficient d'interception du rayonnement solaire, paramètre d'entrée des modèles de bilan hydrique.
+
+# Principe de la mesure
+
+Le principe de la mesure de la SECV repose sur l'estimation de la surface externe du feuillage de la vigne, en considérant la géométrie du système de conduite et en mesurant des dimensions caractéristiques de la végétation. La mesure est réalisée lorsque le feuillage a atteint ses dimensions maximales.
+
+La méthode de mesure présentée dans cette fiche ne concerne que les *vignes palissées*.
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Selon l'homogénéité de la parcelle, la mesure est à réaliser sur 6 à 10 souches moyennes par modalité ou zone de parcelle homogène. Il est préférable de raisonner sur une série de ceps contigus.
+
+### Choix des ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+
+## Mesure
+
+### Réalisation
+
+Le calcul de la SECV se base sur la mesure des paramètres suivants :
+
+-   Hauteur de végétation en m (H)
+-   Largeur de la végétation en m (L)
+-   Ecartement entre rangs en m (E)
+-   Pourcentage de trous dans le plan de feuillage (T) en %, en prenant en compte les discontinuités entre ceps mais sans prendre en compte la micro porosité : seuls les trous d'un diamètre supérieurà 20cm sont pris en compte.
+
+La largeur L est la moyenne en haut (L1) et en bas (L2) du feuillage.
+
+![](images/secv_palissee.png){width="741"}
+
+### Outils
+
+Mètre ruban pour mesurer les dimensions de la végétation.
+
+Fiche de notation.
+
+### Période de mesure
+
+La mesure de SECV se fait lorsque la végétation a atteint son gabarit maximal, généralement courant juillet, entre fermeture de la grappe et début véraison. Il est recommandé de la réaliser après un rognage latéral et écimage pour faciliter la mesure de gabarit.
+
+### Aspects pratiques
+
+Prévoir de réaliser la mesure à 2 personnes (1 notateur, 1 observateur).
+
+::: callout-note
+L'estimation visuelle de la porosité est une méthode sensible à l'observateur. Attention à s'entrainer au préalable et en cas d'approche comparative, il est préférable que toutes les observations soient réalisées par la même personne.
+
+Une alternative peut être de prendre des photos, généralement avec un fond blanc, et de procéder à une analyse d'image pour l'évaluation de la porosité.
+:::
+
+{{< pagebreak >}}
+
+# Traitement des résultats
+
+## Définition des variables
+
+La SECV ([EXP_LA_M2](https://cropontology.org/term/CO_356:1000080)) est exprimée en **m² de feuilles par m² de sol** et calculée selon la formule suivante :
+
+$$ SECV = \frac{(2H+L)(100-T)}{100E} $$
+
+La distance entre souches n'est pas prise en compte, considérant 1 mètre linéaire d’une haie foliaire continue.
+
+L'indice SECV/rendement peut être calculé, connaissant le poids de récolte en kg/ha.
+
+$$ I = \frac{10^4SECV}{PR} $$
+
+## Interprétation des résultats
+
+La valeur de la SECV donne une indication du potentiel de photosynthèse de la parcelle ou de la modalité étudiée. Des valeurs plus élevées de SECV suggèrent un plus grand potentiel d'interception lumineuse et donc de production de photosynthèse. Cela peut être relié à la vigueur de la vigne. La SECV peut être utilisée pour comparer différentes pratiques culturales, systèmes de conduite ou parcelles.
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Fiche sur le rapport feuilles/fruits disponible en ligne](https://www.vignevin-occitanie.com/fiches-pratiques/le-rapport-feuilles-fruits/) sur le site IFV Occitanie
+
+[Calculateur du rapport SECV/rendement](https://www.vignevin-occitanie.com/outils-en-ligne/rapport-surface-foliaire-exposee-sur-rendement/)
+
+A partir des mesures du gabarit de végétation, et connaissant l'orientation des rangs, il est possible de calculer le coefficient d'interception du rayonnement. Le [Modèle de bilan hyqrique Walis](https://vitioeno.mistea.inrae.fr/resource/app/dataAnalysis/apps?tabPage=1) accessible en ligne contient un calculateur.
+
+## Références

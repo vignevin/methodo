@@ -1,0 +1,92 @@
+---
+title: "Estimation visuelle de la vigueur - méthode OIV351"
+---
+
+# Objectif
+
+Évaluer la vigueur de la vigne avec une méthode d'évaluation visuelle rapide.
+
+# Principe de la mesure
+
+La vigueur des rameaux de la vigne est un indicateur de l'équilibre physiologique de la vigne pour l'allocation des ressources entre les grappes et la végétation.
+
+L'estimation visuelle de la vigueur des rameaux se base sur une appréciation globale de leur développement et de leur croissance en considérant leur longueur, leur diamètre et leur aspect général.
+
+::: callout-note
+Cette méthode est une alternative plus simple et rapide à mettre en oeuvre que la pesée des bois de taille, qui reste la méthode de référence de l'estimation de la vigueur.
+:::
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Un minimum de 30 ceps doit être observé par parcelle ou par modalité.
+
+### Choix des ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+-   Observer plusieurs rameaux par cep pour obtenir une estimation moyenne par cep.
+
+## Mesure
+
+### Echelle
+
+L'observateur attribue une note à chaque cep selon le diamètre et la longueur de ses rameaux, selon l'échelle suivante [@2ndédit2001].
+
+|      1      |   3    |    5    |   7   |     9      |
+|:-----------:|:------:|:-------:|:-----:|:----------:|
+| Très faible | faible | moyenne | forte | très forte |
+
+: Echelle de notation de la vigueur des rameaux
+
+### Outils
+
+L'observation est visuelle, prévoir une fiche de notation.
+
+### Période de mesure
+
+La notation est réalisée après la chute des feuilles, avant la taille.
+
+### Aspects pratiques
+
+10 minutes sont nécessaires à une personne habituée pour évaluer 30 ceps.
+
+::: callout-warning
+Cette méthode d'estimation visuelle est subjective et dépend de l'observateur. Il est donc important de bien se former et de s'entraîner à utiliser l'échelle de notation de manière standardisée.
+
+Pour comparer les observations, il est préférable que la mesure soit réalisée par le même observateur, ou du moins de contrôler ce facteur en équilibrant les observations.
+:::
+
+{{< pagebreak >}}
+
+# Traitement des résultats
+
+## Variables brutes
+
+Les données sont stockées telles quelles, en précisant la date de la mesure et l'observateur.
+
+::: callout-note
+La variable est référencée dans la Vitis Ontology sous le nom [SHOOT_G_OIV](https://cropontology.org/term/CO_356:1000240)
+:::
+
+## Interprétation des résultats
+
+La vigueur est directement liée à l'activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l'inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.
+
+::: callout-important
+La vigueur de la vigne peut être influencée par de nombreux facteurs, tels que le porte-greffe, le cépage, le clone, les conditions environnementales (sol, climat), les pratiques culturales (irrigation, fertilisation), la gestion de l’enherbement, et la présence de maladies. Il est donc important de prendre en compte ces facteurs lors de l'interprétation des résultats.
+:::
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Extrait du guide OIV](https://vitioeno.mistea.inrae.fr/resource/app/document/details/vitioeno%3Aid%2Fdocument%2Fextrait_guide_oiv_-_caractre_vigueur_du_rameau_oiv351) sur le centre de ressources viti-oeno.
+
+## Références

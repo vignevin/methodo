@@ -1,0 +1,151 @@
+---
+title: "Suivi phénologique de la vigne"
+---
+
+# Objectif
+
+La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle ou de la modalité étudiée. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.
+
+# Principe de la mesure
+
+Les 3 principaux stades de développement de la vigne sont le débourrement, la floraison et la véraison.
+
+-   Le débourrement constitue le point de départ de la croissance de la plante avec l’apparition des premières feuilles. A partir de ce moment, la plante va recommencer à avoir une activité photosynthétique et passer progressivement d’une croissance basée sur les réserves à une croissance basée sur la production de glucides nouvellement synthétisés.
+
+-   La floraison marque le début de la phase reproductive : la chute du capuchon correspond au moment où le pollen va entrer en contact avec les stigmates. Le processus de fécondation des ovules qui suit conditionne la formation des baies et des pépins, il constitue donc un moment crucial dans le cycle de développement.
+
+-   La véraison marque le début du processus de maturation des raisins, qui se terminera à la vendange.
+
+Les dates de chaque stade sont évaluées sur la base d'observations régulières réalisées sur des ceps représentatifs dans chaque zone suivie.
+
+::: callout-note
+Cette fiche est largement basée sur la fiche réalisée dans le cadre du projet PERPHECLIM [@destrac-irvine2019].
+:::
+
+# Réalisation de la mesure
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Il est nécessaire de faire les observations sur un minimum de 10 souches par zone homogène.
+
+### Ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs), formés de manière définitive et en production.
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+
+### Organes à observer
+
+Les organes à observer sont issus des **rameaux primaires** (sont exclus gourmands et entre-cœurs).
+
+-   pour le débourrement : l'ensemble des **yeux francs** laissés à la taille
+-   pour la floraison : seules sont observées les deux premières **inflorescences** rencontrées à partir de la base du sarment. Sont exclues les inflorescences portées par les gourmands, les entre-cœurs et les bouts de vrilles.
+-   pour la véraison : les **baies** observées sont celles des deux premières grappes rencontrées à partir de la base du sarment. Sont exclues les baies issues de grappes portées par les gourmands, et les grappillons des entre-cœurs.
+
+## Mesure
+
+### Echelle
+
+L'échelle BBCH est l'échelle de référence à utiliser [@lorenz1995].
+
+#### Débourrement - BBCH07
+
+On considère qu'un bourgeon est débourré si on voit une petite pointe verte ou rouge (BBCH07). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement (BBCH07) est calculé à chaque observation.
+
+![Bourgeon au stade débourrement (BBCH07)](images/bbch07_vigne.jpg){width="140"}
+
+::: callout-warning
+Attention, le stade considéré ici pour le débourrement est le stade BBCH07 et non pas BBCH09 (éclatement du bourgeon), comme préconisé par @destrac-irvine2019.
+:::
+
+::: callout-note
+Il est important de noter aussi la date de taille. Il faut s'assurer que la taille a été réalisée en même temps sur les modalités comparées dans l'essai. En effet, une taille tardive peut retarder le débourrement.
+:::
+
+#### Floraison - BBCH65
+
+On considère qu'une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non. Le taux de fleurs ouvertes est estimé pour chaque inflorescence.
+
+![Inflorescence à mi-floraison (BBCH65)](images/bbch65_vigne.jpg){width="151"}
+
+#### Véraison - BBCH85
+
+On considère qu'une baie est vérée si elle est molle. Ce critère permet une comparaison sans biais des variétés blanches ou rouges.
+
+L'évaluation se fait par palpation à l'aveugle d'au moins 50 baies *in situ*, ou au laboratoire, en alternant les faces de rang observées. Le pourcentage de baies molles est ensuite calculé.
+
+::: callout-note
+Pour certaines variétés il n'est pas possible de faire des prélèvements ponctuels des baies car les grappes sont trop compactes. Il est donc nécessaire de faire l'évaluation *in situ* sans prélèvement destructif. Selon le cépage, les pellicules sont plus ou moins fermes, entraînez-vous pour appréhender le ramollissement pour chaque cépage.
+:::
+
+::: callout-warning
+## Et la couleur ?
+
+L'observation visuelle de l'apparition de la couleur sur les cépages rouges est une méthode acceptable pour les comparaisons inter-annuelles d'un même cépage sur un même site. Attention, le changement de couleur peut dans certaines situations être décalé par rapport au ramollissement des baies, comme en 2003 sur Grenache noir dans le Sud de la France.
+:::
+
+### Outils
+
+Pas d'outils disponibles à notre connaissance.
+
+### Période de mesure
+
+Les mesures doivent encadrer les stades phénologiques principaux : débourrement, floraison et véraison.
+
+Fréquence de passage : à partir de 5% des organes observés ayant atteint le stade à observer, faire au moins 1 passage supplémentaire avec au maximum une semaine d'intervalle, jusqu'à avoir au moins une observation avec plus de 50% des organes ayant atteint le stade observé.
+
+Il s'agit **d'encadrer la date à laquelle 50% des organes ont atteint le stade à observer.**
+
+### Aspects pratiques
+
+La notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.
+
+::: callout-warning
+Attention, l'évaluation des pourcentages sur inflorescence ou grappes est sensible à l'effet observateur. Il est nécessaire de s'entraîner au préalable.
+:::
+
+# Traitement des résultats
+
+## Variables brutes
+
+Les données brutes sont l'ensemble des stades BBCH de chaque organe observé.
+
+::: callout-tip
+Pour les stades floraison et véraison, les données brutes sont le pourcentage de floraison/véraison pour chaque organe observé. La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de floraison correspond au stade BBCH61, 20% au stade BBCH62 etc.
+:::
+
+## Variables calculées
+
+La date du stade est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
+
+![Exemple d'interpolation entre observations](images/pheno_interpolation.jpg){fig-alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." fig-align="center" width="483"}
+
+### Date de débourrement
+
+C'est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d'yeux francs laissés à la taille est atteint.
+
+### Date de floraison
+
+C'est la date calendaire où le seuil de 50% des fleurs ouvertes est atteint..
+
+### Date de véraison
+
+C'est la date calendaire où le seuil de 50% de baies molles est atteint.
+
+## Interprétation des résultats
+
+Pour les comparaisons inter-annuelles, les dates calendaires peuvent être exprimées en nombre de jours depuis le début de l'année. Par exemple, le 28 mars 2024 est le jour 88 de l'année.
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+-   [Poster des stades phénologiques de la vigne](https://www.vignevin.com/wp-content/uploads/2019/05/Poster-stades-ph%C3%A9nologiques-de-la-vigne.pdf) sur le site IFV.
+
+-   [Stades phénologiques repères de la vigne](https://api.agrometeo.ch/storage/uploads/Poster_stade-pheno_Vigne_F_Ecran.pdf), fiche de l'Agroscope de Changins.
+
+-   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), 2004
+
+## Références

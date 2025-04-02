@@ -1,0 +1,94 @@
+---
+title: "Observations maladies - Méthode OSCAR"
+---
+
+# Objectif
+
+Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d'évaluer l'efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale...
+
+# Principe de la mesure
+
+Les observations visuelles sont réalisées régulièrement en notant la présence et la gravité des symptômes de maladies à partir de grille de référence.
+
+La méthode présentée ici est celle du réseau OSCAR avec échantillonnage [@delière2023], avec une évaluation donnée à l'échelle de la souche.
+
+\pagebreak
+
+# Méthode de mesure
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Sur un dispositif expérimental, un minimum de 10 ceps doit être observé pour chaque répétition.
+
+Sur une parcelle entière, 50 ceps répartis régulièrement le long d'un parcours seront observés au minimum.
+
+### Ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Laisser quelques ceps en bordure de rangs.
+
+### Organes à observer
+
+Feuilles et grappes de chaque cep.
+
+## Mesure
+
+### Réalisation
+
+Pour chaque cep, et chaque bio-agresseur, sont notés la fréquence et l'intensité globale sur feuilles et grappes.
+
+L’*intensité* est l'impact global des symptômes de la maladie sur le feuillage et sur les grappes dans leur ensemble. Par exemple, si 50% des feuilles d'un cep sont touchées par du mildiou, avec une intensité moyenne sur feuilles touchées de 25%, l'intensité globale de symptômes de mildiou sur le cep sera de 50\*25/100 = 12,5%.
+
+| Fréquence d'organes touchés | Intensité globale des symptômes    |
+|-----------------------------|------------------------------------|
+| 5 - Très élevée (\>50%)     | 5 - Dégâts très importants (\>50%) |
+| 4 - Elevée (10-50%)         | 4 - Dégâts importants (10- 50%)    |
+| 3 - Moyenne ( 5 - 10%)      | 3 - Dégâts significatifs (5-10%)   |
+| 2 - Faible (1 - 5%)         | 2 - Facilement visibles (1-5%)     |
+| 1 - Cas isolés (\<1%)       | 1 - Traces (\<1%)                  |
+| 0 - Nulle                   | 0 - Nulle                          |
+
+: Echelle de notation OSCAR [@delière2023]
+
+::: callout-note
+Ne pas oublier de noter aussi le nom de l'observateur, la date d'observation et le stade phénologique.
+:::
+
+### Outils
+
+Feuille de notation.
+
+### Période de mesure
+
+Réaliser les observations aux stades phénologiques suivants :
+
+-   Fermeture de la grappe
+-   Récolte
+
+### Aspects pratiques
+
+La notation est assez rapide, environ 10 minutes sont nécessaires à une personne habituée par parcelle (50 ceps) ou modalité (3\*10 ceps).
+
+\pagebreak
+
+# Traitement des résultats
+
+## Variables calculées
+
+Moyenne par modalité ou par parcelle.
+
+## Interprétation des résultats
+
+L'interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l'historique météorologique) et de l'itinéraire technique de protection phytosanitaire sur la parcelle.
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Protocoles OSCAR en ligne](https://observatoire-cepages-resistants.fr/les-protocoles/)
+
+[Plateforme ephytia](https://ephytia.inra.fr/fr/P/97/Vigne) pour aide à la reconnaissance des symptômes de maladie sur vigne.
+
+## Références

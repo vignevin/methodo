@@ -1,0 +1,39 @@
+---
+title: "A propos"
+format: html
+affiliations: 
+  - id: ifv
+    name: Institut Français de la Vigne et du Vin
+    department: UMT Ecotech
+    address: rue Jean-François Breton
+    city: Montpellier
+    state: France
+    postal-code: 34 196
+  - id: ca34
+    name: Chambre d'Agriculture de l'Hérault
+    address: Maison des agriculteurs Mas de Saporta CS 10010
+    city: Lattes
+    state: France
+    postal-code: 34 970
+author:
+  - name: Xavier Delpuech
+    orcid: 0000-0001-7278-3209
+    email: xavier.delpuech@vignevin.com
+    affiliations: 
+        - ref: ifv
+    attributes:
+    - corresponding: true
+  - name: Jean-Yves Cahurel
+    affiliations: 
+        - ref: ifv
+  - name: Marie Bonnisseau
+    affiliations: 
+        - ref: ifv
+  - name: Nathalie Fortin
+    affiliations: 
+        - ref: ca34
+---
+
+Ce site a été réalisé dans le cadre du projet CEPOCLIM.
+
+**Date de création** : 2025

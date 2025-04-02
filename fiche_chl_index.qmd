@@ -1,0 +1,116 @@
+---
+title: "Indices chlorophylliens (N-tester, SPAD, Dualex)"
+---
+
+# Objectif
+
+La chlorophylle est un pigment essentiel à la photosynthèse et dont la synthèse est fortement liée à la disponibilité en azote, son niveau peut refléter l'état nutritionnel de la plante en azote. La mesure de l'indice chlorophyllien permet :
+
+-   d'évaluer le statut azoté de la vigne de manière non destructive en mesurant la teneur en chlorophylle des feuilles.
+-   de suivre l'évolution du statut azoté au cours de la saison végétative et en réponse à différentes pratiques culturales (fertilisation, gestion du couvert, etc.).
+-   de fournir des informations complémentaires aux analyses foliaires et aux observations visuelles de la vigueur.
+-   d'aider à l'optimisation de la fertilisation azotée en fournissant des indications sur les besoins potentiels de la vigne
+
+La mesure de l’indice chlorophyllien est une méthode rapide, non destructive et relativement peu coûteuse qui permet d’obtenir une bonne approximation du statut de nutrition azotée de la vigne au cours de la saison.
+
+# Principe de la mesure
+
+La mesure de l'indice chlorophyllien des feuilles de vignes est réalisée à l'aide de différents capteurs comme le N-Tester (Yara, Oslo, Norvège), le SPAD 502 (Konica Minolta, Nieuwegein, Pays-Bas) ou le Dualex (Pessl Instruments, Weiz, Autriche).
+
+Ces appareils mesurent indirectement la teneur en chlorophylle des feuilles en évaluant leur transmittance lumineuse à des longueurs d'onde spécifiques. La chlorophylle absorbe la lumière dans certaines régions du spectre (notamment le rouge), tandis qu'elle en transmet d'autres (notamment l'infrarouge proche). L'appareil émet de la lumière à deux longueurs d'onde différentes et mesure la quantité de lumière qui traverse la feuille. La différence d'absorption entre ces longueurs d'onde est corrélée à la concentration en chlorophylle.
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
+
+## Échantillonnage
+
+### Nombre d'observations
+
+30 à 50 feuilles doivent être observées pour chaque zone représentative de la parcelle ou placette expérimentale.
+
+### Choix des ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+-   Les apex à observer sont ceux des rameaux primaires.
+
+### Feuilles à observer
+
+Sur chaque cep sélectionné, choisir des feuilles adultes, saines et intactes, bien exposées à la lumière, dans la zone des grappes. Éviter les feuilles très jeunes (en croissance), très âgées (jaunissantes ou sénescentes), endommagées (par des ravageurs, des maladies ou des accidents mécaniques) ou recouvertes de poussière ou de résidus de traitements. Prendre toujours les feuilles de **même niveau sur le rameau**, et , dans le cas d’une taille longue, des rameaux de même rang d’insertion, avec au moins 12 feuilles (non écimés). Lors des mesures il s’agit de veiller à bien **alterner entre les deux faces** du plan de palissage (effet de l’éclairement sur la coloration des feuilles).
+
+## Mesure
+
+### Réalisation
+
+Allumer l'appareil et s'assurer que la batterie est suffisamment chargée. Effectuer un étalonnage de l'appareil avant la première mesure de la journée ou d'une série de mesures sur une même parcelle, en suivant les instructions du fabricant. Certains modèles peuvent nécessiter un étalonnage régulier. Il est recommandé d'éviter d'éteindre l'appareil entre les mesures sur une même parcelle pour ne pas avoir à le réétalonner
+
+-   Sélectionner la feuille à mesurer selon le protocole d'échantillonnage.
+-   Placer la feuille entre les mâchoires de l'appareil, en veillant à ce qu'elle soit positionnée sur la partie centrale du limbe, entre les nervures principales, et perpendiculairement au capteur.
+-   Refermer délicatement les mâchoires de l'appareil pour effectuer la mesure.
+-   Répéter l'opération
+
+Le N-tester donnera une valeur moyenne pour un échantillon de 30 feuilles, à reporter sur un feuille de notation. Pour la pince Dualex, toujours réaliser deux mesures par feuille : face supérieure et face inférieure de la feuille (et au même endroit). Toutes les données sont enregistrées dans l'appareil et téléchargeables. Penser à définir des groupes pour chaque unité d'observation.
+
+### Outils
+
+Les capteurs suivants peuvent être utilisés:
+
+-   N-Tester (Yara, Oslo, Norvège)
+-   SPAD 502 (Konica Minolta, Nieuwegein, Pays-Bas).
+-   Dualex (Pessl Instruments, Weiz, Autriche)
+
+### Période de mesure
+
+La mesure est généralement réalisée à la **véraison**, lorsque la teneur en azote est la plus élevée et les mesures sont plus stables [@verdenal2023]. C'est à la véraison que les différences entre modalité sont généralement plus marquées. Il est aussi possible de faire un point à floraison ou même un suivi dynamique suivant les objectifs poursuivis.
+
+### Aspects pratiques
+
+Compter 5 à 10 minutes pour une mesure. Penser à vérifier l'état des batteries de l'appareil avant de partir sur le terrain.
+
+{{< pagebreak >}}
+
+# Traitement des résultats
+
+## Définition des variables
+
+### Mesure N-tester
+
+Le N-tester donne un indice chlorophyllien NTESTER.
+
+### Mesure SPAD
+
+Le SPAD 502 donne l'indice chlorophyllien [SPAD502](https://cropontology.org/term/CO_356:1000332).
+
+### Mesure Dualex
+
+Le capteur Dualex donne 3 variables différentes:
+
+-   CHL : une mesure indirecte de la teneur en chlorophylle des feuilles, exprimée en µg/cm².
+-   FLAV : un indice de la teneur en flavonols de la feuille.
+-   NBI (Nitrogen Balance Index) : cet indice combine la mesure du contenu en chlorophylle et des flavonols ([NBI-R](https://cropontology.org/term/CO_356:1000341))
+
+### Corrélation SPAD et N-Tester
+
+Les indices donnés par ces 2 appareils sont bien corrélés [@verdenal2023] (R²=0.94) :
+
+$$ SPAD502 = 0.06NTESTER + 6.25 $$
+
+## Interprétation des résultats
+
+L'indice chlorophyllien optimal peut varier en fonction du cépage, du stade phénologique, des conditions de croissance et des objectifs de production. L'effet du cépage est marqué, il est important d'utiliser les références régionales ou variétales (si elles existent) pour situer les valeurs obtenues. L'indice chlorophyllien peut également être influencé par d'autres facteurs que l'azote, tels que le stress hydrique, les carences en d'autres éléments nutritifs (magnésium, fer, etc.), ou certaines maladies.
+
+Certains auteurs proposent des seuils d'interprétation pour le SPAD et/ou le N-tester [@verdenal2023; @vanleeuwen2011].
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+Page d'information des fabriquants :
+
+-   [N-tester](https://www.yara.fr/fertilisation/outils-et-services/n-tester/)
+-   [SPAD](https://sensing.konicaminolta.eu/mi-fr/produits/couleur/chlorophylle-metre/spad-502plus)
+-   [Dualex](https://metos.global/fr/dualex/)
+
+## Références

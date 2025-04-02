@@ -1,0 +1,101 @@
+---
+title: "Dynamique de la croissance d'apex"
+---
+
+# Objectif
+
+Modéliser la dynamique de croissance des apex et notamment encadrer précisément leur sénescence.
+
+# Principe de la mesure
+
+La première influence de la sénescence des apex est une réorientation des priorités de la répartition des produits de la photosynthèse. Les éléments de la photosynthèse sont répartis de la façon suivante :
+
+-   En période de croissance, une priorité à la consommation sur place puis à l'exportation vers l'extrémité des rameaux et enfin à l'exportation vers les jeunes baies.
+-   En période de maturation deux cas se présentent. Si les vignes sont faibles, ce qui correspond à une croissance interrompue vers la véraison, la priorité est donnée à la consommation sur place, puis à l'exportation vers les baies et enfin à l'exportation vers les parties vivaces de la plante pour la mise en réserve. En revanche, si les vignes sont vigoureuses, c'est à dire que la croissance est maintenue, l'exportation vers l'extrémité des rameaux prime toujours sur celle vers les baies.
+
+Ainsi l'observation de la croissance d'apex permet un suivi de la dynamique de croissance, une estimation de la vigueur, et un encadrement de l'arrêt de la croissance végétative ; observations qui permettent la caractérisation des terroirs et modalités.
+
+Néanmoins, l'observation ne permet pas d'observer de façon évidente la reprise de la végétation après des rognages et d'autant plus qu'ils sont avancés dans la saison et que les conditions météorologiques favorisent l'arrêt (temps chaud et sec).
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Un minimum de 50 apex doit être observé, sur une zone représentative de la parcelle ou par placette expérimentale.
+
+### Choix des ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Exclure de la mesure les ceps malades et les ceps voisins des manquants.
+-   Laisser quelques ceps en bordure de rangs.
+-   Les apex à observer sont ceux des rameaux primaires.
+
+## Mesure
+
+### Réalisation
+
+L'observateur classe chaque apex dans l'une des 3 classes [@trambouze2009; @lovelle-rodriguez2009] suivantes :
+
+-   0 : pour un apex sec ou chu ;
+-   1 : pour un apex vert en arrêt de croissance (évalué en enfermant l'apex entre les deux dernières feuilles développées ; s'il ne dépasse pas, on considère l'arrêt de croissance pour l‘apex) ;
+-   2 : pour un apex en croissance, ce qui revient à dire qu'il dépasse des deux dernières feuilles développées refermées l'une sur l'autre.
+
+| Apex en arrêt de croissance | Apex en croissance ralentie | Apex en croissance |
+|-------------------|--------------------------|---------------------------|
+| ![](images/apex0.jpg){width="200"} | ![](images/apex1.jpg){width="200"} | ![](images/apex2.jpg){width="200"} |
+| L’apex est sec ou à chu | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci recouvrent l’apex. | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci ne recouvrent pas l’apex. |
+| Note = 0 | Note = 1 | Note = 2 |
+
+: Grille de notation des Apex (source : site IFV Occitanie)
+
+### Outils
+
+La notation peut être réalisée grâce à l’application ApexVigne [@brunel2019; @pichon2020] disponible sous Android sur [ce lien](https://play.google.com/store/apps/details?id=ag.GB.apex) consulté en novembre 2024.
+
+### Période de mesure
+
+Les mesures doivent commencer après la floraison et avant le premier rognage. Elles sont effectuées toutes les semaines, sauf après un rognage où un délai de 10-15 jours est nécessaire avant la mesure suivante pour permettre la reprise éventuelle de la croissance.
+
+### Aspects pratiques
+
+La notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer 50 apex.
+
+{{< pagebreak >}}
+
+# Traitement des résultats
+
+## Définition des variables
+
+Les pourcentages d'apex dans chaque classe sont calculés et notés P~0~, P~1~ et P~2~.
+
+### Indice de croissance
+
+À partir des notations d’apex, il est possible de calculer une variable élaborée sous forme d’indice de croissance [@pichon2020] Il est recommandé d’utiliser la formule de calcul proposée dans l’application ApexVigne : L’indice de croissance est calculé de la façon suivante
+
+$$ Ig = P_2 + 0.5*P_1 $$
+
+Cet indice varie entre 0 et 1 : 0 croissance nulle et 1 croissance active
+
+### Indice d'arrêt de croissance
+
+Cet indice a été proposé par @lovelle-rodriguez2009.
+
+### Date d'arrêt de croissance
+
+C'est la date à laquelle l'indice de croissance atteint la valeur 0.5. Elle est déterminée par interpolation entre deux notations d'apex encadrant la valeur 0.5 (définition à valider)
+
+## Interprétation des résultats
+
+Une relation entre indice de croissance et niveau de contrainte hydrique potentielle a été établie.
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Fiche disponible en ligne](https://www.vignevin-occitanie.com/fiches-pratiques/methode-des-apex/) sur le site IFV Occitanie
+
+## Références

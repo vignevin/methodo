@@ -1,0 +1,134 @@
+---
+title: "Mesure du potentiel hydrique foliaire de tige"
+---
+
+# Objectif
+
+La mesure du potentiel hydrique foliaire de tige (Ψ~T~) permet d’évaluer l’état hydrique de la vigne en condition de transpiration. Le potentiel hydrique foliaire de tige (Ψ~T~) est un indicateur du déficit hydrique précoce de la vigne [@choné2001].
+
+# Principe de la mesure
+
+Le potentiel hydrique de la vigne (Ψ) est la tension (c'est-à-dire la pression négative) sous laquelle l'eau circule, principalement par les vaisseaux du xylème, depuis les racines jusqu'à l'interface air-feuille où elle s’évapore [@rienth2023].
+
+Le Ψ~T~ est mesuré au midi solaire sur une feuille préalablement ensachée pour arrêter sa transpiration et équilibrer le potentiel hydrique de la feuille avec celui de la tige. Il représente l’état de tension de l’eau dans la plante lorsque le feuillage transpire.
+
+Le Ψ~T~ présente l’avantage de mieux discriminer des déficits hydriques faibles ou apparaissant dans des sols à humidité hétérogène (en rapport avec l’enracinement de la vigne) que le Ψ~B~. Le Ψ~T~ est toutefois difficilement interprétable au-delà d’un certain niveau de déficit hydrique (Ψ~T~ \< –1,4 MPa) à cause de la fermeture des stomates, peut-être à cause du phénomène d’embolisme au niveau du pétiole de la feuille [@deloire2020].
+
+![Chambre à pression utilisée pour la mesure du potentiel hydrique (source IFV Occitanie)](images/Chambre-pression_IFV81.jpg)
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Les mesures se font sur un échantillon d'au moins 5 feuilles saines par placette ou zone homogène.
+
+### Choix des ceps et feuilles à prélever
+
+-   Sélectionner des ceps d’expression végétative similaire et indemnes de maladies du bois.
+-   Choisir des ceps situés dans la partie médiane d’une parcelle élémentaire pour éviter les effets de bordure.
+-   Choisir les feuilles sur un rameau primaire, côté ombré l’après-midi.
+
+Les mesures en saison se feront toujours sur les mêmes ceps.
+
+## Mesure
+
+### Réalisation
+
+La mesure se fait autour du midi solaire, c’est-à-dire 14h en France l’été, au moment où l’état hydrique de la plante est à son minimum. Le créneau de mesure recommandé est entre 12h et 16h.
+
+La procédure est la suivante (voir [video](https://www.youtube.com/watch?v=0VJf5EtAy98&ab_channel=IFVSudOuest)) :
+
+-   Les feuilles doivent être ensachées au moins 1 heure (2h recommandé) avant la mesure dans un sachet imperméable et opaque.
+    -   Introduire la feuille dans le sachet en prenant garde de ne pas casser le limbe (si pliage nécessaire) et de ne pas décoller le pétiole au point d’insertion sur le rameau.
+    -   Rabattre l’ouverture du sachet pour ne laisser passer que le pétiole fixé au rameau et maintenir fermé à l’aide d’un trombone
+-   Prélever la feuille entière (limbe + pétiole) **juste avant la mesure** par rupture du pétiole au niveau de son insertion sur le nœud.
+-   Amputer l’extrémité du pétiole à l’aide d’un cutter bien aiguisé pour ne pas écraser les tissus.
+-   Introduire le pétiole dans l’orifice du couvercle de la chambre à pression et assurer l’étanchéité autour du pétiole.
+-   Placer la feuille toujours ensachée dans la chambre dans laquelle on a déposé un morceau d’ouate humide.
+-   Fermer le couvercle, vérifier son positionnement et le cas échéant mettre en place la sécurité.
+-   Mettre la chambre sous pression très progressivement (la précision de la mesure est très dépendante de la vitesse de montée en pression). Une incrémentation de 0.002 MPa (0.02 Bar) en début de saison, en absence de stress, à 0.004 MPa (0.04 Bar) en fin de saison, stress fort, est recommandée.
+-   Noter le potentiel hydrique lors de l’apparition d’humidité sur la section du faisceau ligneux du pétiole. Cette valeur correspond à la pression de la chambre affichée par le manomètre, au signe près.
+
+![Mesure du potentiel hydrique folaire [@deloire2020]](images/pot_base1.png){width="535"}
+
+-   Si une mesure est aberrante, recommencer sur une autre feuille pour confirmer cette valeur
+
+::: callout-warning
+Pour éviter les accidents, respecter le mode d'emploi et les consignes de sécurité propres à l'appareil, et réaliser les mesures à 2 personnes. Attention au stockage (éviter les fortes températures) et à la manipulation des bouteilles de gaz sous pression.
+:::
+
+### Outils
+
+-   Chambre à pression (dite de Scholander) munie d’une source d’azote comprimée, d’un régulateur de débit et, si possible, d’un manomètre de précision (0.001 Mpa).
+
+-   Cutter bien aiguisé
+
+-   Sachets imperméables et opaques. Ces sachets sont de forme carré (taille minimale recommandée de 15 x 15cm), et peuvent être constitués d’un film plastique solide (bâche pour fraisier) doublé d’une feuille d’aluminium ou bien d’un film plastique aluminisé (papier cadeau, couverture de survie, emballage alimentaire).
+
+    ![](images/potentiel-tige-sachet.gif)
+
+-   Trombones (pour maintenir fermée l’ouverture des sachets)
+
+-   Fiche de notation
+
+### Période de mesure
+
+Il ne doit pas y avoir eu de précipitations dans les 4 jours précédents la mesure.
+
+Les conditions climatiques au moment de la mesure doivent être constantes d’une fois sur l’autre (temps beau et clair, peu de vent).
+
+Quatre points de mesure sont nécessaires pour caractériser la dynamique de l’état hydrique de la plante au cours de la période végétative, avec comme recommadation :
+
+-   une mesure avant l’apparition du stress
+-   une à fermeture de grappe
+-   une à mi-véraison
+-   une avant récolte
+
+### Aspects pratiques
+
+Compter en moyenne 10 minutes pour 5 feuilles pour la mesure elle-même (hors temps d'ensachage). Ce temps peut varier selon le niveau de contrainte hydrique : il faudra plus de temps pour atteindre la pression d'équilibre en cas de contrainte hydrique forte. La consommation en gaz sera aussi plus importante.
+
+{{< pagebreak >}}
+
+# Traitement des résultats
+
+## Variables brutes
+
+Mesure du potentiel hydrique foliaire de tige pour chaque feuille, exprimé en MPa (Pas de variable équivalente dans la Vitis Ontology).
+
+## Variables calculées
+
+Pas de variable calculée.
+
+## Interprétation des résultats
+
+L'interprétation de la contrainte hydrique doit tenir compte du stade phénologique de la vigne. Une contrainte modérée précoce n'a pas les mêmes conséquences pour la plante et la production que la même contrainte survenant tardivement en saison. C'est la dynamique qui est à interpréter.
+
+Les seuils suivants [@deloire2020] donnent une indication d'interprétation pour les Ψ~T~.
+
+| Classe | Ψ~T~ en MPa         | Niveau de contrainte hydrique                   |
+|-----------------|-----------------|--------------------------------------|
+| 1      | 0 ≥ Ψ~T~ ≥ -0,6     | Pas de déficit hydrique                         |
+| 2      | -0,7 \> Ψ~T~ ≥ -1,1 | Déficit hydrique faible à modéré                |
+| 3      | -1,2 \> Ψ~T~ ≥ -1,6 | Déficit hydrique modéré à sévère (selon cépage) |
+| 4      | Ψ~B~ \< -1,6        | Déficit hydrique sévère à élevé (=stress)       |
+
+: Potentiel hydrique folaire de tige et état hydrique de la vigne
+
+Attention, les mesures de Ψ~T~ peuvent surestimer le stress hydrique réellement subi par la vigne en cas de sécheresse ou de fort déficit de pression de vapeur d'eau de l'atmosphère (chaleur, vent) [@rienth2023].
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+[Fiche mesure du potentiel hydrique de tige](https://www.vignevin-occitanie.com/fiches-pratiques/mesure-du-potentiel-hydrique-foliaire-de-tige/), IFV Occitanie
+
+[Video de démonstration](https://www.youtube.com/watch?v=0VJf5EtAy98&ab_channel=IFVSudOuest)
+
+[Fiche sur l'estimation de l'état hydrique de la vigne](https://www.vignevin-occitanie.com/fiches-pratiques/estimation-de-letat-hydrique-de-la-vigne/), IFV Occitanie
+
+## Références
