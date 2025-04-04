@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+---
+
+Ce répertoire contient des fiches méthodologiques pour la collecte de données dans un cadre d'expérimentation en vigne.
+
+L'objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.
+
+Chaque fiche est dédié à une mesure avec des explications sur la réalisation sur le terrain et sur le traitement des résultats, selon le plan suivant :
+
+1.  Objectif
+2.  Principe de mesure
+3.  Sur le terrain
+    -   Échantillonnage
+    -   Mesure
+4.  Traitements des résultats
+    -   Variables
+    -   Interprétation
+5.  Compléments
+    -   Liens
+    -   Références biblio

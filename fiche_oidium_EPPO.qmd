@@ -59,11 +59,11 @@ Sur feuilles, une à deux observations en cours de saison suivant la pression ma
 
 Les grappes sont les plus sensibles à la maladie. L’évolution de la maladie s’observe facilement entre la nouaison et le début de la véraison. Au-delà, surtout sur les cépages rouges, il est impossible d’apprécier correctement les dégâts. Une dernière observation peut être réalisée avant récolte.
 
-| Organes  | 7-8 feuilles étalées                         | Nouaison (BBCH71)         | Fermeture de la grappe (BBCH77) | Début véraison (BBCH81) |
+| Organes | 7-8 feuilles étalées | Nouaison (BBCH71) | Fermeture de la grappe (BBCH77) | Début véraison (BBCH81) |
 |---------------|---------------|---------------|---------------|---------------|
-| Rameaux  | drapeaux si cépage ou parcelle très sensible |                           |                                 |                         |
-| Feuilles |                                              | suivant pression maladies | recommandé                      |                         |
-| Grappes  |                                              |                           | recommandé                      | recommandé              |
+| Rameaux | drapeaux si cépage ou parcelle très sensible |  |  |  |
+| Feuilles |  | suivant pression maladies | recommandé |  |
+| Grappes |  |  | recommandé | recommandé |
 
 ### Aspects pratiques
 
@@ -78,15 +78,16 @@ L'évaluation visuelle de la proportion de baies ou de surface atteinte par la m
 
 # Traitement des résultats
 
-## Variable[^1] brute
+## Définition des variables
 
-[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
-La sévérité S (*severity* en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale de la feuille ([UN_LEAF_PC](https://cropontology.org/term/CO_356:1000221)) ou de la grappe ([UN_BER_PC](https://cropontology.org/term/CO_356:1000176)) [@nutterjr1991].
+La sévérité S (*severity* en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale [@nutterjr1991], sur :
 
-## Variables calculées
+- feuille ([UN_LEAF_PC](https://cropontology.org/term/CO_356:1000221))
+- grappe ([UN_BER_PC](https://cropontology.org/term/CO_356:1000176)).
 
-Les variables suivantes peuvent être calculées :
+A partir des valeurs de sévérité, il est possible de calculer :
 
 -   La fréquence F (*incidence* en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.
 
