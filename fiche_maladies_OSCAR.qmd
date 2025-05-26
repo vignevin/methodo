@@ -12,9 +12,9 @@ Les observations visuelles sont réalisées régulièrement en notant la présen
 
 La méthode présentée ici est celle du réseau OSCAR avec échantillonnage [@delière2023], avec une évaluation donnée à l'échelle de la souche.
 
-\pagebreak
+{{< pagebreak >}}
 
-# Méthode de mesure
+# Réalisation de la mesure sur le terrain
 
 ## Échantillonnage
 
@@ -71,11 +71,11 @@ Réaliser les observations aux stades phénologiques suivants :
 
 La notation est assez rapide, environ 10 minutes sont nécessaires à une personne habituée par parcelle (50 ceps) ou modalité (3\*10 ceps).
 
-\pagebreak
+{{< pagebreak >}}
 
 # Traitement des résultats
 
-## Variables calculées
+## Définition des variables
 
 Moyenne par modalité ou par parcelle.
 

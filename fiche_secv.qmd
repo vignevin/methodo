@@ -10,9 +10,17 @@ Cette mesure simple et pratique à mettre en œuvre peut être mise en regard du
 
 # Principe de la mesure
 
-Le principe de la mesure de la SECV repose sur l'estimation de la surface externe du feuillage de la vigne, en considérant la géométrie du système de conduite et en mesurant des dimensions caractéristiques de la végétation. La mesure est réalisée lorsque le feuillage a atteint ses dimensions maximales.
+Le principe de la mesure de la SECV repose sur l'estimation de la surface externe du feuillage de la vigne, en considérant la géométrie du système de conduite et en mesurant des dimensions caractéristiques de la végétation et en évaluant la porosité du plan de palissage. La mesure est réalisée lorsque le feuillage a atteint ses dimensions maximales.
 
+::: callout-warning
 La méthode de mesure présentée dans cette fiche ne concerne que les *vignes palissées*.
+:::
+
+::: callout-note
+L'estimation visuelle de la porosité est une méthode sensible à l'observateur. Attention à s’entraîner au préalable et en cas d'approche comparative, il est préférable que toutes les observations soient réalisées par la même personne.
+
+Une alternative peut être de prendre des photos, généralement avec un fond blanc, et de procéder à une analyse d'image pour l'évaluation de la porosité.
+:::
 
 {{< pagebreak >}}
 
@@ -58,12 +66,6 @@ La mesure de SECV se fait lorsque la végétation a atteint son gabarit maximal,
 ### Aspects pratiques
 
 Prévoir de réaliser la mesure à 2 personnes (1 notateur, 1 observateur).
-
-::: callout-note
-L'estimation visuelle de la porosité est une méthode sensible à l'observateur. Attention à s'entrainer au préalable et en cas d'approche comparative, il est préférable que toutes les observations soient réalisées par la même personne.
-
-Une alternative peut être de prendre des photos, généralement avec un fond blanc, et de procéder à une analyse d'image pour l'évaluation de la porosité.
-:::
 
 {{< pagebreak >}}
 

@@ -10,7 +10,13 @@ La détermination des principaux stades phénologiques permet de définir la pr�
 
 La floraison marque le début de la phase reproductive : la chute du capuchon correspond au moment où le pollen va entrer en contact avec les stigmates. Le processus de fécondation des ovules qui suit conditionne la formation des baies et des pépins, il constitue donc un moment crucial dans le cycle de développement.
 
-La floraison est évaluée sur la base d'observations régulières réalisées sur des ceps représentatifs dans chaque zone suivie [@destrac-irvine2019].
+La floraison est évaluée sur la base d'observations régulières des inflorescences sur des ceps représentatifs dans chaque zone suivie [@destrac-irvine2019].
+
+::: callout-warning
+Attention, l'évaluation des pourcentages de fleurs ouvertes sur inflorescence est sensible à l'effet observateur. Il est nécessaire de s'entraîner au préalable.
+:::
+
+{{< pagebreak >}}
 
 # Réalisation de la mesure
 
@@ -54,32 +60,27 @@ Il s'agit **d'encadrer la date à laquelle 50% des organes ont atteint le stade 
 
 La notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.
 
-::: callout-warning
-Attention, l'évaluation des pourcentages sur inflorescence ou grappes est sensible à l'effet observateur. Il est nécessaire de s'entraîner au préalable.
-:::
+{{< pagebreak >}}
 
-# Traitement des résultats
+# Traitement des résultats[^1]
 
-::: callout-note
-Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
-:::
+[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
 ## Définition des variables
 
-Le pourcentage de floraison pour chaque organe ou cep observé ([OPEN_FLO_PC](https://cropontology.org/term/CO_356:1000181)) est la donnée de base. La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de floraison correspond au stade BBCH61, 20% au stade BBCH62 etc.
+-   Le pourcentage de floraison pour chaque organe ou cep observé ([OPEN_FLO_PC](https://cropontology.org/term/CO_356:1000181)) est la donnée de base. La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de floraison correspond au stade BBCH61, 20% au stade BBCH62 etc.
 
-La date du stade est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade floraison.
+-   La date de mi-floraison est la date calendaire où le seuil de 50% des fleurs ouvertes est atteint ([FLO_50](https://cropontology.org/term/CO_356:1000011)). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade floraison.
 
 ![Exemple d'interpolation entre observations](images/pheno_interpolation.jpg){fig-alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." fig-align="center" width="483"}
-La date de début floraison ([FLO_START](https://cropontology.org/term/CO_356:1000083)) est la date calendaire où les premières fleurs ouvertes sont observées (BBCH61).
 
-La date de mi-floraison est la date calendaire où le seuil de 50% des fleurs ouvertes est atteint ([FLO_50](https://cropontology.org/term/CO_356:1000011)).
+-   La date de début floraison ([FLO_START](https://cropontology.org/term/CO_356:1000083)) est la date calendaire où les premières fleurs ouvertes sont observées (BBCH61).
+
+-   Pour les comparaisons inter-annuelles, la date de mi-floraison calendaire peut être exprimée en nombre de jours depuis le début de l'année ([DOY_FLO](https://cropontology.org/term/CO_356:1000077)). Par exemple, le 16 juin 2024 est le jour 168 de l'année.
 
 ## Interprétation des résultats
 
-Pour les comparaisons inter-annuelles, la date de mi-floraison calendaire peut être exprimée en nombre de jours depuis le début de l'année ([DOY_FLO](https://cropontology.org/term/CO_356:1000077)).
-
-Par exemple, le 16 juin 2024 est le jour 168 de l'année.
+La date de floraison de la vigne est un indicateur clé du déroulement du cycle phénologique et permet d'évaluer la précocité de parcelle ou de la modalité. Elle permet d'estimer la date de vendange (environ 90 à 100 jours plus tard selon les cépages et conditions climatiques)).
 
 # Compléments d'information
 

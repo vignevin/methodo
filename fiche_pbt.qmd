@@ -12,6 +12,8 @@ La vigueur résulte de l'activité métabolique des organes en croissance, et se
 
 La méthode consiste à peser les bois de taille (sarments) produits par la vigne après la chute des feuilles. Le poids total des bois de taille d'un cep est une conséquence de la croissance des rameaux pendant la saison végétative.
 
+![Pesées de bois de taille dans le Var. Crédits Centre du Rosé,2025.](images/photo_pbt.jpg){fig-align="center" width="277"}
+
 Champagnol (1984) propose les définitions suivantes:
 
 -   L'*expression végétative* est la production totale de biomasse (sarments, feuilles, fruits, racines, troncs) de la vigne lors d'un cycle végétatif [@champagnol1984].
@@ -28,7 +30,7 @@ D'autres auteurs ne font pas cette distinction, et assimilent le poids des poids
 Dans le cas des vignes rognées, une partie de la matière sèche produite par la vigne n'est pas comptabilisée. La pesée des bois de taille reste toutefois un proxy intégratif de l'expression végétative de la vigne.
 :::
 
-\pagebreak
+{{< pagebreak >}}
 
 # Sur le terrain
 
@@ -62,10 +64,6 @@ Ne sont pesés que les sarments de l'année (exemple : dans le cas d'une taille 
 
 Prévoir balance de terrain, sécateurs et équipements de protection.
 
-![Pesées de bois de taille dans le Var. Crédits Centre du Rosé,2025.](images/photo_pbt.jpg){fig-align="center" width="277"}
-
-\pagebreak
-
 ### Période de mesure
 
 La pesée des bois de taille se fait en période de repos hivernal, après chute complète des feuilles et sur des ceps non pré-taillés. Vérifier les conditions météorologiques prévues pour réaliser la mesure dans de bonnes conditions.
@@ -80,31 +78,37 @@ La taille présente des risques de coupures en lien avec l'utilisation des séca
 D'autre part, le tirage des bois peut aussi présenter un risque de blessures oculaires : il est recommandé de porter des lunettes de protection.
 :::
 
+{{< pagebreak >}}
+
 # Traitement des résultats
 
-::: callout-note
-Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
-:::
+## Définition des variables[^1]
 
-## Variables brutes
+[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
-Le poids total des sarments par cep, exprimé en kg/cep ([PRUN_FW_PLANT](https://cropontology.org/term/CO_356:1000190)), et le nombre total de sarments par cep ([NB_CANES_PLANT](https://cropontology.org/term/CO_356:1000157)).
+### Expression par cep
 
-## Variables calculées
+Les variables suivantes peuvent être définies :
 
-Un poids moyen du sarment peut être calculé en divisant le poids total des bois de taille par le nombre de sarments.
+-   le poids total des sarments par cep, exprimé en kg/cep ([PRUN_FW_PLANT](https://cropontology.org/term/CO_356:1000190))
 
-Le poids de bois de taille peut être exprimé en kg/m² de sol ([PRUN_FW_M2](https://cropontology.org/term/CO_356:1000290)) en prenant en compte la densité de plantation.
+-   le nombre total de sarments par cep ([NB_CANES_PLANT](https://cropontology.org/term/CO_356:1000157)).
+
+-   Un poids moyen du sarment peut être calculé en divisant le poids total des bois de taille par le nombre de sarments.
+
+### Expression par m²
+
+L'expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.
+
+-   Le poids de bois de taille peut être exprimé en kg/m² de sol ([PRUN_FW_M2](https://cropontology.org/term/CO_356:1000290)) en prenant en compte la densité de plantation.
 
 $$ PRUN\_FW\_M2 = PRUN\_FW\_PLANT * (densité_{ha} /10 000) $$
 
-Le nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation. Cette variable n'existe pas encore dans la Vitis Ontology.
+-   Le nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation. Cette variable n'existe pas encore dans la Vitis Ontology.
 
 $$
  NB\_CANES\_M2 = NB\_CANES\_PLANT * (densité_{ha} /10 000)
 $$
-
-L'expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.
 
 ## Interprétation des résultats
 

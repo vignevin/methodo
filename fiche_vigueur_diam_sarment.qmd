@@ -8,7 +8,6 @@ title: "Diamètre des sarments"
 
 La vigueur résulte de l'activité métabolique des organes en croissance, et se traduit par une intensité de respiration et de la vitesse de croissance [@champagnol1984].
 
-
 # Principe de la mesure
 
 La vigueur du rameau de la vigne est un indicateur de l'équilibre physiologique de la vigne pour l'allocation des ressources entre les grappes et la végétation. Une vigne vigoureuse aura tendance à produire plus de grappes et de feuilles, ce qui peut avoir un impact sur le rendement et la qualité des raisins. L'évaluation de la vigueur est complémentaire à la mesure des composantes du rendement (nombre de grappes par cep, poids des grappes, poids par cep).
@@ -22,6 +21,8 @@ Le diamètre du sarment et son poids sont généralement bien corrélés [@cahur
 ::: callout-note
 La mesure du diamètre des sarments est non destructive et rapide ce qui en fait un indicateur pratique pour l'estimation de la vigueur. Néanmoins, la pesée des sarments reste la méthode de référence de mesure de la vigueur.
 :::
+
+{{< pagebreak >}}
 
 # Réalisation de la mesure
 
@@ -82,22 +83,22 @@ Une dizaine de minutes sont nécessaires à une personne habituée pour mesurer 
 Compléter la mesure du diamètre par un comptage du nombre de sarments par cep. Ce comptage est rapide et permettra de compléter l'évaluation de la biomasse produite par la vigne.
 :::
 
+{{< pagebreak >}}
+
 # Traitement des résultats
 
-## Variables brutes
+## Définition des variables
 
 Les données sont stockées telles quelles, en précisant la date de la mesure et l'observateur.
 
-## Variables calculées
-
 Les mesures peuvent être converties en classe, selon [@2ndédit2001].
 
-| Classe OIV   | 1                   | 3           | 5           | 7            | 9                    |
+| Classe OIV | 1 | 3 | 5 | 7 | 9 |
 |------------|------------|------------|------------|------------|------------|
-| **Classe**   | très petit          | petit       | moyen       | grand        | très grand           |
+| **Classe** | très petit | petit | moyen | grand | très grand |
 | **Diamètre** | jusqu'à environ 5mm | environ 8mm | environ 11m | environ 14mm | environ 17mm et plus |
 
-Cette variable est intégrée à la Vitis Ontology [CO356:1000069](https://cropontology.org/term/CO_356:1000069).
+Cette variable est intégrée à la Vitis Ontology [INTDIAM_OIV](https://cropontology.org/term/CO_356:1000069).
 
 ::: callout-note
 Le protocole de mesure du caractère OIV 354 diamètre des entrenoeuds diffère légèrement de celui proposé ici. En effet, la mesure est une moyenne du diamètre de 10 entre-noeuds sur le tiers médian de rameaux à proximité du tronc, sur 10 rameaux [@2ndédit2001].

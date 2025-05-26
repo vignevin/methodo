@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fiches méthodologiques - Suivi de la véraison de la vigne</title>
+<title>Suivi de la véraison de la vigne – Fiches méthodologiques vigne et vin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -64,7 +65,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Pas de résultats",
     "search-matching-documents-text": "documents trouvés",
@@ -73,6 +80,7 @@ div.csl-indent {
     "search-more-match-text": "correspondance de plus dans ce document",
     "search-more-matches-text": "correspondances de plus dans ce document",
     "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Annuler",
     "search-submit-button-title": "Envoyer",
     "search-label": "Recherche"
@@ -89,13 +97,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_pheno_dbr.html">Phénologie</a></li><li class="breadcrumb-item"><a href="./fiche_pheno_ver.html">Suivi de la véraison de la vigne</a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_pheno_dbr.html">Phénologie</a></li><li class="breadcrumb-item"><a href="./fiche_pheno_ver.html">Suivi de la véraison de la vigne</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -104,10 +112,10 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Fiches méthodologiques</a> 
+      <a href="./">Fiches méthodologiques vigne et vin</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -125,9 +133,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Phénologie</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -154,19 +162,13 @@ div.csl-indent {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Vigueur</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./fiche_notation_apex.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dynamique de la croissance d’apex</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fiche_vigueur_OIV351.html" class="sidebar-item-text sidebar-link">
@@ -185,17 +187,69 @@ div.csl-indent {
  <span class="menu-text">Poids des bois de taille</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_secv.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mesure de la Surface externe de couvert végétal</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Maladies</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Basculer la section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Statut hydrique</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_notation_apex.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dynamique de la croissance d’apex</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_pot_base.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mesure du potentiel hydrique foliaire de base</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_pot_tige.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mesure du potentiel hydrique foliaire de tige</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Statut minéral</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_chl_index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indices chlorophylliens (N-tester, SPAD, Dualex)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Maladies et carences</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fiche_maladies_OSCAR.html" class="sidebar-item-text sidebar-link">
@@ -231,7 +285,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -240,7 +294,7 @@ div.csl-indent {
   <ul>
   <li><a href="#objectif" id="toc-objectif" class="nav-link active" data-scroll-target="#objectif">Objectif</a></li>
   <li><a href="#principe-de-la-mesure" id="toc-principe-de-la-mesure" class="nav-link" data-scroll-target="#principe-de-la-mesure">Principe de la mesure</a></li>
-  <li><a href="#réalisation-de-la-mesure" id="toc-réalisation-de-la-mesure" class="nav-link" data-scroll-target="#réalisation-de-la-mesure">Réalisation de la mesure</a>
+  <li><a href="#réalisation-de-la-mesure-sur-le-terrain" id="toc-réalisation-de-la-mesure-sur-le-terrain" class="nav-link" data-scroll-target="#réalisation-de-la-mesure-sur-le-terrain">Réalisation de la mesure sur le terrain</a>
   <ul class="collapse">
   <li><a href="#échantillonnage" id="toc-échantillonnage" class="nav-link" data-scroll-target="#échantillonnage">Échantillonnage</a>
   <ul class="collapse">
@@ -258,8 +312,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#traitement-des-résultats" id="toc-traitement-des-résultats" class="nav-link" data-scroll-target="#traitement-des-résultats">Traitement des résultats</a>
   <ul class="collapse">
-  <li><a href="#variables-brutes" id="toc-variables-brutes" class="nav-link" data-scroll-target="#variables-brutes">Variables brutes</a></li>
-  <li><a href="#variables-calculées" id="toc-variables-calculées" class="nav-link" data-scroll-target="#variables-calculées">Variables calculées</a></li>
+  <li><a href="#définition-des-variables1" id="toc-définition-des-variables1" class="nav-link" data-scroll-target="#définition-des-variables1">Définition des variables</a></li>
   <li><a href="#interprétation-des-résultats" id="toc-interprétation-des-résultats" class="nav-link" data-scroll-target="#interprétation-des-résultats">Interprétation des résultats</a></li>
   </ul></li>
   <li><a href="#compléments-dinformation" id="toc-compléments-dinformation" class="nav-link" data-scroll-target="#compléments-dinformation">Compléments d’information</a>
@@ -273,7 +326,7 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_pheno_dbr.html">Phénologie</a></li><li class="breadcrumb-item"><a href="./fiche_pheno_ver.html">Suivi de la véraison de la vigne</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Suivi de la véraison de la vigne</h1>
 </div>
@@ -286,7 +339,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">7 mars 2025</p>
+      <p class="date">26 mai 2025</p>
     </div>
   </div>
   
@@ -294,7 +347,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <section id="objectif" class="level1">
 <h1>Objectif</h1>
@@ -302,12 +357,26 @@ div.csl-indent {
 </section>
 <section id="principe-de-la-mesure" class="level1">
 <h1>Principe de la mesure</h1>
-<p>La véraison marque le début du processus de maturation des raisins, qui se terminera à la vendange.</p>
-<p>La date de véraison est évaluée sur la base d’observations régulières réalisées sur des ceps représentatifs dans chaque zone suivie <span class="citation" data-cites="destrac-irvine2019">[<a href="#ref-destrac-irvine2019" role="doc-biblioref">1</a>]</span>.</p>
+<p>La véraison marque le début du processus de maturation des raisins, qui se terminera à la vendange. La date de véraison est évaluée sur la base d’observations régulières réalisées sur des ceps représentatifs dans chaque zone suivie <span class="citation" data-cites="destrac-irvine2019">[<a href="#ref-destrac-irvine2019" role="doc-biblioref">1</a>]</span>.</p>
+<p>On considère qu’une baie est vérée si elle est molle. Ce critère permet une comparaison sans biais des variétés blanches ou rouges.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>L’observation visuelle de l’apparition de la couleur sur les cépages rouges est une méthode acceptable pour les comparaisons inter-annuelles d’un même cépage sur un même site.</p>
+<p>Attention, le changement de couleur peut dans certaines situations être plus tardif que le ramollissement des baies, comme en 2003 sur Grenache noir dans le Sud de la France.</p>
+</div>
+</div>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="réalisation-de-la-mesure" class="level1">
-<h1>Réalisation de la mesure</h1>
+<section id="réalisation-de-la-mesure-sur-le-terrain" class="level1">
+<h1>Réalisation de la mesure sur le terrain</h1>
 <section id="échantillonnage" class="level2">
 <h2 class="anchored" data-anchor-id="échantillonnage">Échantillonnage</h2>
 <section id="nombre-dobservations" class="level3">
@@ -332,10 +401,7 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="mesure">Mesure</h2>
 <section id="réalisation" class="level3">
 <h3 class="anchored" data-anchor-id="réalisation">Réalisation</h3>
-<p>L’échelle BBCH est l’échelle de référence à utiliser <span class="citation" data-cites="lorenz1995">[<a href="#ref-lorenz1995" role="doc-biblioref">2</a>]</span>.</p>
-<p>On considère qu’une baie est vérée si elle est molle. Ce critère permet une comparaison sans biais des variétés blanches ou rouges.</p>
 <p>L’évaluation se fait par palpation à l’aveugle d’au moins 50 baies <em>in situ</em>, ou au laboratoire après prélèvement aléatoire, en alternant les faces de rang observées.</p>
-<p>Le pourcentage de baies molles est ensuite calculé.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -352,28 +418,14 @@ Note
 </ul>
 </div>
 </div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Et la couleur ?
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>L’observation visuelle de l’apparition de la couleur sur les cépages rouges est une méthode acceptable pour les comparaisons inter-annuelles d’un même cépage sur un même site.</p>
-<p>Attention, le changement de couleur peut dans certaines situations être plus tardif que le ramollissement des baies, comme en 2003 sur Grenache noir dans le Sud de la France.</p>
-</div>
-</div>
 </section>
 <section id="outils" class="level3">
 <h3 class="anchored" data-anchor-id="outils">Outils</h3>
-<p>Pas d’outils disponibles à notre connaissance.</p>
+<p>Pas d’outils disponibles.</p>
 </section>
 <section id="période-de-mesure" class="level3">
 <h3 class="anchored" data-anchor-id="période-de-mesure">Période de mesure</h3>
-<p>à partir du moment où l’on observe au minimum 5 % de baies molles, faire au moins un passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de baies molles</p>
+<p>A partir du moment où l’on observe au minimum 5 % de baies molles, faire au moins un passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de baies molles.</p>
 <p>Il s’agit <strong>d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.</strong></p>
 </section>
 <section id="aspects-pratiques" class="level3">
@@ -385,39 +437,33 @@ Et la couleur ?
 </section>
 <section id="traitement-des-résultats" class="level1">
 <h1>Traitement des résultats</h1>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Les noms des variables dans le référentiel de la crop ontology <a href="https://cropontology.org/term/CO_356:ROOT">VITIS356</a> sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.</p>
-</div>
-</div>
-<section id="variables-brutes" class="level2">
-<h2 class="anchored" data-anchor-id="variables-brutes">Variables brutes</h2>
-<p>Les données brutes sont le pourcentage de véraison.</p>
-<p>La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.</p>
-</section>
-<section id="variables-calculées" class="level2">
-<h2 class="anchored" data-anchor-id="variables-calculées">Variables calculées</h2>
-<p>La date du stade est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.</p>
+<section id="définition-des-variables1" class="level2">
+<h2 class="anchored" data-anchor-id="définition-des-variables1">Définition des variables<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2>
+<ul>
+<li><p>Selon la méthode de mesure, la variable observée est :</p>
+<ul>
+<li>le pourcentage de baies molles (<a href="https://cropontology.org/term/CO_356:1000182">SOFT_BER_PC</a>) ou</li>
+<li>le pourcentage de baies colorées (<a href="https://cropontology.org/term/CO_356:1000177">COL_BER_PC</a>).</li>
+</ul></li>
+</ul>
+<p>La correspondance avec le stade BBCH <span class="citation" data-cites="lorenz1995">[<a href="#ref-lorenz1995" role="doc-biblioref">2</a>]</span> se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.</p>
+<ul>
+<li>La date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (<a href="https://cropontology.org/term/CO_356:1000010">VER_50</a>). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/pheno_interpolation.jpg" class="img-fluid figure-img" alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." width="483"></p>
-<figcaption class="figure-caption">Exemple d’interpolation entre observations</figcaption>
+<figcaption>Exemple d’interpolation entre observations</figcaption>
 </figure>
 </div>
-<p>La date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (<a href="https://cropontology.org/term/CO_356:1000010">VER_50</a>).</p>
+<ul>
+<li>Pour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (<a href="https://cropontology.org/term/CO_356:1000078">DOY_VER</a>).</li>
+</ul>
+<p>Par exemple, le 7 août 2024 est le jour 220 de l’année.</p>
 </section>
 <section id="interprétation-des-résultats" class="level2">
 <h2 class="anchored" data-anchor-id="interprétation-des-résultats">Interprétation des résultats</h2>
-<p>Pour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (<a href="https://cropontology.org/term/CO_356:1000078">DOY_VER</a>).</p>
-<p>Par exemple, le 7 août 2024 est le jour 220 de l’année.</p>
+<p>La véraison marque le début de la maturation du raisin et constitue un stade phénologique essentiel pour déterminer la précocité de la parcelle.</p>
 </section>
 </section>
 <section id="compléments-dinformation" class="level1">
@@ -438,14 +484,20 @@ Note
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Références</h2><div id="refs" class="references csl-bib-body" role="list">
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Références</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
 <div id="ref-destrac-irvine2019" class="csl-entry" role="listitem">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline">Destrac-Irvine, A.; Barbeau, G.; De Resseguier, L.; Dufourcq, T.; Dumas, V.; Garcia De Cortazar-Atauri, I.; Ojeda, H.; Saurin, N.; Van Leeuwen, C.; Duchêne, É. Measuring the phenology to more effectively manage the vineyard. <em>IVES Technical Reviews, vine and wine</em> <strong>2019</strong>, doi:<a href="https://doi.org/10.20870/IVES-TR.2019.2586">10.20870/IVES-TR.2019.2586</a>.</div>
 </div>
 <div id="ref-lorenz1995" class="csl-entry" role="listitem">
 <div class="csl-left-margin">2. </div><div class="csl-right-inline">Lorenz, D.H.; Eichhorn, K.W.; Bleiholder, H.; Klose, R.; Meier, U.; Weber, E. Growth Stages of the Grapevine: Phenological Growth Stages of the Grapevine (Vitis Vinifera L. Ssp. Vinifera)<span></span>Codes and Descriptions According to the Extended BBCH Scale. <em>Australian Journal of Grape and Wine Research</em> <strong>1995</strong>, <em>1</em>, 100‑103, doi:<a href="https://doi.org/10.1111/j.1755-0238.1995.tb00085.x">10.1111/j.1755-0238.1995.tb00085.x</a>.</div>
 </div>
-</div></section></div></main> <!-- /main -->
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notes de bas de page</h2>
+
+<ol>
+<li id="fn1"><p>Les noms des variables dans le référentiel de la crop ontology <a href="https://cropontology.org/term/CO_356:ROOT">VITIS356</a> sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -481,18 +533,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -524,11 +565,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -538,8 +618,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -551,7 +640,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -595,6 +807,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -620,6 +833,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -682,13 +921,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© CC BY-NC-ND</div>   
+    <div class="nav-footer-left">
+<p>© CC BY-SA 4.0</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Projet CEPOCLIM, 2024</div>
+    <div class="nav-footer-right">
+<p>IFV 2025</p>
+</div>
   </div>
 </footer>
+
 
 
 

@@ -16,6 +16,12 @@ L'estimation visuelle de la vigueur des rameaux se base sur une appréciation gl
 Cette méthode est une alternative plus simple et rapide à mettre en oeuvre que la pesée des bois de taille, qui reste la méthode de référence de l'estimation de la vigueur.
 :::
 
+::: callout-warning
+Cette méthode d'estimation visuelle est subjective et dépend de l'observateur. Il est donc important de bien se former et de s'entraîner à utiliser l'échelle de notation de manière standardisée.
+
+Pour comparer les observations, il est préférable que la mesure soit réalisée par le même observateur, ou du moins de contrôler ce facteur en équilibrant les observations.
+:::
+
 {{< pagebreak >}}
 
 # Réalisation de la mesure
@@ -57,23 +63,13 @@ La notation est réalisée après la chute des feuilles, avant la taille.
 
 10 minutes sont nécessaires à une personne habituée pour évaluer 30 ceps.
 
-::: callout-warning
-Cette méthode d'estimation visuelle est subjective et dépend de l'observateur. Il est donc important de bien se former et de s'entraîner à utiliser l'échelle de notation de manière standardisée.
-
-Pour comparer les observations, il est préférable que la mesure soit réalisée par le même observateur, ou du moins de contrôler ce facteur en équilibrant les observations.
-:::
-
 {{< pagebreak >}}
 
 # Traitement des résultats
 
-## Variables brutes
+## Définition des variables
 
-Les données sont stockées telles quelles, en précisant la date de la mesure et l'observateur.
-
-::: callout-note
-La variable est référencée dans la Vitis Ontology sous le nom [SHOOT_G_OIV](https://cropontology.org/term/CO_356:1000240)
-:::
+Les données sont stockées telles quelles, en précisant la date de la mesure et l'observateur. La variable est référencée dans la Vitis Ontology sous le nom [SHOOT_G_OIV](https://cropontology.org/term/CO_356:1000240)
 
 ## Interprétation des résultats
 

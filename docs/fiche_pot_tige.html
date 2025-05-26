@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mesure du potentiel hydrique foliaire de tige – Fiches méthodologiques</title>
+<title>Mesure du potentiel hydrique foliaire de tige – Fiches méthodologiques vigne et vin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,10 +55,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b7597702c6c701f7060468608af99d5c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,7 +115,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Fiches méthodologiques</a> 
+      <a href="./">Fiches méthodologiques vigne et vin</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -187,6 +187,12 @@ div.csl-indent {
  <span class="menu-text">Poids des bois de taille</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_secv.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mesure de la Surface externe de couvert végétal</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -221,12 +227,29 @@ div.csl-indent {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Maladies et carences</span></a>
+ <span class="menu-text">Statut minéral</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fiche_chl_index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Indices chlorophylliens (N-tester, SPAD, Dualex)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Maladies et carences</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fiche_maladies_OSCAR.html" class="sidebar-item-text sidebar-link">
@@ -288,8 +311,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#traitement-des-résultats" id="toc-traitement-des-résultats" class="nav-link" data-scroll-target="#traitement-des-résultats">Traitement des résultats</a>
   <ul class="collapse">
-  <li><a href="#variables-brutes" id="toc-variables-brutes" class="nav-link" data-scroll-target="#variables-brutes">Variables brutes</a></li>
-  <li><a href="#variables-calculées" id="toc-variables-calculées" class="nav-link" data-scroll-target="#variables-calculées">Variables calculées</a></li>
+  <li><a href="#définition-des-variables" id="toc-définition-des-variables" class="nav-link" data-scroll-target="#définition-des-variables">Définition des variables</a></li>
   <li><a href="#interprétation-des-résultats" id="toc-interprétation-des-résultats" class="nav-link" data-scroll-target="#interprétation-des-résultats">Interprétation des résultats</a></li>
   </ul></li>
   <li><a href="#compléments-dinformation" id="toc-compléments-dinformation" class="nav-link" data-scroll-target="#compléments-dinformation">Compléments d’information</a>
@@ -316,7 +338,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">1 avril 2025</p>
+      <p class="date">26 mai 2025</p>
     </div>
   </div>
   
@@ -438,13 +460,9 @@ Avertissement
 </section>
 <section id="traitement-des-résultats" class="level1">
 <h1>Traitement des résultats</h1>
-<section id="variables-brutes" class="level2">
-<h2 class="anchored" data-anchor-id="variables-brutes">Variables brutes</h2>
+<section id="définition-des-variables" class="level2">
+<h2 class="anchored" data-anchor-id="définition-des-variables">Définition des variables</h2>
 <p>Mesure du potentiel hydrique foliaire de tige pour chaque feuille, exprimé en MPa (Pas de variable équivalente dans la Vitis Ontology).</p>
-</section>
-<section id="variables-calculées" class="level2">
-<h2 class="anchored" data-anchor-id="variables-calculées">Variables calculées</h2>
-<p>Pas de variable calculée.</p>
 </section>
 <section id="interprétation-des-résultats" class="level2">
 <h2 class="anchored" data-anchor-id="interprétation-des-résultats">Interprétation des résultats</h2>
@@ -453,9 +471,9 @@ Avertissement
 <table class="caption-top table">
 <caption>Potentiel hydrique folaire de tige et état hydrique de la vigne</caption>
 <colgroup>
-<col style="width: 23%">
-<col style="width: 23%">
-<col style="width: 52%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -599,6 +617,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -709,6 +729,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -938,13 +959,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© CC BY-NC-ND</p>
+<p>© CC BY-SA 4.0</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Projet CEPOCLIM, 2024</p>
+<p>IFV 2025</p>
 </div>
   </div>
 </footer>

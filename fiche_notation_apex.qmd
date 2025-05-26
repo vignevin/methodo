@@ -1,34 +1,5 @@
 ---
 title: "Dynamique de la croissance d'apex"
-date: last-modified
-date-format: long
-lang: fr
-format: 
-  html:
-    toc: false
-  docx: 
-    toc: false
-  pdf:
-    papersize: a4paper
-    documentclass: scrartcl
-    date: last-modified
-    date-format: "[Dernière mise à jour] MMM, YYYY"
-    shift-heading-level-by: -1
-    number-sections: false
-    mainfont: Ebrima
-    include-in-header: 
-      text: |
-        \usepackage{scrlayer-scrpage}
-        \rohead{Fiche protocole}
-        \lofoot{Projet CEPOCLIM, 2025. CC BY-NC-ND}
-    colorlinks: true
-    license: "CC BY-NC-ND"
-    geometry:
-      - top=20mm
-      - left=20mm
-      - heightrounded
-editor: visual
-bibliography: references.bib
 ---
 
 # Objectif
@@ -46,7 +17,9 @@ Ainsi l'observation de la croissance d'apex permet un suivi de la dynamique de c
 
 Néanmoins, l'observation ne permet pas d'observer de façon évidente la reprise de la végétation après des rognages et d'autant plus qu'ils sont avancés dans la saison et que les conditions météorologiques favorisent l'arrêt (temps chaud et sec).
 
-# Réalisation de la mesure
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
 
 ## Échantillonnage
 
@@ -65,23 +38,23 @@ Un minimum de 50 apex doit être observé, sur une zone représentative de la pa
 
 ### Echelle
 
-L'observateur classe chaque apex dans l'une des 3 classes [@trambouze2009 ; @lovelle-rodriguez2009] suivantes :
+L'observateur classe chaque apex dans l'une des 3 classes [@trambouze2009; @lovelle-rodriguez2009] suivantes :
 
 -   C : Chu pour un apex sec ou chu ;
 -   R : Ralenti pour un apex en croissance ralentie (évalué en enfermant l'apex entre les deux dernières feuilles développées ; s'il ne dépasse pas, on considère que l‘apex est en croissance ralentie) ;
 -   P : Poussant pour un apex en croissance, ce qui revient à dire qu'il dépasse des deux dernières feuilles développées refermées l'une sur l'autre.
 
-| Apex en arrêt de croissance        | Apex en croissance ralentie                                                                                        | Apex en croissance                                                                                                        |
-|------------------|--------------------------|----------------------------|
-| ![](images/apex0.jpg){width="200"} | ![](images/apex1.jpg){width="200"}                                                                                 | ![](images/apex2.jpg){width="200"}                                                                                        |
-| L’apex est sec ou à chu            | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci recouvrent l’apex. | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci ne recouvrent pas l’apex. |
-| Classe C                           | Classe R                                                                                                           | Classe P                                                                                                                  |
+| Apex en arrêt de croissance | Apex en croissance ralentie | Apex en croissance |
+|------------------------|------------------------|------------------------|
+| ![](images/apex0.jpg){width="200"} | ![](images/apex1.jpg){width="200"} | ![](images/apex2.jpg){width="200"} |
+| L’apex est sec ou à chu | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci recouvrent l’apex. | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci ne recouvrent pas l’apex. |
+| Classe C | Classe R | Classe P |
 
 : Grille de notation des Apex (source : site IFV Occitanie)
 
 ### Outils
 
-La notation peut être réalisée grâce à l’application ApexVigne [@brunel2019 ; @pichon2020] disponible sous Android sur [ce lien](https://play.google.com/store/apps/details?id=ag.GB.apex) consulté en novembre 2024.
+La notation peut être réalisée grâce à l’application ApexVigne [@brunel2019; @pichon2020] disponible sous Android sur [ce lien](https://play.google.com/store/apps/details?id=ag.GB.apex) consulté en novembre 2024.
 
 ### Période de mesure
 
@@ -91,15 +64,15 @@ Les mesures doivent commencer après la floraison et avant le premier rognage. E
 
 La notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer 50 apex.
 
+{{< pagebreak >}}
+
 # Traitement des résultats
 
-## Variables brutes
+## Définitions des variables
 
 Les données brutes sont l'ensemble des notes d'apex à chaque observation.
 
-## Variables calculées
-
-Les proportions d'apex dans chaque classe sont calculés et notés P~C~, P~R~ et P~P~ (varient entre 0 et 1). À partir des notations d'apex, il est possible de calculer des variables élaborées, en particulier l'indice de croissance et l'indice d'arrêt de croissance. 
+Les proportions d'apex dans chaque classe sont calculés et notés P~C~, P~R~ et P~P~ (varient entre 0 et 1). À partir des notations d'apex, il est possible de calculer des variables élaborées, en particulier l'indice de croissance et l'indice d'arrêt de croissance.
 
 ### Indice de croissance
 
@@ -111,7 +84,7 @@ Cet indice varie entre 0 et 1 : 0 croissance nulle et 1 croissance active
 
 ### Indice d'arrêt de croissance
 
-L'indice d'arrêt de croissance (*IAC*) a été proposé par William Trambouze [@lovelle-rodriguez2009]. L'*IAC* varie de 0 (pleine croissance) à 100 (arrêt total de la croissance). 
+L'indice d'arrêt de croissance (*IAC*) a été proposé par William Trambouze [@lovelle-rodriguez2009]. L'*IAC* varie de 0 (pleine croissance) à 100 (arrêt total de la croissance).
 
 $$ IAC = \frac{100 (1-P_P + P_R + 2P_C)}{3} $$
 
@@ -125,9 +98,7 @@ C'est la date à laquelle l'indice de croissance atteint la valeur 0.5. Elle est
 
 ## Interprétation des résultats
 
-Une relation entre indice de croissance et niveau de contrainte hydrique potentielle a été établie.
-L'*IAC* a été mis au point pour le déclenchement de l'irrigation, il sera plus discriminant en début de saison, alors que la variation de l'*iC~Apex~* est plus linéaire.
-
+Une relation entre indice de croissance et niveau de contrainte hydrique potentielle a été établie. L'*IAC* a été mis au point pour le déclenchement de l'irrigation, il sera plus discriminant en début de saison, alors que la variation de l'*iC~Apex~* est plus linéaire.
 
 ```{r}
 #| eval: false
@@ -153,7 +124,6 @@ ggplot(data=combinations,aes(IAC,IcApex)) +
   geom_point()
 
 ```
-
 
 # Compléments d'information
 

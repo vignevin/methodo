@@ -1,21 +1,37 @@
 ---
-title: "Untitled"
+title: "READme"
 ---
 
 Ce répertoire contient des fiches méthodologiques pour la collecte de données dans un cadre d'expérimentation en vigne.
+L'objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative. 
+Les fiches sont publiées sur un site web. 
 
-L'objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.
+# Description des fiches
 
-Chaque fiche est dédié à une mesure avec des explications sur la réalisation sur le terrain et sur le traitement des résultats, selon le plan suivant :
+Chaque fiche est dédiée à une mesure ou observation avec des explications sur la réalisation sur le terrain et sur le traitement des résultats.
 
-1.  Objectif
-2.  Principe de mesure
-3.  Sur le terrain
-    -   Échantillonnage
-    -   Mesure
-4.  Traitements des résultats
-    -   Variables
-    -   Interprétation
-5.  Compléments
-    -   Liens
-    -   Références biblio
+Chaque mesure ou observation génére des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT), dont le nom préféré est indiqué entre parenthèse, avec un lien vers l'identifiant de la variable. L'utilisation d'un référentiel commun est recommandé pour faciliter l'interopérabilité des données.
+
+::: callout-tip
+Toutes les fiches sont consultables en ligne et téléchargeables en format docx, modifiables librement.
+:::
+
+# Comment contribuer ?
+
+## Proposer des révisions sur une fiche existante
+
+Malgré nos efforts, ces fiches peuvent sans doute être améliorées. Si vous souhaitez proposer des révisions (corrections, ajouts, modification), le plus simple est de télécharger la fiche concernée en format docx, de l'ouvrir et de l'éditer en mode révision.
+
+Vous pouvez nous la renvoyer par email en l'accompagnant de quelques explications sur les révisions proposées.
+
+Après une phase de validation et d'échange, la fiche sera mise à jour et votre nom sera ajouté (avec votre accord) à la liste des contributeurs.
+
+## Proposer une nouvelle fiche
+
+Si vous souhaitez proposer une nouvelle fiche méthodologique, un modèle vierge est disponible au format docx. Vous pouvez l'éditer et nous envoyer votre proposition par email en l'accompagnant de quelques explications.
+
+Si vous n'avez pas le temps, nous pouvons prendre en charge la rédaction.
+
+::: callout-caution
+Il est toutefois recommandé de prendre contact avec nous au préalable, d'une part pour vérifier qu'une fiche équivalente n'est pas en préparation, et d'autre part pour identifier des experts pour appui à la rédaction ou relecture.
+:::

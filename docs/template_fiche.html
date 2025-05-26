@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Estimation visuelle de la vigueur - méthode OIV351 – Fiches méthodologiques vigne et vin</title>
+<title>Lorem ipsum – Fiches méthodologiques vigne et vin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,27 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,6 +67,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -100,7 +109,9 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_vigueur_OIV351.html">Vigueur</a></li><li class="breadcrumb-item"><a href="./fiche_vigueur_OIV351.html">Estimation visuelle de la vigueur - méthode OIV351</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Fiches méthodologiques vigne et vin
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
@@ -171,7 +182,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fiche_vigueur_OIV351.html" class="sidebar-item-text sidebar-link active">
+  <a href="./fiche_vigueur_OIV351.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Estimation visuelle de la vigueur - méthode OIV351</span></a>
   </div>
 </li>
@@ -293,8 +304,7 @@ div.csl-indent {
    
   <ul>
   <li><a href="#objectif" id="toc-objectif" class="nav-link active" data-scroll-target="#objectif">Objectif</a></li>
-  <li><a href="#principe-de-la-mesure" id="toc-principe-de-la-mesure" class="nav-link" data-scroll-target="#principe-de-la-mesure">Principe de la mesure</a></li>
-  <li><a href="#réalisation-de-la-mesure" id="toc-réalisation-de-la-mesure" class="nav-link" data-scroll-target="#réalisation-de-la-mesure">Réalisation de la mesure</a>
+  <li><a href="#réalisation-de-la-mesure-sur-le-terrain" id="toc-réalisation-de-la-mesure-sur-le-terrain" class="nav-link" data-scroll-target="#réalisation-de-la-mesure-sur-le-terrain">Réalisation de la mesure sur le terrain</a>
   <ul class="collapse">
   <li><a href="#échantillonnage" id="toc-échantillonnage" class="nav-link" data-scroll-target="#échantillonnage">Échantillonnage</a>
   <ul class="collapse">
@@ -303,7 +313,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#mesure" id="toc-mesure" class="nav-link" data-scroll-target="#mesure">Mesure</a>
   <ul class="collapse">
-  <li><a href="#echelle" id="toc-echelle" class="nav-link" data-scroll-target="#echelle">Echelle</a></li>
+  <li><a href="#réalisation" id="toc-réalisation" class="nav-link" data-scroll-target="#réalisation">Réalisation</a></li>
   <li><a href="#outils" id="toc-outils" class="nav-link" data-scroll-target="#outils">Outils</a></li>
   <li><a href="#période-de-mesure" id="toc-période-de-mesure" class="nav-link" data-scroll-target="#période-de-mesure">Période de mesure</a></li>
   <li><a href="#aspects-pratiques" id="toc-aspects-pratiques" class="nav-link" data-scroll-target="#aspects-pratiques">Aspects pratiques</a></li>
@@ -311,7 +321,11 @@ div.csl-indent {
   </ul></li>
   <li><a href="#traitement-des-résultats" id="toc-traitement-des-résultats" class="nav-link" data-scroll-target="#traitement-des-résultats">Traitement des résultats</a>
   <ul class="collapse">
-  <li><a href="#définition-des-variables" id="toc-définition-des-variables" class="nav-link" data-scroll-target="#définition-des-variables">Définition des variables</a></li>
+  <li><a href="#définition-des-variables" id="toc-définition-des-variables" class="nav-link" data-scroll-target="#définition-des-variables">Définition des variables</a>
+  <ul class="collapse">
+  <li><a href="#lorem-ipsum" id="toc-lorem-ipsum" class="nav-link" data-scroll-target="#lorem-ipsum">lorem ipsum</a></li>
+  <li><a href="#lorem-ipsum-1" id="toc-lorem-ipsum-1" class="nav-link" data-scroll-target="#lorem-ipsum-1">lorem ipsum</a></li>
+  </ul></li>
   <li><a href="#interprétation-des-résultats" id="toc-interprétation-des-résultats" class="nav-link" data-scroll-target="#interprétation-des-résultats">Interprétation des résultats</a></li>
   </ul></li>
   <li><a href="#compléments-dinformation" id="toc-compléments-dinformation" class="nav-link" data-scroll-target="#compléments-dinformation">Compléments d’information</a>
@@ -320,14 +334,14 @@ div.csl-indent {
   <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="fiche_vigueur_OIV351.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="template_fiche.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_vigueur_OIV351.html">Vigueur</a></li><li class="breadcrumb-item"><a href="./fiche_vigueur_OIV351.html">Estimation visuelle de la vigueur - méthode OIV351</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Estimation visuelle de la vigueur - méthode OIV351</h1>
+<h1 class="title">Lorem ipsum</h1>
 </div>
 
 
@@ -338,7 +352,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26 mai 2025</p>
+      <p class="date">16 mai 2025</p>
     </div>
   </div>
   
@@ -352,98 +366,54 @@ div.csl-indent {
 
 <section id="objectif" class="level1">
 <h1>Objectif</h1>
-<p>Évaluer la vigueur de la vigne avec une méthode d’évaluation visuelle rapide.</p>
-</section>
-<section id="principe-de-la-mesure" class="level1">
-<h1>Principe de la mesure</h1>
-<p>La vigueur des rameaux de la vigne est un indicateur de l’équilibre physiologique de la vigne pour l’allocation des ressources entre les grappes et la végétation.</p>
-<p>L’estimation visuelle de la vigueur des rameaux se base sur une appréciation globale de leur développement et de leur croissance en considérant leur longueur, leur diamètre et leur aspect général.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Cette méthode est une alternative plus simple et rapide à mettre en oeuvre que la pesée des bois de taille, qui reste la méthode de référence de l’estimation de la vigueur.</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Avertissement
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Cette méthode d’estimation visuelle est subjective et dépend de l’observateur. Il est donc important de bien se former et de s’entraîner à utiliser l’échelle de notation de manière standardisée.</p>
-<p>Pour comparer les observations, il est préférable que la mesure soit réalisée par le même observateur, ou du moins de contrôler ce facteur en équilibrant les observations.</p>
-</div>
-</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. # Principe de la mesure</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+<ul>
+<li>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</li>
+<li>Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</li>
+</ul>
+<p>Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.</p>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="réalisation-de-la-mesure" class="level1">
-<h1>Réalisation de la mesure</h1>
+<section id="réalisation-de-la-mesure-sur-le-terrain" class="level1">
+<h1>Réalisation de la mesure sur le terrain</h1>
 <section id="échantillonnage" class="level2">
 <h2 class="anchored" data-anchor-id="échantillonnage">Échantillonnage</h2>
 <section id="nombre-dobservations" class="level3">
 <h3 class="anchored" data-anchor-id="nombre-dobservations">Nombre d’observations</h3>
-<p>Un minimum de 30 ceps doit être observé par parcelle ou par modalité.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </section>
 <section id="choix-des-ceps-à-observer" class="level3">
 <h3 class="anchored" data-anchor-id="choix-des-ceps-à-observer">Choix des ceps à observer</h3>
 <ul>
-<li>Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)</li>
-<li>Exclure de la mesure les ceps malades et les ceps voisins des manquants.</li>
-<li>Laisser quelques ceps en bordure de rangs.</li>
-<li>Observer plusieurs rameaux par cep pour obtenir une estimation moyenne par cep.</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
 </ul>
 </section>
 </section>
 <section id="mesure" class="level2">
 <h2 class="anchored" data-anchor-id="mesure">Mesure</h2>
-<section id="echelle" class="level3">
-<h3 class="anchored" data-anchor-id="echelle">Echelle</h3>
-<p>L’observateur attribue une note à chaque cep selon le diamètre et la longueur de ses rameaux, selon l’échelle suivante <span class="citation" data-cites="2ndédit2001">[<a href="#ref-2ndédit2001" role="doc-biblioref">1</a>]</span>.</p>
-<table class="caption-top table">
-<caption>Echelle de notation de la vigueur des rameaux</caption>
-<thead>
-<tr class="header">
-<th style="text-align: center;">1</th>
-<th style="text-align: center;">3</th>
-<th style="text-align: center;">5</th>
-<th style="text-align: center;">7</th>
-<th style="text-align: center;">9</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">Très faible</td>
-<td style="text-align: center;">faible</td>
-<td style="text-align: center;">moyenne</td>
-<td style="text-align: center;">forte</td>
-<td style="text-align: center;">très forte</td>
-</tr>
-</tbody>
-</table>
+<section id="réalisation" class="level3">
+<h3 class="anchored" data-anchor-id="réalisation">Réalisation</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+<ul>
+<li>Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</li>
+<li>Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</li>
+</ul>
+<p>Pellentesque congue. Ut in risus volutpat libero pharetra tempor.</p>
 </section>
 <section id="outils" class="level3">
 <h3 class="anchored" data-anchor-id="outils">Outils</h3>
-<p>L’observation est visuelle, prévoir une fiche de notation.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
 </section>
 <section id="période-de-mesure" class="level3">
 <h3 class="anchored" data-anchor-id="période-de-mesure">Période de mesure</h3>
-<p>La notation est réalisée après la chute des feuilles, avant la taille.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
 </section>
 <section id="aspects-pratiques" class="level3">
 <h3 class="anchored" data-anchor-id="aspects-pratiques">Aspects pratiques</h3>
-<p>10 minutes sont nécessaires à une personne habituée pour évaluer 30 ceps.</p>
-<div style="page-break-after: always;"></div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
 </section>
 </section>
 </section>
@@ -451,45 +421,36 @@ Avertissement
 <h1>Traitement des résultats</h1>
 <section id="définition-des-variables" class="level2">
 <h2 class="anchored" data-anchor-id="définition-des-variables">Définition des variables</h2>
-<p>Les données sont stockées telles quelles, en précisant la date de la mesure et l’observateur. La variable est référencée dans la Vitis Ontology sous le nom <a href="https://cropontology.org/term/CO_356:1000240">SHOOT_G_OIV</a></p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+<section id="lorem-ipsum" class="level3">
+<h3 class="anchored" data-anchor-id="lorem-ipsum">lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+<p><span class="math display">\[ Ig = P_2 + 0.5*P_1 \]</span></p>
+</section>
+<section id="lorem-ipsum-1" class="level3">
+<h3 class="anchored" data-anchor-id="lorem-ipsum-1">lorem ipsum</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+</section>
 </section>
 <section id="interprétation-des-résultats" class="level2">
 <h2 class="anchored" data-anchor-id="interprétation-des-résultats">Interprétation des résultats</h2>
-<p>La vigueur est directement liée à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>La vigueur de la vigne peut être influencée par de nombreux facteurs, tels que le porte-greffe, le cépage, le clone, les conditions environnementales (sol, climat), les pratiques culturales (irrigation, fertilisation), la gestion de l’enherbement, et la présence de maladies. Il est donc important de prendre en compte ces facteurs lors de l’interprétation des résultats.</p>
-</div>
-</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
 </section>
 </section>
 <section id="compléments-dinformation" class="level1">
 <h1>Compléments d’information</h1>
 <section id="ressources-complémentaires" class="level2">
 <h2 class="anchored" data-anchor-id="ressources-complémentaires">Ressources complémentaires</h2>
-<p><a href="https://vitioeno.mistea.inrae.fr/resource/app/document/details/vitioeno%3Aid%2Fdocument%2Fextrait_guide_oiv_-_caractre_vigueur_du_rameau_oiv351">Extrait du guide OIV</a> sur le centre de ressources viti-oeno.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
 </section>
 <section id="références" class="level2">
-
-
+<h2 class="anchored" data-anchor-id="références">Références</h2>
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Références</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-2ndédit2001" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">OIV 2nd édition de la liste des descripteurs OIV pour les variétés et espèces de Vitis. <strong>2001</strong>.</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -8,13 +8,13 @@ La détermination des principaux stades phénologiques permet de définir la pr�
 
 # Principe de la mesure
 
-Le débourrement constitue le point de départ de la croissance de la plante avec l’apparition des premières feuilles. A partir de ce moment, la plante va recommencer à avoir une activité photosynthétique et passer progressivement d’une croissance basée sur les réserves à une croissance basée sur la production de glucides nouvellement synthétisés.
+Le débourrement constitue le point de départ de la croissance de la plante avec l'apparition des premières feuilles. A partir de ce moment, la plante va recommencer à avoir une activité photosynthétique et passer progressivement d'une croissance basée sur les réserves à une croissance basée sur la production de glucides nouvellement synthétisés.
 
 Les dates de chaque stade sont évaluées sur la base d'observations régulières réalisées sur des ceps représentatifs dans chaque zone suivie.
 
 {{< pagebreak >}}
 
-# Réalisation de la mesure
+# Réalisation de la mesure sur le terrain
 
 ## Échantillonnage
 
@@ -43,11 +43,7 @@ On considère qu'un bourgeon est débourré si on voit une petite pointe verte o
 ![Bourgeon au stade débourrement (BBCH07)](images/bbch07_vigne.jpg){width="140"}
 
 ::: callout-warning
-Attention, le stade considéré ici pour le débourrement est le stade BBCH07 et non pas BBCH09 (éclatement du bourgeon), comme préconisé par @destrac-irvine2019.
-:::
-
-::: callout-note
-Il est important de noter aussi la date de taille. Il faut s'assurer que la taille a été réalisée en même temps sur les modalités comparées dans l'essai. En effet, une taille tardive peut retarder le débourrement.
+Attention, le stade considéré ici pour le débourrement est le stade *BBCH07* et non pas BBCH09 (éclatement du bourgeon), comme préconisé par @destrac-irvine2019.
 :::
 
 ### Outils
@@ -70,29 +66,25 @@ La notation est assez rapide, 5 minutes sont nécessaires à une personne habitu
 
 # Traitement des résultats
 
-::: callout-note
-Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
-:::
+## Définition des variables[^1]
 
-## Variables brutes
+[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
-A partir de l'observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep ([PER_SBU](https://cropontology.org/term/CO_356:1000183)).
+-   A partir de l'observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep ([PER_SBU](https://cropontology.org/term/CO_356:1000183)).
 
-## Variables calculées
-
-La date du stade est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
+-   La date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d'yeux francs laissés à la taille est atteint ([BUD_DATE](https://cropontology.org/term/CO_356:1000001)). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
 
 ![Exemple d'interpolation entre observations](images/pheno_interpolation.jpg){fig-alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." fig-align="center" width="483"}
 
-### Date de débourrement
-
-C'est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d'yeux francs laissés à la taille est atteint ([BUD_DATE](https://cropontology.org/term/CO_356:1000001)).
+-   Pour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l'année ([DOY_BUD](https://cropontology.org/term/CO_356:1000076)). Par exemple, le 28 mars 2024 est le jour 88 de l'année.
 
 ## Interprétation des résultats
 
-Pour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l'année ([DOY_BUD](https://cropontology.org/term/CO_356:1000076)).
+Le débourrement est le stade phénologique qui marque le début du cycle végétatif de la vigne et permet de définir la précocité d'une parcelle ou modalité.
 
-Par exemple, le 28 mars 2024 est le jour 88 de l'année.
+::: callout-note
+Il est important de noter aussi la date de taille. Il faut s'assurer que la taille a été réalisée en même temps sur les modalités comparées dans l'essai. En effet, une taille tardive peut retarder le débourrement.
+:::
 
 # Compléments d'information
 

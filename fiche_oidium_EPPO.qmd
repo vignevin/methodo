@@ -10,9 +10,16 @@ Les observations de maladies, en particulier mildiou et oïdium (principales mal
 
 Les observations visuelles sont réalisées régulièrement en notant la présence et la sévérité des symptômes de maladies. La méthode de mesure présentée dans cette fiche est décrite dans @ceb_oidium et @eppo2001.
 
-\pagebreak
+::: callout-important
+L'évaluation visuelle de la proportion de baies ou de surface atteinte par la maladie repose sur une interprétation humaine et peut varier fortement d'un observateur à l'autre. Il est nécessaire :
 
-# Sur le terrain
+-   de s'entraîner au préalable, au champ et avec des échelles calibrées
+-   de contrôler le facteur observateur dans la réalisation des notations, par exemple réalisant toutes les notations d'un bloc par le même observateur.
+:::
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
 
 ## Échantillonnage
 
@@ -49,7 +56,6 @@ Feuille de notation.
 
 Certaines applications existent pour la saisie terrain sur smartphone, comme par exempe [PMapp](https://www.vineyardteam.org/files/resources/PMapp.pdf) .
 
-\pagebreak
 
 ### Période de mesure
 
@@ -57,7 +63,7 @@ Les comptages précis peuvent être réalisés à tout moment, en fonction de l'
 
 Sur feuilles, une à deux observations en cours de saison suivant la pression maladie.
 
-Les grappes sont les plus sensibles à la maladie. L’évolution de la maladie s’observe facilement entre la nouaison et le début de la véraison. Au-delà, surtout sur les cépages rouges, il est impossible d’apprécier correctement les dégâts. Une dernière observation peut être réalisée avant récolte.
+Les grappes sont les plus sensibles à la maladie. L'évolution de la maladie s'observe facilement entre la nouaison et le début de la véraison. Au-delà, surtout sur les cépages rouges, il est impossible d'apprécier correctement les dégâts. Une dernière observation peut être réalisée avant récolte.
 
 | Organes | 7-8 feuilles étalées | Nouaison (BBCH71) | Fermeture de la grappe (BBCH77) | Début véraison (BBCH81) |
 |---------------|---------------|---------------|---------------|---------------|
@@ -69,28 +75,20 @@ Les grappes sont les plus sensibles à la maladie. L’évolution de la maladie 
 
 La notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entraîné et un notateur) pour observer 100 feuilles ou 50 grappes.
 
-::: callout-important
-L'évaluation visuelle de la proportion de baies ou de surface atteinte par la maladie repose sur une interprétation humaine et peut varier fortement d'un observateur à l'autre. Il est nécessaire :
-
--   de s'entraîner au préalable, au champ et avec des échelles calibrées
--   de contrôler le facteur observateur dans la réalisation des notations, par exemple réalisant toutes les notations d'un bloc par le même observateur.
-:::
+{{< pagebreak >}}
 
 # Traitement des résultats
 
 ## Définition des variables
 
-Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
-
 La sévérité S (*severity* en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale [@nutterjr1991], sur :
 
-- feuille ([UN_LEAF_PC](https://cropontology.org/term/CO_356:1000221))
-- grappe ([UN_BER_PC](https://cropontology.org/term/CO_356:1000176)).
+-   feuille ([UN_LEAF_PC](https://cropontology.org/term/CO_356:1000221))
+-   grappe ([UN_BER_PC](https://cropontology.org/term/CO_356:1000176)).
 
 A partir des valeurs de sévérité, il est possible de calculer :
 
 -   La fréquence F (*incidence* en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.
-
 -   L'intensité d'attaque I (*intensity* en anglais) : moyenne des sévérités observées sur l'ensemble des grappes ou feuilles observées.
 
 ## Interprétation des résultats

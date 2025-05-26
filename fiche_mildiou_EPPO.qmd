@@ -8,11 +8,18 @@ Les observations de maladies, en particulier mildiou et oïdium (principales mal
 
 # Principe de la mesure
 
-Les observations visuelles sont réalisées régulièrement en notant la présence et la sévérité des symptômes de maladies. La méthode de mesure présentée dans cette fiche est décrite dans @eppo2000, et @ceb_mildiou.
+Les observations visuelles sont réalisées régulièrement en notant la sévérité des symptômes de maladies. La méthode de mesure présentée dans cette fiche est décrite dans @eppo2000, et @ceb_mildiou.
 
-\pagebreak
+::: callout-important
+L'évaluation visuelle de la proportion de baies ou de surface atteinte par la maladie repose sur une interprétation humaine et peut varier fortement d'un observateur à l'autre. Il est nécessaire :
 
-# Sur le terrain
+-   de s'entraîner au préalable, au champ et avec des échelles calibrées
+-   de contrôler le facteur observateur dans la réalisation des notations, par exemple réalisant toutes les notations d'un bloc par le même observateur.
+:::
+
+{{< pagebreak >}}
+
+# Réalisation de la mesure sur le terrain
 
 ## Échantillonnage
 
@@ -39,17 +46,13 @@ Sur chaque feuille ou grappe échantillonnée aléatoirement, la proportion de f
 
 ![Echelle d'évaluation de la surface atteinte sur feuille [@buffara2014]](images/echelle_maladie_feuille.png){width="370"}
 
+### Outils
+
+Feuille de notation. Certaines applications existent pour la saisie terrain sur smartphone.
+
 ::: callout-note
 Ne pas oublier de noter aussi le nom de l'observateur, la date d'observation et le stade phénologique.
 :::
-
-### Outils
-
-Feuille de notation.
-
-Certaines applications existent pour la saisie terrain sur smartphone.
-
-\pagebreak
 
 ### Période de mesure
 
@@ -67,22 +70,16 @@ Sur grappes, les comptages peuvent être réalisés :
 
 La notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entrainé et un notateur) pour observer 100 feuilles ou 50 grappes.
 
-::: callout-important
-L'évaluation visuelle de la proportion de baies ou de surface atteinte par la maladie repose sur une interprétation humaine et peut varier fortement d'un observateur à l'autre. Il est nécessaire :
-
--   de s'entraîner au préalable, au champ et avec des échelles calibrées
--   de contrôler le facteur observateur dans la réalisation des notations, par exemple réalisant toutes les notations d'un bloc par le même observateur.
-:::
+{{< pagebreak >}}
 
 # Traitement des résultats
 
-## Variable[^1] brute
+## Définition des variables
 
-[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+La variable brute observée est la sévérité S (*severity* en anglais), *i.e* la surface de feuille ou de grappes attaquée par la maladie exprimée en pourcentage de la surface totale, soit :
 
-La sévérité S (*severity* en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale de la feuille ([PM_LEAF_PC](https://cropontology.org/term/CO_356:1000220)) ou de la grappe ([PM_BER_PC](https://cropontology.org/term/CO_356:1000172)). C'est la variable brute observée.
-
-## Variables calculées
+-   de la feuille ([PM_LEAF_PC](https://cropontology.org/term/CO_356:1000220)) ou
+-   de la grappe ([PM_BER_PC](https://cropontology.org/term/CO_356:1000172)).
 
 Les variables suivantes peuvent être calculées par répétition [@nutterjr1991] :
 

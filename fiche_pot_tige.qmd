@@ -96,13 +96,9 @@ Compter en moyenne 10 minutes pour 5 feuilles pour la mesure elle-même (hors te
 
 # Traitement des résultats
 
-## Variables brutes
+## Définition des variables
 
 Mesure du potentiel hydrique foliaire de tige pour chaque feuille, exprimé en MPa (Pas de variable équivalente dans la Vitis Ontology).
-
-## Variables calculées
-
-Pas de variable calculée.
 
 ## Interprétation des résultats
 
@@ -111,7 +107,7 @@ L'interprétation de la contrainte hydrique doit tenir compte du stade phénolog
 Les seuils suivants [@deloire2020] donnent une indication d'interprétation pour les Ψ~T~.
 
 | Classe | Ψ~T~ en MPa         | Niveau de contrainte hydrique                   |
-|-----------------|-----------------|--------------------------------------|
+|------------------|------------------|-------------------------------------|
 | 1      | 0 ≥ Ψ~T~ ≥ -0,6     | Pas de déficit hydrique                         |
 | 2      | -0,7 \> Ψ~T~ ≥ -1,1 | Déficit hydrique faible à modéré                |
 | 3      | -1,2 \> Ψ~T~ ≥ -1,6 | Déficit hydrique modéré à sévère (selon cépage) |

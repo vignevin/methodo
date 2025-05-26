@@ -3,11 +3,10 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
-    - "!template_fiche.qmd"
     - "!fiche_pheno.qmd"
 
 website:
-  title: "Fiches méthodologiques"
+  title: "Fiches méthodologiques vigne et vin"
   sidebar:
     page-navigation: true
     reader-mode: false
@@ -44,8 +43,8 @@ website:
           - fiche_carences.qmd
       - about.qmd
   page-footer:
-    right: "Projet CEPOCLIM, 2024"
-    left: "&copy; CC BY-NC-ND"
+    right: "IFV 2025"
+    left: "&copy; CC BY-SA 4.0"
 
 format:
   html:
@@ -53,6 +52,7 @@ format:
     css: styles.css
     toc: true
   docx:
+    reference-doc: "modele_word.docx"
     toc: false
 
 date: last-modified
