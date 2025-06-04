@@ -20,7 +20,7 @@ Attention, le changement de couleur peut dans certaines situations être plus ta
 
 {{< pagebreak >}}
 
-# Réalisation de la mesure sur le terrain
+# Sur le terrain
 
 ## Échantillonnage
 
@@ -44,7 +44,13 @@ Sont exclues les baies issues de grappes portées par les gourmands, et les grap
 
 ### Réalisation
 
+L'échelle BBCH de la vigne[^1] est l'échelle de référence à utiliser [@lorenz1995]. Le stade mi-véraison est représenté par le stade ([BBCH85](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH85)).
+
+[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
+
 L'évaluation se fait par palpation à l'aveugle d'au moins 50 baies *in situ*, ou au laboratoire après prélèvement aléatoire, en alternant les faces de rang observées.
+
+![Evolution phénologique lors de la véraison [@destrac-irvine2019]](images/pheno_ver.png)
 
 ::: callout-note
 -   Pour certaines variétés il n'est pas possible de faire des prélèvements ponctuels des baies car les grappes sont trop compactes. Il est donc nécessaire de faire l'évaluation *in situ* sans prélèvement destructif.
@@ -70,9 +76,9 @@ La notation est assez rapide, 10 minutes sont nécessaires à une personne habit
 
 # Traitement des résultats
 
-## Définition des variables[^1]
+## Définition des variables[^2]
 
-[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+[^2]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
 -   Selon la méthode de mesure, la variable observée est :
 
@@ -101,7 +107,7 @@ La véraison marque le début de la maturation du raisin et constitue un stade p
 
 -   [Stades phénologiques repères de la vigne](https://api.agrometeo.ch/storage/uploads/Poster_stade-pheno_Vigne_F_Ecran.pdf), fiche de l'Agroscope de Changins.
 
--   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), 2004
+-   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004
 
 ::: {.content-visible when-format="docx"}
 ## Source et mise à jour

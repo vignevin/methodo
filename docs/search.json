@@ -224,7 +224,7 @@
     "href": "fiche_pheno_ver.html#mesure",
     "title": "Suivi de la véraison de la vigne",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nL’évaluation se fait par palpation à l’aveugle d’au moins 50 baies in situ, ou au laboratoire après prélèvement aléatoire, en alternant les faces de rang observées.\n\n\n\n\n\n\nNote\n\n\n\n\nPour certaines variétés il n’est pas possible de faire des prélèvements ponctuels des baies car les grappes sont trop compactes. Il est donc nécessaire de faire l’évaluation in situ sans prélèvement destructif.\nSelon le cépage, les pellicules sont plus ou moins fermes, entraînez-vous pour appréhender le ramollissement pour chaque cépage.\n\n\n\n\n\nOutils\nPas d’outils disponibles.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de baies molles, faire au moins un passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de baies molles.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 10 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 50 baies.",
+    "text": "Mesure\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [2]. Le stade mi-véraison est représenté par le stade (BBCH85).\nL’évaluation se fait par palpation à l’aveugle d’au moins 50 baies in situ, ou au laboratoire après prélèvement aléatoire, en alternant les faces de rang observées.\n\n\n\nEvolution phénologique lors de la véraison [1]\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nPour certaines variétés il n’est pas possible de faire des prélèvements ponctuels des baies car les grappes sont trop compactes. Il est donc nécessaire de faire l’évaluation in situ sans prélèvement destructif.\nSelon le cépage, les pellicules sont plus ou moins fermes, entraînez-vous pour appréhender le ramollissement pour chaque cépage.\n\n\n\n\n\nOutils\nPas d’outils disponibles.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de baies molles, faire au moins un passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de baies molles.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 10 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 50 baies.",
     "crumbs": [
       "Phénologie",
       "Suivi de la véraison de la vigne"
@@ -257,7 +257,7 @@
     "href": "fiche_pheno_ver.html#ressources-complémentaires",
     "title": "Suivi de la véraison de la vigne",
     "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, 2004",
+    "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004",
     "crumbs": [
       "Phénologie",
       "Suivi de la véraison de la vigne"
@@ -268,7 +268,7 @@
     "href": "fiche_pheno_ver.html#footnotes",
     "title": "Suivi de la véraison de la vigne",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLa ressource décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
     "crumbs": [
       "Phénologie",
       "Suivi de la véraison de la vigne"
@@ -301,7 +301,7 @@
     "href": "fiche_pheno_dbr.html#mesure",
     "title": "Suivi du débourrement de la vigne",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nL’échelle BBCH est l’échelle de référence à utiliser [1], le débourrement est représenté par le stade BBCH07.\nOn considère qu’un bourgeon est débourré si on voit une petite pointe verte ou rouge (BBCH07). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement (BBCH07) est calculé à chaque observation.\n\n\n\nBourgeon au stade débourrement (BBCH07)\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAttention, le stade considéré ici pour le débourrement est le stade BBCH07 et non pas BBCH09 (éclatement du bourgeon), comme préconisé par [2].\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nLes mesures doivent encadrer le stade débourrement.\nA partir de 5% des organes observés ayant atteint le stade BBCH07, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle, jusqu’à avoir au moins une observation avec plus de 50% des organes ayant atteint le stade BBCH07.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le débourrement sur 10 ceps.",
+    "text": "Mesure\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [1]. Le stade débourrement est représenté par le stade (BBCH07).\nOn considère qu’un bourgeon est débourré si on voit une petite pointe verte ou rouge (BBCH07). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement est calculé à chaque observation.\n\n\n\nEvolution des stades du débourrement [2].\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAttention, le stade considéré ici pour le débourrement est le stade BBCH07 et non pas BBCH09 (éclatement du bourgeon).\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nLes mesures doivent encadrer le stade débourrement.\nA partir de 5% des organes observés ayant atteint le stade BBCH07, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle, jusqu’à avoir au moins une observation avec plus de 50% des organes ayant atteint le stade BBCH07.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le débourrement sur 10 ceps.",
     "crumbs": [
       "Phénologie",
       "Suivi du débourrement de la vigne"
@@ -334,7 +334,7 @@
     "href": "fiche_pheno_dbr.html#ressources-complémentaires",
     "title": "Suivi du débourrement de la vigne",
     "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, 2004",
+    "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004",
     "crumbs": [
       "Phénologie",
       "Suivi du débourrement de la vigne"
@@ -345,7 +345,7 @@
     "href": "fiche_pheno_dbr.html#footnotes",
     "title": "Suivi du débourrement de la vigne",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLa ressource décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
     "crumbs": [
       "Phénologie",
       "Suivi du débourrement de la vigne"
@@ -917,7 +917,7 @@
     "href": "fiche_pheno_flo.html#ressources-complémentaires",
     "title": "Suivi de la floraison de la vigne",
     "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, 2004",
+    "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004.",
     "crumbs": [
       "Phénologie",
       "Suivi de la floraison de la vigne"
@@ -928,7 +928,7 @@
     "href": "fiche_pheno_flo.html#footnotes",
     "title": "Suivi de la floraison de la vigne",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLa ressource décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
     "crumbs": [
       "Phénologie",
       "Suivi de la floraison de la vigne"
@@ -1141,6 +1141,95 @@
     "crumbs": [
       "Vigueur",
       "Diamètre des sarments"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html",
+    "href": "fiche_matu.html",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "",
+    "text": "Le suivi de maturité permet de mesurer les paramètres de composition des baies et d’apprécier la qualité de la vendange. Le suivi de maturité aide à déterminer la date optimale de récolte."
+  },
+  {
+    "objectID": "fiche_matu.html#échantillonnage",
+    "href": "fiche_matu.html#échantillonnage",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2."
+  },
+  {
+    "objectID": "fiche_matu.html#mesure",
+    "href": "fiche_matu.html#mesure",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\nAspects pratiques\nStocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017"
+  },
+  {
+    "objectID": "fiche_matu.html#définition-des-variables",
+    "href": "fiche_matu.html#définition-des-variables",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\nRemarque\n\n\n\n\nTeneur en sucres1\nBERRY_SUG_g\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\nVoir table de correspondance avec les degrés brix (TSS).\n\n\nTeneur en sucres\nGLUFRU\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\n\nPoids d’une baie\nSBER_W_g\nBalance\n\ng\nAttention, penser à diviser par le nombre de baies prélevées pour obtenir le poids unitaire d’une baie.\n\n\npH\nBERRY_pH\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\n\nAcidité totale\nBER_TA_man_g\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\ndoit-on faire la différence entre titration manuelle ou automatique (c’est le cas dans la vitis ono.\n\n\nAcide tartrique\n\n\n\n\npas clair sur les méthodes dans VO : metavan ??\n\n\nAcide malique\nBER_MAL_g\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\nL-malique ici ??\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide lactique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAzote assimilable\nBERRY_N_NH4&AA\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\n\nAzote ammoniacal\nBERRY_N_NH4\nDosage enzymatique\n\nmg.L-1\n\n\n\nAzote aminé\nBERRY_N_AA\nDosage colorimétrique\n\nmg.L-1\n\n\n\n𝛅C13\n\n\n\n\n\n\n\n\nquid IRTF ?\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !"
+  },
+  {
+    "objectID": "fiche_matu.html#interprétation-des-résultats",
+    "href": "fiche_matu.html#interprétation-des-résultats",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nLes paramètres analytiques permettent d’appréhender les différents types de maturité.\n\n\n\n\n\n\n\n\nType de maturité\nDéfinition\nParamètres\n\n\n\n\nMaturité physiologique\nC’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.\nMesure de la taille et du poids des baies. Couleur et dureté des pépins.\n\n\nMaturité technologique\nÀ ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.\nTeneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique\n\n\nMaturité phénolique\nCette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.\nTeneurs en anthocyanes, tannins. Indice polyphénolique total.\n\n\nMaturité aromatique\nÀ ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.\nTeneurs en composés aromatiques\n\n\n\nChaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités [2]. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation."
+  },
+  {
+    "objectID": "fiche_matu.html#ressources-complémentaires",
+    "href": "fiche_matu.html#ressources-complémentaires",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nFiches sur le prélèvement des raisins :\n\nIFV Occitanie\nInstitut Rhodanien\nTechniloire"
+  },
+  {
+    "objectID": "fiche_matu.html#références",
+    "href": "fiche_matu.html#références",
+    "title": "SUivi maturité par prélèvement de baies",
+    "section": "Références",
+    "text": "Références\n[3]"
+  },
+  {
+    "objectID": "fiche_matu.html#footnotes",
+    "href": "fiche_matu.html#footnotes",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.↩︎"
+  },
+  {
+    "objectID": "fiche_pheno_dbr.html#définition-des-variables2",
+    "href": "fiche_pheno_dbr.html#définition-des-variables2",
+    "title": "Suivi du débourrement de la vigne",
+    "section": "Définition des variables2",
+    "text": "Définition des variables2\n\nA partir de l’observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep (PER_SBU).\nLa date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d’yeux francs laissés à la taille est atteint (BUD_DATE). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l’année (DOY_BUD). Par exemple, le 28 mars 2024 est le jour 88 de l’année.",
+    "crumbs": [
+      "Phénologie",
+      "Suivi du débourrement de la vigne"
+    ]
+  },
+  {
+    "objectID": "fiche_pheno_flo.html#sur-le-terrain",
+    "href": "fiche_pheno_flo.html#sur-le-terrain",
+    "title": "Suivi de la floraison de la vigne",
+    "section": "Sur le terrain",
+    "text": "Sur le terrain\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [2]. On considère qu’une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.\nLe stade mi-floraison est représenté par le stade (BBCH65).\nLe taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.\n\n\n\nEvolution du taux de floraison [1]\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de fleurs ouvertes, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de fleurs ouvertes.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.",
+    "crumbs": [
+      "Phénologie",
+      "Suivi de la floraison de la vigne"
+    ]
+  },
+  {
+    "objectID": "fiche_pheno_ver.html#définition-des-variables2",
+    "href": "fiche_pheno_ver.html#définition-des-variables2",
+    "title": "Suivi de la véraison de la vigne",
+    "section": "Définition des variables2",
+    "text": "Définition des variables2\n\nSelon la méthode de mesure, la variable observée est :\n\nle pourcentage de baies molles (SOFT_BER_PC) ou\nle pourcentage de baies colorées (COL_BER_PC).\n\n\nLa correspondance avec le stade BBCH [2] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.\n\nLa date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (VER_50). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (DOY_VER).\n\nPar exemple, le 7 août 2024 est le jour 220 de l’année.",
+    "crumbs": [
+      "Phénologie",
+      "Suivi de la véraison de la vigne"
     ]
   }
 ]

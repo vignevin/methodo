@@ -9,7 +9,7 @@ Ce site recense des fiches méthodologiques pour la collecte de données dans un
 
 Chaque fiche est dédiée à une mesure ou observation avec des explications sur la réalisation sur le terrain et sur le traitement des résultats.
 
-Chaque mesure ou observation génére des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) [@duchene2019], dont le nom préféré est indiqué entre parenthèse, avec un lien vers l'identifiant de la variable. 
+Chaque mesure ou observation génére des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) [@duchene2019], dont le nom préféré est indiqué entre parenthèse, avec un lien vers l'identifiant de la variable.
 
 L'utilisation d'un référentiel commun est recommandé pour faciliter l'interopérabilité des données.
 
@@ -39,9 +39,7 @@ Il est toutefois recommandé de prendre contact avec nous au préalable, d'une p
 
 # Ressources complémentaires
 
-- [Centre de ressources viti-oeno](https://vitioeno.mistea.inrae.fr/resource/app/) : un site web qui recense des documents, applications, référentiels (variables et matériel végétal) à destination des expérimentateurs de la filière vigne et vin.
-- [Guide pour la description d’une expérimentation en vigne](https://vignevin.github.io/standard_guide/) : un guide pour décrire une expérimentation en viticulture. 
-
+-   [Centre de ressources viti-oeno](https://vitioeno.mistea.inrae.fr/resource/app/) : un site web qui recense des documents, applications, référentiels (variables et matériel végétal) à destination des expérimentateurs de la filière vigne et vin.
+-   [Guide pour la description d’une expérimentation en vigne](https://vignevin.github.io/standard_guide/) : un guide pour décrire une expérimentation en viticulture.
 
 # Références
-

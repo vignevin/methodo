@@ -36,15 +36,19 @@ Il est nécessaire de faire au minimum 30 observations par zone homogène. La no
 
 Seules sont observées les deux premières **inflorescences** rencontrées à partir de la base du sarment. Sont exclues les inflorescences portées par les gourmands, les entre-cœurs et les bouts de vrilles.
 
-## Mesure
+## Sur le terrain
 
 ### Réalisation
 
-L'échelle BBCH est l'échelle de référence à utiliser [@lorenz1995]. On considère qu'une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.
+L'échelle BBCH de la vigne[^1] est l'échelle de référence à utiliser [@lorenz1995]. On considère qu'une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.
+
+[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
+
+Le stade mi-floraison est représenté par le stade ([BBCH65](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH65)).
 
 Le taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.
 
-![Inflorescence à mi-floraison (BBCH65)](images/bbch65_vigne.jpg){width="151"}
+![Evolution du taux de floraison [@destrac-irvine2019]](images/pheno_flo.png)
 
 ### Outils
 
@@ -62,9 +66,9 @@ La notation est assez rapide, 5 minutes sont nécessaires à une personne habitu
 
 {{< pagebreak >}}
 
-# Traitement des résultats[^1]
+# Traitement des résultats[^2]
 
-[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+[^2]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
 ## Définition des variables
 
@@ -90,6 +94,14 @@ La date de floraison de la vigne est un indicateur clé du déroulement du cycle
 
 -   [Stades phénologiques repères de la vigne](https://api.agrometeo.ch/storage/uploads/Poster_stade-pheno_Vigne_F_Ecran.pdf), fiche de l'Agroscope de Changins.
 
--   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), 2004
+-   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004.
+
+::: {.content-visible when-format="docx"}
+## Source et mise à jour
+
+Cette fiche est disponible sur ce [site web](https://vignevin.github.io/methodo/).
+
+N'oubliez pas de vérifier les mises à jours disponible !
+:::
 
 ## Références

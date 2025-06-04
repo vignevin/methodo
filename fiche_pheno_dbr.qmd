@@ -14,7 +14,7 @@ Les dates de chaque stade sont évaluées sur la base d'observations régulière
 
 {{< pagebreak >}}
 
-# Réalisation de la mesure sur le terrain
+# Sur le terrain
 
 ## Échantillonnage
 
@@ -36,14 +36,16 @@ L'ensemble des **yeux francs** laissés à la taille sont observés.
 
 ### Réalisation
 
-L'échelle BBCH est l'échelle de référence à utiliser [@lorenz1995], le débourrement est représenté par le stade BBCH07.
+L'échelle BBCH de la vigne[^1] est l'échelle de référence à utiliser [@lorenz1995]. Le stade débourrement est représenté par le stade ([BBCH07](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH07)).
 
-On considère qu'un bourgeon est débourré si on voit une petite pointe verte ou rouge (BBCH07). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement (BBCH07) est calculé à chaque observation.
+[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
 
-![Bourgeon au stade débourrement (BBCH07)](images/bbch07_vigne.jpg){width="140"}
+On considère qu'un bourgeon est débourré si on voit une petite pointe verte ou rouge ([BBCH07](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH07)). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement est calculé à chaque observation.
+
+![Evolution des stades du débourrement @destrac-irvine2019.](images/pheno_dbr.png)
 
 ::: callout-warning
-Attention, le stade considéré ici pour le débourrement est le stade *BBCH07* et non pas BBCH09 (éclatement du bourgeon), comme préconisé par @destrac-irvine2019.
+Attention, le stade considéré ici pour le débourrement est le stade **BBCH07** et non pas BBCH09 (éclatement du bourgeon).
 :::
 
 ### Outils
@@ -66,9 +68,9 @@ La notation est assez rapide, 5 minutes sont nécessaires à une personne habitu
 
 # Traitement des résultats
 
-## Définition des variables[^1]
+## Définition des variables[^2]
 
-[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+[^2]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
 
 -   A partir de l'observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep ([PER_SBU](https://cropontology.org/term/CO_356:1000183)).
 
@@ -94,6 +96,14 @@ Il est important de noter aussi la date de taille. Il faut s'assurer que la tail
 
 -   [Stades phénologiques repères de la vigne](https://api.agrometeo.ch/storage/uploads/Poster_stade-pheno_Vigne_F_Ecran.pdf), fiche de l'Agroscope de Changins.
 
--   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), 2004
+-   film [du bourgeon au raisin](https://www.youtube.com/watch?v=GNymddTRhqw), réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004
+
+::: {.content-visible when-format="docx"}
+## Source et mise à jour
+
+Cette fiche est disponible sur ce [site web](https://vignevin.github.io/methodo/).
+
+N'oubliez pas de vérifier les mises à jours disponible !
+:::
 
 ## Références
