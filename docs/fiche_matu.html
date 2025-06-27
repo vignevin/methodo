@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Poids des bois de taille – Fiches méthodologiques vigne et vin</title>
+<title>Suivi maturité par prélèvement de baies – Fiches méthodologiques vigne et vin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,35 +87,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -129,7 +100,9 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_vigueur_OIV351.html">Vigueur</a></li><li class="breadcrumb-item"><a href="./fiche_pbt.html">Poids des bois de taille</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Fiches méthodologiques vigne et vin
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
@@ -212,7 +185,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fiche_pbt.html" class="sidebar-item-text sidebar-link active">
+  <a href="./fiche_pbt.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Poids des bois de taille</span></a>
   </div>
 </li>
@@ -339,8 +312,8 @@ window.Quarto = {
   <li><a href="#échantillonnage" id="toc-échantillonnage" class="nav-link" data-scroll-target="#échantillonnage">Échantillonnage</a>
   <ul class="collapse">
   <li><a href="#nombre-dobservations" id="toc-nombre-dobservations" class="nav-link" data-scroll-target="#nombre-dobservations">Nombre d’observations</a></li>
-  <li><a href="#ceps-à-observer" id="toc-ceps-à-observer" class="nav-link" data-scroll-target="#ceps-à-observer">Ceps à observer</a></li>
-  <li><a href="#sarments-à-peser" id="toc-sarments-à-peser" class="nav-link" data-scroll-target="#sarments-à-peser">Sarments à peser</a></li>
+  <li><a href="#choix-des-ceps-à-observer" id="toc-choix-des-ceps-à-observer" class="nav-link" data-scroll-target="#choix-des-ceps-à-observer">Choix des ceps à observer</a></li>
+  <li><a href="#choix-des-grappes-et-des-baies" id="toc-choix-des-grappes-et-des-baies" class="nav-link" data-scroll-target="#choix-des-grappes-et-des-baies">Choix des grappes et des baies</a></li>
   </ul></li>
   <li><a href="#mesure" id="toc-mesure" class="nav-link" data-scroll-target="#mesure">Mesure</a>
   <ul class="collapse">
@@ -352,26 +325,23 @@ window.Quarto = {
   </ul></li>
   <li><a href="#traitement-des-résultats" id="toc-traitement-des-résultats" class="nav-link" data-scroll-target="#traitement-des-résultats">Traitement des résultats</a>
   <ul class="collapse">
-  <li><a href="#définition-des-variables1" id="toc-définition-des-variables1" class="nav-link" data-scroll-target="#définition-des-variables1">Définition des variables</a>
-  <ul class="collapse">
-  <li><a href="#expression-par-cep" id="toc-expression-par-cep" class="nav-link" data-scroll-target="#expression-par-cep">Expression par cep</a></li>
-  <li><a href="#expression-par-m²" id="toc-expression-par-m²" class="nav-link" data-scroll-target="#expression-par-m²">Expression par m²</a></li>
-  </ul></li>
+  <li><a href="#définition-des-variables" id="toc-définition-des-variables" class="nav-link" data-scroll-target="#définition-des-variables">Définition des variables</a></li>
   <li><a href="#interprétation-des-résultats" id="toc-interprétation-des-résultats" class="nav-link" data-scroll-target="#interprétation-des-résultats">Interprétation des résultats</a></li>
   </ul></li>
   <li><a href="#compléments-dinformation" id="toc-compléments-dinformation" class="nav-link" data-scroll-target="#compléments-dinformation">Compléments d’information</a>
   <ul class="collapse">
+  <li><a href="#ressources-complémentaires" id="toc-ressources-complémentaires" class="nav-link" data-scroll-target="#ressources-complémentaires">Ressources complémentaires</a></li>
   <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="fiche_pbt.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="fiche_matu.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_vigueur_OIV351.html">Vigueur</a></li><li class="breadcrumb-item"><a href="./fiche_pbt.html">Poids des bois de taille</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Poids des bois de taille</h1>
+<h1 class="title">Suivi maturité par prélèvement de baies</h1>
 </div>
 
 
@@ -382,7 +352,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26 mai 2025</p>
+      <p class="date">4 juin 2025</p>
     </div>
   </div>
   
@@ -396,86 +366,49 @@ window.Quarto = {
 
 <section id="objectif" class="level1">
 <h1>Objectif</h1>
-<p>Évaluer la vigueur de la vigne par la mesure du poids des bois de taille après la chute des feuilles.</p>
+<p>Le suivi de maturité permet de mesurer les paramètres de composition des baies et d’apprécier la qualité de la vendange. Le suivi de maturité aide à déterminer la date optimale de récolte.</p>
 </section>
 <section id="principe-de-la-mesure" class="level1">
 <h1>Principe de la mesure</h1>
-<p>La vigueur résulte de l’activité métabolique des organes en croissance, et se traduit par une intensité de respiration et de la vitesse de croissance <span class="citation" data-cites="champagnol1984">[<a href="#ref-champagnol1984" role="doc-biblioref">1</a>]</span>. Une vigne vigoureuse aura tendance à produire plus de grappes et de feuilles, ce qui peut avoir un impact sur le rendement et la qualité des raisins. L’évaluation de la vigueur est complémentaire à la mesure des composantes du rendement (nombre de grappes par cep, poids des grappes, poids par cep).</p>
-<p>La méthode consiste à peser les bois de taille (sarments) produits par la vigne après la chute des feuilles. Le poids total des bois de taille d’un cep est une conséquence de la croissance des rameaux pendant la saison végétative.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/photo_pbt.jpg" class="img-fluid figure-img" width="277"></p>
-<figcaption>Pesées de bois de taille dans le Var. Crédits Centre du Rosé,2025.</figcaption>
-</figure>
-</div>
-<p>Champagnol (1984) propose les définitions suivantes:</p>
-<ul>
-<li>L’<em>expression végétative</em> est la production totale de biomasse (sarments, feuilles, fruits, racines, troncs) de la vigne lors d’un cycle végétatif <span class="citation" data-cites="champagnol1984">[<a href="#ref-champagnol1984" role="doc-biblioref">1</a>]</span>.</li>
-<li>La <em>vigueur</em> résulte de l’activité métabolique des organes en croissance, et se traduit par une intensité de respiration et de la vitesse de croissance <span class="citation" data-cites="champagnol1984">[<a href="#ref-champagnol1984" role="doc-biblioref">1</a>]</span></li>
-</ul>
-<p>Selon ces définitions:</p>
-<ul>
-<li>le poids des poids de taille est un indicateur de l’expression végétative.</li>
-<li>le poids moyen d’un sarment est un indicateur de la vigueur de la vigne.</li>
-</ul>
-<p>D’autres auteurs ne font pas cette distinction, et assimilent le poids des poids de taille à la vigueur de la vigne. De fait, poids total des bois de taille et poids moyen d’un sarment sont généralement bien corrélés. On retiendra qu’il est utile et facile de mesurer ces deux indicateurs lors d’une pesée de bois de taille en comptant le nombre de sarments par cep.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Dans le cas des vignes rognées, une partie de la matière sèche produite par la vigne n’est pas comptabilisée. La pesée des bois de taille reste toutefois un proxy intégratif de l’expression végétative de la vigne.</p>
-</div>
-</div>
+<p>Le suivi maturité repose sur des prélèvements de baies, de portion de grappes ou de grappes entières. Cet échantillon est ensuite foulé pour extraire le jus de raisin qui sera analysé au laboratoire.</p>
+<p>Le prélèvement de 200 baies est jugé le plus fiable. Il permet en outre d’obtenir le poids moyen d’une baie, une des composantes du rendement agronomique. La taille des baies a aussi un impact sur le rendement en jus en cave (les petites baies donnent moins de jus) et sur la qualité (rapport pellicule / jus) pour les raisins rouges. C’est donc cette méthode de prélèvement qui est recommandée pour un suivi expérimental.</p>
 <div style="page-break-after: always;"></div>
 </section>
 <section id="sur-le-terrain" class="level1">
 <h1>Sur le terrain</h1>
 <section id="échantillonnage" class="level2">
 <h2 class="anchored" data-anchor-id="échantillonnage">Échantillonnage</h2>
+<p>La qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :</p>
+<ul>
+<li>Prélever toujours sur les mêmes ceps ou rangs</li>
+<li>Former les préleveurs</li>
+<li>Tenir compte d’un éventuel effet préleveur</li>
+</ul>
 <section id="nombre-dobservations" class="level3">
 <h3 class="anchored" data-anchor-id="nombre-dobservations">Nombre d’observations</h3>
-<p>Généralement, 10 ceps par parcelle élémentaire sont nécessaires, avec un minimum de 30 ceps par modalité.</p>
+<p>Prélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.</p>
 </section>
-<section id="ceps-à-observer" class="level3">
-<h3 class="anchored" data-anchor-id="ceps-à-observer">Ceps à observer</h3>
+<section id="choix-des-ceps-à-observer" class="level3">
+<h3 class="anchored" data-anchor-id="choix-des-ceps-à-observer">Choix des ceps à observer</h3>
 <ul>
-<li>Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)</li>
-<li>Exclure de la mesure les ceps malades et les ceps voisins des manquants.</li>
-<li>Ne pas mesurer les ceps en bordure de rangs.</li>
+<li>Eviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)</li>
+<li>Ne pas prélever les ceps malades ou les remplaçants</li>
 </ul>
 </section>
-<section id="sarments-à-peser" class="level3">
-<h3 class="anchored" data-anchor-id="sarments-à-peser">Sarments à peser</h3>
-<p>Ne sont pesés que les sarments de l’année (exemple : dans le cas d’une taille guyot, la baguette n’est pas pesée). Les sarments cassés vers la base, les petits sarments (longueur inférieure à 10 cm) ne sont pas pesés.</p>
+<section id="choix-des-grappes-et-des-baies" class="level3">
+<h3 class="anchored" data-anchor-id="choix-des-grappes-et-des-baies">Choix des grappes et des baies</h3>
+<ul>
+<li>Alterner les faces de rangs</li>
+<li>Choisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)</li>
+<li>Prélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2.</li>
+</ul>
 </section>
 </section>
 <section id="mesure" class="level2">
 <h2 class="anchored" data-anchor-id="mesure">Mesure</h2>
 <section id="réalisation" class="level3">
 <h3 class="anchored" data-anchor-id="réalisation">Réalisation</h3>
-<ol type="1">
-<li><p>Compter le nombre de sarments par cep.</p></li>
-<li><p>Réaliser la taille des ceps sélectionnés en respectant les pratiques habituelles de la parcelle.</p></li>
-<li><p>Regrouper tous les sarments de chaque cep dans un fagot distinct, puis procéder à la pesée de chaque fagot.</p></li>
-</ol>
-</section>
-<section id="outils" class="level3">
-<h3 class="anchored" data-anchor-id="outils">Outils</h3>
-<p>Prévoir balance de terrain, sécateurs et équipements de protection.</p>
-</section>
-<section id="période-de-mesure" class="level3">
-<h3 class="anchored" data-anchor-id="période-de-mesure">Période de mesure</h3>
-<p>La pesée des bois de taille se fait en période de repos hivernal, après chute complète des feuilles et sur des ceps non pré-taillés. Vérifier les conditions météorologiques prévues pour réaliser la mesure dans de bonnes conditions.</p>
-</section>
-<section id="aspects-pratiques" class="level3">
-<h3 class="anchored" data-anchor-id="aspects-pratiques">Aspects pratiques</h3>
-<p>Il faut compter environ 12 ceps par heure et par personne.</p>
+<p>Après le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -486,52 +419,239 @@ Avertissement
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La taille présente des risques de coupures en lien avec l’utilisation des sécateurs, attention si vous utilisez des vieux modèles de sécateurs électriques.</p>
-<p>D’autre part, le tirage des bois peut aussi présenter un risque de blessures oculaires : il est recommandé de porter des lunettes de protection.</p>
+<p>Ne pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.</p>
 </div>
 </div>
-<div style="page-break-after: always;"></div>
+</section>
+<section id="outils" class="level3">
+<h3 class="anchored" data-anchor-id="outils">Outils</h3>
+<ul>
+<li>sachet ou boite de prélèvement</li>
+<li>papier essuie-tout</li>
+<li>glacière</li>
+</ul>
+</section>
+<section id="période-de-mesure" class="level3">
+<h3 class="anchored" data-anchor-id="période-de-mesure">Période de mesure</h3>
+<ul>
+<li>Pour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.</li>
+<li>Pour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.</li>
+</ul>
+</section>
+<section id="aspects-pratiques" class="level3">
+<h3 class="anchored" data-anchor-id="aspects-pratiques">Aspects pratiques</h3>
+<p>Stocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.</p>
+<p>Stocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.</p>
+<p>Utiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/matu_damier.png" class="img-fluid figure-img"></p>
+<figcaption>Damier pour compter les baies. Source : IFV, 2017</figcaption>
+</figure>
+</div>
 </section>
 </section>
 </section>
 <section id="traitement-des-résultats" class="level1">
 <h1>Traitement des résultats</h1>
-<section id="définition-des-variables1" class="level2">
-<h2 class="anchored" data-anchor-id="définition-des-variables1">Définition des variables<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></h2>
-<section id="expression-par-cep" class="level3">
-<h3 class="anchored" data-anchor-id="expression-par-cep">Expression par cep</h3>
-<p>Les variables suivantes peuvent être définies :</p>
-<ul>
-<li><p>le poids total des sarments par cep, exprimé en kg/cep (<a href="https://cropontology.org/term/CO_356:1000190">PRUN_FW_PLANT</a>)</p></li>
-<li><p>le nombre total de sarments par cep (<a href="https://cropontology.org/term/CO_356:1000157">NB_CANES_PLANT</a>).</p></li>
-<li><p>Un poids moyen du sarment peut être calculé en divisant le poids total des bois de taille par le nombre de sarments.</p></li>
-</ul>
-</section>
-<section id="expression-par-m²" class="level3">
-<h3 class="anchored" data-anchor-id="expression-par-m²">Expression par m²</h3>
-<p>L’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.</p>
-<ul>
-<li>Le poids de bois de taille peut être exprimé en kg/m² de sol (<a href="https://cropontology.org/term/CO_356:1000290">PRUN_FW_M2</a>) en prenant en compte la densité de plantation.</li>
-</ul>
-<p><span class="math display">\[ PRUN\_FW\_M2 = PRUN\_FW\_PLANT * (densité_{ha} /10 000) \]</span></p>
-<ul>
-<li>Le nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation. Cette variable n’existe pas encore dans la Vitis Ontology.</li>
-</ul>
-<p><span class="math display">\[
-NB\_CANES\_M2 = NB\_CANES\_PLANT * (densité_{ha} /10 000)
-\]</span></p>
-</section>
+<section id="définition-des-variables" class="level2">
+<h2 class="anchored" data-anchor-id="définition-des-variables">Définition des variables</h2>
+<p>Les paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.</p>
+<p>Le tableau ci-dessous reprend les principaux paramètres classiquement analysé.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Paramètre</th>
+<th>Vitis Ontology</th>
+<th>Méthode</th>
+<th>OIV <span class="citation" data-cites="recueil2025">[<a href="#ref-recueil2025" role="doc-biblioref">1</a>]</span></th>
+<th>Unité</th>
+<th>Remarque</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Teneur en sucres<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+<td><a href="https://cropontology.org/term/CO_356:1000217">BERRY_SUG_g</a></td>
+<td>Réfractomètre</td>
+<td>OIV-MA-AS2-02 (Type I)</td>
+<td>g.L<sup>-1</sup></td>
+<td>Voir <a href="https://www.vignevin-occitanie.com/fiches-pratiques/les-teneurs-en-sucres-et-leur-correspondance-avec-le-titre-alcoometrique-probable/">table de correspondance</a> avec les degrés brix (<a href="https://cropontology.org/term/CO_356:1000239">TSS</a>).</td>
+</tr>
+<tr class="even">
+<td>Teneur en sucres</td>
+<td><a href="https://cropontology.org/term/CO_356:1000086">GLUFRU</a></td>
+<td>Dosage enzymatique</td>
+<td>OIV-MA-AS311-02 (Type II)</td>
+<td>mg.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Poids d’une baie</td>
+<td><a href="https://cropontology.org/term/CO_356:1000215">SBER_W_g</a></td>
+<td>Balance</td>
+<td></td>
+<td>g</td>
+<td>Attention, penser à <strong>diviser</strong> par le nombre de baies prélevées pour obtenir le poids unitaire d’une baie.</td>
+</tr>
+<tr class="even">
+<td>pH</td>
+<td><a href="https://cropontology.org/term/CO_356:1000184">BERRY_pH</a></td>
+<td>pHmètre</td>
+<td>OIV-MA-AS313-15 (Type I)</td>
+<td>pH</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Acidité totale</td>
+<td><a href="https://cropontology.org/term/CO_356:1000303">BER_TA_man_g</a></td>
+<td>Titration manuelle</td>
+<td>OIV-MA-AS313-01 (Type I)</td>
+<td>g H<sub>2</sub>SO<sub>4</sub> .L<sup>-1</sup></td>
+<td>doit-on faire la différence entre titration manuelle ou automatique (c’est le cas dans la vitis ono.</td>
+</tr>
+<tr class="even">
+<td>Acide tartrique</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>pas clair sur les méthodes dans VO : metavan ??</td>
+</tr>
+<tr class="odd">
+<td>Acide malique</td>
+<td><a href="https://cropontology.org/term/CO_356:1000298">BER_MAL_g</a></td>
+<td>Dosage enzymatique</td>
+<td>OIV-MA-AS313-11 (Type II)</td>
+<td>g.L<sup>-1</sup></td>
+<td>L-malique ici ??</td>
+</tr>
+<tr class="even">
+<td>Acide malique</td>
+<td></td>
+<td>Electrophorèse</td>
+<td>OIV-MA-AS313-19 (Type II)</td>
+<td>g.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Acide lactique</td>
+<td></td>
+<td>Electrophorèse</td>
+<td>OIV-MA-AS313-19 (Type II)</td>
+<td>g.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Acide tartrique</td>
+<td></td>
+<td>Electrophorèse</td>
+<td>OIV-MA-AS313-19 (Type II)</td>
+<td>g.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Azote assimilable</td>
+<td><a href="https://cropontology.org/term/CO_356:1000535">BERRY_N_NH4&amp;AA</a></td>
+<td>Somme des teneurs en azote ammoniacal et aminé</td>
+<td></td>
+<td>mg.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Azote ammoniacal</td>
+<td><a href="https://cropontology.org/term/CO_356:1000352">BERRY_N_NH4</a></td>
+<td>Dosage enzymatique</td>
+<td></td>
+<td>mg.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Azote aminé</td>
+<td><a href="https://cropontology.org/term/CO_356:1000351">BERRY_N_AA</a></td>
+<td>Dosage colorimétrique</td>
+<td></td>
+<td>mg.L<sup>-1</sup></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>𝛅C13</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>quid IRTF ?</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Astuce
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consulter le <a href="https://vitioeno.mistea.inrae.fr/resource/app/variables?elementType=Variable">référentiel de variable</a> disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !</p>
+</div>
+</div>
 </section>
 <section id="interprétation-des-résultats" class="level2">
 <h2 class="anchored" data-anchor-id="interprétation-des-résultats">Interprétation des résultats</h2>
-<p>Expression végétative et vigueur sont directement liées à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.</p>
-<p>L’indice Ravaz <em>IR</em> est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille. Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs <span class="citation" data-cites="steyn2016">[<a href="#ref-steyn2016" role="doc-biblioref">2</a>]</span>.</p>
-<p><span class="math display">\[ IR = \frac{Rendement_{kg/cep}}{PBT_{kg/cep}} \]</span></p>
-<p>L’interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.</p>
+<p>Les paramètres analytiques permettent d’appréhender les différents types de maturité.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 37%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type de maturité</th>
+<th>Définition</th>
+<th>Paramètres</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Maturité physiologique</td>
+<td>C’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.</td>
+<td>Mesure de la taille et du poids des baies. Couleur et dureté des pépins.</td>
+</tr>
+<tr class="even">
+<td>Maturité technologique</td>
+<td>À ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.</td>
+<td>Teneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique</td>
+</tr>
+<tr class="odd">
+<td>Maturité phénolique</td>
+<td>Cette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.</td>
+<td>Teneurs en anthocyanes, tannins. Indice polyphénolique total.</td>
+</tr>
+<tr class="even">
+<td>Maturité aromatique</td>
+<td>À ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.</td>
+<td>Teneurs en composés aromatiques</td>
+</tr>
+</tbody>
+</table>
+<p>Chaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités <span class="citation" data-cites="lacroix2024">[<a href="#ref-lacroix2024" role="doc-biblioref">2</a>]</span>. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation.</p>
 </section>
 </section>
 <section id="compléments-dinformation" class="level1">
 <h1>Compléments d’information</h1>
+<section id="ressources-complémentaires" class="level2">
+<h2 class="anchored" data-anchor-id="ressources-complémentaires">Ressources complémentaires</h2>
+<p>Fiches sur le prélèvement des raisins :</p>
+<ul>
+<li><p><a href="https://www.vignevin-occitanie.com/fiches-pratiques/prelevement-de-raisins/">IFV Occitanie</a></p></li>
+<li><p><a href="https://www.institut-rhodanien.com/upload/article/file/021viticulturerealiserunprelevementmatu-668f97f56682b.pdf">Institut Rhodanien</a></p></li>
+<li><p><a href="https://techniloire.com/fiche-technique/suivre-la-maturite-de-ses-raisins">Techniloire</a></p></li>
+</ul>
+</section>
 <section id="références" class="level2">
 
 
@@ -542,16 +662,16 @@ NB\_CANES\_M2 = NB\_CANES\_PLANT * (densité_{ha} /10 000)
 
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Références</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-champagnol1984" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Champagnol, F. <em>Éléments de Physiologie de la Vigne et de Viticulture Générale.</em>; 1984;</div>
+<div id="ref-recueil2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><em><a href="https://www.oiv.int/fr/standards/recueil-des-methodes-d%E2%80%99analyse-des-vins-et-mouts">Recueil des méthodes internationales d’analyse des vins et des moûts</a></em>; Office international de la Vigne et du Vin, 2025; Vol. 1;</div>
 </div>
-<div id="ref-steyn2016" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Steyn, J.; Aleixandre Tudo, J.; Aleixandre Benavent, J.L. <a href="https://riunet.upv.es/handle/10251/97767">International Journal of Scientific and Engineering Research</a>.; IJSER Publishing, 2016; Vol. 7, p. 1056‑1065.</div>
+<div id="ref-lacroix2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Lacroix, R.; Bécart, V.; Puech, C. <a href="https://www.institut-rhodanien.com/upload/article/file/024viticultureinterpretersesresultatsmaturite-6697c49208f0e.pdf">Interpréter ses résultats maturité</a>. <em>Intitut Rhodanien Fiche technique Viticulture</em> <strong>2024</strong>, 2.</div>
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notes de bas de page</h2>
 
 <ol>
-<li id="fn1"><p>Les noms des variables dans le référentiel de la crop ontology <a href="https://cropontology.org/term/CO_356:ROOT">VITIS356</a> sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Toujours conserver/préférer la <strong>teneur en sucres</strong> dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

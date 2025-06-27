@@ -231,11 +231,11 @@
     ]
   },
   {
-    "objectID": "fiche_pheno_ver.html#définition-des-variables1",
-    "href": "fiche_pheno_ver.html#définition-des-variables1",
+    "objectID": "fiche_pheno_ver.html#définition-des-variables2",
+    "href": "fiche_pheno_ver.html#définition-des-variables2",
     "title": "Suivi de la véraison de la vigne",
-    "section": "Définition des variables1",
-    "text": "Définition des variables1\n\nSelon la méthode de mesure, la variable observée est :\n\nle pourcentage de baies molles (SOFT_BER_PC) ou\nle pourcentage de baies colorées (COL_BER_PC).\n\n\nLa correspondance avec le stade BBCH [2] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.\n\nLa date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (VER_50). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (DOY_VER).\n\nPar exemple, le 7 août 2024 est le jour 220 de l’année.",
+    "section": "Définition des variables2",
+    "text": "Définition des variables2\n\nSelon la méthode de mesure, la variable observée est :\n\nle pourcentage de baies molles (SOFT_BER_PC) ou\nle pourcentage de baies colorées (COL_BER_PC).\n\n\nLa correspondance avec le stade BBCH [3] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.\n\nLa date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (VER_50). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (DOY_VER).\n\nPar exemple, le 7 août 2024 est le jour 220 de l’année.",
     "crumbs": [
       "Phénologie",
       "Suivi de la véraison de la vigne"
@@ -308,11 +308,11 @@
     ]
   },
   {
-    "objectID": "fiche_pheno_dbr.html#définition-des-variables1",
-    "href": "fiche_pheno_dbr.html#définition-des-variables1",
+    "objectID": "fiche_pheno_dbr.html#définition-des-variables2",
+    "href": "fiche_pheno_dbr.html#définition-des-variables2",
     "title": "Suivi du débourrement de la vigne",
-    "section": "Définition des variables1",
-    "text": "Définition des variables1\n\nA partir de l’observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep (PER_SBU).\nLa date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d’yeux francs laissés à la taille est atteint (BUD_DATE). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l’année (DOY_BUD). Par exemple, le 28 mars 2024 est le jour 88 de l’année.",
+    "section": "Définition des variables2",
+    "text": "Définition des variables2\n\nA partir de l’observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep (PER_SBU).\nLa date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d’yeux francs laissés à la taille est atteint (BUD_DATE). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l’année (DOY_BUD). Par exemple, le 28 mars 2024 est le jour 88 de l’année.",
     "crumbs": [
       "Phénologie",
       "Suivi du débourrement de la vigne"
@@ -358,7 +358,7 @@
     "section": "",
     "text": "Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
   },
@@ -369,7 +369,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSur feuilles, observer 100 feuilles pour chaque répétition.\nSur grappes, observer 50 (essai en conditions contrôlées) à 100 grappes (essai en conditions naturelles) pour chaque répétition.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes de chaque cep.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
   },
@@ -380,7 +380,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nSur chaque feuille ou grappe échantillonnée aléatoirement, la proportion de feuille ou de baies atteinte par la maladie est estimée visuellement.\n\n\n\nEchelle d’évaluation de la surface atteinte sur grappe [3].\n\n\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.\n\n\n\n\nOutils\nFeuille de notation.\nCertaines applications existent pour la saisie terrain sur smartphone, comme par exempe PMapp .\n\n\nPériode de mesure\nLes comptages précis peuvent être réalisés à tout moment, en fonction de l’évolution de l’épidémie maladie et à partir d’un seuil minimal d’attaque.\nSur feuilles, une à deux observations en cours de saison suivant la pression maladie.\nLes grappes sont les plus sensibles à la maladie. L’évolution de la maladie s’observe facilement entre la nouaison et le début de la véraison. Au-delà, surtout sur les cépages rouges, il est impossible d’apprécier correctement les dégâts. Une dernière observation peut être réalisée avant récolte.\n\n\n\n\n\n\n\n\n\n\nOrganes\n7-8 feuilles étalées\nNouaison (BBCH71)\nFermeture de la grappe (BBCH77)\nDébut véraison (BBCH81)\n\n\n\n\nRameaux\ndrapeaux si cépage ou parcelle très sensible\n\n\n\n\n\nFeuilles\n\nsuivant pression maladies\nrecommandé\n\n\n\nGrappes\n\n\nrecommandé\nrecommandé\n\n\n\n\n\nAspects pratiques\nLa notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entraîné et un notateur) pour observer 100 feuilles ou 50 grappes.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
   },
@@ -391,7 +391,7 @@
     "section": "Définition des variables",
     "text": "Définition des variables\nLa sévérité S (severity en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale [4], sur :\n\nfeuille (UN_LEAF_PC)\ngrappe (UN_BER_PC).\n\nA partir des valeurs de sévérité, il est possible de calculer :\n\nLa fréquence F (incidence en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.\nL’intensité d’attaque I (intensity en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
   },
@@ -402,7 +402,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
   },
@@ -413,7 +413,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nPlateforme ephytia pour aide à la reconnaissance des symptômes de maladie sur vigne.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
   },
@@ -424,7 +424,7 @@
     "section": "",
     "text": "Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
   },
@@ -435,7 +435,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSur un dispositif expérimental, un minimum de 10 ceps doit être observé pour chaque répétition.\nSur une parcelle entière, 50 ceps répartis régulièrement le long d’un parcours seront observés au minimum.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes de chaque cep.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
   },
@@ -446,7 +446,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nPour chaque cep, et chaque bio-agresseur, sont notés la fréquence et l’intensité globale sur feuilles et grappes.\nL’intensité est l’impact global des symptômes de la maladie sur le feuillage et sur les grappes dans leur ensemble. Par exemple, si 50% des feuilles d’un cep sont touchées par du mildiou, avec une intensité moyenne sur feuilles touchées de 25%, l’intensité globale de symptômes de mildiou sur le cep sera de 50*25/100 = 12,5%.\n\nEchelle de notation OSCAR [1]\n\n\nFréquence d’organes touchés\nIntensité globale des symptômes\n\n\n\n\n5 - Très élevée (&gt;50%)\n5 - Dégâts très importants (&gt;50%)\n\n\n4 - Elevée (10-50%)\n4 - Dégâts importants (10- 50%)\n\n\n3 - Moyenne ( 5 - 10%)\n3 - Dégâts significatifs (5-10%)\n\n\n2 - Faible (1 - 5%)\n2 - Facilement visibles (1-5%)\n\n\n1 - Cas isolés (&lt;1%)\n1 - Traces (&lt;1%)\n\n\n0 - Nulle\n0 - Nulle\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.\n\n\n\n\nOutils\nFeuille de notation.\n\n\nPériode de mesure\nRéaliser les observations aux stades phénologiques suivants :\n\nFermeture de la grappe\nRécolte\n\n\n\nAspects pratiques\nLa notation est assez rapide, environ 10 minutes sont nécessaires à une personne habituée par parcelle (50 ceps) ou modalité (3*10 ceps).",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
   },
@@ -457,7 +457,7 @@
     "section": "Définition des variables",
     "text": "Définition des variables\nMoyenne par modalité ou par parcelle.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
   },
@@ -468,7 +468,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
   },
@@ -479,185 +479,9 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nProtocoles OSCAR en ligne\nPlateforme ephytia pour aide à la reconnaissance des symptômes de maladie sur vigne.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
-  },
-  {
-    "objectID": "fiche_carences.html",
-    "href": "fiche_carences.html",
-    "title": "Désordres nutritionnels",
-    "section": "",
-    "text": "Le diagnostic et l’observation de carences permettent d’appréhender l’état nutritionnel de la vigne. Une carence (ou un excès) d’éléments nutritifs peut fausser l’évaluation d’un essai en affectant la vigueur et la sensibilité de la vigne aux maladies.\nSi un désordre nutritionnel est détectée en cours d’essai, des ajustements doivent être envisagés pour garantir la robustesse des résultats (élimination des ceps malades de l’échantillon observé, fertilisation ou mesure corrective…).",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "fiche_carences.html#échantillonnage",
-    "href": "fiche_carences.html#échantillonnage",
-    "title": "Désordres nutritionnels",
-    "section": "Échantillonnage",
-    "text": "Échantillonnage\n\nNombre d’observations\nL’observation se fait le long d’un parcours, à l’échelle de la parcelle ou de la modalité.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes en particulier, à adapter selon la carence.",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "fiche_carences.html#mesure",
-    "href": "fiche_carences.html#mesure",
-    "title": "Désordres nutritionnels",
-    "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nL’opérateur place la parcelle dans la catégorie correspondante pour les feuilles et pour les grappes en ce qui concerne :\n\nla fréquence de ceps touchés,\nla fréquence d’organes touchés,\nl’intensité1 moyenne des symptômes (comprenant les organes sains).\n\n\nEchelle de notation, protocole simplifié OSCAR [2]\n\n\n\n\n\n\n\nFréquence de ceps touchés\nFréquence d’organes touchés\nIntensité globale des symptômes\n\n\n\n\n5 - Présence généralisée (&gt;80%)\n5 - Très élevée (&gt;50%)\n5 - Dégâts très importants (&gt;50%)\n\n\n4 - Présence très importante (50 - 80%)\n4 - Elevée (10-50%)\n4 - Dégâts importants (10- 50%)\n\n\n3 - Présence importante (25- 50%)\n3 - Moyenne ( 5 - 10%)\n3 - Dégâts significatifs (5-10%)\n\n\n2 - Présence régulière (5 - 25%)\n2 - Faible (1 - 5%)\n2 - Facilement visibles (1-5%)\n\n\n1 - Rares (&lt;5%)\n1 - Cas isolés (&lt;1%)\n1 - Traces (&lt;1%)\n\n\n0 - Nulle\n0 - Nulle\n0 - Nulle\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour valider le diagnostic.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLa période d’observation dépend du type de carence.\n\nPériodes d’observations selon les principales carences\n\n\nCarences\nPériode d’observation\n\n\n\n\nChlorose ferrique\nPrintemps / Floraison\n\n\nCarence en potassium\nEté\n\n\nCarence en magnésium\nEté\n\n\nCarence en potassium\nEté\n\n\n\n\n\nAspects pratiques",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "fiche_carences.html#définition-des-variables",
-    "href": "fiche_carences.html#définition-des-variables",
-    "title": "Désordres nutritionnels",
-    "section": "Définition des variables",
-    "text": "Définition des variables\nMoyenne par modalité ou par parcelle.",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "fiche_carences.html#interprétation-des-résultats",
-    "href": "fiche_carences.html#interprétation-des-résultats",
-    "title": "Désordres nutritionnels",
-    "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe), de l’historique météo (les printemps pluvieux favorisent la chlorose ferrique).\n\n\n\n\n\n\nAvertissement\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en éléments minéraux dans les pétioles ou feuilles peut-être utile pour confirmer une carence. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.\nAttention aux risques de confusion avec d’autres symptômes (maladies, sécheresse…) !",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "fiche_carences.html#ressources-complémentaires",
-    "href": "fiche_carences.html#ressources-complémentaires",
-    "title": "Désordres nutritionnels",
-    "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\nFiche sur la chlorose ferrique\nPlateforme ephytia pour aide à la reconnaissance des symptômes de désordres nutritionnels sur vigne.",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "fiche_carences.html#footnotes",
-    "href": "fiche_carences.html#footnotes",
-    "title": "Désordres nutritionnels",
-    "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nL’intensité est l’impact global des symptômes de la maladie sur le feuillage et sur les grappes dans leur ensemble. Par exemple, si 50% des feuilles d’un cep sont touchées , avec une intensité moyenne sur feuilles touchées de 25%, l’intensité globale de symptômes sur le cep sera de 50*25/100 = 12,5%.↩︎",
-    "crumbs": [
-      "Maladies et carences",
-      "Désordres nutritionnels"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Introduction",
-    "section": "",
-    "text": "Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d’expérimentation en vigne et vin. L’objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#proposer-des-révisions-sur-une-fiche-existante",
-    "href": "index.html#proposer-des-révisions-sur-une-fiche-existante",
-    "title": "Introduction",
-    "section": "Proposer des révisions sur une fiche existante",
-    "text": "Proposer des révisions sur une fiche existante\nMalgré nos efforts, ces fiches peuvent sans doute être améliorées. Si vous souhaitez proposer des révisions (corrections, ajouts, modification), le plus simple est de télécharger la fiche concernée en format docx, de l’ouvrir et de l’éditer en mode révision.\nVous pouvez nous la renvoyer par email (voir rubrique A propos) en l’accompagnant de quelques explications sur les révisions proposées.\nAprès une phase de validation et d’échange, la fiche sera mise à jour et votre nom sera ajouté (avec votre accord) à la liste des contributeurs.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#proposer-une-nouvelle-fiche",
-    "href": "index.html#proposer-une-nouvelle-fiche",
-    "title": "Introduction",
-    "section": "Proposer une nouvelle fiche",
-    "text": "Proposer une nouvelle fiche\nSi vous souhaitez proposer une nouvelle fiche méthodologique, un modèle vierge est disponible au format docx. Vous pouvez l’éditer et nous envoyer votre proposition par email (voir rubrique A propos) en l’accompagnant de quelques explications.\nSi vous n’avez pas le temps, nous pouvons prendre en charge la rédaction.\n\n\n\n\n\n\nMise en garde\n\n\n\nIl est toutefois recommandé de prendre contact avec nous au préalable, d’une part pour vérifier qu’une fiche équivalente n’est pas en préparation, et d’autre part pour identifier des experts pour appui à la rédaction ou relecture.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "A propos",
-    "section": "",
-    "text": "Ces pages web sont éditées et gérées par l’Institut Français de la Vigne et du Vin, 2025.",
-    "crumbs": [
-      "A propos"
-    ]
-  },
-  {
-    "objectID": "about.html#ressources-et-financements",
-    "href": "about.html#ressources-et-financements",
-    "title": "A propos",
-    "section": "Ressources et financements",
-    "text": "Ressources et financements\nCe site a été cofinancé par l’Agence de l’Eau Rhône Méditerranée Corse et l’Europe via les fonds FEADER dans le cadre du projet CEPOCLIM [2024-2027] Cépages et Porte-greffes adaptés au changement climatiques.",
-    "crumbs": [
-      "A propos"
-    ]
-  },
-  {
-    "objectID": "template_fiche.html",
-    "href": "template_fiche.html",
-    "title": "Lorem ipsum",
-    "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. #"
-  },
-  {
-    "objectID": "template_fiche.html#échantillonnage",
-    "href": "template_fiche.html#échantillonnage",
-    "title": "Lorem ipsum",
-    "section": "Échantillonnage",
-    "text": "Échantillonnage\n\nNombre d’observations\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\nChoix des ceps à observer\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nLorem ipsum dolor sit amet, consectetur adipiscing elit"
-  },
-  {
-    "objectID": "template_fiche.html#mesure",
-    "href": "template_fiche.html#mesure",
-    "title": "Lorem ipsum",
-    "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.\n\nProin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.\nDuis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.\n\nPellentesque congue. Ut in risus volutpat libero pharetra tempor.\n\n\nOutils\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\n\nPériode de mesure\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\n\nAspects pratiques\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
-  },
-  {
-    "objectID": "template_fiche.html#définition-des-variables",
-    "href": "template_fiche.html#définition-des-variables",
-    "title": "Lorem ipsum",
-    "section": "Définition des variables",
-    "text": "Définition des variables\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\nlorem ipsum\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\\[ Ig = P_2 + 0.5*P_1 \\]\n\n\nlorem ipsum\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
-  },
-  {
-    "objectID": "template_fiche.html#interprétation-des-résultats",
-    "href": "template_fiche.html#interprétation-des-résultats",
-    "title": "Lorem ipsum",
-    "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
-  },
-  {
-    "objectID": "template_fiche.html#ressources-complémentaires",
-    "href": "template_fiche.html#ressources-complémentaires",
-    "title": "Lorem ipsum",
-    "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
-  },
-  {
-    "objectID": "template_fiche.html#références",
-    "href": "template_fiche.html#références",
-    "title": "Lorem ipsum",
-    "section": "Références",
-    "text": "Références"
   },
   {
     "objectID": "fiche_chl_index.html",
@@ -726,13 +550,276 @@
     ]
   },
   {
+    "objectID": "template_fiche.html",
+    "href": "template_fiche.html",
+    "title": "Lorem ipsum",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. #"
+  },
+  {
+    "objectID": "template_fiche.html#échantillonnage",
+    "href": "template_fiche.html#échantillonnage",
+    "title": "Lorem ipsum",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\n\nNombre d’observations\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n\nChoix des ceps à observer\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nLorem ipsum dolor sit amet, consectetur adipiscing elit\nLorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  {
+    "objectID": "template_fiche.html#mesure",
+    "href": "template_fiche.html#mesure",
+    "title": "Lorem ipsum",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.\n\nProin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.\nDuis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.\n\nPellentesque congue. Ut in risus volutpat libero pharetra tempor.\n\n\nOutils\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\n\nPériode de mesure\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\n\nAspects pratiques\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
+  },
+  {
+    "objectID": "template_fiche.html#définition-des-variables",
+    "href": "template_fiche.html#définition-des-variables",
+    "title": "Lorem ipsum",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\nlorem ipsum\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.\n\\[ Ig = P_2 + 0.5*P_1 \\]\n\n\nlorem ipsum\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
+  },
+  {
+    "objectID": "template_fiche.html#interprétation-des-résultats",
+    "href": "template_fiche.html#interprétation-des-résultats",
+    "title": "Lorem ipsum",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
+  },
+  {
+    "objectID": "template_fiche.html#ressources-complémentaires",
+    "href": "template_fiche.html#ressources-complémentaires",
+    "title": "Lorem ipsum",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus."
+  },
+  {
+    "objectID": "template_fiche.html#références",
+    "href": "template_fiche.html#références",
+    "title": "Lorem ipsum",
+    "section": "Références",
+    "text": "Références"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d’expérimentation en vigne et vin. L’objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#proposer-des-révisions-sur-une-fiche-existante",
+    "href": "index.html#proposer-des-révisions-sur-une-fiche-existante",
+    "title": "Introduction",
+    "section": "Proposer des révisions sur une fiche existante",
+    "text": "Proposer des révisions sur une fiche existante\nMalgré nos efforts, ces fiches peuvent sans doute être améliorées. Si vous souhaitez proposer des révisions (corrections, ajouts, modification), le plus simple est de télécharger la fiche concernée en format docx, de l’ouvrir et de l’éditer en mode révision.\nVous pouvez nous la renvoyer par email (voir rubrique A propos) en l’accompagnant de quelques explications sur les révisions proposées.\nAprès une phase de validation et d’échange, la fiche sera mise à jour et votre nom sera ajouté (avec votre accord) à la liste des contributeurs.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#proposer-une-nouvelle-fiche",
+    "href": "index.html#proposer-une-nouvelle-fiche",
+    "title": "Introduction",
+    "section": "Proposer une nouvelle fiche",
+    "text": "Proposer une nouvelle fiche\nSi vous souhaitez proposer une nouvelle fiche méthodologique, un modèle vierge est disponible au format docx. Vous pouvez l’éditer et nous envoyer votre proposition par email (voir rubrique A propos) en l’accompagnant de quelques explications.\nSi vous n’avez pas le temps, nous pouvons prendre en charge la rédaction.\n\n\n\n\n\n\nMise en garde\n\n\n\nIl est toutefois recommandé de prendre contact avec nous au préalable, d’une part pour vérifier qu’une fiche équivalente n’est pas en préparation, et d’autre part pour identifier des experts pour appui à la rédaction ou relecture.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "A propos",
+    "section": "",
+    "text": "Ces pages web sont éditées et gérées par l’Institut Français de la Vigne et du Vin, 2025.",
+    "crumbs": [
+      "A propos"
+    ]
+  },
+  {
+    "objectID": "about.html#ressources-et-financements",
+    "href": "about.html#ressources-et-financements",
+    "title": "A propos",
+    "section": "Ressources et financements",
+    "text": "Ressources et financements\nCe site a été cofinancé par l’Agence de l’Eau Rhône Méditerranée Corse et l’Europe via les fonds FEADER dans le cadre du projet CEPOCLIM [2024-2027] Cépages et Porte-greffes adaptés au changement climatiques.",
+    "crumbs": [
+      "A propos"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html",
+    "href": "fiche_matu.html",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "",
+    "text": "Le suivi de maturité permet de mesurer les paramètres de composition des baies et d’apprécier la qualité de la vendange. Le suivi de maturité aide à déterminer la date optimale de récolte."
+  },
+  {
+    "objectID": "fiche_matu.html#échantillonnage",
+    "href": "fiche_matu.html#échantillonnage",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2."
+  },
+  {
+    "objectID": "fiche_matu.html#mesure",
+    "href": "fiche_matu.html#mesure",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\nAspects pratiques\nStocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017"
+  },
+  {
+    "objectID": "fiche_matu.html#définition-des-variables",
+    "href": "fiche_matu.html#définition-des-variables",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\nRemarque\n\n\n\n\nTeneur en sucres1\nBERRY_SUG_g\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\nVoir table de correspondance avec les degrés brix (TSS).\n\n\nTeneur en sucres\nGLUFRU\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\n\nPoids d’une baie\nSBER_W_g\nBalance\n\ng\nAttention, penser à diviser par le nombre de baies prélevées pour obtenir le poids unitaire d’une baie.\n\n\npH\nBERRY_pH\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\n\nAcidité totale\nBER_TA_man_g\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\ndoit-on faire la différence entre titration manuelle ou automatique (c’est le cas dans la vitis ono.\n\n\nAcide tartrique\n\n\n\n\npas clair sur les méthodes dans VO : metavan ??\n\n\nAcide malique\nBER_MAL_g\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\nL-malique ici ??\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide lactique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAzote assimilable\nBERRY_N_NH4&AA\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\n\nAzote ammoniacal\nBERRY_N_NH4\nDosage enzymatique\n\nmg.L-1\n\n\n\nAzote aminé\nBERRY_N_AA\nDosage colorimétrique\n\nmg.L-1\n\n\n\n𝛅C13\n\n\n\n\n\n\n\n\nquid IRTF ?\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !"
+  },
+  {
+    "objectID": "fiche_matu.html#interprétation-des-résultats",
+    "href": "fiche_matu.html#interprétation-des-résultats",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nLes paramètres analytiques permettent d’appréhender les différents types de maturité.\n\n\n\n\n\n\n\n\nType de maturité\nDéfinition\nParamètres\n\n\n\n\nMaturité physiologique\nC’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.\nMesure de la taille et du poids des baies. Couleur et dureté des pépins.\n\n\nMaturité technologique\nÀ ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.\nTeneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique\n\n\nMaturité phénolique\nCette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.\nTeneurs en anthocyanes, tannins. Indice polyphénolique total.\n\n\nMaturité aromatique\nÀ ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.\nTeneurs en composés aromatiques\n\n\n\nChaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités [2]. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation."
+  },
+  {
+    "objectID": "fiche_matu.html#ressources-complémentaires",
+    "href": "fiche_matu.html#ressources-complémentaires",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nFiches sur le prélèvement des raisins :\n\nIFV Occitanie\nInstitut Rhodanien\nTechniloire"
+  },
+  {
+    "objectID": "fiche_matu.html#footnotes",
+    "href": "fiche_matu.html#footnotes",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.↩︎"
+  },
+  {
+    "objectID": "fiche_carences.html",
+    "href": "fiche_carences.html",
+    "title": "Désordres nutritionnels",
+    "section": "",
+    "text": "Le diagnostic et l’observation de carences permettent d’appréhender l’état nutritionnel de la vigne. Une carence (ou un excès) d’éléments nutritifs peut fausser l’évaluation d’un essai en affectant la vigueur et la sensibilité de la vigne aux maladies.\nSi un désordre nutritionnel est détectée en cours d’essai, des ajustements doivent être envisagés pour garantir la robustesse des résultats (élimination des ceps malades de l’échantillon observé, fertilisation ou mesure corrective…)."
+  },
+  {
+    "objectID": "fiche_carences.html#échantillonnage",
+    "href": "fiche_carences.html#échantillonnage",
+    "title": "Désordres nutritionnels",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\n\nNombre d’observations\nL’observation se fait le long d’un parcours, à l’échelle de la parcelle ou de la modalité.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes en particulier, à adapter selon la carence."
+  },
+  {
+    "objectID": "fiche_carences.html#mesure",
+    "href": "fiche_carences.html#mesure",
+    "title": "Désordres nutritionnels",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nL’opérateur place la parcelle dans la catégorie correspondante pour les feuilles et pour les grappes en ce qui concerne :\n\nla fréquence de ceps touchés,\nla fréquence d’organes touchés,\nl’intensité1 moyenne des symptômes (comprenant les organes sains).\n\n\nEchelle de notation, protocole simplifié OSCAR [2]\n\n\n\n\n\n\n\nFréquence de ceps touchés\nFréquence d’organes touchés\nIntensité globale des symptômes\n\n\n\n\n5 - Présence généralisée (&gt;80%)\n5 - Très élevée (&gt;50%)\n5 - Dégâts très importants (&gt;50%)\n\n\n4 - Présence très importante (50 - 80%)\n4 - Elevée (10-50%)\n4 - Dégâts importants (10- 50%)\n\n\n3 - Présence importante (25- 50%)\n3 - Moyenne ( 5 - 10%)\n3 - Dégâts significatifs (5-10%)\n\n\n2 - Présence régulière (5 - 25%)\n2 - Faible (1 - 5%)\n2 - Facilement visibles (1-5%)\n\n\n1 - Rares (&lt;5%)\n1 - Cas isolés (&lt;1%)\n1 - Traces (&lt;1%)\n\n\n0 - Nulle\n0 - Nulle\n0 - Nulle\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour valider le diagnostic.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLa période d’observation dépend du type de carence.\n\nPériodes d’observations selon les principales carences\n\n\nCarences\nPériode d’observation\n\n\n\n\nChlorose ferrique\nPrintemps / Floraison\n\n\nCarence en potassium\nEté\n\n\nCarence en magnésium\nEté\n\n\nCarence en potassium\nEté\n\n\n\n\n\nAspects pratiques"
+  },
+  {
+    "objectID": "fiche_carences.html#définition-des-variables",
+    "href": "fiche_carences.html#définition-des-variables",
+    "title": "Désordres nutritionnels",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nMoyenne par modalité ou par parcelle."
+  },
+  {
+    "objectID": "fiche_carences.html#interprétation-des-résultats",
+    "href": "fiche_carences.html#interprétation-des-résultats",
+    "title": "Désordres nutritionnels",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe), de l’historique météo (les printemps pluvieux favorisent la chlorose ferrique).\n\n\n\n\n\n\nAvertissement\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en éléments minéraux dans les pétioles ou feuilles peut-être utile pour confirmer une carence. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.\nAttention aux risques de confusion avec d’autres symptômes (maladies, sécheresse…) !"
+  },
+  {
+    "objectID": "fiche_carences.html#ressources-complémentaires",
+    "href": "fiche_carences.html#ressources-complémentaires",
+    "title": "Désordres nutritionnels",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nFiche sur la chlorose ferrique\nPlateforme ephytia pour aide à la reconnaissance des symptômes de désordres nutritionnels sur vigne."
+  },
+  {
+    "objectID": "fiche_carences.html#footnotes",
+    "href": "fiche_carences.html#footnotes",
+    "title": "Désordres nutritionnels",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nL’intensité est l’impact global des symptômes de la maladie sur le feuillage et sur les grappes dans leur ensemble. Par exemple, si 50% des feuilles d’un cep sont touchées , avec une intensité moyenne sur feuilles touchées de 25%, l’intensité globale de symptômes sur le cep sera de 50*25/100 = 12,5%.↩︎"
+  },
+  {
+    "objectID": "fiche_chlorose.html",
+    "href": "fiche_chlorose.html",
+    "title": "Notation de chlorose ferrique",
+    "section": "",
+    "text": "La chlorose se traduit par une décoloration plus ou moins prononcée des feuilles, et peut engendrer des désordres physiologiques importants pour la vigne. L’évaluation de la présence et de la sévérité des symptômes permet le diagnostic et l’identification des causes sous-jacentes.",
+    "crumbs": [
+      "Carences",
+      "Notation de chlorose ferrique"
+    ]
+  },
+  {
+    "objectID": "fiche_chlorose.html#échantillonnage",
+    "href": "fiche_chlorose.html#échantillonnage",
+    "title": "Notation de chlorose ferrique",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.\n\n\n\nOrganes à observer\nJeunes feuilles à l’extrémité de rameaux principaux, poussés sur du bois de l’année (latte ou courson). N’est pas prise en compte la chlorose relevée sur les sarments issus de vieux bois ni sur les entre-coeurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
+    "crumbs": [
+      "Carences",
+      "Notation de chlorose ferrique"
+    ]
+  },
+  {
+    "objectID": "fiche_chlorose.html#mesure",
+    "href": "fiche_chlorose.html#mesure",
+    "title": "Notation de chlorose ferrique",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur les jeunes feuilles. Seuls les symptômes typiques de la chlorose (décoloration plus ou moins forte du limbe avec apparition plus ou moins prononcée des nervures) sont notés selon l’échelle du référentiel OIV [2], basée sur Pouget et Ottenwaelter, 1978 [1].\n\n9 : Absence de symptômes. Limbe de couleur vert foncé. (Pouget 0)\n7 : Limbe de couleur jaune pâle. Présence d’un réseau de petites nervures vertes (Pouget 2)\n5 : Limbe de couleur jaune franc. Nervures principales vertes (Pouget 3)\n3 : Apparition de petites nécroses sur le limbe jaune franc à blanchâtre. (Pouget 4)\n1 : Limbe nécrosé sur plus de 10% de la surface, sarment rabougirs, stade “cottis” (Pouget 5)\n\n\n\n\nPhotos des symptômes et note dans l’échelle OIV, d’après [3]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles touchées sur 2 rameaux différents.\n\n\n\n\n\n\nNote\n\n\n\nPouget et Ottenwaelter, 1978 [1] définissent une note 1 “limbe de couleur vert clair sans nervure apparentes”, sans équivalent dans l’échelle OIV. Certains cépages ayant un feuillage naturellement pâle au printemps (Ungni blanc par exemple), il n’est en effet pas recommandé d’utiliser ce niveau dans l’échelle de notation.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, au moment où la croissance des sarments est la plus active. Cette période se situe généralement aux environs de la floraison.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de chlorose ferrique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
+    "crumbs": [
+      "Carences",
+      "Notation de chlorose ferrique"
+    ]
+  },
+  {
+    "objectID": "fiche_chlorose.html#définition-des-variables",
+    "href": "fiche_chlorose.html#définition-des-variables",
+    "title": "Notation de chlorose ferrique",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nLa note de résistance à la chlorose ferrique selon l’échelle OIV est nommée RES_IC_OIV_401.\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation (parcelle ou placette).",
+    "crumbs": [
+      "Carences",
+      "Notation de chlorose ferrique"
+    ]
+  },
+  {
+    "objectID": "fiche_chlorose.html#interprétation-des-résultats",
+    "href": "fiche_chlorose.html#interprétation-des-résultats",
+    "title": "Notation de chlorose ferrique",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe), de l’historique météo (les printemps pluvieux favorisent la chlorose ferrique).\n\n\n\n\n\n\nAstuce\n\n\n\nUne analyse de sol avec dosage du calcaire total et du calcaire actif peut permettre d’affiner le diagnostic et de calibrer les mesures correctives.",
+    "crumbs": [
+      "Carences",
+      "Notation de chlorose ferrique"
+    ]
+  },
+  {
+    "objectID": "fiche_chlorose.html#ressources-complémentaires",
+    "href": "fiche_chlorose.html#ressources-complémentaires",
+    "title": "Notation de chlorose ferrique",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\n\nFiche sur la chlorose ferrique de l’IFV Occitanie.\nGuide Viticulture durable des Charentes, voir fiche sur la chlorose\nPlateforme ephytia pour aide à la reconnaissance des symptômes de désordres nutritionnels sur vigne.",
+    "crumbs": [
+      "Carences",
+      "Notation de chlorose ferrique"
+    ]
+  },
+  {
     "objectID": "fiche_mildiou_EPPO.html",
     "href": "fiche_mildiou_EPPO.html",
     "title": "Observations mildiou - Méthode EPPO",
     "section": "",
     "text": "Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
   },
@@ -743,7 +830,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSur feuilles, observer 100 feuilles pour chaque répétition.\nSur grappes, observer 50 (essai en conditions contrôlées) à 100 grappes (essai en conditions naturelles) pour chaque répétition.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes de chaque cep.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
   },
@@ -754,7 +841,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nSur chaque feuille ou grappe échantillonnée aléatoirement, la proportion de feuille ou de baies atteinte par la maladie est estimée visuellement.\n\n\n\nEchelle d’évaluation de la surface atteinte sur feuille [3]\n\n\n\n\nOutils\nFeuille de notation. Certaines applications existent pour la saisie terrain sur smartphone.\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.\n\n\n\n\nPériode de mesure\nLes comptages précis peuvent être réalisés à tout moment, en fonction de l’évolution de l’épidémie maladie et à partir d’un seuil minimal d’attaque.\nEn tout début d’épidémie, lorsque les symptômes sont peu nombreux, on peut compter l’ensemble des tâches présentes par répétition.\nSur grappes, les comptages peuvent être réalisés :\n\nsur inflorescence\nà la nouaison (rot gris)\navant le début de la véraison (rot brun)\n\n\n\nAspects pratiques\nLa notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entrainé et un notateur) pour observer 100 feuilles ou 50 grappes.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
   },
@@ -765,7 +852,7 @@
     "section": "Définition des variables",
     "text": "Définition des variables\nLa variable brute observée est la sévérité S (severity en anglais), i.e la surface de feuille ou de grappes attaquée par la maladie exprimée en pourcentage de la surface totale, soit :\n\nde la feuille (PM_LEAF_PC) ou\nde la grappe (PM_BER_PC).\n\nLes variables suivantes peuvent être calculées par répétition [4] :\n\nLa fréquence F (incidence en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.\nL’intensité d’attaque I (intensity en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
   },
@@ -776,7 +863,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
   },
@@ -787,7 +874,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nPlateforme ephytia pour aide à la reconnaissance des symptômes de maladie sur vigne.",
     "crumbs": [
-      "Maladies et carences",
+      "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
   },
@@ -880,11 +967,11 @@
     ]
   },
   {
-    "objectID": "fiche_pheno_flo.html#mesure",
-    "href": "fiche_pheno_flo.html#mesure",
+    "objectID": "fiche_pheno_flo.html#sur-le-terrain",
+    "href": "fiche_pheno_flo.html#sur-le-terrain",
     "title": "Suivi de la floraison de la vigne",
-    "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nL’échelle BBCH est l’échelle de référence à utiliser [2]. On considère qu’une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.\nLe taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.\n\n\n\nInflorescence à mi-floraison (BBCH65)\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de fleurs ouvertes, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de fleurs ouvertes.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.",
+    "section": "Sur le terrain",
+    "text": "Sur le terrain\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [3]. On considère qu’une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.\nLe stade mi-floraison est représenté par le stade (BBCH65).\nLe taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.\n\n\n\nEvolution du taux de floraison [1]\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de fleurs ouvertes, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de fleurs ouvertes.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.",
     "crumbs": [
       "Phénologie",
       "Suivi de la floraison de la vigne"
@@ -1141,161 +1228,6 @@
     "crumbs": [
       "Vigueur",
       "Diamètre des sarments"
-    ]
-  },
-  {
-    "objectID": "fiche_matu.html",
-    "href": "fiche_matu.html",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "",
-    "text": "Le suivi de maturité permet de mesurer les paramètres de composition des baies et d’apprécier la qualité de la vendange. Le suivi de maturité aide à déterminer la date optimale de récolte."
-  },
-  {
-    "objectID": "fiche_matu.html#échantillonnage",
-    "href": "fiche_matu.html#échantillonnage",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "Échantillonnage",
-    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2."
-  },
-  {
-    "objectID": "fiche_matu.html#mesure",
-    "href": "fiche_matu.html#mesure",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\nAspects pratiques\nStocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017"
-  },
-  {
-    "objectID": "fiche_matu.html#définition-des-variables",
-    "href": "fiche_matu.html#définition-des-variables",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "Définition des variables",
-    "text": "Définition des variables\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\nRemarque\n\n\n\n\nTeneur en sucres1\nBERRY_SUG_g\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\nVoir table de correspondance avec les degrés brix (TSS).\n\n\nTeneur en sucres\nGLUFRU\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\n\nPoids d’une baie\nSBER_W_g\nBalance\n\ng\nAttention, penser à diviser par le nombre de baies prélevées pour obtenir le poids unitaire d’une baie.\n\n\npH\nBERRY_pH\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\n\nAcidité totale\nBER_TA_man_g\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\ndoit-on faire la différence entre titration manuelle ou automatique (c’est le cas dans la vitis ono.\n\n\nAcide tartrique\n\n\n\n\npas clair sur les méthodes dans VO : metavan ??\n\n\nAcide malique\nBER_MAL_g\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\nL-malique ici ??\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide lactique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAzote assimilable\nBERRY_N_NH4&AA\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\n\nAzote ammoniacal\nBERRY_N_NH4\nDosage enzymatique\n\nmg.L-1\n\n\n\nAzote aminé\nBERRY_N_AA\nDosage colorimétrique\n\nmg.L-1\n\n\n\n𝛅C13\n\n\n\n\n\n\n\n\nquid IRTF ?\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !"
-  },
-  {
-    "objectID": "fiche_matu.html#interprétation-des-résultats",
-    "href": "fiche_matu.html#interprétation-des-résultats",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nLes paramètres analytiques permettent d’appréhender les différents types de maturité.\n\n\n\n\n\n\n\n\nType de maturité\nDéfinition\nParamètres\n\n\n\n\nMaturité physiologique\nC’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.\nMesure de la taille et du poids des baies. Couleur et dureté des pépins.\n\n\nMaturité technologique\nÀ ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.\nTeneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique\n\n\nMaturité phénolique\nCette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.\nTeneurs en anthocyanes, tannins. Indice polyphénolique total.\n\n\nMaturité aromatique\nÀ ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.\nTeneurs en composés aromatiques\n\n\n\nChaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités [2]. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation."
-  },
-  {
-    "objectID": "fiche_matu.html#ressources-complémentaires",
-    "href": "fiche_matu.html#ressources-complémentaires",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\nFiches sur le prélèvement des raisins :\n\nIFV Occitanie\nInstitut Rhodanien\nTechniloire"
-  },
-  {
-    "objectID": "fiche_matu.html#références",
-    "href": "fiche_matu.html#références",
-    "title": "SUivi maturité par prélèvement de baies",
-    "section": "Références",
-    "text": "Références\n[3]"
-  },
-  {
-    "objectID": "fiche_matu.html#footnotes",
-    "href": "fiche_matu.html#footnotes",
-    "title": "Suivi maturité par prélèvement de baies",
-    "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.↩︎"
-  },
-  {
-    "objectID": "fiche_pheno_dbr.html#définition-des-variables2",
-    "href": "fiche_pheno_dbr.html#définition-des-variables2",
-    "title": "Suivi du débourrement de la vigne",
-    "section": "Définition des variables2",
-    "text": "Définition des variables2\n\nA partir de l’observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep (PER_SBU).\nLa date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d’yeux francs laissés à la taille est atteint (BUD_DATE). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l’année (DOY_BUD). Par exemple, le 28 mars 2024 est le jour 88 de l’année.",
-    "crumbs": [
-      "Phénologie",
-      "Suivi du débourrement de la vigne"
-    ]
-  },
-  {
-    "objectID": "fiche_pheno_flo.html#sur-le-terrain",
-    "href": "fiche_pheno_flo.html#sur-le-terrain",
-    "title": "Suivi de la floraison de la vigne",
-    "section": "Sur le terrain",
-    "text": "Sur le terrain\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [3]. On considère qu’une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.\nLe stade mi-floraison est représenté par le stade (BBCH65).\nLe taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.\n\n\n\nEvolution du taux de floraison [1]\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de fleurs ouvertes, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de fleurs ouvertes.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.",
-    "crumbs": [
-      "Phénologie",
-      "Suivi de la floraison de la vigne"
-    ]
-  },
-  {
-    "objectID": "fiche_pheno_ver.html#définition-des-variables2",
-    "href": "fiche_pheno_ver.html#définition-des-variables2",
-    "title": "Suivi de la véraison de la vigne",
-    "section": "Définition des variables2",
-    "text": "Définition des variables2\n\nSelon la méthode de mesure, la variable observée est :\n\nle pourcentage de baies molles (SOFT_BER_PC) ou\nle pourcentage de baies colorées (COL_BER_PC).\n\n\nLa correspondance avec le stade BBCH [3] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.\n\nLa date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (VER_50). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (DOY_VER).\n\nPar exemple, le 7 août 2024 est le jour 220 de l’année.",
-    "crumbs": [
-      "Phénologie",
-      "Suivi de la véraison de la vigne"
-    ]
-  },
-  {
-    "objectID": "fiche_chlorose.html",
-    "href": "fiche_chlorose.html",
-    "title": "Notation de chlorose ferrique",
-    "section": "",
-    "text": "La chlorose se traduit par une décoloration plus ou moins prononcée des feuilles, et peut engendrer des désordres physiologiques important pour la vigne. L’évaluation de la présence et de la sévérité des symptômes permet le diagnostic et l’identification des causes sous-jacentes.",
-    "crumbs": [
-      "Carences",
-      "Notation de chlorose ferrique"
-    ]
-  },
-  {
-    "objectID": "fiche_chlorose.html#échantillonnage",
-    "href": "fiche_chlorose.html#échantillonnage",
-    "title": "Notation de chlorose ferrique",
-    "section": "Échantillonnage",
-    "text": "Échantillonnage\n\nNombre d’observations\nL’observation se fait le long d’un parcours, à l’échelle de la parcelle ou de la modalité, à l’échelle du cep.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nJeunes feuilles à l’extrémité de rameaux principaux, poussé sur du bois de l’année (latte ou courson). N’est pas prise en compte la chlorose relevée sur vieux bois ni sur les entre-coeurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
-    "crumbs": [
-      "Carences",
-      "Notation de chlorose ferrique"
-    ]
-  },
-  {
-    "objectID": "fiche_chlorose.html#mesure",
-    "href": "fiche_chlorose.html#mesure",
-    "title": "Notation de chlorose ferrique",
-    "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur les jeunes feuilles. Seuls les symptômes typiques de la chlorose (décoloration plus ou moins forte du limbe avec apparition plus ou moins prononcée des nervures) sont notés selon l’échelle du référentiel OIV [2], basée sur Pouget et Ottenwaelter, 1978 [1].\n\n9 : Absence de symptômes. Limbe de couleur vert foncé. (Pouget 0)\n7 : Limbe de couleur jaune pâle. Présence d’un réseau de petites nervures vertes (Pouget 2)\n5 : Limbe de couleur jaune franc. Nervures principales vertes (Pouget 3)\n3 : Apparition de petites nécroses sur le limbe jaune franc à blanchâtre. (Pouget 4)\n1 : Limbe nécrosé sur plus de 10% de la surface, sarment rabougirs, stade “cottis” (Pouget 5)\n\n\n\n\nPhotos des symptômes et note dans l’échelle OIV, d’après [3]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles touchées sur 2 rameaux différents.\n\n\n\n\n\n\nNote\n\n\n\nPouget et Ottenwaelter, 1978 [1] définissent une note 1 “limbe de couleur vert clair sans nervure apparentes”, sans équivalent dans l’échelle OIV. Certains cépages ayant un feuillage naturellement pâle au printemps (Ungni blanc par exemple), il n’est en effet pas recommandé d’utiliser ce niveau dans l’échelle de notation.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, au moment où la croissance des sarments est la plus active. Cette période se situe généralement aux environs de la floraison.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.",
-    "crumbs": [
-      "Carences",
-      "Notation de chlorose ferrique"
-    ]
-  },
-  {
-    "objectID": "fiche_chlorose.html#définition-des-variables",
-    "href": "fiche_chlorose.html#définition-des-variables",
-    "title": "Notation de chlorose ferrique",
-    "section": "Définition des variables",
-    "text": "Définition des variables\nLa note de résistance à la chlorose ferrique selon l’échelle OIV est nommée RES_IC_OIV_401.\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation.",
-    "crumbs": [
-      "Carences",
-      "Notation de chlorose ferrique"
-    ]
-  },
-  {
-    "objectID": "fiche_chlorose.html#interprétation-des-résultats",
-    "href": "fiche_chlorose.html#interprétation-des-résultats",
-    "title": "Notation de chlorose ferrique",
-    "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe), de l’historique météo (les printemps pluvieux favorisent la chlorose ferrique).\n\n\n\n\n\n\nAvertissement\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en éléments minéraux dans les pétioles ou feuilles peut-être utile pour confirmer une carence. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.\nAttention aux risques de confusion avec d’autres symptômes (maladies, sécheresse…) !\n\n\nSi une chlorose est détectée en cours d’essai, des ajustements doivent être envisagés pour garantir la robustesse des résultats (élimination des ceps malades de l’échantillon observé, fertilisation ou mesure corrective…).",
-    "crumbs": [
-      "Carences",
-      "Notation de chlorose ferrique"
-    ]
-  },
-  {
-    "objectID": "fiche_chlorose.html#ressources-complémentaires",
-    "href": "fiche_chlorose.html#ressources-complémentaires",
-    "title": "Notation de chlorose ferrique",
-    "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\nFiche sur la chlorose ferrique\nPlateforme ephytia pour aide à la reconnaissance des symptômes de désordres nutritionnels sur vigne.",
-    "crumbs": [
-      "Carences",
-      "Notation de chlorose ferrique"
     ]
   }
 ]
