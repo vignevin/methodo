@@ -46,7 +46,7 @@ Sont exclues les baies issues de grappes portées par les gourmands, et les grap
 
 L'échelle BBCH de la vigne[^1] est l'échelle de référence à utiliser [@lorenz1995]. Le stade mi-véraison est représenté par le stade ([BBCH85](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH85)).
 
-[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
+[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) [@roussey] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
 
 L'évaluation se fait par palpation à l'aveugle d'au moins 50 baies *in situ*, ou au laboratoire après prélèvement aléatoire, en alternant les faces de rang observées.
 

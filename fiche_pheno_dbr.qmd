@@ -38,7 +38,7 @@ L'ensemble des **yeux francs** laissés à la taille sont observés.
 
 L'échelle BBCH de la vigne[^1] est l'échelle de référence à utiliser [@lorenz1995]. Le stade débourrement est représenté par le stade ([BBCH07](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH07)).
 
-[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
+[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) [@roussey] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
 
 On considère qu'un bourgeon est débourré si on voit une petite pointe verte ou rouge ([BBCH07](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH07)). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement est calculé à chaque observation.
 

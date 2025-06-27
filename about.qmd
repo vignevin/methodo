@@ -15,6 +15,12 @@ affiliations:
     city: Lattes
     state: France
     postal-code: 34 970
+  - id: bnic
+    name: Bureau National Interprofessionnel du Cognac
+    address:  23 Allée Bernard Guionnet
+    city : Cognac
+    state: France
+    postal-code : 16 100
 author:
   - name: Xavier Delpuech
     orcid: 0000-0001-7278-3209
@@ -32,6 +38,9 @@ author:
   - name: Nathalie Fortin
     affiliations: 
         - ref: ca34
+  - name: Vincent Dumot
+    affiliations:
+        - ref : bnic
 ---
 
 Ces pages web sont éditées et gérées par l’Institut Français de la Vigne et du Vin, 2025.

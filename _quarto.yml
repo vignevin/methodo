@@ -35,12 +35,14 @@ website:
       - section: "Statut minéral"
         contents:
           - fiche_chl_index.qmd
-      - section: "Maladies et carences"
+      - section: "Maladies"
         contents:
           - fiche_maladies_OSCAR.qmd
           - fiche_mildiou_EPPO.qmd
           - fiche_oidium_EPPO.qmd
-          - fiche_carences.qmd
+      - section: "Carences"
+        contents:
+          - fiche_chlorose.qmd
       - about.qmd
   page-footer:
     right: "IFV 2025"

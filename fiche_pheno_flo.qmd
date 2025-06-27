@@ -42,7 +42,7 @@ Seules sont observées les deux premières **inflorescences** rencontrées à pa
 
 L'échelle BBCH de la vigne[^1] est l'échelle de référence à utiliser [@lorenz1995]. On considère qu'une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.
 
-[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
+[^1]: La [ressource](https://opendata.inrae.fr/ppd-res/grapevine#bbch_individualScale_grapevine) [@roussey] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.
 
 Le stade mi-floraison est représenté par le stade ([BBCH65](https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH65)).
 
