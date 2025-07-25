@@ -554,7 +554,7 @@
     "href": "template_fiche.html",
     "title": "Lorem ipsum",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. #"
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi."
   },
   {
     "objectID": "template_fiche.html#échantillonnage",
@@ -599,6 +599,83 @@
     "text": "Références"
   },
   {
+    "objectID": "fiche_matu.html",
+    "href": "fiche_matu.html",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "",
+    "text": "Mise en garde\n\n\n\nFiche en cours de validation. Pour toute remarque ou question, contactez-nous.",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html#échantillonnage",
+    "href": "fiche_matu.html#échantillonnage",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur (équilibrer l’échantillonnage par exemple)\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2.",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html#mesure",
+    "href": "fiche_matu.html#mesure",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\nAspects pratiques\nStocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html#définition-des-variables",
+    "href": "fiche_matu.html#définition-des-variables",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Définition des variables",
+    "text": "Définition des variables\n\nVariables agronomiques\nLa pesée des 200 baies permet d’estimer le poids moyen unitaire1 d’une baie (SBER_W_g), exprimé en grammes.\n\n\nVariables analytiques\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\n\n\n\n\nTeneur en sucres23\nBERRY_SUG_g\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\n\n\nTeneur en glucose et fructose\nGLUFRU\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\nTeneur en glucose et fructose\n\nHPLC\nOIV-MA-AS311-03 (Type II)\nmg.L-1\n\n\npH\nBERRY_pH\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\nAcidité totale\nBER_TA_man_g\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\n\n\nAcide tartrique\nBER_TART_HPLC_g\nHPLC\nOIV-MA-AS313-04 (Type IV)\ng.L-1\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\n\n\n\nAcide malique\nBER_MAL_g\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\n\n\nAcide malique\nBER_MAL_HPLC\nHPLC\nOIV-MA-AS313-04 (Type IV)\ng.L-1\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\nAzote assimilable\nBERRY_N_NH4&AA\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\nAzote ammoniacal\nBERRY_N_NH4\nDosage enzymatique\n\nmg.L-1\n\n\nAzote alpha-aminé\nBERRY_N_AA\nDosage colorimétrique\n\nmg.L-1\n\n\nComposés phénolique (DO280)\nBERRY_DO280\nSpectrophotométrie\n\nsans unité\n\n\nTeneur en K\nBERRY_K\nSpectrométrie de flamme\nOIV-MA-AS322-02A (Type II)\nmg.L-1\n\n\n𝛅C13\n\nSpectrométrie de masse\n\nsans unité\n\n\n\nLa plupart des laboratoires propose aussi en routine des dosages par spectroscopie infrarouge à transformée de Fourier (IRTF), méthode rapide et peu coûteuse.\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html#interprétation-des-résultats",
+    "href": "fiche_matu.html#interprétation-des-résultats",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nLes paramètres analytiques permettent d’appréhender les différents types de maturité.\n\n\n\n\n\n\n\n\nType de maturité\nDéfinition\nParamètres\n\n\n\n\nMaturité physiologique\nC’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.\nMesure de la taille et du poids des baies. Couleur et dureté des pépins.\n\n\nMaturité technologique\nÀ ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.\nTeneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique\n\n\nMaturité phénolique\nCette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.\nTeneurs en anthocyanes, tannins. Indice polyphénolique total.\n\n\nMaturité aromatique\nÀ ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.\nTeneurs en composés aromatiques\n\n\n\nChaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités [2]. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation.",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html#ressources-complémentaires",
+    "href": "fiche_matu.html#ressources-complémentaires",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nFiches sur le prélèvement des raisins :\n\nIFV Occitanie\nInstitut Rhodanien\nTechniloire",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
+    "objectID": "fiche_matu.html#footnotes",
+    "href": "fiche_matu.html#footnotes",
+    "title": "Suivi maturité par prélèvement de baies",
+    "section": "Notes de bas de page",
+    "text": "Notes de bas de page\n\n\nNe pas oublier de diviser le poids total de l’échantillon par le nombre de baies prélevées !↩︎\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.↩︎\nVoir table de correspondance avec les degrés brix (TSS).↩︎",
+    "crumbs": [
+      "Récolte",
+      "Suivi maturité par prélèvement de baies"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Introduction",
@@ -639,6 +716,16 @@
     ]
   },
   {
+    "objectID": "about.html#partenaires-techniques",
+    "href": "about.html#partenaires-techniques",
+    "title": "A propos",
+    "section": "Partenaires techniques",
+    "text": "Partenaires techniques",
+    "crumbs": [
+      "A propos"
+    ]
+  },
+  {
     "objectID": "about.html#ressources-et-financements",
     "href": "about.html#ressources-et-financements",
     "title": "A propos",
@@ -649,53 +736,147 @@
     ]
   },
   {
-    "objectID": "fiche_matu.html",
-    "href": "fiche_matu.html",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_carenceK.html",
+    "href": "fiche_carenceK.html",
+    "title": "Notation de carence en potassium",
     "section": "",
-    "text": "Le suivi de maturité permet de mesurer les paramètres de composition des baies et d’apprécier la qualité de la vendange. Le suivi de maturité aide à déterminer la date optimale de récolte."
+    "text": "Mise en garde\n\n\n\nFiche en cours de validation. Pour toute remarque ou question, contactez-nous.",
+    "crumbs": [
+      "Carences",
+      "Notation de carence en potassium"
+    ]
   },
   {
-    "objectID": "fiche_matu.html#échantillonnage",
-    "href": "fiche_matu.html#échantillonnage",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_carenceK.html#échantillonnage",
+    "href": "fiche_carenceK.html#échantillonnage",
+    "title": "Notation de carence en potassium",
     "section": "Échantillonnage",
-    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2."
+    "text": "Échantillonnage\n\nNombre d’observations\nObserver 25 à 50 ceps selon la zone à évaluer.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.\n\n\n\nOrganes à observer\nFeuilles à l’extrémité de rameaux principaux, poussés sur du bois de l’année (latte ou courson). Ne pas observer les sarments issus de vieux bois ni sur les entre-cœurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
+    "crumbs": [
+      "Carences",
+      "Notation de carence en potassium"
+    ]
   },
   {
-    "objectID": "fiche_matu.html#mesure",
-    "href": "fiche_matu.html#mesure",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_carenceK.html#mesure",
+    "href": "fiche_carenceK.html#mesure",
+    "title": "Notation de carence en potassium",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\nAspects pratiques\nStocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017"
+    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur le feuillage. Seuls les symptômes typiques de la carence potassique sont notés selon l’échelle proposée par Champagnol, 1988 [2].\n\nA : Pas de symptômes visibles.\nB : Pigmentation jaune ou rouge sur une partie ou la totalité de la périphérie du limbe.\nC : Dessèchement d’une partie ou de la totalité de la périphérie du limbe.\nD : Dessèchement internervaire d’une partie importante du limbe.\n\n\n\n\nPhotos des symptômes et note dans l’échelle de Champagnol, 1988 [1]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, pour feuille notée B sur un rameau et une autre notée C sur un autre rameau, la note retenue pour le cep sera B.\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, en été.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de carence potassique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
+    "crumbs": [
+      "Carences",
+      "Notation de carence en potassium"
+    ]
   },
   {
-    "objectID": "fiche_matu.html#définition-des-variables",
-    "href": "fiche_matu.html#définition-des-variables",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_carenceK.html#définition-des-variables",
+    "href": "fiche_carenceK.html#définition-des-variables",
+    "title": "Notation de carence en potassium",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\nRemarque\n\n\n\n\nTeneur en sucres1\nBERRY_SUG_g\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\nVoir table de correspondance avec les degrés brix (TSS).\n\n\nTeneur en sucres\nGLUFRU\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\n\nPoids d’une baie\nSBER_W_g\nBalance\n\ng\nAttention, penser à diviser par le nombre de baies prélevées pour obtenir le poids unitaire d’une baie.\n\n\npH\nBERRY_pH\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\n\nAcidité totale\nBER_TA_man_g\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\ndoit-on faire la différence entre titration manuelle ou automatique (c’est le cas dans la vitis ono.\n\n\nAcide tartrique\n\n\n\n\npas clair sur les méthodes dans VO : metavan ??\n\n\nAcide malique\nBER_MAL_g\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\nL-malique ici ??\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide lactique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\n\nAzote assimilable\nBERRY_N_NH4&AA\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\n\nAzote ammoniacal\nBERRY_N_NH4\nDosage enzymatique\n\nmg.L-1\n\n\n\nAzote aminé\nBERRY_N_AA\nDosage colorimétrique\n\nmg.L-1\n\n\n\n𝛅C13\n\n\n\n\n\n\n\n\nquid IRTF ?\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !"
+    "text": "Définition des variables\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation (parcelle ou placette).",
+    "crumbs": [
+      "Carences",
+      "Notation de carence en potassium"
+    ]
   },
   {
-    "objectID": "fiche_matu.html#interprétation-des-résultats",
-    "href": "fiche_matu.html#interprétation-des-résultats",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_carenceK.html#interprétation-des-résultats",
+    "href": "fiche_carenceK.html#interprétation-des-résultats",
+    "title": "Notation de carence en potassium",
     "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nLes paramètres analytiques permettent d’appréhender les différents types de maturité.\n\n\n\n\n\n\n\n\nType de maturité\nDéfinition\nParamètres\n\n\n\n\nMaturité physiologique\nC’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.\nMesure de la taille et du poids des baies. Couleur et dureté des pépins.\n\n\nMaturité technologique\nÀ ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.\nTeneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique\n\n\nMaturité phénolique\nCette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.\nTeneurs en anthocyanes, tannins. Indice polyphénolique total.\n\n\nMaturité aromatique\nÀ ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.\nTeneurs en composés aromatiques\n\n\n\nChaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités [2]. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation."
+    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe). L’analyse doit tenir compte de l’antagonisme avec le magnésium : un niveau trop élevé d’absorption du potassium peut se traduire par une moindre absorption de magnésium et inversement.\n\n\n\n\n\n\nNote\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en potassium et magnésium dans les pétioles ou feuilles peut être utile pour confirmer le diagnostic et prendre en compte l’antagonisme entre ces deux éléments. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.",
+    "crumbs": [
+      "Carences",
+      "Notation de carence en potassium"
+    ]
   },
   {
-    "objectID": "fiche_matu.html#ressources-complémentaires",
-    "href": "fiche_matu.html#ressources-complémentaires",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_carenceK.html#ressources-complémentaires",
+    "href": "fiche_carenceK.html#ressources-complémentaires",
+    "title": "Notation de carence en potassium",
     "section": "Ressources complémentaires",
-    "text": "Ressources complémentaires\nFiches sur le prélèvement des raisins :\n\nIFV Occitanie\nInstitut Rhodanien\nTechniloire"
+    "text": "Ressources complémentaires\n\nFiche IFV Occitanie.\nGuide Viticulture durable des Charentes, voir fiche sur l’alimentation K, Mg et P",
+    "crumbs": [
+      "Carences",
+      "Notation de carence en potassium"
+    ]
   },
   {
-    "objectID": "fiche_matu.html#footnotes",
-    "href": "fiche_matu.html#footnotes",
-    "title": "Suivi maturité par prélèvement de baies",
+    "objectID": "fiche_rdt.html",
+    "href": "fiche_rdt.html",
+    "title": "Composantes du rendement à la récolte",
+    "section": "",
+    "text": "L’objectif est d’évaluer les différentes composantes du rendement à la récolte. La mesure de ces composantes est essentielle pour l’évaluation des performances technico-économiques des itinéraires (rendement et qualité des raisins produits). Le niveau de rendement impacte la physiologie de la plante et peut potentiellement avoir des conséquences sur plusieurs saisons.",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
+  },
+  {
+    "objectID": "fiche_rdt.html#échantillonnage",
+    "href": "fiche_rdt.html#échantillonnage",
+    "title": "Composantes du rendement à la récolte",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\n\nNombre d’observations\nPour l’estimation du rendement, la récolte de 30 à 40 ceps est préconisée. Dans un essai avec 3 à 4 répétitions, 10 ceps par répétitions sont ainsi généralement suffisant pour bien appréhender les différences entre modalités.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nNe pas mesurer les ceps en bordure de rangs.",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
+  },
+  {
+    "objectID": "fiche_rdt.html#mesure",
+    "href": "fiche_rdt.html#mesure",
+    "title": "Composantes du rendement à la récolte",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nPrévoir une dizaine de sceau préalablement numérotés et pesées à vide (tare). Dans le cas d’un suivi pluriannuel, les ceps doivent être identifiés pour suivre l’évolution des rendements.\n\nCompter les grappes sur chaque cep.\nPositionner au pied de chaque cep un sceau numéroté\nVendanger cep par cep\nProcéder à la pesée\n\n\nPour mesurer le poids des baies, une des composantes du rendement, un prélèvement de baies pourra précéder la pesée de récolte. Voir la fiche Suivi maturité.\n\n\n\nOutils\nPrévoir balance de terrain, vendangettes et éventuellement des gants de protection. Attention aux coupures, en particulier pour les personnes non entraînées.\n\n\nPériode de mesure\nA la récolte, dans la pratique quelques jours avant la vendange de la parcelle par le viticulteur.\n\n\nAspects pratiques\nPenser à se coordonner avec le viticulteur pour gérer les raisins après pesées.",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
+  },
+  {
+    "objectID": "fiche_rdt.html#définition-des-variables",
+    "href": "fiche_rdt.html#définition-des-variables",
+    "title": "Composantes du rendement à la récolte",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nLa date calendaire de récolte HARVEST_DATE, ou exprimée en jour de l’année HARVEST_DOY.\n\nExpression par cep\nLes variables suivantes peuvent être définies :\n\nle poids total de récolte par cep, exprimé en kg/cep (YIELD_PLANT)\nle nombre total de grappes par cep (NB_CLUST_PLANT).\n\n\n\nExpression par m²\nL’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.\nLa densité de plantation (NB_PLANT_M2) est exprimée en nombre de plantes par m² (nombre de cep par ha divisé par 10 000).\n\nLe poids de récolte peut être exprimé en kg/m² de sol (YIELD_M21) en prenant en compte la densité de plantation.\n\n\\[ YIELD\\_M2 = YIELD\\_PLANT * NB\\_PLANT\\_M2 \\]\n\nLe nombre de grappes peut aussi être exprimé par m² de sol (NB_CLUST_M2) en prenant en compte la densité de plantation.\n\n\\[\nNB\\_CLUST\\_M2 = NB\\_CLUST\\_PLANT * NB\\_PLANT\\_M2\n\\]\n\n\nAutres composantes du rendement\nUn poids moyen de grappe (SCLUST_W_G) exprimé en grammes peut être calculé en divisant le poids total de récolte par le nombre de grappes.\nSi un prélèvement de baies est réalisé il est aussi possible de calculer le poids moyen unitaire d’une baie (SBER_W_g), exprimé en grammes. Voir la fiche Suivi maturité.",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
+  },
+  {
+    "objectID": "fiche_rdt.html#interprétation-des-résultats",
+    "href": "fiche_rdt.html#interprétation-des-résultats",
+    "title": "Composantes du rendement à la récolte",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nDe nombreux facteurs peuvent impacter le rendement de la vigne : itinéraire technique, accidents climatiques (gel, grêle…) ou physiologiques (coulure, millerandage…), dégâts de maladie ou ravageurs… L’interprétation des résultats se fait par rapport aux objectifs de production fixés (quantitatifs et qualitatifs) et par comparaison entre modalités de l’essai. Plusieurs années sont souvent nécessaires pour appréhender la stabilité et le niveau moyen de rendement sur la modalité ou la parcelle.\nL’indice Ravaz IR est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille (exprimé dans la même unité). Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs [1].\n\\[ IR = \\frac{YIELD\\_PLANT}{PRUN\\_FW\\_PLANT} \\]",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
+  },
+  {
+    "objectID": "fiche_rdt.html#ressources-complémentaires",
+    "href": "fiche_rdt.html#ressources-complémentaires",
+    "title": "Composantes du rendement à la récolte",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nFiche sur l’estimation de rendement à la parcelle par Techniloire\nOutil d’estimation à la parcelle de l’IFV Occitanie",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
+  },
+  {
+    "objectID": "fiche_rdt.html#footnotes",
+    "href": "fiche_rdt.html#footnotes",
+    "title": "Composantes du rendement à la récolte",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.↩︎"
+    "text": "Notes de bas de page\n\n\nCette variable n’est pas encore déclarée dans la Vitis Ontology↩︎",
+    "crumbs": [
+      "Récolte",
+      "Composantes du rendement à la récolte"
+    ]
   },
   {
     "objectID": "fiche_carences.html",
@@ -773,7 +954,7 @@
     "href": "fiche_chlorose.html#mesure",
     "title": "Notation de chlorose ferrique",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur les jeunes feuilles. Seuls les symptômes typiques de la chlorose (décoloration plus ou moins forte du limbe avec apparition plus ou moins prononcée des nervures) sont notés selon l’échelle du référentiel OIV [2], basée sur Pouget et Ottenwaelter, 1978 [1].\n\n9 : Absence de symptômes. Limbe de couleur vert foncé. (Pouget 0)\n7 : Limbe de couleur jaune pâle. Présence d’un réseau de petites nervures vertes (Pouget 2)\n5 : Limbe de couleur jaune franc. Nervures principales vertes (Pouget 3)\n3 : Apparition de petites nécroses sur le limbe jaune franc à blanchâtre. (Pouget 4)\n1 : Limbe nécrosé sur plus de 10% de la surface, sarment rabougirs, stade “cottis” (Pouget 5)\n\n\n\n\nPhotos des symptômes et note dans l’échelle OIV, d’après [3]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles touchées sur 2 rameaux différents.\n\n\n\n\n\n\nNote\n\n\n\nPouget et Ottenwaelter, 1978 [1] définissent une note 1 “limbe de couleur vert clair sans nervure apparentes”, sans équivalent dans l’échelle OIV. Certains cépages ayant un feuillage naturellement pâle au printemps (Ungni blanc par exemple), il n’est en effet pas recommandé d’utiliser ce niveau dans l’échelle de notation.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, au moment où la croissance des sarments est la plus active. Cette période se situe généralement aux environs de la floraison.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de chlorose ferrique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
+    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur les jeunes feuilles. Seuls les symptômes typiques de la chlorose (décoloration plus ou moins forte du limbe avec apparition plus ou moins prononcée des nervures) sont notés selon l’échelle du référentiel OIV [2], basée sur Pouget et Ottenwaelter, 1978 [1].\n\n9 : Absence de symptômes. Limbe de couleur vert foncé. (Pouget 0)\n7 : Limbe de couleur jaune pâle. Présence d’un réseau de petites nervures vertes (Pouget 2)\n5 : Limbe de couleur jaune franc. Nervures principales vertes (Pouget 3)\n3 : Apparition de petites nécroses sur le limbe jaune franc à blanchâtre. (Pouget 4)\n1 : Limbe nécrosé sur plus de 10% de la surface, sarment rabougirs, stade “cottis” (Pouget 5)\n\n\n\n\nPhotos des symptômes et note dans l’échelle OIV, d’après [3]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, si j’ai une feuille notée OIV 5 sur un rameau et une autre notée OIV 3 sur un autre rameau, la note retenue pour le cep sera OIV 5.\n\n\n\n\n\n\nNote\n\n\n\nPouget et Ottenwaelter, 1978 [1] définissent une note 1 “limbe de couleur vert clair sans nervure apparentes”, sans équivalent dans l’échelle OIV. Certains cépages ayant un feuillage naturellement pâle au printemps (Ungni blanc par exemple), il n’est en effet pas recommandé d’utiliser ce niveau dans l’échelle de notation.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, au moment où la croissance des sarments est la plus active. Cette période se situe généralement aux environs de la floraison.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de chlorose ferrique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
     "crumbs": [
       "Carences",
       "Notation de chlorose ferrique"
@@ -927,7 +1108,7 @@
     "href": "fiche_pbt.html#interprétation-des-résultats",
     "title": "Poids des bois de taille",
     "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nExpression végétative et vigueur sont directement liées à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.\nL’indice Ravaz IR est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille. Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs [2].\n\\[ IR = \\frac{Rendement_{kg/cep}}{PBT_{kg/cep}} \\]\nL’interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.",
+    "text": "Interprétation des résultats\nExpression végétative et vigueur sont directement liées à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.\nL’indice Ravaz IR est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille. Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs [2].\n\\[ IR = \\frac{YIELD\\_PLANT}{PRUN\\_FW\\_PLANT} \\]\nL’interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.",
     "crumbs": [
       "Vigueur",
       "Poids des bois de taille"

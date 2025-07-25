@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Observations mildiou - Méthode EPPO – Fiches méthodologiques vigne et vin</title>
+<title>Composantes du rendement à la récolte – Fiches méthodologiques vigne et vin</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,6 +88,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -101,7 +130,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_maladies_OSCAR.html">Maladies</a></li><li class="breadcrumb-item"><a href="./fiche_mildiou_EPPO.html">Observations mildiou - Méthode EPPO</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_rdt.html">Récolte</a></li><li class="breadcrumb-item"><a href="./fiche_rdt.html">Composantes du rendement à la récolte</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
@@ -259,7 +288,7 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fiche_mildiou_EPPO.html" class="sidebar-item-text sidebar-link active">
+  <a href="./fiche_mildiou_EPPO.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Observations mildiou - Méthode EPPO</span></a>
   </div>
 </li>
@@ -305,7 +334,7 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fiche_rdt.html" class="sidebar-item-text sidebar-link">
+  <a href="./fiche_rdt.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Composantes du rendement à la récolte</span></a>
   </div>
 </li>
@@ -335,13 +364,12 @@ div.csl-indent {
   <ul>
   <li><a href="#objectif" id="toc-objectif" class="nav-link active" data-scroll-target="#objectif">Objectif</a></li>
   <li><a href="#principe-de-la-mesure" id="toc-principe-de-la-mesure" class="nav-link" data-scroll-target="#principe-de-la-mesure">Principe de la mesure</a></li>
-  <li><a href="#réalisation-de-la-mesure-sur-le-terrain" id="toc-réalisation-de-la-mesure-sur-le-terrain" class="nav-link" data-scroll-target="#réalisation-de-la-mesure-sur-le-terrain">Réalisation de la mesure sur le terrain</a>
+  <li><a href="#sur-le-terrain" id="toc-sur-le-terrain" class="nav-link" data-scroll-target="#sur-le-terrain">Sur le terrain</a>
   <ul class="collapse">
   <li><a href="#échantillonnage" id="toc-échantillonnage" class="nav-link" data-scroll-target="#échantillonnage">Échantillonnage</a>
   <ul class="collapse">
   <li><a href="#nombre-dobservations" id="toc-nombre-dobservations" class="nav-link" data-scroll-target="#nombre-dobservations">Nombre d’observations</a></li>
-  <li><a href="#ceps-à-observer" id="toc-ceps-à-observer" class="nav-link" data-scroll-target="#ceps-à-observer">Ceps à observer</a></li>
-  <li><a href="#organes-à-observer" id="toc-organes-à-observer" class="nav-link" data-scroll-target="#organes-à-observer">Organes à observer</a></li>
+  <li><a href="#choix-des-ceps-à-observer" id="toc-choix-des-ceps-à-observer" class="nav-link" data-scroll-target="#choix-des-ceps-à-observer">Choix des ceps à observer</a></li>
   </ul></li>
   <li><a href="#mesure" id="toc-mesure" class="nav-link" data-scroll-target="#mesure">Mesure</a>
   <ul class="collapse">
@@ -353,7 +381,12 @@ div.csl-indent {
   </ul></li>
   <li><a href="#traitement-des-résultats" id="toc-traitement-des-résultats" class="nav-link" data-scroll-target="#traitement-des-résultats">Traitement des résultats</a>
   <ul class="collapse">
-  <li><a href="#définition-des-variables" id="toc-définition-des-variables" class="nav-link" data-scroll-target="#définition-des-variables">Définition des variables</a></li>
+  <li><a href="#définition-des-variables" id="toc-définition-des-variables" class="nav-link" data-scroll-target="#définition-des-variables">Définition des variables</a>
+  <ul class="collapse">
+  <li><a href="#expression-par-cep" id="toc-expression-par-cep" class="nav-link" data-scroll-target="#expression-par-cep">Expression par cep</a></li>
+  <li><a href="#expression-par-m²" id="toc-expression-par-m²" class="nav-link" data-scroll-target="#expression-par-m²">Expression par m²</a></li>
+  <li><a href="#autres-composantes-du-rendement" id="toc-autres-composantes-du-rendement" class="nav-link" data-scroll-target="#autres-composantes-du-rendement">Autres composantes du rendement</a></li>
+  </ul></li>
   <li><a href="#interprétation-des-résultats" id="toc-interprétation-des-résultats" class="nav-link" data-scroll-target="#interprétation-des-résultats">Interprétation des résultats</a></li>
   </ul></li>
   <li><a href="#compléments-dinformation" id="toc-compléments-dinformation" class="nav-link" data-scroll-target="#compléments-dinformation">Compléments d’information</a>
@@ -362,14 +395,14 @@ div.csl-indent {
   <li><a href="#références" id="toc-références" class="nav-link" data-scroll-target="#références">Références</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="fiche_mildiou_EPPO.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Autres formats</h2><ul><li><a href="fiche_rdt.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_maladies_OSCAR.html">Maladies</a></li><li class="breadcrumb-item"><a href="./fiche_mildiou_EPPO.html">Observations mildiou - Méthode EPPO</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fiche_rdt.html">Récolte</a></li><li class="breadcrumb-item"><a href="./fiche_rdt.html">Composantes du rendement à la récolte</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Observations mildiou - Méthode EPPO</h1>
+<h1 class="title">Composantes du rendement à la récolte</h1>
 </div>
 
 
@@ -380,7 +413,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Date de publication</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">26 mai 2025</p>
+      <p class="date">3 juillet 2025</p>
     </div>
   </div>
   
@@ -394,95 +427,62 @@ div.csl-indent {
 
 <section id="objectif" class="level1">
 <h1>Objectif</h1>
-<p>Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…</p>
+<p>L’objectif est d’évaluer les différentes composantes du rendement à la récolte. La mesure de ces composantes est essentielle pour l’évaluation des performances technico-économiques des itinéraires (rendement et qualité des raisins produits). Le niveau de rendement impacte la physiologie de la plante et peut potentiellement avoir des conséquences sur plusieurs saisons.</p>
 </section>
 <section id="principe-de-la-mesure" class="level1">
 <h1>Principe de la mesure</h1>
-<p>Les observations visuelles sont réalisées régulièrement en notant la sévérité des symptômes de maladies. La méthode de mesure présentée dans cette fiche est décrite dans <span class="citation" data-cites="eppo2000">[<a href="#ref-eppo2000" role="doc-biblioref">1</a>]</span>, et <span class="citation" data-cites="ceb_mildiou">[<a href="#ref-ceb_mildiou" role="doc-biblioref">2</a>]</span>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>L’évaluation visuelle de la proportion de baies ou de surface atteinte par la maladie repose sur une interprétation humaine et peut varier fortement d’un observateur à l’autre. Il est nécessaire :</p>
-<ul>
-<li>de s’entraîner au préalable, au champ et avec des échelles calibrées</li>
-<li>de contrôler le facteur observateur dans la réalisation des notations, par exemple réalisant toutes les notations d’un bloc par le même observateur.</li>
-</ul>
-</div>
+<p>La méthode consiste à compter et peser l’ensemble des grappes à la récolte. La mesure se fait de préférence cep par cep, mais peut aussi s’envisager sur une série de ceps (placette).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/pesees_recolte.jpg" class="img-fluid figure-img" width="497"></p>
+<figcaption>Pesées de récolte à l’aide d’un peson électronique</figcaption>
+</figure>
 </div>
 <div style="page-break-after: always;"></div>
 </section>
-<section id="réalisation-de-la-mesure-sur-le-terrain" class="level1">
-<h1>Réalisation de la mesure sur le terrain</h1>
+<section id="sur-le-terrain" class="level1">
+<h1>Sur le terrain</h1>
 <section id="échantillonnage" class="level2">
 <h2 class="anchored" data-anchor-id="échantillonnage">Échantillonnage</h2>
 <section id="nombre-dobservations" class="level3">
 <h3 class="anchored" data-anchor-id="nombre-dobservations">Nombre d’observations</h3>
-<p>Sur feuilles, observer 100 feuilles pour chaque répétition.</p>
-<p>Sur grappes, observer 50 (essai en conditions contrôlées) à 100 grappes (essai en conditions naturelles) pour chaque répétition.</p>
+<p>Pour l’estimation du rendement, la récolte de 30 à 40 ceps est préconisée. Dans un essai avec 3 à 4 répétitions, 10 ceps par répétitions sont ainsi généralement suffisant pour bien appréhender les différences entre modalités.</p>
 </section>
-<section id="ceps-à-observer" class="level3">
-<h3 class="anchored" data-anchor-id="ceps-à-observer">Ceps à observer</h3>
+<section id="choix-des-ceps-à-observer" class="level3">
+<h3 class="anchored" data-anchor-id="choix-des-ceps-à-observer">Choix des ceps à observer</h3>
 <ul>
 <li>Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)</li>
-<li>Laisser quelques ceps en bordure de rangs.</li>
+<li>Exclure de la mesure les ceps malades et les ceps voisins des manquants.</li>
+<li>Ne pas mesurer les ceps en bordure de rangs.</li>
 </ul>
-</section>
-<section id="organes-à-observer" class="level3">
-<h3 class="anchored" data-anchor-id="organes-à-observer">Organes à observer</h3>
-<p>Feuilles et grappes de chaque cep.</p>
 </section>
 </section>
 <section id="mesure" class="level2">
 <h2 class="anchored" data-anchor-id="mesure">Mesure</h2>
 <section id="réalisation" class="level3">
 <h3 class="anchored" data-anchor-id="réalisation">Réalisation</h3>
-<p>Sur chaque feuille ou grappe échantillonnée aléatoirement, la proportion de feuille ou de baies atteinte par la maladie est estimée visuellement.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/echelle_maladie_feuille.png" class="img-fluid figure-img" width="370"></p>
-<figcaption>Echelle d’évaluation de la surface atteinte sur feuille <span class="citation" data-cites="buffara2014">[<a href="#ref-buffara2014" role="doc-biblioref">3</a>]</span></figcaption>
-</figure>
+<p>Prévoir une dizaine de sceau préalablement numérotés et pesées à vide (tare). Dans le cas d’un suivi pluriannuel, les ceps doivent être identifiés pour suivre l’évolution des rendements.</p>
+<ol type="1">
+<li>Compter les grappes sur chaque cep.</li>
+<li>Positionner au pied de chaque cep un sceau numéroté</li>
+<li>Vendanger cep par cep</li>
+<li>Procéder à la pesée</li>
+</ol>
+<div class="callout:note">
+<p>Pour mesurer le poids des baies, une des composantes du rendement, un prélèvement de baies pourra précéder la pesée de récolte. Voir la fiche <a href="./fiche_matu.html">Suivi maturité</a>.</p>
 </div>
 </section>
 <section id="outils" class="level3">
 <h3 class="anchored" data-anchor-id="outils">Outils</h3>
-<p>Feuille de notation. Certaines applications existent pour la saisie terrain sur smartphone.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Ne pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.</p>
-</div>
-</div>
+<p>Prévoir balance de terrain, vendangettes et éventuellement des gants de protection. Attention aux coupures, en particulier pour les personnes non entraînées.</p>
 </section>
 <section id="période-de-mesure" class="level3">
 <h3 class="anchored" data-anchor-id="période-de-mesure">Période de mesure</h3>
-<p>Les comptages précis peuvent être réalisés à tout moment, en fonction de l’évolution de l’épidémie maladie et à partir d’un seuil minimal d’attaque.</p>
-<p>En tout début d’épidémie, lorsque les symptômes sont peu nombreux, on peut compter l’ensemble des tâches présentes par répétition.</p>
-<p>Sur grappes, les comptages peuvent être réalisés :</p>
-<ul>
-<li>sur inflorescence</li>
-<li>à la nouaison (rot gris)</li>
-<li>avant le début de la véraison (rot brun)</li>
-</ul>
+<p>A la récolte, dans la pratique quelques jours avant la vendange de la parcelle par le viticulteur.</p>
 </section>
 <section id="aspects-pratiques" class="level3">
 <h3 class="anchored" data-anchor-id="aspects-pratiques">Aspects pratiques</h3>
-<p>La notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entrainé et un notateur) pour observer 100 feuilles ou 50 grappes.</p>
-<div style="page-break-after: always;"></div>
+<p>Penser à se coordonner avec le viticulteur pour gérer les raisins après pesées.</p>
 </section>
 </section>
 </section>
@@ -490,27 +490,49 @@ Note
 <h1>Traitement des résultats</h1>
 <section id="définition-des-variables" class="level2">
 <h2 class="anchored" data-anchor-id="définition-des-variables">Définition des variables</h2>
-<p>La variable brute observée est la sévérité S (<em>severity</em> en anglais), <em>i.e</em> la surface de feuille ou de grappes attaquée par la maladie exprimée en pourcentage de la surface totale, soit :</p>
+<p>La date calendaire de récolte <a href="https://cropontology.org/term/CO_356:1000288">HARVEST_DATE</a>, ou exprimée en jour de l’année <a href="https://cropontology.org/term/CO_356:1000289">HARVEST_DOY</a>.</p>
+<section id="expression-par-cep" class="level3">
+<h3 class="anchored" data-anchor-id="expression-par-cep">Expression par cep</h3>
+<p>Les variables suivantes peuvent être définies :</p>
 <ul>
-<li>de la feuille (<a href="https://cropontology.org/term/CO_356:1000220">PM_LEAF_PC</a>) ou</li>
-<li>de la grappe (<a href="https://cropontology.org/term/CO_356:1000172">PM_BER_PC</a>).</li>
+<li><p>le poids total de récolte par cep, exprimé en kg/cep (<a href="https://cropontology.org/term/CO_356:1000247">YIELD_PLANT</a>)</p></li>
+<li><p>le nombre total de grappes par cep (<a href="https://cropontology.org/term/CO_356:1000158">NB_CLUST_PLANT</a>).</p></li>
 </ul>
-<p>Les variables suivantes peuvent être calculées par répétition <span class="citation" data-cites="nutterjr1991">[<a href="#ref-nutterjr1991" role="doc-biblioref">4</a>]</span> :</p>
+</section>
+<section id="expression-par-m²" class="level3">
+<h3 class="anchored" data-anchor-id="expression-par-m²">Expression par m²</h3>
+<p>L’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.</p>
+<p>La densité de plantation (<a href="https://cropontology.org/term/CO_356:1000165">NB_PLANT_M2</a>) est exprimée en nombre de plantes par m² (nombre de cep par ha divisé par 10 000).</p>
 <ul>
-<li><p>La fréquence F (<em>incidence</em> en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.</p></li>
-<li><p>L’intensité d’attaque I (<em>intensity</em> en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.</p></li>
+<li>Le poids de récolte peut être exprimé en kg/m² de sol (YIELD_M2<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>) en prenant en compte la densité de plantation.</li>
 </ul>
+<p><span class="math display">\[ YIELD\_M2 = YIELD\_PLANT * NB\_PLANT\_M2 \]</span></p>
+<ul>
+<li>Le nombre de grappes peut aussi être exprimé par m² de sol (<a href="https://cropontology.org/term/CO_356:1000271">NB_CLUST_M2</a>) en prenant en compte la densité de plantation.</li>
+</ul>
+<p><span class="math display">\[
+NB\_CLUST\_M2 = NB\_CLUST\_PLANT * NB\_PLANT\_M2
+\]</span></p>
+</section>
+<section id="autres-composantes-du-rendement" class="level3">
+<h3 class="anchored" data-anchor-id="autres-composantes-du-rendement">Autres composantes du rendement</h3>
+<p>Un poids moyen de grappe (<a href="https://cropontology.org/term/CO_356:1000048">SCLUST_W_G</a>) exprimé en grammes peut être calculé en divisant le poids total de récolte par le nombre de grappes.</p>
+<p>Si un prélèvement de baies est réalisé il est aussi possible de calculer le poids moyen unitaire d’une baie (<a href="https://cropontology.org/term/CO_356:1000215">SBER_W_g</a>), exprimé en grammes. Voir la fiche <a href="./fiche_matu.html">Suivi maturité</a>.</p>
+</section>
 </section>
 <section id="interprétation-des-résultats" class="level2">
 <h2 class="anchored" data-anchor-id="interprétation-des-résultats">Interprétation des résultats</h2>
-<p>L’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.</p>
+<p>De nombreux facteurs peuvent impacter le rendement de la vigne : itinéraire technique, accidents climatiques (gel, grêle…) ou physiologiques (coulure, millerandage…), dégâts de maladie ou ravageurs… L’interprétation des résultats se fait par rapport aux objectifs de production fixés (quantitatifs et qualitatifs) et par comparaison entre modalités de l’essai. Plusieurs années sont souvent nécessaires pour appréhender la stabilité et le niveau moyen de rendement sur la modalité ou la parcelle.</p>
+<p>L’indice Ravaz <em>IR</em> est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille (exprimé dans la même unité). Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs <span class="citation" data-cites="steyn2016">[<a href="#ref-steyn2016" role="doc-biblioref">1</a>]</span>.</p>
+<p><span class="math display">\[ IR = \frac{YIELD\_PLANT}{PRUN\_FW\_PLANT} \]</span></p>
 </section>
 </section>
 <section id="compléments-dinformation" class="level1">
 <h1>Compléments d’information</h1>
 <section id="ressources-complémentaires" class="level2">
 <h2 class="anchored" data-anchor-id="ressources-complémentaires">Ressources complémentaires</h2>
-<p><a href="https://ephytia.inra.fr/fr/P/97/Vigne">Plateforme ephytia</a> pour aide à la reconnaissance des symptômes de maladie sur vigne.</p>
+<p><a href="https://techniloire.com/sites/default/files/estimation_rendement.pdf">Fiche</a> sur l’estimation de rendement à la parcelle par Techniloire</p>
+<p><a href="https://www.vignevin-occitanie.com/outils-en-ligne/estimation-des-rendements-viticoles/">Outil d’estimation</a> à la parcelle de l’IFV Occitanie</p>
 </section>
 <section id="références" class="level2">
 
@@ -520,20 +542,17 @@ Note
 </section>
 </section>
 
+
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Références</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
-<div id="ref-eppo2000" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">EPPO <a href="https://pp1.eppo.int/standards/PP1-031-3">PP 1/31(3) Efficacy evaluation of fungicides. Plasmopara viticola</a>. <strong>2000</strong>, 47‑49.</div>
+<div id="ref-steyn2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Steyn, J.; Aleixandre Tudo, J.; Aleixandre Benavent, J.L. <a href="https://riunet.upv.es/handle/10251/97767">International Journal of Scientific and Engineering Research</a>.; IJSER Publishing, 2016; Vol. 7, p. 1056‑1065.</div>
 </div>
-<div id="ref-ceb_mildiou" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">CEB Méthode d’étude de l’efficacité au champ des fongicides destinés à la luette contre le mildiou de la vigne. <strong>2010</strong>, 18.</div>
-</div>
-<div id="ref-buffara2014" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Buffara, C.R.S.; Angelotti, F.; Vieira, R.A.; Bogo, A.; Tessmann, D.J.; Bem, B.P. de Elaboration and Validation of a Diagrammatic Scale to Assess Downy Mildew Severity in Grapevine. <em>Ciência Rural</em> <strong>2014</strong>, <em>44</em>, 1384‑1391, doi:<a href="https://doi.org/10.1590/0103-8478cr20131548">https://doi.org/10.1590/0103-8478cr20131548</a>.</div>
-</div>
-<div id="ref-nutterjr1991" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Nutter Jr, F.; Teng, P.; Shokes, F. Disease assessment terms and concepts. Plant disease. <em>Plant Disease Epidemiology: Facing Challenges of the 21st Century, eds S. Savary and BM Cooke (Dordrecht: Springer)</em> <strong>1991</strong>, 95103.</div>
-</div>
-</div></section></div></main> <!-- /main -->
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notes de bas de page</h2>
+
+<ol>
+<li id="fn1"><p>Cette variable n’est pas encore déclarée dans la Vitis Ontology<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
