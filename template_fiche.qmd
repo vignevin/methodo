@@ -4,7 +4,7 @@ title: "Lorem ipsum"
 
 # Objectif
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. \# 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
 
 # Principe de la mesure
 
@@ -85,8 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
 
 Cette fiche est disponible sur ce [site web](https://vignevin.github.io/methodo/).
 
-N'oubliez pas de vérifier les mises à jours disponible !
+N'oubliez pas de vérifier les mises à jour disponibles !
 :::
-
 
 ## Références

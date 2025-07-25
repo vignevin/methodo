@@ -43,7 +43,7 @@ Une note est attribuée à chaque cep observé selon l'intensité des symptômes
 
 ![Photos des symptômes et note dans l'échelle OIV, d'après @rouanet2022](images/chlorose_pouget.png)
 
-Pour que la note soit validée à l'échelle du cep, il faut au moins 2 feuilles touchées sur 2 rameaux différents.
+Pour que la note soit validée à l'échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, si j'ai une feuille notée OIV 5 sur un rameau et une autre notée OIV 3 sur un autre rameau, la note retenue pour le cep sera OIV 5.
 
 ::: callout-note
 Pouget et Ottenwaelter, 1978 [@pouget1978] définissent une note 1 "limbe de couleur vert clair sans nervure apparentes", sans équivalent dans l'échelle OIV. Certains cépages ayant un feuillage naturellement pâle au printemps (Ungni blanc par exemple), il n'est en effet pas recommandé d'utiliser ce niveau dans l'échelle de notation.
@@ -92,5 +92,13 @@ Une analyse de sol avec dosage du calcaire total et du calcaire actif peut perme
 -   Fiche sur la [chlorose ferrique](https://www.vignevin-occitanie.com/fiches-pratiques/la-chlorose-ferrique/) de l'IFV Occitanie.
 -   Guide Viticulture durable des Charentes, voir fiche sur la [chlorose](https://vignevin-charentes.com/animals/nutrition-et-fertilisation-vigne/#)
 -   [Plateforme ephytia](https://ephytia.inra.fr/fr/C/7070/Vigne-Desordres-nutritionnels) pour aide à la reconnaissance des symptômes de désordres nutritionnels sur vigne.
+
+::: {.content-visible when-format="docx"}
+## Source et mise à jour
+
+Cette fiche est disponible sur ce [site web](https://vignevin.github.io/methodo/).
+
+N'oubliez pas de vérifier les mises à jour disponibles !
+:::
 
 ## Références

@@ -4,10 +4,13 @@ project:
   render:
     - "*.qmd"
     - "!fiche_pheno.qmd"
+    - "!tuto_formatage_hypertexte.qmd"
 
 website:
   title: "Fiches méthodologiques vigne et vin"
+  favicon: images/favicon.ico
   sidebar:
+    logo: images/logo.png
     page-navigation: true
     reader-mode: false
     style: "docked"
@@ -43,6 +46,11 @@ website:
       - section: "Carences"
         contents:
           - fiche_chlorose.qmd
+          - fiche_carenceK.qmd
+      - section: "Récolte"
+        contents:
+          - fiche_rdt.qmd
+          - fiche_matu.qmd
       - about.qmd
   page-footer:
     right: "IFV 2025"

@@ -1,0 +1,106 @@
+---
+title: "Notation de carence en potassium"
+---
+
+::: callout-caution
+Fiche en cours de validation. Pour toute remarque ou question, contactez-nous.
+:::
+
+# Objectif
+
+Une carence en potassium peut engendrer des désordres physiologiques importants pour la vigne. L'évaluation de la présence et de la sévérité des symptômes permet le diagnostic.
+
+# Principe de la mesure
+
+Les symptômes de carence en potassium apparaissent sur les feuilles les plus jeunes à l'extrémité des rameaux en été. Les feuilles carencées prennent un aspect luisant, s'épaississent et se déforment. Une décoloration jaune périphérique apparaît et s'étend sur le limbe. En cas de carence sévère, des nécroses et un dessèchement du limbe peuvent survenir, entraînant une défoliation. Les sarments montrent un mauvais aoûtement, ce qui entraîne une baisse de la productivité de la vigne.
+
+La mesure se base sur l'évaluation visuelle de la présence et de la gravité des symptômes de carence potassique. Une note est donnée à chaque cep observé.
+
+![Symptômes de carences en K sur Syrah @rogiers2021](images/carence_k_plant.png)
+
+{{< pagebreak >}}
+
+# Sur le terrain
+
+## Échantillonnage
+
+### Nombre d'observations
+
+Observer 25 à 50 ceps selon la zone à évaluer.
+
+### Choix des ceps à observer
+
+-   Prendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)
+-   Laisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.
+
+### Organes à observer
+
+Feuilles à l'extrémité de rameaux principaux, poussés sur du bois de l'année (latte ou courson). Ne pas observer les sarments issus de vieux bois ni sur les entre-cœurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).
+
+## Mesure
+
+### Réalisation
+
+Une note est attribuée à chaque cep observé selon l'intensité des symptômes observés sur le feuillage. Seuls les symptômes typiques de la carence potassique sont notés selon l'échelle proposée par Champagnol, 1988 @champagnol1988.
+
+-   A : Pas de symptômes visibles.
+
+-   B : Pigmentation jaune ou rouge sur une partie ou la totalité de la périphérie du limbe.
+
+-   C : Dessèchement d'une partie ou de la totalité de la périphérie du limbe.
+
+-   D : Dessèchement internervaire d'une partie importante du limbe.
+
+![Photos des symptômes et note dans l'échelle de Champagnol, 1988 @rogiers2021](images/carence_k.png)
+
+Pour que la note soit validée à l'échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, pour feuille notée B sur un rameau et une autre notée C sur un autre rameau, la note retenue pour le cep sera B.
+
+### Outils
+
+Feuille de notation et appareil photo.
+
+### Période de mesure
+
+Les observations doivent être faire quand l'intensité des symptômes est maximale, en été.
+
+### Aspects pratiques
+
+::: callout-note
+Ne pas oublier de noter aussi le nom de l'observateur, la date d'observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.
+:::
+
+::: callout-warning
+Ne pas confondre des symptômes de carence potassique avec d'autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !
+:::
+
+# Traitement des résultats
+
+## Définition des variables
+
+La fréquence des ceps touchés et la moyenne des notes peut être calculée sur l'unité d'observation (parcelle ou placette).
+
+## Interprétation des résultats
+
+L'interprétation des résultats doit tenir compte de l'historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe). L'analyse doit tenir compte de l'antagonisme avec le magnésium : un niveau trop élevé d'absorption du potassium peut se traduire par une moindre absorption de magnésium et inversement.
+
+::: callout-note
+Une analyse de laboratoire avec dosage des teneurs en potassium et magnésium dans les pétioles ou feuilles peut être utile pour confirmer le diagnostic et prendre en compte l'antagonisme entre ces deux éléments. Les analyses de sol peuvent aussi permettre d'affiner le diagnostic et de calibrer les mesures correctives.
+:::
+
+# Compléments d'information
+
+## Ressources complémentaires
+
+-   [Fiche](https://www.vignevin-occitanie.com/fiches-pratiques/fertilisations-phosphatee-p-potassique-ket-magnesienne-mg-de-la-vigne/) IFV Occitanie.
+
+-   Guide Viticulture durable des Charentes, voir fiche sur [l'alimentation K, Mg et P](https://vignevin-charentes.com/animals/nutrition-et-fertilisation-vigne/#)
+
+::: {.content-visible when-format="docx"}
+## Source et mise à jour
+
+Cette fiche est disponible sur ce [site web](https://vignevin.github.io/methodo/).
+
+N'oubliez pas de vérifier les mises à jour disponibles !
+:::
+
+## Références

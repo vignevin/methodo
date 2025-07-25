@@ -116,7 +116,7 @@ Expression végétative et vigueur sont directement liées à l'activité photos
 
 L'indice Ravaz *IR* est un indicateur d'équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille. Néanmoins les seuils d'interprétation de l'indice de Ravaz peuvent être variables selon les auteurs [@steyn2016].
 
-$$ IR = \frac{Rendement_{kg/cep}}{PBT_{kg/cep}} $$
+$$ IR = \frac{YIELD\_PLANT}{PRUN\_FW\_PLANT} $$
 
 L'interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.
 
