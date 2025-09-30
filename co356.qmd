@@ -1,0 +1,30 @@
+---
+title: "Référentiel de variables CO356"
+format: html
+---
+
+La Vitis Ontology est un référentiel de variables adaptées au domaine de la viticulture, incluant un volet de variables analytiques sur moût et sur vin @duchene2019.
+
+Le centre de ressource Viti-Oeno propose un [outil de consultation](https://vitioeno.mistea.inrae.fr/resource/app/variables?elementType=Variable&page=1) de ce référentiel.
+
+Une partie de ces variables est identifiée dans les fiches proposées sur ce site. Le @tbl-co356 recense les variables et les fiches associées.
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: tbl-co356
+#| tbl-cap: Référencement des variables de la CO356 dans les fiches méthodologiques
+
+df <- openxlsx2::read_xlsx("c0356_fiches.xlsx",sheet= "fiche")
+df$titre_link <- paste0("<a href=\"", df$fiche_lien, "\" target=\"_blank\">", df$fiche_titre, "</a>")
+df$var_link <- paste0("<a href=\"", df$var_uri, "\" target=\"_blank\">", df$var_name, "</a>")
+df$catégorie <- as.factor(df$catégorie)
+
+# Make a table
+DT::datatable(dplyr::select(df,catégorie,keywords,titre_link,var_link,var_short_uri),
+  colnames = c('Catégorie','Mots-clés','Fiche','Variable','Code'),
+  filter = "top",
+  escape = FALSE,
+  rownames = FALSE
+)
+```

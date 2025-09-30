@@ -1,0 +1,76 @@
+<!-- Convertisseur Brix en g/L (table IFV Occitanie, sans extrapolation) -->
+<div id="brix2gl" style="max-width:320px; padding:8px; border-radius:8px; box-shadow:0 1px 6px rgba(0,0,0,0.30); font-family:system-ui, sans-serif; margin: 4px auto; ">
+  <h3 style="margin:0 0 4px 0;; font-weight:500; font-size:1rem;">Convertisseur Brix →  g/L (à 20°C)</h3>
+   <table style="width:100%; border-collapse: collapse; text-align:center; background:#f7f7fb; border-radius:6px; font-weight:600;">
+    <tr>
+      <th style="padding:2px; border-bottom:1px solid #ccc; font-weight: normal;">Brix (%)</th>
+      <th style="padding:2px; border-bottom:1px solid #ccc; font-weight: normal;">Sucre (g/L)</th>
+    </tr>
+    <tr>
+      <td style="padding:2px;">
+        <input id="brix2gl-input" type="number" min="0" step="0.1" value="18.0"
+               style="width:80px; padding:4px; border-radius:4px; border:1px solid #ccc; text-align:center;" />
+      </td>
+      <td id="brix2gl-table-sucre">—</td>
+    </tr>
+  </table>
+
+</div>
+
+<script>
+(function(){
+  // Table IFV Occitanie (extrait)
+  const table = [
+    { brix: 17.0, sucre: 158.1 },
+    { brix: 18.0, sucre: 169.3 },
+    { brix: 19.0, sucre: 180.5 },
+    { brix: 20.0, sucre: 191.9 },
+    { brix: 21.0, sucre: 203.3 },
+    { brix: 22.0, sucre: 214.8 },
+    { brix: 23.0, sucre: 226.4 },
+    { brix: 24.0, sucre: 238.2 },
+    { brix: 25.0, sucre: 249.7 },
+    { brix: 26.0, sucre: 261.1 },
+    { brix: 27.0, sucre: 273.2 },
+    { brix: 28.0, sucre: 284.6 },
+    { brix: 29.0, sucre: 296.7 },
+    { brix: 30.0, sucre: 308.8 },
+    { brix: 31.0, sucre: 320.8 }
+  ];
+
+  function interp(b) {
+    // Refuser toute valeur hors du domaine
+    if (b < table[0].brix || b > table[table.length-1].brix) {
+      return null;
+    }
+    // Chercher l'intervalle
+    for (let i = 0; i < table.length - 1; i++) {
+      const p0 = table[i], p1 = table[i+1];
+      if (b >= p0.brix && b <= p1.brix) {
+        // interpolation linéaire
+        return p0.sucre + (b - p0.brix) * (p1.sucre - p0.sucre) / (p1.brix - p0.brix);
+      }
+    }
+    return null;
+  }
+
+  const input = document.getElementById('brix2gl-input');
+  const sucreTd = document.getElementById('brix2gl-table-sucre');
+
+ function update(){
+    const b = parseFloat(input.value);
+    const s = interp(b);
+    if (isNaN(b)) {
+      sucreTd.textContent = '—';
+    } else if (s === null) {
+      sucreTd.textContent = 'Hors plage (17–30 °Brix)';
+    } else {
+      sucreTd.textContent = s.toFixed(1);
+    }
+  }
+
+  input.addEventListener('input', update);
+  update(); // calcul initial
+})();
+</script>
+

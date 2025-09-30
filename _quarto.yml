@@ -5,12 +5,15 @@ project:
     - "*.qmd"
     - "!fiche_pheno.qmd"
     - "!tuto_formatage_hypertexte.qmd"
+    - "!fiche_carences.qmd"
+    - "!fiche_blackrot.qmd"
 
 website:
   title: "Fiches méthodologiques vigne et vin"
   favicon: images/favicon.ico
   sidebar:
     logo: images/logo.png
+    collapse-level: 1
     page-navigation: true
     reader-mode: false
     style: "docked"
@@ -51,6 +54,7 @@ website:
         contents:
           - fiche_rdt.qmd
           - fiche_matu.qmd
+      - co356.qmd
       - about.qmd
   page-footer:
     right: "IFV 2025"

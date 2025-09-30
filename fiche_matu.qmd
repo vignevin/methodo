@@ -91,8 +91,8 @@ Les paramètres mesurés en laboratoire peuvent être assez nombreux. Les métho
 Le tableau ci-dessous reprend les principaux paramètres classiquement analysé.
 
 | Paramètre | Vitis Ontology | Méthode | OIV @recueil2025 | Unité |
-|------------------------|---------------|---------------------|--------------------------------|------------|
-| Teneur en sucres[^2][^3] | [BERRY_SUG_g](https://cropontology.org/term/CO_356:1000217) | Réfractomètre | OIV-MA-AS2-02 (Type I) | g.L^-1^ |
+|---------------|---------------|---------------|---------------|---------------|
+| Teneur en sucres | [BERRY_SUG_g](https://cropontology.org/term/CO_356:1000217) | Réfractomètre | OIV-MA-AS2-02 (Type I) | g.L^-1^ |
 | Teneur en glucose et fructose | [GLUFRU](https://cropontology.org/term/CO_356:1000086) | Dosage enzymatique | OIV-MA-AS311-02 (Type II) | mg.L^-1^ |
 | Teneur en glucose et fructose |  | HPLC | OIV-MA-AS311-03 (Type II) | mg.L^-1^ |
 | pH | [BERRY_pH](https://cropontology.org/term/CO_356:1000184) | pHmètre | OIV-MA-AS313-15 (Type I) | pH |
@@ -109,14 +109,19 @@ Le tableau ci-dessous reprend les principaux paramètres classiquement analysé.
 | Teneur en K | [BERRY_K](https://cropontology.org/term/CO_356:1000187) | Spectrométrie de flamme | OIV-MA-AS322-02A (Type II) | mg.L^-1^ |
 | 𝛅C13 |  | Spectrométrie de masse |  | sans unité |
 
-[^2]: Toujours conserver/préférer la **teneur en sucres** dans le jeu de données. C'est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion.
-
-[^3]: Voir [table de correspondance](https://www.vignevin-occitanie.com/fiches-pratiques/les-teneurs-en-sucres-et-leur-correspondance-avec-le-titre-alcoometrique-probable/) avec les degrés brix ([TSS](https://cropontology.org/term/CO_356:1000239)).
-
 La plupart des laboratoires propose aussi en routine des dosages par spectroscopie infrarouge à transformée de Fourier (IRTF), méthode rapide et peu coûteuse.
 
 ::: callout-tip
 Consulter le [référentiel de variable](https://vitioeno.mistea.inrae.fr/resource/app/variables?elementType=Variable) disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d'unité !
+:::
+
+::: callout-tip
+Toujours conserver/préférer la **teneur en sucres** dans le jeu de données. C'est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion. Voir la [table de correspondance](https://www.vignevin-occitanie.com/fiches-pratiques/les-teneurs-en-sucres-et-leur-correspondance-avec-le-titre-alcoometrique-probable/) entre degrés Brix et teneurs en sucres. 
+
+::: {.content-visible when-format="html"} 
+{{< include _includes/brix2gL.html >}}
+:::
+
 :::
 
 ## Interprétation des résultats
@@ -124,7 +129,7 @@ Consulter le [référentiel de variable](https://vitioeno.mistea.inrae.fr/resour
 Les paramètres analytiques permettent d'appréhender les différents types de maturité.
 
 | Type de maturité | Définition | Paramètres |
-|--------------------|-----------------------------------------|------------------------------------------|
+|------------------------|------------------------|------------------------|
 | Maturité physiologique | C'est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer. | Mesure de la taille et du poids des baies. Couleur et dureté des pépins. |
 | Maturité technologique | À ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité. | Teneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique |
 | Maturité phénolique | Cette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges. | Teneurs en anthocyanes, tannins. Indice polyphénolique total. |
