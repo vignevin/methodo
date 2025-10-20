@@ -22,39 +22,44 @@ website:
     contents:
       - text: "Introduction"
         href: index.qmd
-      - section: "Phénologie"
+      - section: "Fiches"
         contents:
-          - fiche_pheno_dbr.qmd
-          - fiche_pheno_flo.qmd
-          - fiche_pheno_ver.qmd
-      - section: "Vigueur"
+          - section: "Phénologie"
+            contents:
+              - fiche_pheno_dbr.qmd
+              - fiche_pheno_flo.qmd
+              - fiche_pheno_ver.qmd
+          - section: "Vigueur"
+            contents:
+              - fiche_vigueur_OIV351.qmd
+              - fiche_vigueur_diam_sarment.qmd
+              - fiche_pbt.qmd
+              - fiche_secv.qmd
+          - section: "Statut hydrique"
+            contents:
+              - fiche_notation_apex.qmd
+              - fiche_pot_base.qmd
+              - fiche_pot_tige.qmd
+          - section: "Statut minéral"
+            contents:
+              - fiche_chl_index.qmd
+          - section: "Maladies"
+            contents:
+              - fiche_maladies_OSCAR.qmd
+              - fiche_mildiou_EPPO.qmd
+              - fiche_oidium_EPPO.qmd
+          - section: "Carences"
+            contents:
+              - fiche_chlorose.qmd
+              - fiche_carenceK.qmd
+          - section: "Récolte"
+            contents:
+              - fiche_rdt.qmd
+              - fiche_matu.qmd
+      - section: "Référentiels"
         contents:
-          - fiche_vigueur_OIV351.qmd
-          - fiche_vigueur_diam_sarment.qmd
-          - fiche_pbt.qmd
-          - fiche_secv.qmd
-      - section: "Statut hydrique"
-        contents:
-          - fiche_notation_apex.qmd
-          - fiche_pot_base.qmd
-          - fiche_pot_tige.qmd
-      - section: "Statut minéral"
-        contents:
-          - fiche_chl_index.qmd
-      - section: "Maladies"
-        contents:
-          - fiche_maladies_OSCAR.qmd
-          - fiche_mildiou_EPPO.qmd
-          - fiche_oidium_EPPO.qmd
-      - section: "Carences"
-        contents:
-          - fiche_chlorose.qmd
-          - fiche_carenceK.qmd
-      - section: "Récolte"
-        contents:
-          - fiche_rdt.qmd
-          - fiche_matu.qmd
-      - co356.qmd
+          - ref_co356.qmd
+          - ref_ppdgv.qmd
       - about.qmd
   page-footer:
     right: "IFV 2025"

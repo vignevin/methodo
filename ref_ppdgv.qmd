@@ -1,0 +1,103 @@
+---
+title: "Référentiel des stades phénologiques"
+format: html
+---
+
+La phénologie des plantes est l'étude du développement saisonnier des végétaux déterminé par l'influence des variations du climat. Les évènements périodiques sont par exemple l'apparition des fleurs, le changement de couleurs des feuilles, etc. Un stade phénologique ou stade de développement des plantes caractérise une phase de développement de la plante pendant son cycle de vie. Par exemple, le stade floraison est observé quand au moins 50% des fleurs sont épanouies.
+
+## Objectif
+
+L'étude phénologique d'une plante consiste à observer à quelle date les stades apparaissent. Les variations temporelles sur l'apparition d'un stade peuvent dépendre du climat ou d'autres facteurs comme la variété de la plante. La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.
+
+## Historique des différentes échelles phénologiques
+
+### En vigne
+
+Pour la vigne, la première échelle phénologique a été proposée par Baggiolini en 1952 [@baggiolini1952]. Elle comportait initialement 10 stades qui ont été complétés en 1993 par Baillod et Baggiolini [@baillod1993] pour atteindre 16 stades. En 1977, Eichhorn et Lorenz (EL) ont proposé une échelle plus détaillée de 24 stades pour la vigne [@eichhorn1977].
+
+### Un standard multifilière : l'échelle BBCH
+
+L'échelle universelle connue sous le nom de BBCH (*Biologische Bundesanstalt, Bundessortenamt und CHemische Industrie*) pour les plantes cultivées mono et dicotylédones a été proposée en 1992, puis adaptée à la vigne en 1995 par Lorenz et al. [@lorenz1995]. L'échelle individuelle BBCH de la vigne permet la comparaison avec d'autres espèces, aussi bien annuelles que pérennes, et s'est progressivement imposée comme **l'échelle de référence** dans la communauté scientifique.
+
+C'est aujourd'hui l'échelle à utiliser.
+
+## Le référentiel ppd-gv pour la vigne
+
+Roussey et al. (2021) [@roussey2021] ont publié sur le Web à l'aide des technologies Web sémantique des échelles phénologiques pour la vigne, avec un travail d'alignement entre les échelles existantes.
+
+Chaque stade a un identifiant de type URI, affichable par un navigateur Web, se présentant sous une suite de caractère, par exemple le stade "BBCH 75" a pour identifiant Web <https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH75>.
+
+Par simplicité les labels de type "BBCH 75" peuvent être utilisés @tbl-bbch.
+
+```{r endpoint}
+#| echo: false
+#| warning: false
+
+# https://lvaudor.github.io/glitter/index.html
+#install.packages("remotes") #if remotes is not already installed
+#remotes::install_github("lvaudor/glitter")
+
+library(glitter)
+
+query_basis = spq_init(
+  endpoint = "https://rdf.codex.cati.inrae.fr/ppd-res/grapevine/sparql",
+  request_control = spq_control_request(
+    request_type = "body-form"
+  )
+)
+```
+
+```{r tbl_stages2}
+#| echo: false
+#| warning: false
+#| tbl-cap: "Stades secondaires de l'échelle BBCH de la vigne"
+#| label: tbl-bbch
+
+## query from https://forge.inrae.fr/bsv/phenologicalstages/-/blob/master/grapevine/query.md?ref_type=heads
+## Quels sont les stades secondaires de l'échelle BBCh de la vigne?
+query_basis %>%
+  spq_prefix(prefixes = c(ppd_gv="https://opendata.inrae.fr/ppd-res/grapevine#",
+                          ppdo="https://opendata.inrae.fr/ppd-def#",
+                          rdfs="http://www.w3.org/2000/01/rdf-schema#")) %>%
+#  spq_add("?bbch skos:prefLabel ?labelbbch") %>%
+  spq_add("?bbch skos:altLabel ?labelbbch") %>%
+  spq_add("?bbch skos:altLabel ?bbch_l") %>%
+  spq_add("?bbch skos:inScheme ppd_gv:bbch_individualScale_grapevine") %>%
+  spq_add("?bbch ppdo:hasRank ppdo:secondary") %>%
+  spq_add("?bbch skos:broader ?bbch1") %>%
+  spq_add("?bbch1 skos:altLabel ?bbch1_l") %>%
+  spq_filter(lang(labelbbch) == "fr") %>%
+  spq_filter(lang(bbch_l) == "fr") %>%
+  spq_filter(lang(bbch1_l) == "fr") %>%
+  spq_filter(!str_detect(labelbbch, '^BBCH.*')) %>%
+  spq_filter(!str_detect(bbch1_l, '^BBCH.*')) %>%
+  spq_filter(str_detect(bbch_l, '^BBCH.*')) %>%
+  spq_arrange(bbch_l) %>%
+  spq_head(n = 100) %>%
+  spq_perform() -> df_bbch
+
+
+### lien
+df_bbch$bbch_link <- paste0("<a href=\"", df_bbch$bbch, "\" target=\"_blank\">", df_bbch$bbch_l, "</a>")
+
+df_bbch %>%
+  dplyr::select(bbch1_l,bbch_link,labelbbch) %>%
+  dplyr::mutate(bbch1_l = as.factor(bbch1_l)) %>%
+  DT::datatable(rownames = F,
+                escape = F,
+                colnames = c("stade","code bbch","label"),
+                filter = "top")
+
+```
+
+### Accès au référentiel
+
+Le référentiel complet ppd-gv est accessible sous [AgroPortal](https://agroportal.lirmm.fr/ontologies/PPD-GV) et téléchargeable à partir d'un [dépôt git](https://forge.inrae.fr/bsv/phenologicalstages).
+
+Un point de [requêtage](https://rdf.codex.cati.inrae.fr/ppd-res/grapevine/sparql) est accessible, avec une liste de requêtes disponible [en ligne](https://forge.inrae.fr/bsv/phenologicalstages/-/blob/master/grapevine/query.md?ref_type=heads).
+
+## Ressources complémentaires
+
+Fiche au [format pdf](downloads/stades_pheno_vigne.pdf) présentant les différents stades BBCH illustrés par des photos et schémas [@bloesch2008].
+
+## Références
