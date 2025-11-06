@@ -45,7 +45,7 @@ L'observateur classe chaque apex dans l'une des 3 classes [@trambouze2009; @love
 -   P : Poussant pour un apex en croissance, ce qui revient à dire qu'il dépasse des deux dernières feuilles développées refermées l'une sur l'autre.
 
 | Apex en arrêt de croissance | Apex en croissance ralentie | Apex en croissance |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | ![](images/apex0.jpg){width="200"} | ![](images/apex1.jpg){width="200"} | ![](images/apex2.jpg){width="200"} |
 | L’apex est sec ou à chu | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci recouvrent l’apex. | Lorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci ne recouvrent pas l’apex. |
 | Classe C | Classe R | Classe P |

@@ -3,13 +3,16 @@ title: "Introduction"
 format:  html
 ---
 
-Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d'expérimentation en vigne et vin. L'objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.
+Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d'expérimentation en vigne et vin. L'objectif est de partager des méthodes reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.
 
 # Description des fiches
 
 Chaque fiche est dédiée à une mesure ou observation avec des explications sur la réalisation sur le terrain et sur le traitement des résultats.
 
-Chaque mesure ou observation génére des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) [@duchene2019], dont le nom préféré est indiqué entre parenthèse, avec un lien vers l'identifiant de la variable.
+
+Chaque mesure ou observation génère des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le [référentiel CO_356](ref_co356.qmd) [@duchene2019]. 
+Le nom préféré de la variable est indiqué en gras avec entre parenthèse son identifiant. 
+
 
 L'utilisation d'un référentiel commun est recommandé pour faciliter l'interopérabilité des données.
 

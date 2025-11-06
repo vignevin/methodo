@@ -81,7 +81,7 @@ Le N-tester donne un indice chlorophyllien NTESTER.
 
 ### Mesure SPAD
 
-Le SPAD 502 donne l'indice chlorophyllien [SPAD502](https://cropontology.org/term/CO_356:1000332).
+Le SPAD 502 donne l'indice chlorophyllien **SPAD502** (CO_356:1000332).
 
 ### Mesure Dualex
 
@@ -89,7 +89,7 @@ Le capteur Dualex donne 3 variables différentes:
 
 -   CHL : une mesure indirecte de la teneur en chlorophylle des feuilles, exprimée en µg/cm².
 -   FLAV : un indice de la teneur en flavonols de la feuille.
--   NBI (Nitrogen Balance Index) : cet indice combine la mesure du contenu en chlorophylle et des flavonols ([NBI-R](https://cropontology.org/term/CO_356:1000341))
+-   NBI (Nitrogen Balance Index) : cet indice combine la mesure du contenu en chlorophylle et des flavonols : **NBI-R** (CO_356:1000341)
 
 ### Corrélation SPAD et N-Tester
 

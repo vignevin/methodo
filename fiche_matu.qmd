@@ -39,7 +39,7 @@ Prélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour le
 
 ### Choix des grappes et des baies
 
--   Alterner les faces de rangs
+-   Alterner les faces de rangs, ou sur un même rang prélever d'un côté puis de l'autre.
 -   Choisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)
 -   Prélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2.
 
@@ -64,9 +64,11 @@ Ne pas écraser les baies. Les conserver au frais, dans une glacière en évitan
 -   Pour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l'approche des vendanges.
 -   Pour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.
 
-### Aspects pratiques
+::: callout-important
+Eviter autant que possible de prélever des baies mouillées : des effets de dilution peuvent survenir, et sécher les baies reste une opération délicate avec risque de perte de jus.
+:::
 
-Stocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.
+### Aspects pratiques
 
 Stocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d'acidité.
 
@@ -80,7 +82,17 @@ Utiliser un damier après récolte permet de s'assurer du nombre de baies préle
 
 ### Variables agronomiques
 
-La pesée des 200 baies permet d'estimer le poids moyen **unitaire**[^1] d'une baie ([SBER_W_g](https://cropontology.org/term/CO_356:1000215)), exprimé en grammes.
+::: {.content-visible when-format="html"}
+{{< copytext >}}
+
+La pesée des 200 baies permet d'estimer le poids moyen **unitaire**[^1] d'une baie **SBER_W_g** (CO_356:1000215) <span data-copy-text="https://cropontology.org/term/CO_356:1000215"></span>
+:::
+
+[^1]: Ne pas oublier de diviser le poids total de l'échantillon par le nombre de baies prélevées !
+
+::: {.content-hidden when-format="html"}
+La pesée des 200 baies permet d'estimer le poids moyen **unitaire**[^1] d'une baie **SBER_W_g** (CO_356:1000215), exprimé en grammes.
+:::
 
 [^1]: Ne pas oublier de diviser le poids total de l'échantillon par le nombre de baies prélevées !
 
@@ -91,45 +103,44 @@ Les paramètres mesurés en laboratoire peuvent être assez nombreux. Les métho
 Le tableau ci-dessous reprend les principaux paramètres classiquement analysé.
 
 | Paramètre | Vitis Ontology | Méthode | OIV @recueil2025 | Unité |
-|---------------|---------------|---------------|---------------|---------------|
-| Teneur en sucres | [BERRY_SUG_g](https://cropontology.org/term/CO_356:1000217) | Réfractomètre | OIV-MA-AS2-02 (Type I) | g.L^-1^ |
-| Teneur en glucose et fructose | [GLUFRU](https://cropontology.org/term/CO_356:1000086) | Dosage enzymatique | OIV-MA-AS311-02 (Type II) | mg.L^-1^ |
+|----|----|----|----|----|
+| Teneur en sucres | **BERRY_SUG_g** (CO_356:1000217) | Réfractomètre | OIV-MA-AS2-02 (Type I) | g.L^-1^ |
+| Teneur en glucose et fructose | **GLUFRU** (CO_356:1000086) | Dosage enzymatique | OIV-MA-AS311-02 (Type II) | mg.L^-1^ |
 | Teneur en glucose et fructose |  | HPLC | OIV-MA-AS311-03 (Type II) | mg.L^-1^ |
-| pH | [BERRY_pH](https://cropontology.org/term/CO_356:1000184) | pHmètre | OIV-MA-AS313-15 (Type I) | pH |
-| Acidité totale | [BER_TA_man_g](https://cropontology.org/term/CO_356:1000303) | Titration manuelle | OIV-MA-AS313-01 (Type I) | g H~2~SO~4~ .L^-1^ |
-| Acide tartrique | [BER_TART_HPLC_g](https://cropontology.org/term/CO_356:1000301) | HPLC | OIV-MA-AS313-04 (Type IV) | g.L^-1^ |
+| pH | **BERRY_pH** (CO_356:1000184) | pHmètre | OIV-MA-AS313-15 (Type I) | pH |
+| Acidité totale | **BER_TA_man_g** (CO_356:1000303) | Titration manuelle | OIV-MA-AS313-01 (Type I) | g H~2~SO~4~ .L^-1^ |
+| Acide tartrique | **BER_TART_HPLC_g** (CO_356:1000301) | HPLC | OIV-MA-AS313-04 (Type IV) | g.L^-1^ |
 | Acide tartrique |  | Electrophorèse | OIV-MA-AS313-19 (Type II) |  |
-| Acide malique | [BER_MAL_g](https://cropontology.org/term/CO_356:1000298) | Dosage enzymatique | OIV-MA-AS313-11 (Type II) | g.L^-1^ |
-| Acide malique | [BER_MAL_HPLC](https://cropontology.org/term/CO_356:1000299) | HPLC | OIV-MA-AS313-04 (Type IV) | g.L^-1^ |
+| Acide malique | **BER_MAL_g** (CO_356:1000298) | Dosage enzymatique | OIV-MA-AS313-11 (Type II) | g.L^-1^ |
+| Acide malique | **BER_MAL_HPLC** (CO_356:1000299) | HPLC | OIV-MA-AS313-04 (Type IV) | g.L^-1^ |
 | Acide malique |  | Electrophorèse | OIV-MA-AS313-19 (Type II) | g.L^-1^ |
-| Azote assimilable | [BERRY_N_NH4&AA](https://cropontology.org/term/CO_356:1000535) | Somme des teneurs en azote ammoniacal et aminé |  | mg.L^-1^ |
-| Azote ammoniacal | [BERRY_N_NH4](https://cropontology.org/term/CO_356:1000352) | Dosage enzymatique |  | mg.L^-1^ |
-| Azote alpha-aminé | [BERRY_N_AA](https://cropontology.org/term/CO_356:1000351) | Dosage colorimétrique |  | mg.L^-1^ |
-| Composés phénolique (DO280) | [BERRY_DO280](https://cropontology.org/term/CO_356:1000237) | Spectrophotométrie |  | sans unité |
-| Teneur en K | [BERRY_K](https://cropontology.org/term/CO_356:1000187) | Spectrométrie de flamme | OIV-MA-AS322-02A (Type II) | mg.L^-1^ |
+| Azote assimilable | **BERRY_N_NH4&AA** (CO_356:1000535) | Somme des teneurs en azote ammoniacal et aminé |  | mg.L^-1^ |
+| Azote ammoniacal | **BERRY_N_NH4** (CO_356:1000352) | Dosage enzymatique |  | mg.L^-1^ |
+| Azote alpha-aminé | **BERRY_N_AA** (CO_356:1000351) | Dosage colorimétrique |  | mg.L^-1^ |
+| Composés phénolique (DO280) | **BERRY_DO280** (CO_356:1000237) | Spectrophotométrie |  | sans unité |
+| Teneur en K | **BERRY_K** (CO_356:1000187) | Spectrométrie de flamme | OIV-MA-AS322-02A (Type II) | mg.L^-1^ |
 | 𝛅C13 |  | Spectrométrie de masse |  | sans unité |
 
 La plupart des laboratoires propose aussi en routine des dosages par spectroscopie infrarouge à transformée de Fourier (IRTF), méthode rapide et peu coûteuse.
 
 ::: callout-tip
-Consulter le [référentiel de variable](https://vitioeno.mistea.inrae.fr/resource/app/variables?elementType=Variable) disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d'unité !
+Consulter le [référentiel de variable](https://vitioeno.mistea.inrae.fr/resource/app/variables?elementType=Variable) disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention aux différences de méthodes et d'unités !
 :::
 
-::: callout-tip
-Toujours conserver/préférer la **teneur en sucres** dans le jeu de données. C'est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion. Voir la [table de correspondance](https://www.vignevin-occitanie.com/fiches-pratiques/les-teneurs-en-sucres-et-leur-correspondance-avec-le-titre-alcoometrique-probable/) entre degrés Brix et teneurs en sucres. 
+:::: callout-tip
+Toujours conserver/préférer la **teneur en sucres** dans le jeu de données. C'est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion. Voir la [table de correspondance](https://www.vignevin-occitanie.com/fiches-pratiques/les-teneurs-en-sucres-et-leur-correspondance-avec-le-titre-alcoometrique-probable/) entre degrés Brix et teneurs en sucres.
 
-::: {.content-visible when-format="html"} 
+::: {.content-visible when-format="html"}
 {{< include _includes/brix2gL.html >}}
 :::
-
-:::
+::::
 
 ## Interprétation des résultats
 
 Les paramètres analytiques permettent d'appréhender les différents types de maturité.
 
 | Type de maturité | Définition | Paramètres |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Maturité physiologique | C'est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer. | Mesure de la taille et du poids des baies. Couleur et dureté des pépins. |
 | Maturité technologique | À ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité. | Teneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique |
 | Maturité phénolique | Cette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges. | Teneurs en anthocyanes, tannins. Indice polyphénolique total. |

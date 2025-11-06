@@ -6,9 +6,11 @@ format: html
 La Vitis Ontology est un référentiel de variables adaptées au domaine de la viticulture, incluant un volet de variables analytiques sur moût et sur vin @duchene2019.
 
 ::: callout-note
-Chaque variable a un nom préféré, et un identifiant unique sous forme d'URI. Sur ce site, l'URI est représentée sous forme raccourcie, en utilisant le préfix *CO_356* pour remplacer [*https://cropontology.org/term/CO_356*](https://cropontology.org/term/CO_356).
+Chaque variable a un nom préféré, et un identifiant unique sous forme d'URI.
 
-Ainsi la variable **PER_SBU** a pour URI complète [*https://cropontology.org/term/CO_356:1000183*](https://cropontology.org/term/CO_356:1000183) et en version raccourcie *CO_356:1000183*.
+Dans les fiches méthodo, l'URI est représentée sous forme raccourcie, en utilisant le préfix *CO_356* pour remplacer [*https://cropontology.org/term/CO_356*](https://cropontology.org/term/CO_356).
+
+Ainsi la variable **PER_SBU** a pour URI complète [*https://cropontology.org/term/CO_356:1000183*](https://cropontology.org/term/CO_356:1000183) et en version raccourcie **CO_356:1000183**.
 :::
 
 Une partie de ces variables est identifiée dans les fiches proposées sur ce site. Le @tbl-co356 recense les variables et les fiches associées.

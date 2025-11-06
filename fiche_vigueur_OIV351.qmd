@@ -51,6 +51,8 @@ L'observateur attribue une note à chaque cep selon le diamètre et la longueur 
 
 : Echelle de notation de la vigueur des rameaux
 
+![Exemple d'échelle de vigueur des rameaux (L. Moulinet, CA11)](images/visual_vigor.png){width="474"}
+
 ### Outils
 
 L'observation est visuelle, prévoir une fiche de notation.
@@ -69,7 +71,7 @@ La notation est réalisée après la chute des feuilles, avant la taille.
 
 ## Définition des variables
 
-Les données sont stockées telles quelles, en précisant la date de la mesure et l'observateur. La variable est référencée dans la Vitis Ontology sous le nom [SHOOT_G_OIV](https://cropontology.org/term/CO_356:1000240)
+Les données sont stockées telles quelles, en précisant la date de la mesure et l'observateur. La variable est référencée dans la Vitis Ontology sous le nom **SHOOT_G_OIV** (CO_356:1000240).
 
 ## Interprétation des résultats
 

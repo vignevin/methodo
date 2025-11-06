@@ -56,7 +56,6 @@ Feuille de notation.
 
 Certaines applications existent pour la saisie terrain sur smartphone, comme par exempe [PMapp](https://www.vineyardteam.org/files/resources/PMapp.pdf) .
 
-
 ### Période de mesure
 
 Les comptages précis peuvent être réalisés à tout moment, en fonction de l'évolution de l'épidémie maladie et à partir d'un seuil minimal d'attaque.
@@ -83,8 +82,8 @@ La notation est assez rapide, environ 5 minutes sont nécessaires à deux person
 
 La sévérité S (*severity* en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale [@nutterjr1991], sur :
 
--   feuille ([UN_LEAF_PC](https://cropontology.org/term/CO_356:1000221))
--   grappe ([UN_BER_PC](https://cropontology.org/term/CO_356:1000176)).
+-   feuille **UN_LEAF_PC** (CO_356:1000221)
+-   grappe **UN_BER_PC** (CO_356:1000176).
 
 A partir des valeurs de sévérité, il est possible de calculer :
 

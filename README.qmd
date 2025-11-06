@@ -10,7 +10,10 @@ Les fiches sont publiées sur un site web.
 
 Chaque fiche est dédiée à une mesure ou observation avec des explications sur la réalisation sur le terrain et sur le traitement des résultats.
 
-Chaque mesure ou observation génére des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT), dont le nom préféré est indiqué entre parenthèse, avec un lien vers l'identifiant de la variable. L'utilisation d'un référentiel commun est recommandé pour faciliter l'interopérabilité des données.
+Chaque mesure ou observation génère des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le référentiel de la crop ontology VITIS356. 
+Le nom préféré de la variable est indiqué en gras avec entre parenthèse son identifiant. 
+
+L'utilisation de référentiels communs est recommandé pour faciliter l'interopérabilité des données.
 
 ::: callout-tip
 Toutes les fiches sont consultables en ligne et téléchargeables en format docx, modifiables librement.

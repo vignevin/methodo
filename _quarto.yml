@@ -52,6 +52,7 @@ website:
             contents:
               - fiche_chlorose.qmd
               - fiche_carenceK.qmd
+              - fiche_carenceMg.qmd
           - section: "Récolte"
             contents:
               - fiche_rdt.qmd

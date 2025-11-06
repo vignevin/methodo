@@ -70,15 +70,15 @@ La notation est assez rapide, 5 minutes sont nécessaires à une personne habitu
 
 ## Définition des variables[^2]
 
-[^2]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+[^2]: Les identifiants des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse.
 
--   A partir de l'observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep ([PER_SBU](https://cropontology.org/term/CO_356:1000183)).
+-   A partir de l'observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep : **PER_SBU** (CO_356:1000183).
 
--   La date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d'yeux francs laissés à la taille est atteint ([BUD_DATE](https://cropontology.org/term/CO_356:1000001)). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
+-   La date de débourrement **BUD_DATE** (CO_356:1000001) est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d'yeux francs laissés à la taille est atteint. Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
 
 ![Exemple d'interpolation entre observations](images/pheno_interpolation.jpg){fig-alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." fig-align="center" width="483"}
 
--   Pour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l'année ([DOY_BUD](https://cropontology.org/term/CO_356:1000076)). Par exemple, le 28 mars 2024 est le jour 88 de l'année.
+-   Pour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l'année : **DOY_BUD** (CO_356:1000076). Par exemple, le 28 mars 2024 est le jour 88 de l'année.
 
 ## Interprétation des résultats
 

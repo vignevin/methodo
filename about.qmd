@@ -21,6 +21,12 @@ affiliations:
     city : Cognac
     state: France
     postal-code : 16 100
+  - id: ca11
+    name: Chambre d'Agriculture de l'Aude
+    address: ZI les Giscarels
+    city: Montreal
+    state: France
+    postal-code: 11 290  
 author:
   - name: Xavier Delpuech
     orcid: 0000-0001-7278-3209
@@ -32,12 +38,18 @@ author:
   - name: Jean-Yves Cahurel
     affiliations: 
         - ref: ifv
+  - name: Marion Claverie
+    affiliations:
+        - ref: ifv
   - name: Marie Bonnisseau
     affiliations: 
         - ref: ifv
   - name: Nathalie Fortin
     affiliations: 
         - ref: ca34
+  - name: Laurie Moulinet
+    affiliations: 
+        - ref: ca11
   - name: Vincent Dumot
     affiliations:
         - ref : bnic

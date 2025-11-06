@@ -1,0 +1,9 @@
+title: Copytext
+author: XavierDelpuech
+version: 1.0.0
+quarto-required: ">=1.7.0"
+contributes:
+  shortcodes:
+    - copytext.lua
+
+

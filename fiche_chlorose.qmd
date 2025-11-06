@@ -73,7 +73,7 @@ Ne pas confondre des symptômes de chlorose ferrique avec d'autres causes de jau
 
 ## Définition des variables
 
-La note de résistance à la chlorose ferrique selon l'échelle OIV est nommée [RES_IC_OIV_401](https://cropontology.org/term/CO_356:1000193).
+La note de résistance à la chlorose ferrique selon l'échelle OIV est nommée **RES_IC_OIV_401** (CO_356:1000193).
 
 La fréquence des ceps touchés et la moyenne des notes peut être calculée sur l'unité d'observation (parcelle ou placette).
 

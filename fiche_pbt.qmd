@@ -70,7 +70,9 @@ La pesée des bois de taille se fait en période de repos hivernal, après chute
 
 ### Aspects pratiques
 
-Il faut compter environ 12 ceps par heure et par personne.
+Il faut compter entre 15 et 30 ceps par heure et par personne selon le cépage, le type de taille et la présence de palissage (le tirage des bois complique la tâche).
+
+Il est possible de faire une pesée par groupe de souche (placette) pour gagner du temps, et atteindre 40 à 50 ceps par heure et par personne. Si la variabilité entre ceps est faible, la perte de puissance statistique reste acceptable. Dans le cas contraire, il est préférable de faire des pesées cep par cep.
 
 ::: callout-warning
 La taille présente des risques de coupures en lien avec l'utilisation des sécateurs, attention si vous utilisez des vieux modèles de sécateurs électriques.
@@ -84,15 +86,15 @@ D'autre part, le tirage des bois peut aussi présenter un risque de blessures oc
 
 ## Définition des variables[^1]
 
-[^1]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+[^1]: Les noms des variables dans le référentiel de la vitis ontology @duchene2019 sont indiqués en gras avec entre parenthèse l'identifiant unique de la variable.
 
 ### Expression par cep
 
 Les variables suivantes peuvent être définies :
 
--   le poids total des sarments par cep, exprimé en kg/cep ([PRUN_FW_PLANT](https://cropontology.org/term/CO_356:1000190))
+-   le poids total des sarments par cep, exprimé en kg/cep : **PRUN_FW_PLANT** (CO_356:1000190)
 
--   le nombre total de sarments par cep ([NB_CANES_PLANT](https://cropontology.org/term/CO_356:1000157)).
+-   le nombre total de sarments par cep : **NB_CANES_PLANT** (CO_356:1000157).
 
 -   Un poids moyen du sarment peut être calculé en divisant le poids total des bois de taille par le nombre de sarments.
 
@@ -100,11 +102,11 @@ Les variables suivantes peuvent être définies :
 
 L'expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.
 
--   Le poids de bois de taille peut être exprimé en kg/m² de sol ([PRUN_FW_M2](https://cropontology.org/term/CO_356:1000290)) en prenant en compte la densité de plantation.
+-   Le poids de bois de taille peut être exprimé en kg/m² de sol en prenant en compte la densité de plantation : **PRUN_FW_M2** (CO_356:1000290).
 
 $$ PRUN\_FW\_M2 = PRUN\_FW\_PLANT * (densité_{ha} /10 000) $$
 
--   Le nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation. Cette variable n'existe pas encore dans la Vitis Ontology.
+-   Le nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation.
 
 $$
  NB\_CANES\_M2 = NB\_CANES\_PLANT * (densité_{ha} /10 000)

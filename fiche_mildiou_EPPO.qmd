@@ -78,8 +78,8 @@ La notation est assez rapide, environ 5 minutes sont nécessaires à deux person
 
 La variable brute observée est la sévérité S (*severity* en anglais), *i.e* la surface de feuille ou de grappes attaquée par la maladie exprimée en pourcentage de la surface totale, soit :
 
--   de la feuille ([PM_LEAF_PC](https://cropontology.org/term/CO_356:1000220)) ou
--   de la grappe ([PM_BER_PC](https://cropontology.org/term/CO_356:1000172)).
+-   de la feuille **PM_LEAF_PC** (CO_356:1000220) ou
+-   de la grappe **PM_BER_PC** (CO_356:1000172).
 
 Les variables suivantes peuvent être calculées par répétition [@nutterjr1991] :
 

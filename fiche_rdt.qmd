@@ -59,21 +59,21 @@ Penser à se coordonner avec le viticulteur pour gérer les raisins après pesé
 
 ## Définition des variables
 
-La date calendaire de récolte [HARVEST_DATE](https://cropontology.org/term/CO_356:1000288), ou exprimée en jour de l'année [HARVEST_DOY](https://cropontology.org/term/CO_356:1000289).
+La date calendaire de récolte **HARVEST_DATE** (CO_356:1000288), ou exprimée en jour de l'année **HARVEST_DOY** (CO_356:1000289).
 
 ### Expression par cep
 
 Les variables suivantes peuvent être définies :
 
--   le poids total de récolte par cep, exprimé en kg/cep ([YIELD_PLANT](https://cropontology.org/term/CO_356:1000247))
+-   le poids total de récolte par cep, exprimé en kg/cep **YIELD_PLANT** (CO_356:1000247)
 
--   le nombre total de grappes par cep ([NB_CLUST_PLANT](https://cropontology.org/term/CO_356:1000158)).
+-   le nombre total de grappes par cep **NB_CLUST_PLANT** (CO_356:1000158).
 
 ### Expression par m²
 
 L'expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.
 
-La densité de plantation ([NB_PLANT_M2](https://cropontology.org/term/CO_356:1000165)) est exprimée en nombre de plantes par m² (nombre de cep par ha divisé par 10 000).
+La densité de plantation **NB_PLANT_M2** (CO_356:1000165) est exprimée en nombre de plantes par m² (nombre de cep par ha divisé par 10 000).
 
 -   Le poids de récolte peut être exprimé en kg/m² de sol (YIELD_M2[^1]) en prenant en compte la densité de plantation.
 
@@ -81,7 +81,7 @@ La densité de plantation ([NB_PLANT_M2](https://cropontology.org/term/CO_356:10
 
 $$ YIELD\_M2 = YIELD\_PLANT * NB\_PLANT\_M2 $$
 
--   Le nombre de grappes peut aussi être exprimé par m² de sol ([NB_CLUST_M2](https://cropontology.org/term/CO_356:1000271)) en prenant en compte la densité de plantation.
+-   Le nombre de grappes peut aussi être exprimé par m² de sol **NB_CLUST_M2** (CO_356:1000271) en prenant en compte la densité de plantation.
 
 $$
  NB\_CLUST\_M2 = NB\_CLUST\_PLANT * NB\_PLANT\_M2
@@ -89,9 +89,9 @@ $$
 
 ### Autres composantes du rendement
 
-Un poids moyen de grappe ([SCLUST_W_G](https://cropontology.org/term/CO_356:1000048)) exprimé en grammes peut être calculé en divisant le poids total de récolte par le nombre de grappes.
+Un poids moyen de grappe **SCLUST_W_G** (CO_356:1000048) exprimé en grammes peut être calculé en divisant le poids total de récolte par le nombre de grappes.
 
-Si un prélèvement de baies est réalisé il est aussi possible de calculer le poids moyen unitaire d'une baie ([SBER_W_g](https://cropontology.org/term/CO_356:1000215)), exprimé en grammes. Voir la fiche [Suivi maturité](fiche_matu.qmd).
+Si un prélèvement de baies est réalisé il est aussi possible de calculer le poids moyen unitaire d'une baie **SBER_W_g** (CO_356:1000215), exprimé en grammes. Voir la fiche [Suivi maturité](fiche_matu.qmd).
 
 ## Interprétation des résultats
 

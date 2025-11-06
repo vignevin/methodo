@@ -73,7 +73,7 @@ Prévoir de réaliser la mesure à 2 personnes (1 notateur, 1 observateur).
 
 ## Définition des variables
 
-La SECV ([EXP_LA_M2](https://cropontology.org/term/CO_356:1000080)) est exprimée en **m² de feuilles par m² de sol** et calculée selon la formule suivante :
+La SECV ou **EXP_LA_M2** (CO_356:1000080) est exprimée en **m² de feuilles par m² de sol** et calculée selon la formule suivante :
 
 $$ SECV = \frac{(2H+L)(100-T)}{100E} $$
 

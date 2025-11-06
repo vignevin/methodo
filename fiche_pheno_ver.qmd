@@ -15,7 +15,7 @@ On considère qu'une baie est vérée si elle est molle. Ce critère permet une 
 ::: callout-warning
 L'observation visuelle de l'apparition de la couleur sur les cépages rouges est une méthode acceptable pour les comparaisons inter-annuelles d'un même cépage sur un même site.
 
-Attention, le changement de couleur peut dans certaines situations être plus tardif que le ramollissement des baies, comme en 2003 sur Grenache noir dans le Sud de la France.
+Attention, le changement de couleur peut dans certaines situations être plus tardif que le ramollissement des baies, comme ce fut le cas en 2003 sur Grenache noir dans le Sud de la France.
 :::
 
 {{< pagebreak >}}
@@ -78,20 +78,20 @@ La notation est assez rapide, 10 minutes sont nécessaires à une personne habit
 
 ## Définition des variables[^2]
 
-[^2]: Les noms des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse, avec un lien vers l'identifiant de la variable.
+[^2]: Les identifiants des variables dans le référentiel de la crop ontology [VITIS356](https://cropontology.org/term/CO_356:ROOT) sont indiqués entre parenthèse.
 
 -   Selon la méthode de mesure, la variable observée est :
 
-    -   le pourcentage de baies molles ([SOFT_BER_PC](https://cropontology.org/term/CO_356:1000182)) ou
-    -   le pourcentage de baies colorées ([COL_BER_PC](https://cropontology.org/term/CO_356:1000177)).
+    -   le pourcentage de baies molles **SOFT_BER_PC** (CO_356:1000182) ou
+    -   le pourcentage de baies colorées **COL_BER_PC** (CO_356:1000177).
 
 La correspondance avec le stade BBCH [@lorenz1995] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.
 
--   La date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint ([VER_50](https://cropontology.org/term/CO_356:1000010)). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
+-   La date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint **VER_50** (CO_356:1000010). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.
 
 ![Exemple d'interpolation entre observations](images/pheno_interpolation.jpg){fig-alt="Par exemple, une observation du débourrement a permis de calculer que 35% des bourgeons avait atteint ou dépassé le stade BBCH07 au 17 mars, puis 60% le 21 mars. L'interpolation permet d'établir que la date d'atteinte du seuil de 50% est le 19 mars." fig-align="center" width="483"}
 
--   Pour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l'année ([DOY_VER](https://cropontology.org/term/CO_356:1000078)).
+-   Pour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l'année **DOY_VER** (CO_356:1000078).
 
 Par exemple, le 7 août 2024 est le jour 220 de l'année.
 
