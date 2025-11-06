@@ -49,12 +49,24 @@
     "text": "Références"
   },
   {
+    "objectID": "ref_co356.html",
+    "href": "ref_co356.html",
+    "title": "Référentiel de variables CO356",
+    "section": "",
+    "text": "La Vitis Ontology est un référentiel de variables adaptées au domaine de la viticulture, incluant un volet de variables analytiques sur moût et sur vin [1].\nUne partie de ces variables est identifiée dans les fiches proposées sur ce site. Le Table 1 recense les variables et les fiches associées.\nTable 1: Référencement des variables de la CO356 dans les fiches méthodologiques\nLe centre de ressource Viti-Oeno propose un outil de consultation de ce référentiel.",
+    "crumbs": [
+      "Référentiels",
+      "Référentiel de variables CO356"
+    ]
+  },
+  {
     "objectID": "fiche_vigueur_diam_sarment.html",
     "href": "fiche_vigueur_diam_sarment.html",
     "title": "Diamètre des sarments",
     "section": "",
     "text": "Évaluer la vigueur de la vigne par la mesure du diamètre des sarments après la chute des feuilles.\nLa vigueur résulte de l’activité métabolique des organes en croissance, et se traduit par une intensité de respiration et de la vitesse de croissance [1].",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -66,6 +78,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nUn minimum de 30 mesures doit être réalisé par parcelle ou par placette, 50 mesures étant recommandées.\n\n\n\n\n\n\nAvertissement\n\n\n\nAttention à l’échantillonnage, qui doit être soigné pour obtenir une estimation représentative de la vigueur des ceps observés.\n\n\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle\nExclure de la mesure les ceps malades ou chétifs et les ceps voisins des manquants\nEviter les ceps de bordure de parcelle ou placette\n\n\n\nChoix des sarments à mesurer\nMesurer au moins 2 sarments par cep, en s’assurant d’avoir au minimum 30 mesures pour chaque ensemble de ceps à évaluer (parcelle ou placette).\nLe choix des sarments doit permettre de prendre en compte la variabilité de vigueur des sarments du cep selon le mode de taille. Les sarments cassés vers la base et les petits sarments (longueur inférieure à 20 cm) ne sont pas pris en compte.\n\nEn taille courte (cordon simple ou double, gobelet), sélectionner des sarments sur la partie médiane du cordon.\nEn taille mixte, (Guyot simple ou double), sélectionner 1 sarment issu d’un courson et 2 sarments en position médiane sur la baguette. En cas d’arcure de la baguette, mesurer sur la partie sommitale de l’arcure.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -77,6 +90,7 @@
     "section": "Mesure",
     "text": "Mesure\nMesurer le diamètre du sarment à l’aide d’un pied à coulisse, sur un des mérithalles 2 à 4. La mesure se fait environ au milieu du mérithalle.\nAttention à positionner le pied à coulisse perpendiculairement au sarment (éviter les mesures en oblique qui surestimeraient le diamètre).\n\n\n\nLocalisation de la section à mesurer sur le sarment\n\n\n\n\n\n\n\n\nNote\n\n\n\nSelon la variété, la section des sarments peut être plus ou moins circulaire. Si elle est elliptique, voire aplatie, par convention la mesure portera sur la plus grande longueur de la section [4].\n\n\n\nEchelle\nLe diamètre est exprimé en mm.\n\n\nOutils\nPied à coulisse, de préférence digital.\n\n\nPériode de mesure\nLa notation est réalisée après la chute des feuilles, avant la taille.\n\n\nAspects pratiques\nUne dizaine de minutes sont nécessaires à une personne habituée pour mesurer 30 sarments. Si possible prévoir un notateur pour plus de confort et gagner du temps sur le terrain.\n\n\n\n\n\n\nImportant\n\n\n\nCompléter la mesure du diamètre par un comptage du nombre de sarments par cep. Ce comptage est rapide et permettra de compléter l’évaluation de la biomasse produite par la vigne.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -86,8 +100,9 @@
     "href": "fiche_vigueur_diam_sarment.html#définition-des-variables",
     "title": "Diamètre des sarments",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLes données sont stockées telles quelles, en précisant la date de la mesure et l’observateur.\nLes mesures peuvent être converties en classe, selon [4].\n\n\n\n\n\n\n\n\n\n\n\nClasse OIV\n1\n3\n5\n7\n9\n\n\n\n\nClasse\ntrès petit\npetit\nmoyen\ngrand\ntrès grand\n\n\nDiamètre\njusqu’à environ 5mm\nenviron 8mm\nenviron 11m\nenviron 14mm\nenviron 17mm et plus\n\n\n\nCette variable est intégrée à la Vitis Ontology INTDIAM_OIV.\n\n\n\n\n\n\nNote\n\n\n\nLe protocole de mesure du caractère OIV 354 diamètre des entrenoeuds diffère légèrement de celui proposé ici. En effet, la mesure est une moyenne du diamètre de 10 entre-noeuds sur le tiers médian de rameaux à proximité du tronc, sur 10 rameaux [4].",
+    "text": "Définition des variables\nLes données sont stockées telles quelles, en précisant la date de la mesure et l’observateur.\n\nClasses OIV\nLes mesures peuvent être converties en classe, selon [4].\n\n\n\n\n\n\n\n\n\n\n\nClasse OIV\n1\n3\n5\n7\n9\n\n\n\n\nClasse\ntrès petit\npetit\nmoyen\ngrand\ntrès grand\n\n\nDiamètre\njusqu’à environ 5mm\nenviron 8mm\nenviron 11m\nenviron 14mm\nenviron 17mm et plus\n\n\n\nCette variable est intégrée à la Vitis Ontology sous le nom INTDIAM_OIV (CO_356:1000069)\n\n\n\n\n\n\nNote\n\n\n\nLe protocole de mesure du caractère OIV 354 diamètre des entrenoeuds diffère légèrement de celui proposé ici. En effet, la mesure est une moyenne du diamètre de 10 entre-noeuds sur le tiers médian de rameaux à proximité du tronc, sur 10 rameaux [4].\n\n\n\n\nProxy d’expression végétative\nUne estimation de l’expression végétative peut être obtenue en multipliant la surface de section moyenne (S = ℼ * (diamètre/2)²) par le nombre de rameaux [3]. La qualité de la relation avec le poids de bois de taille par cep dépend toutefois de la qualité d’échantillonnage.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -99,6 +114,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nLa vigueur est directement liée à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.\nL’interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -110,6 +126,7 @@
     "section": "Autres méthodes",
     "text": "Autres méthodes\n\nMesure du poids des bois de taille et/ou des sarments\nEstimation visuelle de la vigueur (descripteur OIV 351)",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -121,6 +138,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Diamètre des sarments"
     ]
@@ -132,6 +150,7 @@
     "section": "",
     "text": "L’objectif de la mesure de la Surface Externe du Couvert Végétal (SECV) est d’approcher de manière simplifiée le potentiel photosynthétique d’une modalité ou d’une parcelle viticole. Cette mesure est limitée à la surface des feuilles exposée à la lumière. En effet, leur activité photosynthétique permet l’essentiel de la production de sucre : 90% de l’interception du rayon lumineux se fait par la couche de feuilles directement exposée.\nCette mesure simple et pratique à mettre en œuvre peut être mise en regard du rendement pour appréhender l’équilibre physiologique de la vigne [1]. Les paramètres mesurés permettent aussi de calculer le coefficient d’interception du rayonnement solaire, paramètre d’entrée des modèles de bilan hydrique.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Mesure de la Surface externe de couvert végétal"
     ]
@@ -143,6 +162,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSelon l’homogénéité de la parcelle, la mesure est à réaliser sur 6 à 10 souches moyennes par modalité ou zone de parcelle homogène. Il est préférable de raisonner sur une série de ceps contigus.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Mesure de la Surface externe de couvert végétal"
     ]
@@ -154,6 +174,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nLe calcul de la SECV se base sur la mesure des paramètres suivants :\n\nHauteur de végétation en m (H)\nLargeur de la végétation en m (L)\nEcartement entre rangs en m (E)\nPourcentage de trous dans le plan de feuillage (T) en %, en prenant en compte les discontinuités entre ceps mais sans prendre en compte la micro porosité : seuls les trous d’un diamètre supérieurà 20cm sont pris en compte.\n\nLa largeur L est la moyenne en haut (L1) et en bas (L2) du feuillage.\n\n\n\nOutils\nMètre ruban pour mesurer les dimensions de la végétation.\nFiche de notation.\n\n\nPériode de mesure\nLa mesure de SECV se fait lorsque la végétation a atteint son gabarit maximal, généralement courant juillet, entre fermeture de la grappe et début véraison. Il est recommandé de la réaliser après un rognage latéral et écimage pour faciliter la mesure de gabarit.\n\n\nAspects pratiques\nPrévoir de réaliser la mesure à 2 personnes (1 notateur, 1 observateur).",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Mesure de la Surface externe de couvert végétal"
     ]
@@ -163,8 +184,9 @@
     "href": "fiche_secv.html#définition-des-variables",
     "title": "Mesure de la Surface externe de couvert végétal",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLa SECV (EXP_LA_M2) est exprimée en m² de feuilles par m² de sol et calculée selon la formule suivante :\n\\[ SECV = \\frac{(2H+L)(100-T)}{100E} \\]\nLa distance entre souches n’est pas prise en compte, considérant 1 mètre linéaire d’une haie foliaire continue.\nL’indice SECV/rendement peut être calculé, connaissant le poids de récolte en kg/ha.\n\\[ I = \\frac{10^4SECV}{PR} \\]",
+    "text": "Définition des variables\nLa SECV ou EXP_LA_M2 (CO_356:1000080) est exprimée en m² de feuilles par m² de sol et calculée selon la formule suivante :\n\\[ SECV = \\frac{(2H+L)(100-T)}{100E} \\]\nLa distance entre souches n’est pas prise en compte, considérant 1 mètre linéaire d’une haie foliaire continue.\nL’indice SECV/rendement peut être calculé, connaissant le poids de récolte en kg/ha.\n\\[ I = \\frac{10^4SECV}{PR} \\]",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Mesure de la Surface externe de couvert végétal"
     ]
@@ -176,6 +198,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nLa valeur de la SECV donne une indication du potentiel de photosynthèse de la parcelle ou de la modalité étudiée. Des valeurs plus élevées de SECV suggèrent un plus grand potentiel d’interception lumineuse et donc de production de photosynthèse. Cela peut être relié à la vigueur de la vigne. La SECV peut être utilisée pour comparer différentes pratiques culturales, systèmes de conduite ou parcelles.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Mesure de la Surface externe de couvert végétal"
     ]
@@ -187,6 +210,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nFiche sur le rapport feuilles/fruits disponible en ligne sur le site IFV Occitanie\nCalculateur du rapport SECV/rendement\nA partir des mesures du gabarit de végétation, et connaissant l’orientation des rangs, il est possible de calculer le coefficient d’interception du rayonnement. Le Modèle de bilan hyqrique Walis accessible en ligne contient un calculateur.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Mesure de la Surface externe de couvert végétal"
     ]
@@ -198,6 +222,7 @@
     "section": "",
     "text": "La mesure du potentiel hydrique foliaire de tige (ΨT) permet d’évaluer l’état hydrique de la vigne en condition de transpiration. Le potentiel hydrique foliaire de tige (ΨT) est un indicateur du déficit hydrique précoce de la vigne [1].",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de tige"
     ]
@@ -209,6 +234,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nLes mesures se font sur un échantillon d’au moins 5 feuilles saines par placette ou zone homogène.\n\n\nChoix des ceps et feuilles à prélever\n\nSélectionner des ceps d’expression végétative similaire et indemnes de maladies du bois.\nChoisir des ceps situés dans la partie médiane d’une parcelle élémentaire pour éviter les effets de bordure.\nChoisir les feuilles sur un rameau primaire, côté ombré l’après-midi.\n\nLes mesures en saison se feront toujours sur les mêmes ceps.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de tige"
     ]
@@ -220,6 +246,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nLa mesure se fait autour du midi solaire, c’est-à-dire 14h en France l’été, au moment où l’état hydrique de la plante est à son minimum. Le créneau de mesure recommandé est entre 12h et 16h.\nLa procédure est la suivante (voir video) :\n\nLes feuilles doivent être ensachées au moins 1 heure (2h recommandé) avant la mesure dans un sachet imperméable et opaque.\n\nIntroduire la feuille dans le sachet en prenant garde de ne pas casser le limbe (si pliage nécessaire) et de ne pas décoller le pétiole au point d’insertion sur le rameau.\nRabattre l’ouverture du sachet pour ne laisser passer que le pétiole fixé au rameau et maintenir fermé à l’aide d’un trombone\n\nPrélever la feuille entière (limbe + pétiole) juste avant la mesure par rupture du pétiole au niveau de son insertion sur le nœud.\nAmputer l’extrémité du pétiole à l’aide d’un cutter bien aiguisé pour ne pas écraser les tissus.\nIntroduire le pétiole dans l’orifice du couvercle de la chambre à pression et assurer l’étanchéité autour du pétiole.\nPlacer la feuille toujours ensachée dans la chambre dans laquelle on a déposé un morceau d’ouate humide.\nFermer le couvercle, vérifier son positionnement et le cas échéant mettre en place la sécurité.\nMettre la chambre sous pression très progressivement (la précision de la mesure est très dépendante de la vitesse de montée en pression). Une incrémentation de 0.002 MPa (0.02 Bar) en début de saison, en absence de stress, à 0.004 MPa (0.04 Bar) en fin de saison, stress fort, est recommandée.\nNoter le potentiel hydrique lors de l’apparition d’humidité sur la section du faisceau ligneux du pétiole. Cette valeur correspond à la pression de la chambre affichée par le manomètre, au signe près.\n\n\n\n\nMesure du potentiel hydrique folaire [3]\n\n\n\nSi une mesure est aberrante, recommencer sur une autre feuille pour confirmer cette valeur\n\n\n\n\n\n\n\nAvertissement\n\n\n\nPour éviter les accidents, respecter le mode d’emploi et les consignes de sécurité propres à l’appareil, et réaliser les mesures à 2 personnes. Attention au stockage (éviter les fortes températures) et à la manipulation des bouteilles de gaz sous pression.\n\n\n\n\nOutils\n\nChambre à pression (dite de Scholander) munie d’une source d’azote comprimée, d’un régulateur de débit et, si possible, d’un manomètre de précision (0.001 Mpa).\nCutter bien aiguisé\nSachets imperméables et opaques. Ces sachets sont de forme carré (taille minimale recommandée de 15 x 15cm), et peuvent être constitués d’un film plastique solide (bâche pour fraisier) doublé d’une feuille d’aluminium ou bien d’un film plastique aluminisé (papier cadeau, couverture de survie, emballage alimentaire).\n\nTrombones (pour maintenir fermée l’ouverture des sachets)\nFiche de notation\n\n\n\nPériode de mesure\nIl ne doit pas y avoir eu de précipitations dans les 4 jours précédents la mesure.\nLes conditions climatiques au moment de la mesure doivent être constantes d’une fois sur l’autre (temps beau et clair, peu de vent).\nQuatre points de mesure sont nécessaires pour caractériser la dynamique de l’état hydrique de la plante au cours de la période végétative, avec comme recommadation :\n\nune mesure avant l’apparition du stress\nune à fermeture de grappe\nune à mi-véraison\nune avant récolte\n\n\n\nAspects pratiques\nCompter en moyenne 10 minutes pour 5 feuilles pour la mesure elle-même (hors temps d’ensachage). Ce temps peut varier selon le niveau de contrainte hydrique : il faudra plus de temps pour atteindre la pression d’équilibre en cas de contrainte hydrique forte. La consommation en gaz sera aussi plus importante.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de tige"
     ]
@@ -231,6 +258,7 @@
     "section": "Définition des variables",
     "text": "Définition des variables\nMesure du potentiel hydrique foliaire de tige pour chaque feuille, exprimé en MPa (Pas de variable équivalente dans la Vitis Ontology).",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de tige"
     ]
@@ -242,6 +270,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation de la contrainte hydrique doit tenir compte du stade phénologique de la vigne. Une contrainte modérée précoce n’a pas les mêmes conséquences pour la plante et la production que la même contrainte survenant tardivement en saison. C’est la dynamique qui est à interpréter.\nLes seuils suivants [3] donnent une indication d’interprétation pour les ΨT.\n\nPotentiel hydrique folaire de tige et état hydrique de la vigne\n\n\n\n\n\n\n\nClasse\nΨT en MPa\nNiveau de contrainte hydrique\n\n\n\n\n1\n0 ≥ ΨT ≥ -0,6\nPas de déficit hydrique\n\n\n2\n-0,7 &gt; ΨT ≥ -1,1\nDéficit hydrique faible à modéré\n\n\n3\n-1,2 &gt; ΨT ≥ -1,6\nDéficit hydrique modéré à sévère (selon cépage)\n\n\n4\nΨB &lt; -1,6\nDéficit hydrique sévère à élevé (=stress)\n\n\n\nAttention, les mesures de ΨT peuvent surestimer le stress hydrique réellement subi par la vigne en cas de sécheresse ou de fort déficit de pression de vapeur d’eau de l’atmosphère (chaleur, vent) [2].",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de tige"
     ]
@@ -253,6 +282,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nFiche mesure du potentiel hydrique de tige, IFV Occitanie\nVideo de démonstration\nFiche sur l’estimation de l’état hydrique de la vigne, IFV Occitanie",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de tige"
     ]
@@ -264,6 +294,7 @@
     "section": "",
     "text": "La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle ou de la modalité étudiée. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -275,6 +306,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nIl est nécessaire de faire les observations sur un minimum de 10 souches par zone homogène.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs), formés de manière définitive et en production.\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nLes baies observées sont celles des deux premières grappes rencontrées à partir de la base du sarment.\nSont exclues les baies issues de grappes portées par les gourmands, et les grappillons des entre-cœurs.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -286,6 +318,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [3]. Le stade mi-véraison est représenté par le stade (BBCH85).\nL’évaluation se fait par palpation à l’aveugle d’au moins 50 baies in situ, ou au laboratoire après prélèvement aléatoire, en alternant les faces de rang observées.\n\n\n\nEvolution phénologique lors de la véraison [1]\n\n\n\n\n\n\n\n\nNote\n\n\n\n\nPour certaines variétés il n’est pas possible de faire des prélèvements ponctuels des baies car les grappes sont trop compactes. Il est donc nécessaire de faire l’évaluation in situ sans prélèvement destructif.\nSelon le cépage, les pellicules sont plus ou moins fermes, entraînez-vous pour appréhender le ramollissement pour chaque cépage.\n\n\n\n\n\nOutils\nPas d’outils disponibles.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de baies molles, faire au moins un passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de baies molles.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 10 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 50 baies.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -295,8 +328,9 @@
     "href": "fiche_pheno_ver.html#définition-des-variables2",
     "title": "Suivi de la véraison de la vigne",
     "section": "Définition des variables2",
-    "text": "Définition des variables2\n\nSelon la méthode de mesure, la variable observée est :\n\nle pourcentage de baies molles (SOFT_BER_PC) ou\nle pourcentage de baies colorées (COL_BER_PC).\n\n\nLa correspondance avec le stade BBCH [3] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.\n\nLa date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint (VER_50). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année (DOY_VER).\n\nPar exemple, le 7 août 2024 est le jour 220 de l’année.",
+    "text": "Définition des variables2\n\nSelon la méthode de mesure, la variable observée est :\n\nle pourcentage de baies molles SOFT_BER_PC (CO_356:1000182) ou\nle pourcentage de baies colorées COL_BER_PC (CO_356:1000177).\n\n\nLa correspondance avec le stade BBCH [3] se fait avec le chiffre des dizaines : 10% de véraison correspond au stade BBCH81, 20% au stade BBCH82 etc.\n\nLa date de mi-véraison est la date calendaire où le seuil de 50% de baies molles est atteint VER_50 (CO_356:1000010). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date calendaire de mi-véraison peut être exprimée en nombre de jours depuis le début de l’année DOY_VER (CO_356:1000078).\n\nPar exemple, le 7 août 2024 est le jour 220 de l’année.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -308,6 +342,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nLa véraison marque le début de la maturation du raisin et constitue un stade phénologique essentiel pour déterminer la précocité de la parcelle.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -319,6 +354,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -328,8 +364,9 @@
     "href": "fiche_pheno_ver.html#footnotes",
     "title": "Suivi de la véraison de la vigne",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLa ressource [2] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLa ressource [2] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes identifiants des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse.↩︎",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la véraison de la vigne"
     ]
@@ -341,6 +378,7 @@
     "section": "",
     "text": "La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle ou de la modalité étudiée. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -352,6 +390,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nIl est nécessaire de faire les observations sur un minimum de 10 souches par zone homogène.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs), formés de manière définitive et en production.\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nL’ensemble des yeux francs laissés à la taille sont observés.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -363,6 +402,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [2]. Le stade débourrement est représenté par le stade (BBCH07).\nOn considère qu’un bourgeon est débourré si on voit une petite pointe verte ou rouge (BBCH07). Pour chaque cep, tous les bourgeons francs laissés à la taille sont observés. Le pourcentage de bourgeons ayant atteint ou dépassé le stade débourrement est calculé à chaque observation.\n\n\n\nEvolution des stades du débourrement [3].\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nAttention, le stade considéré ici pour le débourrement est le stade BBCH07 et non pas BBCH09 (éclatement du bourgeon).\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nLes mesures doivent encadrer le stade débourrement.\nA partir de 5% des organes observés ayant atteint le stade BBCH07, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle, jusqu’à avoir au moins une observation avec plus de 50% des organes ayant atteint le stade BBCH07.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le débourrement sur 10 ceps.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -372,8 +412,9 @@
     "href": "fiche_pheno_dbr.html#définition-des-variables2",
     "title": "Suivi du débourrement de la vigne",
     "section": "Définition des variables2",
-    "text": "Définition des variables2\n\nA partir de l’observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep (PER_SBU).\nLa date de débourrement est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d’yeux francs laissés à la taille est atteint (BUD_DATE). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l’année (DOY_BUD). Par exemple, le 28 mars 2024 est le jour 88 de l’année.",
+    "text": "Définition des variables2\n\nA partir de l’observation des stades de chaque organe observé, il est possible de calculer le pourcentage de bourgeons ayant atteint le stade débourrement sur chaque cep : PER_SBU (CO_356:1000183).\nLa date de débourrement BUD_DATE (CO_356:1000001) est la date calendaire où le seuil de 50% de bourgeons débourrés par rapport au nombre d’yeux francs laissés à la taille est atteint. Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nPour les comparaisons inter-annuelles, la date de débourrement calendaire peut être exprimée en nombre de jours depuis le début de l’année : DOY_BUD (CO_356:1000076). Par exemple, le 28 mars 2024 est le jour 88 de l’année.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -385,6 +426,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nLe débourrement est le stade phénologique qui marque le début du cycle végétatif de la vigne et permet de définir la précocité d’une parcelle ou modalité.\n\n\n\n\n\n\nNote\n\n\n\nIl est important de noter aussi la date de taille. Il faut s’assurer que la taille a été réalisée en même temps sur les modalités comparées dans l’essai. En effet, une taille tardive peut retarder le débourrement.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -396,6 +438,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -405,8 +448,9 @@
     "href": "fiche_pheno_dbr.html#footnotes",
     "title": "Suivi du débourrement de la vigne",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLa ressource [1] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLa ressource [1] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes identifiants des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse.↩︎",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi du débourrement de la vigne"
     ]
@@ -418,6 +462,7 @@
     "section": "",
     "text": "Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
@@ -429,6 +474,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSur feuilles, observer 100 feuilles pour chaque répétition.\nSur grappes, observer 50 (essai en conditions contrôlées) à 100 grappes (essai en conditions naturelles) pour chaque répétition.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes de chaque cep.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
@@ -440,6 +486,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nSur chaque feuille ou grappe échantillonnée aléatoirement, la proportion de feuille ou de baies atteinte par la maladie est estimée visuellement.\n\n\n\nEchelle d’évaluation de la surface atteinte sur grappe [3].\n\n\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.\n\n\n\n\nOutils\nFeuille de notation.\nCertaines applications existent pour la saisie terrain sur smartphone, comme par exempe PMapp .\n\n\nPériode de mesure\nLes comptages précis peuvent être réalisés à tout moment, en fonction de l’évolution de l’épidémie maladie et à partir d’un seuil minimal d’attaque.\nSur feuilles, une à deux observations en cours de saison suivant la pression maladie.\nLes grappes sont les plus sensibles à la maladie. L’évolution de la maladie s’observe facilement entre la nouaison et le début de la véraison. Au-delà, surtout sur les cépages rouges, il est impossible d’apprécier correctement les dégâts. Une dernière observation peut être réalisée avant récolte.\n\n\n\n\n\n\n\n\n\n\nOrganes\n7-8 feuilles étalées\nNouaison (BBCH71)\nFermeture de la grappe (BBCH77)\nDébut véraison (BBCH81)\n\n\n\n\nRameaux\ndrapeaux si cépage ou parcelle très sensible\n\n\n\n\n\nFeuilles\n\nsuivant pression maladies\nrecommandé\n\n\n\nGrappes\n\n\nrecommandé\nrecommandé\n\n\n\n\n\nAspects pratiques\nLa notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entraîné et un notateur) pour observer 100 feuilles ou 50 grappes.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
@@ -449,8 +496,9 @@
     "href": "fiche_oidium_EPPO.html#définition-des-variables",
     "title": "Observations oïdium - Méthode EPPO",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLa sévérité S (severity en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale [4], sur :\n\nfeuille (UN_LEAF_PC)\ngrappe (UN_BER_PC).\n\nA partir des valeurs de sévérité, il est possible de calculer :\n\nLa fréquence F (incidence en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.\nL’intensité d’attaque I (intensity en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.",
+    "text": "Définition des variables\nLa sévérité S (severity en anglais) est la surface de feuille ou de grappes attaquée par la maladie, exprimée en pourcentage de la surface totale [4], sur :\n\nfeuille UN_LEAF_PC (CO_356:1000221)\ngrappe UN_BER_PC (CO_356:1000176).\n\nA partir des valeurs de sévérité, il est possible de calculer :\n\nLa fréquence F (incidence en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.\nL’intensité d’attaque I (intensity en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
@@ -462,6 +510,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
@@ -473,6 +522,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nPlateforme ephytia pour aide à la reconnaissance des symptômes de maladie sur vigne.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations oïdium - Méthode EPPO"
     ]
@@ -484,6 +534,7 @@
     "section": "",
     "text": "Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
@@ -495,6 +546,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSur feuilles, observer 100 feuilles pour chaque répétition.\nSur grappes, observer 50 (essai en conditions contrôlées) à 100 grappes (essai en conditions naturelles) pour chaque répétition.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes de chaque cep.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
@@ -506,6 +558,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nSur chaque feuille ou grappe échantillonnée aléatoirement, la proportion de feuille ou de baies atteinte par la maladie est estimée visuellement.\n\n\n\nEchelle d’évaluation de la surface atteinte sur feuille [3]\n\n\n\n\nOutils\nFeuille de notation. Certaines applications existent pour la saisie terrain sur smartphone.\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.\n\n\n\n\nPériode de mesure\nLes comptages précis peuvent être réalisés à tout moment, en fonction de l’évolution de l’épidémie maladie et à partir d’un seuil minimal d’attaque.\nEn tout début d’épidémie, lorsque les symptômes sont peu nombreux, on peut compter l’ensemble des tâches présentes par répétition.\nSur grappes, les comptages peuvent être réalisés :\n\nsur inflorescence\nà la nouaison (rot gris)\navant le début de la véraison (rot brun)\n\n\n\nAspects pratiques\nLa notation est assez rapide, environ 5 minutes sont nécessaires à deux personnes (un observateur entrainé et un notateur) pour observer 100 feuilles ou 50 grappes.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
@@ -515,8 +568,9 @@
     "href": "fiche_mildiou_EPPO.html#définition-des-variables",
     "title": "Observations mildiou - Méthode EPPO",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLa variable brute observée est la sévérité S (severity en anglais), i.e la surface de feuille ou de grappes attaquée par la maladie exprimée en pourcentage de la surface totale, soit :\n\nde la feuille (PM_LEAF_PC) ou\nde la grappe (PM_BER_PC).\n\nLes variables suivantes peuvent être calculées par répétition [4] :\n\nLa fréquence F (incidence en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.\nL’intensité d’attaque I (intensity en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.",
+    "text": "Définition des variables\nLa variable brute observée est la sévérité S (severity en anglais), i.e la surface de feuille ou de grappes attaquée par la maladie exprimée en pourcentage de la surface totale, soit :\n\nde la feuille PM_LEAF_PC (CO_356:1000220) ou\nde la grappe PM_BER_PC (CO_356:1000172).\n\nLes variables suivantes peuvent être calculées par répétition [4] :\n\nLa fréquence F (incidence en anglais) : nombre de feuilles ou de grappes présentant des symptômes de maladies exprimé en pourcentage du nombre total de feuilles ou de grappes observées.\nL’intensité d’attaque I (intensity en anglais) : moyenne des sévérités observées sur l’ensemble des grappes ou feuilles observées.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
@@ -528,6 +582,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
@@ -539,6 +594,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nPlateforme ephytia pour aide à la reconnaissance des symptômes de maladie sur vigne.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations mildiou - Méthode EPPO"
     ]
@@ -550,6 +606,7 @@
     "section": "",
     "text": "Les observations de maladies, en particulier mildiou et oïdium (principales maladies cryptogamiques de la vigne) permettent d’évaluer l’efficacité des stratégies de protection, comprendre la dynamique des maladies, ou encore caractériser la sensibilité variétale…",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
@@ -561,6 +618,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nSur un dispositif expérimental, un minimum de 10 ceps doit être observé pour chaque répétition.\nSur une parcelle entière, 50 ceps répartis régulièrement le long d’un parcours seront observés au minimum.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nFeuilles et grappes de chaque cep.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
@@ -572,6 +630,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nPour chaque cep, et chaque bio-agresseur, sont notés la fréquence et l’intensité globale sur feuilles et grappes.\nL’intensité est l’impact global des symptômes de la maladie sur le feuillage et sur les grappes dans leur ensemble. Par exemple, si 50% des feuilles d’un cep sont touchées par du mildiou, avec une intensité moyenne sur feuilles touchées de 25%, l’intensité globale de symptômes de mildiou sur le cep sera de 50*25/100 = 12,5%.\n\nEchelle de notation OSCAR [1]\n\n\nFréquence d’organes touchés\nIntensité globale des symptômes\n\n\n\n\n5 - Très élevée (&gt;50%)\n5 - Dégâts très importants (&gt;50%)\n\n\n4 - Elevée (10-50%)\n4 - Dégâts importants (10- 50%)\n\n\n3 - Moyenne ( 5 - 10%)\n3 - Dégâts significatifs (5-10%)\n\n\n2 - Faible (1 - 5%)\n2 - Facilement visibles (1-5%)\n\n\n1 - Cas isolés (&lt;1%)\n1 - Traces (&lt;1%)\n\n\n0 - Nulle\n0 - Nulle\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique.\n\n\n\n\nOutils\nFeuille de notation.\n\n\nPériode de mesure\nRéaliser les observations aux stades phénologiques suivants :\n\nFermeture de la grappe\nRécolte\n\n\n\nAspects pratiques\nLa notation est assez rapide, environ 10 minutes sont nécessaires à une personne habituée par parcelle (50 ceps) ou modalité (3*10 ceps).",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
@@ -583,6 +642,7 @@
     "section": "Définition des variables",
     "text": "Définition des variables\nMoyenne par modalité ou par parcelle.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
@@ -594,6 +654,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de la pression locale de maladie (qui dépend en grande partie de l’historique météorologique) et de l’itinéraire technique de protection phytosanitaire sur la parcelle.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
@@ -605,6 +666,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nProtocoles OSCAR en ligne\nPlateforme ephytia pour aide à la reconnaissance des symptômes de maladie sur vigne.",
     "crumbs": [
+      "Fiches",
       "Maladies",
       "Observations maladies - Méthode OSCAR"
     ]
@@ -616,6 +678,7 @@
     "section": "",
     "text": "La chlorophylle est un pigment essentiel à la photosynthèse et dont la synthèse est fortement liée à la disponibilité en azote, son niveau peut refléter l’état nutritionnel de la plante en azote. La mesure de l’indice chlorophyllien permet :\n\nd’évaluer le statut azoté de la vigne de manière non destructive en mesurant la teneur en chlorophylle des feuilles.\nde suivre l’évolution du statut azoté au cours de la saison végétative et en réponse à différentes pratiques culturales (fertilisation, gestion du couvert, etc.).\nde fournir des informations complémentaires aux analyses foliaires et aux observations visuelles de la vigueur.\nd’aider à l’optimisation de la fertilisation azotée en fournissant des indications sur les besoins potentiels de la vigne\n\nLa mesure de l’indice chlorophyllien est une méthode rapide, non destructive et relativement peu coûteuse qui permet d’obtenir une bonne approximation du statut de nutrition azotée de la vigne au cours de la saison.",
     "crumbs": [
+      "Fiches",
       "Statut minéral",
       "Indices chlorophylliens (N-tester, SPAD, Dualex)"
     ]
@@ -627,6 +690,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\n30 à 50 feuilles doivent être observées pour chaque zone représentative de la parcelle ou placette expérimentale.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.\nLes apex à observer sont ceux des rameaux primaires.\n\n\n\nFeuilles à observer\nSur chaque cep sélectionné, choisir des feuilles adultes, saines et intactes, bien exposées à la lumière, dans la zone des grappes. Éviter les feuilles très jeunes (en croissance), très âgées (jaunissantes ou sénescentes), endommagées (par des ravageurs, des maladies ou des accidents mécaniques) ou recouvertes de poussière ou de résidus de traitements. Prendre toujours les feuilles de même niveau sur le rameau, et , dans le cas d’une taille longue, des rameaux de même rang d’insertion, avec au moins 12 feuilles (non écimés). Lors des mesures il s’agit de veiller à bien alterner entre les deux faces du plan de palissage (effet de l’éclairement sur la coloration des feuilles).",
     "crumbs": [
+      "Fiches",
       "Statut minéral",
       "Indices chlorophylliens (N-tester, SPAD, Dualex)"
     ]
@@ -638,6 +702,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nAllumer l’appareil et s’assurer que la batterie est suffisamment chargée. Effectuer un étalonnage de l’appareil avant la première mesure de la journée ou d’une série de mesures sur une même parcelle, en suivant les instructions du fabricant. Certains modèles peuvent nécessiter un étalonnage régulier. Il est recommandé d’éviter d’éteindre l’appareil entre les mesures sur une même parcelle pour ne pas avoir à le réétalonner\n\nSélectionner la feuille à mesurer selon le protocole d’échantillonnage.\nPlacer la feuille entre les mâchoires de l’appareil, en veillant à ce qu’elle soit positionnée sur la partie centrale du limbe, entre les nervures principales, et perpendiculairement au capteur.\nRefermer délicatement les mâchoires de l’appareil pour effectuer la mesure.\nRépéter l’opération\n\nLe N-tester donnera une valeur moyenne pour un échantillon de 30 feuilles, à reporter sur un feuille de notation. Pour la pince Dualex, toujours réaliser deux mesures par feuille : face supérieure et face inférieure de la feuille (et au même endroit). Toutes les données sont enregistrées dans l’appareil et téléchargeables. Penser à définir des groupes pour chaque unité d’observation.\n\n\nOutils\nLes capteurs suivants peuvent être utilisés:\n\nN-Tester (Yara, Oslo, Norvège)\nSPAD 502 (Konica Minolta, Nieuwegein, Pays-Bas).\nDualex (Pessl Instruments, Weiz, Autriche)\n\n\n\nPériode de mesure\nLa mesure est généralement réalisée à la véraison, lorsque la teneur en azote est la plus élevée et les mesures sont plus stables [1]. C’est à la véraison que les différences entre modalité sont généralement plus marquées. Il est aussi possible de faire un point à floraison ou même un suivi dynamique suivant les objectifs poursuivis.\n\n\nAspects pratiques\nCompter 5 à 10 minutes pour une mesure. Penser à vérifier l’état des batteries de l’appareil avant de partir sur le terrain.",
     "crumbs": [
+      "Fiches",
       "Statut minéral",
       "Indices chlorophylliens (N-tester, SPAD, Dualex)"
     ]
@@ -647,8 +712,9 @@
     "href": "fiche_chl_index.html#définition-des-variables",
     "title": "Indices chlorophylliens (N-tester, SPAD, Dualex)",
     "section": "Définition des variables",
-    "text": "Définition des variables\n\nMesure N-tester\nLe N-tester donne un indice chlorophyllien NTESTER.\n\n\nMesure SPAD\nLe SPAD 502 donne l’indice chlorophyllien SPAD502.\n\n\nMesure Dualex\nLe capteur Dualex donne 3 variables différentes:\n\nCHL : une mesure indirecte de la teneur en chlorophylle des feuilles, exprimée en µg/cm².\nFLAV : un indice de la teneur en flavonols de la feuille.\nNBI (Nitrogen Balance Index) : cet indice combine la mesure du contenu en chlorophylle et des flavonols (NBI-R)\n\n\n\nCorrélation SPAD et N-Tester\nLes indices donnés par ces 2 appareils sont bien corrélés [1] (R²=0.94) :\n\\[ SPAD502 = 0.06NTESTER + 6.25 \\]",
+    "text": "Définition des variables\n\nMesure N-tester\nLe N-tester donne un indice chlorophyllien NTESTER.\n\n\nMesure SPAD\nLe SPAD 502 donne l’indice chlorophyllien SPAD502 (CO_356:1000332).\n\n\nMesure Dualex\nLe capteur Dualex donne 3 variables différentes:\n\nCHL : une mesure indirecte de la teneur en chlorophylle des feuilles, exprimée en µg/cm².\nFLAV : un indice de la teneur en flavonols de la feuille.\nNBI (Nitrogen Balance Index) : cet indice combine la mesure du contenu en chlorophylle et des flavonols : NBI-R (CO_356:1000341)\n\n\n\nCorrélation SPAD et N-Tester\nLes indices donnés par ces 2 appareils sont bien corrélés [1] (R²=0.94) :\n\\[ SPAD502 = 0.06NTESTER + 6.25 \\]",
     "crumbs": [
+      "Fiches",
       "Statut minéral",
       "Indices chlorophylliens (N-tester, SPAD, Dualex)"
     ]
@@ -660,6 +726,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’indice chlorophyllien optimal peut varier en fonction du cépage, du stade phénologique, des conditions de croissance et des objectifs de production. L’effet du cépage est marqué, il est important d’utiliser les références régionales ou variétales (si elles existent) pour situer les valeurs obtenues. L’indice chlorophyllien peut également être influencé par d’autres facteurs que l’azote, tels que le stress hydrique, les carences en d’autres éléments nutritifs (magnésium, fer, etc.), ou certaines maladies.\nCertains auteurs proposent des seuils d’interprétation pour le SPAD et/ou le N-tester [1,2].",
     "crumbs": [
+      "Fiches",
       "Statut minéral",
       "Indices chlorophylliens (N-tester, SPAD, Dualex)"
     ]
@@ -671,18 +738,81 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nPage d’information des fabriquants :\n\nN-tester\nSPAD\nDualex",
     "crumbs": [
+      "Fiches",
       "Statut minéral",
       "Indices chlorophylliens (N-tester, SPAD, Dualex)"
     ]
   },
   {
-    "objectID": "co356.html",
-    "href": "co356.html",
-    "title": "Référentiel de variables CO356",
+    "objectID": "fiche_carenceK.html",
+    "href": "fiche_carenceK.html",
+    "title": "Notation de carence en potassium",
     "section": "",
-    "text": "La Vitis Ontology est un référentiel de variables adaptées au domaine de la viticulture, incluant un volet de variables analytiques sur moût et sur vin [1].\nLe centre de ressource Viti-Oeno propose un outil de consultation de ce référentiel.\nUne partie de ces variables est identifiée dans les fiches proposées sur ce site. Le Table 1 recense les variables et les fiches associées.\n\n\n\n\nTable 1: Référencement des variables de la CO356 dans les fiches méthodologiques\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes références\n\n1. Duchêne, E.; Pommier, C. The Vitis Ontology: sustainable and FAIR (Findable, Accessible, Interoperable, Reusable) for consistent and complete data description through biologist friendly ontologies.; Chania, Greece, 26-28 March 2019, Greece, mars 2019.",
+    "text": "Mise en garde\n\n\n\nFiche en cours de validation. Pour toute remarque ou question, contactez-nous.",
     "crumbs": [
-      "Référentiel de variables CO356"
+      "Fiches",
+      "Carences",
+      "Notation de carence en potassium"
+    ]
+  },
+  {
+    "objectID": "fiche_carenceK.html#échantillonnage",
+    "href": "fiche_carenceK.html#échantillonnage",
+    "title": "Notation de carence en potassium",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\n\nNombre d’observations\nObserver 25 à 50 ceps selon la zone à évaluer.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.\n\n\n\nOrganes à observer\nFeuilles à l’extrémité de rameaux principaux, poussés sur du bois de l’année (latte ou courson). Ne pas observer les sarments issus de vieux bois ni sur les entre-cœurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
+    "crumbs": [
+      "Fiches",
+      "Carences",
+      "Notation de carence en potassium"
+    ]
+  },
+  {
+    "objectID": "fiche_carenceK.html#mesure",
+    "href": "fiche_carenceK.html#mesure",
+    "title": "Notation de carence en potassium",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur le feuillage. Seuls les symptômes typiques de la carence potassique sont notés selon l’échelle proposée par Champagnol, 1988 [2].\n\nA : Pas de symptômes visibles.\nB : Pigmentation jaune ou rouge sur une partie ou la totalité de la périphérie du limbe.\nC : Dessèchement d’une partie ou de la totalité de la périphérie du limbe.\nD : Dessèchement internervaire d’une partie importante du limbe.\n\n\n\n\nPhotos des symptômes et note dans l’échelle de Champagnol, 1988 [1]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, pour feuille notée B sur un rameau et une autre notée C sur un autre rameau, la note retenue pour le cep sera B.\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, en été.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de carence potassique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
+    "crumbs": [
+      "Fiches",
+      "Carences",
+      "Notation de carence en potassium"
+    ]
+  },
+  {
+    "objectID": "fiche_carenceK.html#définition-des-variables",
+    "href": "fiche_carenceK.html#définition-des-variables",
+    "title": "Notation de carence en potassium",
+    "section": "Définition des variables",
+    "text": "Définition des variables\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation (parcelle ou placette).",
+    "crumbs": [
+      "Fiches",
+      "Carences",
+      "Notation de carence en potassium"
+    ]
+  },
+  {
+    "objectID": "fiche_carenceK.html#interprétation-des-résultats",
+    "href": "fiche_carenceK.html#interprétation-des-résultats",
+    "title": "Notation de carence en potassium",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe). L’analyse doit tenir compte de l’antagonisme avec le magnésium : un niveau trop élevé d’absorption du potassium peut se traduire par une moindre absorption de magnésium et inversement.\n\n\n\n\n\n\nNote\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en potassium et magnésium dans les pétioles ou feuilles peut être utile pour confirmer le diagnostic et prendre en compte l’antagonisme entre ces deux éléments. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.",
+    "crumbs": [
+      "Fiches",
+      "Carences",
+      "Notation de carence en potassium"
+    ]
+  },
+  {
+    "objectID": "fiche_carenceK.html#ressources-complémentaires",
+    "href": "fiche_carenceK.html#ressources-complémentaires",
+    "title": "Notation de carence en potassium",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\n\nFiche IFV Occitanie.\nGuide Viticulture durable des Charentes, voir fiche sur l’alimentation K, Mg et P",
+    "crumbs": [
+      "Fiches",
+      "Carences",
+      "Notation de carence en potassium"
     ]
   },
   {
@@ -716,69 +846,75 @@
     ]
   },
   {
-    "objectID": "fiche_carenceK.html",
-    "href": "fiche_carenceK.html",
-    "title": "Notation de carence en potassium",
+    "objectID": "fiche_carenceMg.html",
+    "href": "fiche_carenceMg.html",
+    "title": "Notation de carence en magnésium",
     "section": "",
     "text": "Mise en garde\n\n\n\nFiche en cours de validation. Pour toute remarque ou question, contactez-nous.",
     "crumbs": [
+      "Fiches",
       "Carences",
-      "Notation de carence en potassium"
+      "Notation de carence en magnésium"
     ]
   },
   {
-    "objectID": "fiche_carenceK.html#échantillonnage",
-    "href": "fiche_carenceK.html#échantillonnage",
-    "title": "Notation de carence en potassium",
+    "objectID": "fiche_carenceMg.html#échantillonnage",
+    "href": "fiche_carenceMg.html#échantillonnage",
+    "title": "Notation de carence en magnésium",
     "section": "Échantillonnage",
-    "text": "Échantillonnage\n\nNombre d’observations\nObserver 25 à 50 ceps selon la zone à évaluer.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.\n\n\n\nOrganes à observer\nFeuilles à l’extrémité de rameaux principaux, poussés sur du bois de l’année (latte ou courson). Ne pas observer les sarments issus de vieux bois ni sur les entre-cœurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
+    "text": "Échantillonnage\n\nNombre d’observations\nObserver 25 à 50 ceps selon la zone à évaluer.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.\n\n\n\nOrganes à observer\nFeuilles à la base des rameaux principaux, poussés sur du bois de l’année (latte ou courson). Ne pas observer les sarments issus de vieux bois ni sur les entre-cœurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
     "crumbs": [
+      "Fiches",
       "Carences",
-      "Notation de carence en potassium"
+      "Notation de carence en magnésium"
     ]
   },
   {
-    "objectID": "fiche_carenceK.html#mesure",
-    "href": "fiche_carenceK.html#mesure",
-    "title": "Notation de carence en potassium",
+    "objectID": "fiche_carenceMg.html#mesure",
+    "href": "fiche_carenceMg.html#mesure",
+    "title": "Notation de carence en magnésium",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur le feuillage. Seuls les symptômes typiques de la carence potassique sont notés selon l’échelle proposée par Champagnol, 1988 [2].\n\nA : Pas de symptômes visibles.\nB : Pigmentation jaune ou rouge sur une partie ou la totalité de la périphérie du limbe.\nC : Dessèchement d’une partie ou de la totalité de la périphérie du limbe.\nD : Dessèchement internervaire d’une partie importante du limbe.\n\n\n\n\nPhotos des symptômes et note dans l’échelle de Champagnol, 1988 [1]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, pour feuille notée B sur un rameau et une autre notée C sur un autre rameau, la note retenue pour le cep sera B.\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, en été.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de carence potassique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
+    "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur le feuillage. Seuls les symptômes typiques de la carence en Mg sont notés selon l’échelle proposée par la Chambre d’Agriculture de l’Hérault, sur le modèle de celle de Champagnol (1988) pour le potassium.\n\nA : Pas de symptômes visibles.\nB : Début de pigmentation inter-nervaire, sur une partie du limbe.\nC : Pigmentation inter-nervaire généralisée.\nD : Apparition de tissus nécrosés.\n\n\n\n\nPhotos des symptômes et note associé dans l’échelle proposée par la CA34, 2025\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, pour feuille notée B sur un rameau et une autre notée C sur un autre rameau, la note retenue pour le cep sera B.\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, en été.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de carence en Mg avec d’autres causes de jaunissement comme la carence potassique, le court-noué ou la flavescence dorée !",
     "crumbs": [
+      "Fiches",
       "Carences",
-      "Notation de carence en potassium"
+      "Notation de carence en magnésium"
     ]
   },
   {
-    "objectID": "fiche_carenceK.html#définition-des-variables",
-    "href": "fiche_carenceK.html#définition-des-variables",
-    "title": "Notation de carence en potassium",
+    "objectID": "fiche_carenceMg.html#définition-des-variables",
+    "href": "fiche_carenceMg.html#définition-des-variables",
+    "title": "Notation de carence en magnésium",
     "section": "Définition des variables",
     "text": "Définition des variables\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation (parcelle ou placette).",
     "crumbs": [
+      "Fiches",
       "Carences",
-      "Notation de carence en potassium"
+      "Notation de carence en magnésium"
     ]
   },
   {
-    "objectID": "fiche_carenceK.html#interprétation-des-résultats",
-    "href": "fiche_carenceK.html#interprétation-des-résultats",
-    "title": "Notation de carence en potassium",
+    "objectID": "fiche_carenceMg.html#interprétation-des-résultats",
+    "href": "fiche_carenceMg.html#interprétation-des-résultats",
+    "title": "Notation de carence en magnésium",
     "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe). L’analyse doit tenir compte de l’antagonisme avec le magnésium : un niveau trop élevé d’absorption du potassium peut se traduire par une moindre absorption de magnésium et inversement.\n\n\n\n\n\n\nNote\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en potassium et magnésium dans les pétioles ou feuilles peut être utile pour confirmer le diagnostic et prendre en compte l’antagonisme entre ces deux éléments. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.",
+    "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe). L’analyse doit tenir compte de l’antagonisme du magnésium avec le potassium : un niveau trop élevé d’absorption du potassium peut se traduire par une moindre absorption de magnésium et inversement. Par exemple, les porte-greffes Fercal et SO4 absorbent facilement le K et peuvent créer des carences en Mg.\n\n\n\n\n\n\nNote\n\n\n\nUne analyse de laboratoire avec dosage des teneurs en potassium et magnésium dans les pétioles ou feuilles peut être utile pour confirmer le diagnostic et prendre en compte l’antagonisme entre ces deux éléments. Les analyses de sol peuvent aussi permettre d’affiner le diagnostic et de calibrer les mesures correctives.",
     "crumbs": [
+      "Fiches",
       "Carences",
-      "Notation de carence en potassium"
+      "Notation de carence en magnésium"
     ]
   },
   {
-    "objectID": "fiche_carenceK.html#ressources-complémentaires",
-    "href": "fiche_carenceK.html#ressources-complémentaires",
-    "title": "Notation de carence en potassium",
+    "objectID": "fiche_carenceMg.html#ressources-complémentaires",
+    "href": "fiche_carenceMg.html#ressources-complémentaires",
+    "title": "Notation de carence en magnésium",
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\n\nFiche IFV Occitanie.\nGuide Viticulture durable des Charentes, voir fiche sur l’alimentation K, Mg et P",
     "crumbs": [
+      "Fiches",
       "Carences",
-      "Notation de carence en potassium"
+      "Notation de carence en magnésium"
     ]
   },
   {
@@ -788,6 +924,7 @@
     "section": "",
     "text": "La chlorose se traduit par une décoloration plus ou moins prononcée des feuilles, et peut engendrer des désordres physiologiques importants pour la vigne. L’évaluation de la présence et de la sévérité des symptômes permet le diagnostic et l’identification des causes sous-jacentes.",
     "crumbs": [
+      "Fiches",
       "Carences",
       "Notation de chlorose ferrique"
     ]
@@ -799,6 +936,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nLaisser quelques ceps en bout de rangs et ne pas noter sur les rangs de bordure.\n\n\n\nOrganes à observer\nJeunes feuilles à l’extrémité de rameaux principaux, poussés sur du bois de l’année (latte ou courson). N’est pas prise en compte la chlorose relevée sur les sarments issus de vieux bois ni sur les entre-coeurs. Les feuilles ne doivent pas être eutypiées ni abîmées (déchiquetage, phytotoxicité, maladies diverses).",
     "crumbs": [
+      "Fiches",
       "Carences",
       "Notation de chlorose ferrique"
     ]
@@ -810,6 +948,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nUne note est attribuée à chaque cep observé selon l’intensité des symptômes observés sur les jeunes feuilles. Seuls les symptômes typiques de la chlorose (décoloration plus ou moins forte du limbe avec apparition plus ou moins prononcée des nervures) sont notés selon l’échelle du référentiel OIV [2], basée sur Pouget et Ottenwaelter, 1978 [1].\n\n9 : Absence de symptômes. Limbe de couleur vert foncé. (Pouget 0)\n7 : Limbe de couleur jaune pâle. Présence d’un réseau de petites nervures vertes (Pouget 2)\n5 : Limbe de couleur jaune franc. Nervures principales vertes (Pouget 3)\n3 : Apparition de petites nécroses sur le limbe jaune franc à blanchâtre. (Pouget 4)\n1 : Limbe nécrosé sur plus de 10% de la surface, sarment rabougirs, stade “cottis” (Pouget 5)\n\n\n\n\nPhotos des symptômes et note dans l’échelle OIV, d’après [3]\n\n\nPour que la note soit validée à l’échelle du cep, il faut au moins 2 feuilles présentant des symptômes équivalents (ou plus prononcés) sur 2 rameaux différents. Par exemple, si j’ai une feuille notée OIV 5 sur un rameau et une autre notée OIV 3 sur un autre rameau, la note retenue pour le cep sera OIV 5.\n\n\n\n\n\n\nNote\n\n\n\nPouget et Ottenwaelter, 1978 [1] définissent une note 1 “limbe de couleur vert clair sans nervure apparentes”, sans équivalent dans l’échelle OIV. Certains cépages ayant un feuillage naturellement pâle au printemps (Ungni blanc par exemple), il n’est en effet pas recommandé d’utiliser ce niveau dans l’échelle de notation.\n\n\n\n\nOutils\nFeuille de notation et appareil photo.\n\n\nPériode de mesure\nLes observations doivent être faire quand l’intensité des symptômes est maximale, au moment où la croissance des sarments est la plus active. Cette période se situe généralement aux environs de la floraison.\n\n\nAspects pratiques\n\n\n\n\n\n\nNote\n\n\n\nNe pas oublier de noter aussi le nom de l’observateur, la date d’observation et le stade phénologique. Compléter la notation par la prise de photos pour illustrer et valider le diagnostic.\n\n\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas confondre des symptômes de chlorose ferrique avec d’autres causes de jaunissement comme la carence magnésienne, le court-noué ou la flavescence dorée !",
     "crumbs": [
+      "Fiches",
       "Carences",
       "Notation de chlorose ferrique"
     ]
@@ -819,8 +958,9 @@
     "href": "fiche_chlorose.html#définition-des-variables",
     "title": "Notation de chlorose ferrique",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLa note de résistance à la chlorose ferrique selon l’échelle OIV est nommée RES_IC_OIV_401.\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation (parcelle ou placette).",
+    "text": "Définition des variables\nLa note de résistance à la chlorose ferrique selon l’échelle OIV est nommée RES_IC_OIV_401 (CO_356:1000193).\nLa fréquence des ceps touchés et la moyenne des notes peut être calculée sur l’unité d’observation (parcelle ou placette).",
     "crumbs": [
+      "Fiches",
       "Carences",
       "Notation de chlorose ferrique"
     ]
@@ -832,6 +972,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation des résultats doit tenir compte de l’historique de fertilisation sur la parcelle, du matériel végétal (cépage et porte-greffe), de l’historique météo (les printemps pluvieux favorisent la chlorose ferrique).\n\n\n\n\n\n\nAstuce\n\n\n\nUne analyse de sol avec dosage du calcaire total et du calcaire actif peut permettre d’affiner le diagnostic et de calibrer les mesures correctives.",
     "crumbs": [
+      "Fiches",
       "Carences",
       "Notation de chlorose ferrique"
     ]
@@ -843,6 +984,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\n\nFiche sur la chlorose ferrique de l’IFV Occitanie.\nGuide Viticulture durable des Charentes, voir fiche sur la chlorose\nPlateforme ephytia pour aide à la reconnaissance des symptômes de désordres nutritionnels sur vigne.",
     "crumbs": [
+      "Fiches",
       "Carences",
       "Notation de chlorose ferrique"
     ]
@@ -854,6 +996,7 @@
     "section": "",
     "text": "Mise en garde\n\n\n\nFiche en cours de validation. Pour toute remarque ou question, contactez-nous.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -863,8 +1006,9 @@
     "href": "fiche_matu.html#échantillonnage",
     "title": "Suivi maturité par prélèvement de baies",
     "section": "Échantillonnage",
-    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur (équilibrer l’échantillonnage par exemple)\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2.",
+    "text": "Échantillonnage\nLa qualité des données dépend grandement de la qualité de l’échantillonnage et de sa répétabilité :\n\nPrélever toujours sur les mêmes ceps ou rangs\nFormer les préleveurs\nTenir compte d’un éventuel effet préleveur (équilibrer l’échantillonnage par exemple)\n\n\nNombre d’observations\nPrélever au moins 200 baies pour une parcelle, sur au moins 50 grappes. Pour les placettes de moins de 30 ceps, il est possible de ne prélever que 100 baies.\n\n\nChoix des ceps à observer\n\nEviter les rangs de bordure et les débuts et fin de rangs (laisser au moins 2 ceps)\nNe pas prélever les ceps malades ou les remplaçants\n\n\n\nChoix des grappes et des baies\n\nAlterner les faces de rangs, ou sur un même rang prélever d’un côté puis de l’autre.\nChoisir les grappes au hasard, à différents niveaux sur le rameau (en évitant les grappillons)\nPrélever les baies au hasard en alternant haut, bas, devant, derrière et côtés des grappes. Les baies peuvent être prélevées 2 par 2.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -874,8 +1018,9 @@
     "href": "fiche_matu.html#mesure",
     "title": "Suivi maturité par prélèvement de baies",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\nAspects pratiques\nStocker les baies dans des boites congélation, tapissées de papier absorbant si la vendange est mouillée. Il est aussi possible de la sécher au sèche-cheveux.\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017",
+    "text": "Mesure\n\nRéalisation\nAprès le prélèvement, les analyses en laboratoire doivent être réalisées dans un délai de 24h maximum.\n\n\n\n\n\n\nAvertissement\n\n\n\nNe pas écraser les baies. Les conserver au frais, dans une glacière en évitant le contact direct avec la glace.\n\n\n\n\nOutils\n\nsachet ou boite de prélèvement\npapier essuie-tout\nglacière\n\n\n\nPériode de mesure\n\nPour un suivi de maturation, le rythme de prélèvement doit être régulier. Commencer dès la fin de la véraison (ou la semaine suivante). Au début un prélèvement par semaine suffit, mais il peut être nécessaire de passer à deux par semaine à l’approche des vendanges.\nPour un point à la récolte, le prélèvement sera réalisé la veille ou le jour même de la vendange.\n\n\n\n\n\n\n\nImportant\n\n\n\nEviter autant que possible de prélever des baies mouillées : des effets de dilution peuvent survenir, et sécher les baies reste une opération délicate avec risque de perte de jus.\n\n\n\n\nAspects pratiques\nStocker les échantillons dans un endroit frais (10 à 15°C), mais pas au frigo : une température trop fraîche peut entraîner des précipitations tartriques au sein des raisins et fausser les analyses d’acidité.\nUtiliser un damier après récolte permet de s’assurer du nombre de baies prélevées.\n\n\n\nDamier pour compter les baies. Source : IFV, 2017",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -885,8 +1030,9 @@
     "href": "fiche_matu.html#définition-des-variables",
     "title": "Suivi maturité par prélèvement de baies",
     "section": "Définition des variables",
-    "text": "Définition des variables\n\nVariables agronomiques\nLa pesée des 200 baies permet d’estimer le poids moyen unitaire1 d’une baie (SBER_W_g), exprimé en grammes.\n\n\nVariables analytiques\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\n\n\n\n\nTeneur en sucres\nBERRY_SUG_g\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\n\n\nTeneur en glucose et fructose\nGLUFRU\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\nTeneur en glucose et fructose\n\nHPLC\nOIV-MA-AS311-03 (Type II)\nmg.L-1\n\n\npH\nBERRY_pH\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\nAcidité totale\nBER_TA_man_g\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\n\n\nAcide tartrique\nBER_TART_HPLC_g\nHPLC\nOIV-MA-AS313-04 (Type IV)\ng.L-1\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\n\n\n\nAcide malique\nBER_MAL_g\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\n\n\nAcide malique\nBER_MAL_HPLC\nHPLC\nOIV-MA-AS313-04 (Type IV)\ng.L-1\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\nAzote assimilable\nBERRY_N_NH4&AA\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\nAzote ammoniacal\nBERRY_N_NH4\nDosage enzymatique\n\nmg.L-1\n\n\nAzote alpha-aminé\nBERRY_N_AA\nDosage colorimétrique\n\nmg.L-1\n\n\nComposés phénolique (DO280)\nBERRY_DO280\nSpectrophotométrie\n\nsans unité\n\n\nTeneur en K\nBERRY_K\nSpectrométrie de flamme\nOIV-MA-AS322-02A (Type II)\nmg.L-1\n\n\n𝛅C13\n\nSpectrométrie de masse\n\nsans unité\n\n\n\nLa plupart des laboratoires propose aussi en routine des dosages par spectroscopie infrarouge à transformée de Fourier (IRTF), méthode rapide et peu coûteuse.\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention au différence de méthode et d’unité !\n\n\n\n\n\n\n\n\nAstuce\n\n\n\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion. Voir la table de correspondance entre degrés Brix et teneurs en sucres.\n\n\n\nConvertisseur Brix → g/L (à 20°C)\n\n\n\n\nBrix (%)\n\n\nSucre (g/L)\n\n\n\n\n\n\n\n—",
+    "text": "Définition des variables\n\nVariables agronomiques\n\n  \nLa pesée des 200 baies permet d’estimer le poids moyen unitaire1 d’une baie SBER_W_g (CO_356:1000215) \n\n\nVariables analytiques\nLes paramètres mesurés en laboratoire peuvent être assez nombreux. Les méthodes d’analyses peuvent varier, ainsi que les unités utilisées. Il est donc nécessaire de documenter soigneusement les analyses réalisées (méthode, unité) et d’être vigilant dans le choix des correspondances avec la Vitis Ontology.\nLe tableau ci-dessous reprend les principaux paramètres classiquement analysé.\n\n\n\n\n\n\n\n\n\n\nParamètre\nVitis Ontology\nMéthode\nOIV [1]\nUnité\n\n\n\n\nTeneur en sucres\nBERRY_SUG_g (CO_356:1000217)\nRéfractomètre\nOIV-MA-AS2-02 (Type I)\ng.L-1\n\n\nTeneur en glucose et fructose\nGLUFRU (CO_356:1000086)\nDosage enzymatique\nOIV-MA-AS311-02 (Type II)\nmg.L-1\n\n\nTeneur en glucose et fructose\n\nHPLC\nOIV-MA-AS311-03 (Type II)\nmg.L-1\n\n\npH\nBERRY_pH (CO_356:1000184)\npHmètre\nOIV-MA-AS313-15 (Type I)\npH\n\n\nAcidité totale\nBER_TA_man_g (CO_356:1000303)\nTitration manuelle\nOIV-MA-AS313-01 (Type I)\ng H2SO4 .L-1\n\n\nAcide tartrique\nBER_TART_HPLC_g (CO_356:1000301)\nHPLC\nOIV-MA-AS313-04 (Type IV)\ng.L-1\n\n\nAcide tartrique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\n\n\n\nAcide malique\nBER_MAL_g (CO_356:1000298)\nDosage enzymatique\nOIV-MA-AS313-11 (Type II)\ng.L-1\n\n\nAcide malique\nBER_MAL_HPLC (CO_356:1000299)\nHPLC\nOIV-MA-AS313-04 (Type IV)\ng.L-1\n\n\nAcide malique\n\nElectrophorèse\nOIV-MA-AS313-19 (Type II)\ng.L-1\n\n\nAzote assimilable\nBERRY_N_NH4&AA (CO_356:1000535)\nSomme des teneurs en azote ammoniacal et aminé\n\nmg.L-1\n\n\nAzote ammoniacal\nBERRY_N_NH4 (CO_356:1000352)\nDosage enzymatique\n\nmg.L-1\n\n\nAzote alpha-aminé\nBERRY_N_AA (CO_356:1000351)\nDosage colorimétrique\n\nmg.L-1\n\n\nComposés phénolique (DO280)\nBERRY_DO280 (CO_356:1000237)\nSpectrophotométrie\n\nsans unité\n\n\nTeneur en K\nBERRY_K (CO_356:1000187)\nSpectrométrie de flamme\nOIV-MA-AS322-02A (Type II)\nmg.L-1\n\n\n𝛅C13\n\nSpectrométrie de masse\n\nsans unité\n\n\n\nLa plupart des laboratoires propose aussi en routine des dosages par spectroscopie infrarouge à transformée de Fourier (IRTF), méthode rapide et peu coûteuse.\n\n\n\n\n\n\nAstuce\n\n\n\nConsulter le référentiel de variable disponible sur le centre de ressources Viti-Oeno pour vérifier si un équivalent existe dans la Vitis Ontology. Attention aux différences de méthodes et d’unités !\n\n\n\n\n\n\n\n\nAstuce\n\n\n\nToujours conserver/préférer la teneur en sucres dans le jeu de données. C’est en effet le paramètre de base mesuré et cela évite les incertitudes sur le facteur de conversion. Voir la table de correspondance entre degrés Brix et teneurs en sucres.\n\n\n\nConvertisseur Brix → g/L (à 20°C)\n\n\n\n\nBrix (%)\n\n\nSucre (g/L)\n\n\n\n\n\n\n\n—",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -898,6 +1044,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nLes paramètres analytiques permettent d’appréhender les différents types de maturité.\n\n\n\n\n\n\n\n\nType de maturité\nDéfinition\nParamètres\n\n\n\n\nMaturité physiologique\nC’est le stade où les baies ont atteint leur taille maximale et où les pépins sont complètement formés, prêts à germer.\nMesure de la taille et du poids des baies. Couleur et dureté des pépins.\n\n\nMaturité technologique\nÀ ce stade, les raisins ont atteint un équilibre entre leur teneur en sucre et leur acidité.\nTeneurs en sucres, acidité totale, pH. Le rapport Sucres/Acidité totale est un indicateur de la maturité technologique\n\n\nMaturité phénolique\nCette maturité concerne principalement les composés phénoliques, tels que les tanins et les anthocyanes, qui sont importants pour la couleur, le goût et la structure des vins rouges.\nTeneurs en anthocyanes, tannins. Indice polyphénolique total.\n\n\nMaturité aromatique\nÀ ce stade, les raisins ont développé leurs arômes variétaux caractéristiques.\nTeneurs en composés aromatiques\n\n\n\nChaque cépage, chaque parcelle a ses caractéristiques propres qui influent sur un ou plusieurs aspects de ces maturités [2]. L’état sanitaire, la conduite de la vigne et le climat sont autant d’éléments qui peuvent également induire des changements dans les dynamiques de maturation.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -909,6 +1056,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nFiches sur le prélèvement des raisins :\n\nIFV Occitanie\nInstitut Rhodanien\nTechniloire",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -920,6 +1068,7 @@
     "section": "Notes de bas de page",
     "text": "Notes de bas de page\n\n\nNe pas oublier de diviser le poids total de l’échantillon par le nombre de baies prélevées !↩︎",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Suivi maturité par prélèvement de baies"
     ]
@@ -931,6 +1080,7 @@
     "section": "",
     "text": "Modéliser la dynamique de croissance des apex et notamment encadrer précisément leur sénescence.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Dynamique de la croissance d'apex"
     ]
@@ -942,6 +1092,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nUn minimum de 50 apex doit être observé, sur une zone représentative de la parcelle ou par placette expérimentale.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.\nLes apex à observer sont ceux des rameaux primaires.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Dynamique de la croissance d'apex"
     ]
@@ -953,6 +1104,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nEchelle\nL’observateur classe chaque apex dans l’une des 3 classes [1,2] suivantes :\n\nC : Chu pour un apex sec ou chu ;\nR : Ralenti pour un apex en croissance ralentie (évalué en enfermant l’apex entre les deux dernières feuilles développées ; s’il ne dépasse pas, on considère que l‘apex est en croissance ralentie) ;\nP : Poussant pour un apex en croissance, ce qui revient à dire qu’il dépasse des deux dernières feuilles développées refermées l’une sur l’autre.\n\n\nGrille de notation des Apex (source : site IFV Occitanie)\n\n\n\n\n\n\n\nApex en arrêt de croissance\nApex en croissance ralentie\nApex en croissance\n\n\n\n\n\n\n\n\n\nL’apex est sec ou à chu\nLorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci recouvrent l’apex.\nLorsque les deux dernières feuilles étalées sont repliées le long de l’axe du rameau, celles-ci ne recouvrent pas l’apex.\n\n\nClasse C\nClasse R\nClasse P\n\n\n\n\n\nOutils\nLa notation peut être réalisée grâce à l’application ApexVigne [3,4] disponible sous Android sur ce lien consulté en novembre 2024.\n\n\nPériode de mesure\nLes mesures doivent commencer après la floraison et avant le premier rognage. Elles sont effectuées toutes les semaines, sauf après un rognage où un délai d’au moins 1 semaine est nécessaire avant la mesure suivante pour permettre la reprise éventuelle de la croissance.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer 50 apex.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Dynamique de la croissance d'apex"
     ]
@@ -964,6 +1116,7 @@
     "section": "Définitions des variables",
     "text": "Définitions des variables\nLes données brutes sont l’ensemble des notes d’apex à chaque observation.\nLes proportions d’apex dans chaque classe sont calculés et notés PC, PR et PP (varient entre 0 et 1). À partir des notations d’apex, il est possible de calculer des variables élaborées, en particulier l’indice de croissance et l’indice d’arrêt de croissance.\n\nIndice de croissance\nL’indice de croissance (iCApex) a été proposé par [4]. Il est calculé de la façon suivante :\n\\[ iC_{Apex} = P_P + 0.5*P_R \\]\nCet indice varie entre 0 et 1 : 0 croissance nulle et 1 croissance active\n\n\nIndice d’arrêt de croissance\nL’indice d’arrêt de croissance (IAC) a été proposé par William Trambouze [2]. L’IAC varie de 0 (pleine croissance) à 100 (arrêt total de la croissance).\n\\[ IAC = \\frac{100 (1-P_P + P_R + 2P_C)}{3} \\]\n\n\n\n\n\n\nImportant\n\n\n\nEtant donnée que différents indices synthétiques peuvent être calculés, il est nécessaire de conserver les données brutes, ou a minima les proportions PP, PR et PC.\n\n\n\n\nDate d’arrêt de croissance\nC’est la date à laquelle l’indice de croissance atteint la valeur 0.5. Elle est déterminée par interpolation entre deux notations d’apex encadrant la valeur iCApex = 0.5.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Dynamique de la croissance d'apex"
     ]
@@ -975,6 +1128,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nUne relation entre indice de croissance et niveau de contrainte hydrique potentielle a été établie. L’IAC a été mis au point pour le déclenchement de l’irrigation, il sera plus discriminant en début de saison, alors que la variation de l’iCApex est plus linéaire.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Dynamique de la croissance d'apex"
     ]
@@ -986,6 +1140,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nFiche disponible en ligne sur le site IFV Occitanie\nFiche en ligne de l’Institut Rhodanien.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Dynamique de la croissance d'apex"
     ]
@@ -997,6 +1152,7 @@
     "section": "",
     "text": "Évaluer la vigueur de la vigne par la mesure du poids des bois de taille après la chute des feuilles.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Poids des bois de taille"
     ]
@@ -1008,6 +1164,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nGénéralement, 10 ceps par parcelle élémentaire sont nécessaires, avec un minimum de 30 ceps par modalité.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nNe pas mesurer les ceps en bordure de rangs.\n\n\n\nSarments à peser\nNe sont pesés que les sarments de l’année (exemple : dans le cas d’une taille guyot, la baguette n’est pas pesée). Les sarments cassés vers la base, les petits sarments (longueur inférieure à 10 cm) ne sont pas pesés.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Poids des bois de taille"
     ]
@@ -1017,8 +1174,9 @@
     "href": "fiche_pbt.html#mesure",
     "title": "Poids des bois de taille",
     "section": "Mesure",
-    "text": "Mesure\n\nRéalisation\n\nCompter le nombre de sarments par cep.\nRéaliser la taille des ceps sélectionnés en respectant les pratiques habituelles de la parcelle.\nRegrouper tous les sarments de chaque cep dans un fagot distinct, puis procéder à la pesée de chaque fagot.\n\n\n\nOutils\nPrévoir balance de terrain, sécateurs et équipements de protection.\n\n\nPériode de mesure\nLa pesée des bois de taille se fait en période de repos hivernal, après chute complète des feuilles et sur des ceps non pré-taillés. Vérifier les conditions météorologiques prévues pour réaliser la mesure dans de bonnes conditions.\n\n\nAspects pratiques\nIl faut compter environ 12 ceps par heure et par personne.\n\n\n\n\n\n\nAvertissement\n\n\n\nLa taille présente des risques de coupures en lien avec l’utilisation des sécateurs, attention si vous utilisez des vieux modèles de sécateurs électriques.\nD’autre part, le tirage des bois peut aussi présenter un risque de blessures oculaires : il est recommandé de porter des lunettes de protection.",
+    "text": "Mesure\n\nRéalisation\n\nCompter le nombre de sarments par cep.\nRéaliser la taille des ceps sélectionnés en respectant les pratiques habituelles de la parcelle.\nRegrouper tous les sarments de chaque cep dans un fagot distinct, puis procéder à la pesée de chaque fagot.\n\n\n\nOutils\nPrévoir balance de terrain, sécateurs et équipements de protection.\n\n\nPériode de mesure\nLa pesée des bois de taille se fait en période de repos hivernal, après chute complète des feuilles et sur des ceps non pré-taillés. Vérifier les conditions météorologiques prévues pour réaliser la mesure dans de bonnes conditions.\n\n\nAspects pratiques\nIl faut compter entre 15 et 30 ceps par heure et par personne selon le cépage, le type de taille et la présence de palissage (le tirage des bois complique la tâche).\nIl est possible de faire une pesée par groupe de souche (placette) pour gagner du temps, et atteindre 40 à 50 ceps par heure et par personne. Si la variabilité entre ceps est faible, la perte de puissance statistique reste acceptable. Dans le cas contraire, il est préférable de faire des pesées cep par cep.\n\n\n\n\n\n\nAvertissement\n\n\n\nLa taille présente des risques de coupures en lien avec l’utilisation des sécateurs, attention si vous utilisez des vieux modèles de sécateurs électriques.\nD’autre part, le tirage des bois peut aussi présenter un risque de blessures oculaires : il est recommandé de porter des lunettes de protection.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Poids des bois de taille"
     ]
@@ -1028,8 +1186,9 @@
     "href": "fiche_pbt.html#définition-des-variables1",
     "title": "Poids des bois de taille",
     "section": "Définition des variables1",
-    "text": "Définition des variables1\n\nExpression par cep\nLes variables suivantes peuvent être définies :\n\nle poids total des sarments par cep, exprimé en kg/cep (PRUN_FW_PLANT)\nle nombre total de sarments par cep (NB_CANES_PLANT).\nUn poids moyen du sarment peut être calculé en divisant le poids total des bois de taille par le nombre de sarments.\n\n\n\nExpression par m²\nL’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.\n\nLe poids de bois de taille peut être exprimé en kg/m² de sol (PRUN_FW_M2) en prenant en compte la densité de plantation.\n\n\\[ PRUN\\_FW\\_M2 = PRUN\\_FW\\_PLANT * (densité_{ha} /10 000) \\]\n\nLe nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation. Cette variable n’existe pas encore dans la Vitis Ontology.\n\n\\[\nNB\\_CANES\\_M2 = NB\\_CANES\\_PLANT * (densité_{ha} /10 000)\n\\]",
+    "text": "Définition des variables1\n\nExpression par cep\nLes variables suivantes peuvent être définies :\n\nle poids total des sarments par cep, exprimé en kg/cep : PRUN_FW_PLANT (CO_356:1000190)\nle nombre total de sarments par cep : NB_CANES_PLANT (CO_356:1000157).\nUn poids moyen du sarment peut être calculé en divisant le poids total des bois de taille par le nombre de sarments.\n\n\n\nExpression par m²\nL’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.\n\nLe poids de bois de taille peut être exprimé en kg/m² de sol en prenant en compte la densité de plantation : PRUN_FW_M2 (CO_356:1000290).\n\n\\[ PRUN\\_FW\\_M2 = PRUN\\_FW\\_PLANT * (densité_{ha} /10 000) \\]\n\nLe nombre de sarments peut lui aussi être exprimé par m² de sol (NB_CANES_M2) en prenant en compte la densité de plantation.\n\n\\[\nNB\\_CANES\\_M2 = NB\\_CANES\\_PLANT * (densité_{ha} /10 000)\n\\]",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Poids des bois de taille"
     ]
@@ -1039,8 +1198,9 @@
     "href": "fiche_pbt.html#interprétation-des-résultats",
     "title": "Poids des bois de taille",
     "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nExpression végétative et vigueur sont directement liées à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.\nL’indice Ravaz IR est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille. Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs [2].\n\\[ IR = \\frac{YIELD\\_PLANT}{PRUN\\_FW\\_PLANT} \\]\nL’interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.",
+    "text": "Interprétation des résultats\nExpression végétative et vigueur sont directement liées à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.\nL’indice Ravaz IR est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille. Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs [3].\n\\[ IR = \\frac{YIELD\\_PLANT}{PRUN\\_FW\\_PLANT} \\]\nL’interprétation doit tenir compte du matériel végétal (cépage surtout et porte-greffe), qui a une forte influence sur la vigueur.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Poids des bois de taille"
     ]
@@ -1050,8 +1210,9 @@
     "href": "fiche_pbt.html#footnotes",
     "title": "Poids des bois de taille",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLes noms des variables dans le référentiel de la vitis ontology [2] sont indiqués en gras avec entre parenthèse l’identifiant unique de la variable.↩︎",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Poids des bois de taille"
     ]
@@ -1063,6 +1224,7 @@
     "section": "",
     "text": "La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle ou de la modalité étudiée. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1074,6 +1236,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nIl est nécessaire de faire au minimum 30 observations par zone homogène. La notation peut-être réalisée à la souche ou sur chaque inflorescence.\n\n\nCeps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs), formés de manière définitive et en production.\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.\n\n\n\nOrganes à observer\nSeules sont observées les deux premières inflorescences rencontrées à partir de la base du sarment. Sont exclues les inflorescences portées par les gourmands, les entre-cœurs et les bouts de vrilles.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1085,6 +1248,7 @@
     "section": "Sur le terrain",
     "text": "Sur le terrain\n\nRéalisation\nL’échelle BBCH de la vigne1 est l’échelle de référence à utiliser [3]. On considère qu’une fleur est ouverte quand la base du capuchon est détachée, que celui-ci tombe ou non.\nLe stade mi-floraison est représenté par le stade (BBCH65).\nLe taux de fleurs ouvertes est estimé pour chaque inflorescence ou pour chaque cep.\n\n\n\nEvolution du taux de floraison [1]\n\n\n\n\nOutils\nPas d’outils disponibles à notre connaissance.\n\n\nPériode de mesure\nA partir du moment où l’on observe au minimum 5 % de fleurs ouvertes, faire au moins 1 passage supplémentaire avec au maximum une semaine d’intervalle de manière à avoir une observation après 50 % de fleurs ouvertes.\nIl s’agit d’encadrer la date à laquelle 50% des organes ont atteint le stade à observer.\n\n\nAspects pratiques\nLa notation est assez rapide, 5 minutes sont nécessaires à une personne habituée pour évaluer le stade phénologique sur 5 ceps.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1094,8 +1258,9 @@
     "href": "fiche_pheno_flo.html#définition-des-variables",
     "title": "Suivi de la floraison de la vigne",
     "section": "Définition des variables",
-    "text": "Définition des variables\n\nLe pourcentage de floraison pour chaque organe ou cep observé (OPEN_FLO_PC) est la donnée de base. La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de floraison correspond au stade BBCH61, 20% au stade BBCH62 etc.\nLa date de mi-floraison est la date calendaire où le seuil de 50% des fleurs ouvertes est atteint (FLO_50). Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade floraison.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nLa date de début floraison (FLO_START) est la date calendaire où les premières fleurs ouvertes sont observées (BBCH61).\nPour les comparaisons inter-annuelles, la date de mi-floraison calendaire peut être exprimée en nombre de jours depuis le début de l’année (DOY_FLO). Par exemple, le 16 juin 2024 est le jour 168 de l’année.",
+    "text": "Définition des variables\n\nLe pourcentage de floraison pour chaque organe ou cep observé OPEN_FLO_PC (CO_356:1000181) est la donnée de base. La correspondance avec le stade BBCH se fait avec le chiffre des dizaines : 10% de floraison correspond au stade BBCH61, 20% au stade BBCH62 etc.\nLa date de mi-floraison FLO_50 (CO_356:1000011) est la date calendaire où le seuil de 50% des fleurs ouvertes est atteint . Elle est calculée par interpolation entre les valeurs observées avant et après 50% des effectifs observés ayant atteint le stade floraison.\n\n\n\n\nExemple d’interpolation entre observations\n\n\n\nLa date de début floraison FLO_START (CO_356:1000083) est la date calendaire où les premières fleurs ouvertes sont observées (BBCH61).\nPour les comparaisons inter-annuelles, la date de mi-floraison calendaire peut être exprimée en nombre de jours depuis le début de l’année DOY_FLO (CO_356:1000077). Par exemple, le 16 juin 2024 est le jour 168 de l’année.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1105,8 +1270,9 @@
     "href": "fiche_pheno_flo.html#interprétation-des-résultats",
     "title": "Suivi de la floraison de la vigne",
     "section": "Interprétation des résultats",
-    "text": "Interprétation des résultats\nLa date de floraison de la vigne est un indicateur clé du déroulement du cycle phénologique et permet d’évaluer la précocité de parcelle ou de la modalité. Elle permet d’estimer la date de vendange (environ 90 à 100 jours plus tard selon les cépages et conditions climatiques)).",
+    "text": "Interprétation des résultats\nLa date de floraison de la vigne est un indicateur clé du déroulement du cycle phénologique et permet d’évaluer la précocité de parcelle ou de la modalité. Elle permet d’estimer la date de vendange (environ 90 à 100 jours plus tard selon les cépages et conditions climatiques).",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1118,6 +1284,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\n\nPoster des stades phénologiques de la vigne sur le site IFV.\nStades phénologiques repères de la vigne, fiche de l’Agroscope de Changins.\nfilm du bourgeon au raisin, réalisé en 2004 par Jean-Louis Porreye et Clotilde Verriès. Copyright Montpellier Supagro-Inra, 2004.",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1127,8 +1294,9 @@
     "href": "fiche_pheno_flo.html#footnotes",
     "title": "Suivi de la floraison de la vigne",
     "section": "Notes de bas de page",
-    "text": "Notes de bas de page\n\n\nLa ressource [2] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes noms des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse, avec un lien vers l’identifiant de la variable.↩︎",
+    "text": "Notes de bas de page\n\n\nLa ressource [2] décrivant cette échelle (et les autres échelles existantes pour la vigne) est accessible sur le web.↩︎\nLes identifiants des variables dans le référentiel de la crop ontology VITIS356 sont indiqués entre parenthèse.↩︎",
     "crumbs": [
+      "Fiches",
       "Phénologie",
       "Suivi de la floraison de la vigne"
     ]
@@ -1140,6 +1308,7 @@
     "section": "",
     "text": "La mesure du potentiel hydrique foliaire de base (ΨB) permet d’estimer l’état hydrique de la vigne en informant sur la disponibilité en eau du sol. Le ΨB est un indicateur physiologique clé de l’état hydrique de la vigne et sert de référence pour la calibration d’autres outils d’aide à la décision (capteurs du flux de sève, thermomètre infrarouge, capteurs de l’humidité du sol…) [1].",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de base"
     ]
@@ -1151,6 +1320,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nLes mesures se font sur un échantillon d’au moins 5 feuilles saines par placette ou zone homogène.\n\n\nChoix des ceps et feuilles à prélever\n\nSélectionner des ceps d’expression végétative similaire et indemnes de maladies du bois.\nChoisir des ceps situés dans la partie médiane d’une parcelle élémentaire pour éviter les effets de bordure.\nPrélever les feuilles sur la partie basale d’un rameau primaire.\n\nLes mesures en saison se feront toujours sur les mêmes ceps.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de base"
     ]
@@ -1162,6 +1332,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nLa mesure se fait en fin de nuit, avant le lever du soleil (à partir de 2h du matin jusqu’à l’aube).\n\nPrélever la feuille entière (limbe + pétiole) juste avant la mesure par rupture du pétiole au niveau de son insertion sur le nœud.\nAmputer l’extrémité du pétiole à l’aide d’un cutter bien aiguisé pour ne pas écraser les tissus.\nIntroduire le pétiole dans l’orifice du couvercle de la chambre à pression et assurer l’étanchéité autour du pétiole.\nPlacer la feuille dans la chambre dans laquelle on a déposé un morceau d’ouate humide.\nFermer le couvercle, vérifier son positionnement et le cas échéant mettre en place la sécurité.\nMettre la chambre sous pression très progressivement (la précision de la mesure est très dépendante de la vitesse de montée en pression). Une incrémentation de 0.002 MPa (0.02 Bar) en début de saison, en absence de stress, à 0.004 MPa (0.04 Bar) en fin de saison, stress fort, est recommandée.\nNoter le potentiel hydrique lors de l’apparition d’humidité sur la section du faisceau ligneux du pétiole. Cette valeur correspond à la pression de la chambre affichée par le manomètre, au signe près.\n\n\n\n\nMesure du potentiel hydrique folaire [1]\n\n\n\nSi une mesure est aberrante, recommencer sur une autre feuille pour confirmer cette valeur\n\n\n\n\n\n\n\nAvertissement\n\n\n\nPour éviter les accidents, respecter le mode d’emploi et les consignes de sécurité propres à l’appareil, et réaliser les mesures à 2 personnes. Attention au stockage (éviter les fortes températures) et à la manipulation des bouteilles de gaz sous pression.\n\n\n\n\nOutils\n\nUne chambre à pression (dite de Scholander) munie d’une source d’azote comprimée, d’un régulateur de débit et, si possible, d’un manomètre de précision (0.001 Mpa).\nUn cutter bien aiguisé\nUne lampe frontale\nUne fiche de notation\n\n\n\nPériode de mesure\nIl ne doit pas y avoir eu de précipitations dans les 4 jours précédents la mesure. Les conditions climatiques au moment de la mesure doivent être constantes d’une fois sur l’autre (vent, humidité). Quatre points de mesure sont nécessaires pour caractériser la dynamique de l’état hydrique de la plante au cours de la période végétative, avec comme recommadation :\n\nune mesure avant l’apparition du stress\nune à fermeture de grappe\nune à mi-véraison\nune avant récolte\n\n\n\nAspects pratiques\nCompter en moyenne 10 minutes pour 5 feuilles. Ce temps peut varier selon le niveau de contrainte hydrique : il faudra plus de temps pour atteindre la pression d’équilibre en cas de contrainte hydrique forte. La consommation en gaz sera aussi plus importante.",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de base"
     ]
@@ -1173,6 +1344,7 @@
     "section": "Définition des variables",
     "text": "Définition des variables\nLe potentiel hydrique foliaire de base est exprimé en MPa (Pas de variable équivalente dans la Vitis Ontology).",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de base"
     ]
@@ -1184,6 +1356,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nL’interprétation de la contrainte hydrique doit tenir compte du stade phénologique de la vigne. Une contrainte modérée précoce n’a pas les mêmes conséquences pour la plante et la production que la même contrainte survenant tardivement en saison. C’est la dynamique qui est à interpréter. Les seuils suivants [1] donnent une indication.\n\nPotentiel hydrique folaire de base et état hydrique de la vigne\n\n\n\n\n\n\n\nClasse\nΨB en MPa\nNiveau de contrainte hydrique\n\n\n\n\n1\n0 ≥ ΨB ≥ -0,3\nPas de déficit hydrique\n\n\n2\n-0,3 &gt; ΨB ≥ -0,5\nDéficit hydrique faible à modéré\n\n\n3\n-0,5 &gt; ΨB ≥ -0,8\nDéficit hydrique modéré à sévère\n\n\n4\nΨB &lt; -0.8\nDéficit hydrique sévère à élevé (=stress)\n\n\n\nCependant, les mesures du PHFB peuvent conduire à une sous-estimation du déficit hydrique dans les vignobles irrigués au goutte à goutte et dont la réserve utile du sol est très faible [1].",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de base"
     ]
@@ -1195,6 +1368,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nFiche mesure du potentiel hydrique de base, IFV Occitanie\nFiche sur l’estimation de l’état hydrique de la vigne, IFV Occitanie",
     "crumbs": [
+      "Fiches",
       "Statut hydrique",
       "Mesure du potentiel hydrique foliaire de base"
     ]
@@ -1206,6 +1380,7 @@
     "section": "",
     "text": "L’objectif est d’évaluer les différentes composantes du rendement à la récolte. La mesure de ces composantes est essentielle pour l’évaluation des performances technico-économiques des itinéraires (rendement et qualité des raisins produits). Le niveau de rendement impacte la physiologie de la plante et peut potentiellement avoir des conséquences sur plusieurs saisons.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1217,6 +1392,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nPour l’estimation du rendement, la récolte de 30 à 40 ceps est préconisée. Dans un essai avec 3 à 4 répétitions, 10 ceps par répétitions sont ainsi généralement suffisant pour bien appréhender les différences entre modalités.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nNe pas mesurer les ceps en bordure de rangs.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1228,6 +1404,7 @@
     "section": "Mesure",
     "text": "Mesure\n\nRéalisation\nPrévoir une dizaine de sceau préalablement numérotés et pesées à vide (tare). Dans le cas d’un suivi pluriannuel, les ceps doivent être identifiés pour suivre l’évolution des rendements.\n\nCompter les grappes sur chaque cep.\nPositionner au pied de chaque cep un sceau numéroté\nVendanger cep par cep\nProcéder à la pesée\n\n\nPour mesurer le poids des baies, une des composantes du rendement, un prélèvement de baies pourra précéder la pesée de récolte. Voir la fiche Suivi maturité.\n\n\n\nOutils\nPrévoir balance de terrain, vendangettes et éventuellement des gants de protection. Attention aux coupures, en particulier pour les personnes non entraînées.\n\n\nPériode de mesure\nA la récolte, dans la pratique quelques jours avant la vendange de la parcelle par le viticulteur.\n\n\nAspects pratiques\nPenser à se coordonner avec le viticulteur pour gérer les raisins après pesées.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1237,8 +1414,9 @@
     "href": "fiche_rdt.html#définition-des-variables",
     "title": "Composantes du rendement à la récolte",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLa date calendaire de récolte HARVEST_DATE, ou exprimée en jour de l’année HARVEST_DOY.\n\nExpression par cep\nLes variables suivantes peuvent être définies :\n\nle poids total de récolte par cep, exprimé en kg/cep (YIELD_PLANT)\nle nombre total de grappes par cep (NB_CLUST_PLANT).\n\n\n\nExpression par m²\nL’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.\nLa densité de plantation (NB_PLANT_M2) est exprimée en nombre de plantes par m² (nombre de cep par ha divisé par 10 000).\n\nLe poids de récolte peut être exprimé en kg/m² de sol (YIELD_M21) en prenant en compte la densité de plantation.\n\n\\[ YIELD\\_M2 = YIELD\\_PLANT * NB\\_PLANT\\_M2 \\]\n\nLe nombre de grappes peut aussi être exprimé par m² de sol (NB_CLUST_M2) en prenant en compte la densité de plantation.\n\n\\[\nNB\\_CLUST\\_M2 = NB\\_CLUST\\_PLANT * NB\\_PLANT\\_M2\n\\]\n\n\nAutres composantes du rendement\nUn poids moyen de grappe (SCLUST_W_G) exprimé en grammes peut être calculé en divisant le poids total de récolte par le nombre de grappes.\nSi un prélèvement de baies est réalisé il est aussi possible de calculer le poids moyen unitaire d’une baie (SBER_W_g), exprimé en grammes. Voir la fiche Suivi maturité.",
+    "text": "Définition des variables\nLa date calendaire de récolte HARVEST_DATE (CO_356:1000288), ou exprimée en jour de l’année HARVEST_DOY (CO_356:1000289).\n\nExpression par cep\nLes variables suivantes peuvent être définies :\n\nle poids total de récolte par cep, exprimé en kg/cep YIELD_PLANT (CO_356:1000247)\nle nombre total de grappes par cep NB_CLUST_PLANT (CO_356:1000158).\n\n\n\nExpression par m²\nL’expression par m² de sol permet les comparaisons entre parcelles quand les densités de plantation sont différentes.\nLa densité de plantation NB_PLANT_M2 (CO_356:1000165) est exprimée en nombre de plantes par m² (nombre de cep par ha divisé par 10 000).\n\nLe poids de récolte peut être exprimé en kg/m² de sol (YIELD_M21) en prenant en compte la densité de plantation.\n\n\\[ YIELD\\_M2 = YIELD\\_PLANT * NB\\_PLANT\\_M2 \\]\n\nLe nombre de grappes peut aussi être exprimé par m² de sol NB_CLUST_M2 (CO_356:1000271) en prenant en compte la densité de plantation.\n\n\\[\nNB\\_CLUST\\_M2 = NB\\_CLUST\\_PLANT * NB\\_PLANT\\_M2\n\\]\n\n\nAutres composantes du rendement\nUn poids moyen de grappe SCLUST_W_G (CO_356:1000048) exprimé en grammes peut être calculé en divisant le poids total de récolte par le nombre de grappes.\nSi un prélèvement de baies est réalisé il est aussi possible de calculer le poids moyen unitaire d’une baie SBER_W_g (CO_356:1000215), exprimé en grammes. Voir la fiche Suivi maturité.",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1250,6 +1428,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nDe nombreux facteurs peuvent impacter le rendement de la vigne : itinéraire technique, accidents climatiques (gel, grêle…) ou physiologiques (coulure, millerandage…), dégâts de maladie ou ravageurs… L’interprétation des résultats se fait par rapport aux objectifs de production fixés (quantitatifs et qualitatifs) et par comparaison entre modalités de l’essai. Plusieurs années sont souvent nécessaires pour appréhender la stabilité et le niveau moyen de rendement sur la modalité ou la parcelle.\nL’indice Ravaz IR est un indicateur d’équilibre physiologique de la vigne, calculé comme le rapport du rendement à la récolte sur le poids de la taille (exprimé dans la même unité). Néanmoins les seuils d’interprétation de l’indice de Ravaz peuvent être variables selon les auteurs [1].\n\\[ IR = \\frac{YIELD\\_PLANT}{PRUN\\_FW\\_PLANT} \\]",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1261,6 +1440,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nFiche sur l’estimation de rendement à la parcelle par Techniloire\nOutil d’estimation à la parcelle de l’IFV Occitanie",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1272,6 +1452,7 @@
     "section": "Notes de bas de page",
     "text": "Notes de bas de page\n\n\nCette variable n’est pas encore déclarée dans la Vitis Ontology↩︎",
     "crumbs": [
+      "Fiches",
       "Récolte",
       "Composantes du rendement à la récolte"
     ]
@@ -1283,6 +1464,7 @@
     "section": "",
     "text": "Évaluer la vigueur de la vigne avec une méthode d’évaluation visuelle rapide.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Estimation visuelle de la vigueur - méthode OIV351"
     ]
@@ -1294,6 +1476,7 @@
     "section": "Échantillonnage",
     "text": "Échantillonnage\n\nNombre d’observations\nUn minimum de 30 ceps doit être observé par parcelle ou par modalité.\n\n\nChoix des ceps à observer\n\nPrendre des ceps représentatifs de la parcelle (ou les ceps qui sont observés par ailleurs)\nExclure de la mesure les ceps malades et les ceps voisins des manquants.\nLaisser quelques ceps en bordure de rangs.\nObserver plusieurs rameaux par cep pour obtenir une estimation moyenne par cep.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Estimation visuelle de la vigueur - méthode OIV351"
     ]
@@ -1303,8 +1486,9 @@
     "href": "fiche_vigueur_OIV351.html#mesure",
     "title": "Estimation visuelle de la vigueur - méthode OIV351",
     "section": "Mesure",
-    "text": "Mesure\n\nEchelle\nL’observateur attribue une note à chaque cep selon le diamètre et la longueur de ses rameaux, selon l’échelle suivante [1].\n\nEchelle de notation de la vigueur des rameaux\n\n\n1\n3\n5\n7\n9\n\n\n\n\nTrès faible\nfaible\nmoyenne\nforte\ntrès forte\n\n\n\n\n\nOutils\nL’observation est visuelle, prévoir une fiche de notation.\n\n\nPériode de mesure\nLa notation est réalisée après la chute des feuilles, avant la taille.\n\n\nAspects pratiques\n10 minutes sont nécessaires à une personne habituée pour évaluer 30 ceps.",
+    "text": "Mesure\n\nEchelle\nL’observateur attribue une note à chaque cep selon le diamètre et la longueur de ses rameaux, selon l’échelle suivante [1].\n\nEchelle de notation de la vigueur des rameaux\n\n\n1\n3\n5\n7\n9\n\n\n\n\nTrès faible\nfaible\nmoyenne\nforte\ntrès forte\n\n\n\n\n\n\nExemple d’échelle de vigueur des rameaux (L. Moulinet, CA11)\n\n\n\n\nOutils\nL’observation est visuelle, prévoir une fiche de notation.\n\n\nPériode de mesure\nLa notation est réalisée après la chute des feuilles, avant la taille.\n\n\nAspects pratiques\n10 minutes sont nécessaires à une personne habituée pour évaluer 30 ceps.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Estimation visuelle de la vigueur - méthode OIV351"
     ]
@@ -1314,8 +1498,9 @@
     "href": "fiche_vigueur_OIV351.html#définition-des-variables",
     "title": "Estimation visuelle de la vigueur - méthode OIV351",
     "section": "Définition des variables",
-    "text": "Définition des variables\nLes données sont stockées telles quelles, en précisant la date de la mesure et l’observateur. La variable est référencée dans la Vitis Ontology sous le nom SHOOT_G_OIV",
+    "text": "Définition des variables\nLes données sont stockées telles quelles, en précisant la date de la mesure et l’observateur. La variable est référencée dans la Vitis Ontology sous le nom SHOOT_G_OIV (CO_356:1000240).",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Estimation visuelle de la vigueur - méthode OIV351"
     ]
@@ -1327,6 +1512,7 @@
     "section": "Interprétation des résultats",
     "text": "Interprétation des résultats\nLa vigueur est directement liée à l’activité photosynthétique et à la répartition des ressources assimilées (sucres, nutriments) entre les différents organes. Une vigueur excessive reflète souvent une allocation disproportionnée des ressources vers la croissance des rameaux et des feuilles, au détriment de la maturation des baies. À l’inverse, une vigueur trop faible peut signaler un stress hydrique, nutritionnel ou un épuisement des réserves, limitant les capacités de production et de survie de la plante.\n\n\n\n\n\n\nImportant\n\n\n\nLa vigueur de la vigne peut être influencée par de nombreux facteurs, tels que le porte-greffe, le cépage, le clone, les conditions environnementales (sol, climat), les pratiques culturales (irrigation, fertilisation), la gestion de l’enherbement, et la présence de maladies. Il est donc important de prendre en compte ces facteurs lors de l’interprétation des résultats.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Estimation visuelle de la vigueur - méthode OIV351"
     ]
@@ -1338,6 +1524,7 @@
     "section": "Ressources complémentaires",
     "text": "Ressources complémentaires\nExtrait du guide OIV sur le centre de ressources viti-oeno.",
     "crumbs": [
+      "Fiches",
       "Vigueur",
       "Estimation visuelle de la vigueur - méthode OIV351"
     ]
@@ -1347,7 +1534,7 @@
     "href": "index.html",
     "title": "Introduction",
     "section": "",
-    "text": "Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d’expérimentation en vigne et vin. L’objectif est de partager des méthodes de reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.",
+    "text": "Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d’expérimentation en vigne et vin. L’objectif est de partager des méthodes reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.",
     "crumbs": [
       "Introduction"
     ]
@@ -1370,6 +1557,61 @@
     "text": "Proposer une nouvelle fiche\nSi vous souhaitez proposer une nouvelle fiche méthodologique, un modèle vierge est disponible au format docx. Vous pouvez l’éditer et nous envoyer votre proposition par email (voir rubrique A propos) en l’accompagnant de quelques explications.\nSi vous n’avez pas le temps, nous pouvons prendre en charge la rédaction.\n\n\n\n\n\n\nMise en garde\n\n\n\nIl est toutefois recommandé de prendre contact avec nous au préalable, d’une part pour vérifier qu’une fiche équivalente n’est pas en préparation, et d’autre part pour identifier des experts pour appui à la rédaction ou relecture.",
     "crumbs": [
       "Introduction"
+    ]
+  },
+  {
+    "objectID": "ref_ppdgv.html",
+    "href": "ref_ppdgv.html",
+    "title": "Référentiel des stades phénologiques",
+    "section": "",
+    "text": "La phénologie des plantes est l’étude du développement saisonnier des végétaux déterminé par l’influence des variations du climat. Les évènements périodiques sont par exemple l’apparition des fleurs, le changement de couleurs des feuilles, etc. Un stade phénologique ou stade de développement des plantes caractérise une phase de développement de la plante pendant son cycle de vie. Par exemple, le stade floraison est observé quand au moins 50% des fleurs sont épanouies.",
+    "crumbs": [
+      "Référentiels",
+      "Référentiel des stades phénologiques"
+    ]
+  },
+  {
+    "objectID": "ref_ppdgv.html#objectif",
+    "href": "ref_ppdgv.html#objectif",
+    "title": "Référentiel des stades phénologiques",
+    "section": "Objectif",
+    "text": "Objectif\nL’étude phénologique d’une plante consiste à observer à quelle date les stades apparaissent. Les variations temporelles sur l’apparition d’un stade peuvent dépendre du climat ou d’autres facteurs comme la variété de la plante. La détermination des principaux stades phénologiques permet de définir la précocité de la parcelle. Par ailleurs, elle est indispensable aux calculs de certains indicateurs bioclimatiques ou des bilans hydriques.",
+    "crumbs": [
+      "Référentiels",
+      "Référentiel des stades phénologiques"
+    ]
+  },
+  {
+    "objectID": "ref_ppdgv.html#historique-des-différentes-échelles-phénologiques",
+    "href": "ref_ppdgv.html#historique-des-différentes-échelles-phénologiques",
+    "title": "Référentiel des stades phénologiques",
+    "section": "Historique des différentes échelles phénologiques",
+    "text": "Historique des différentes échelles phénologiques\n\nEn vigne\nPour la vigne, la première échelle phénologique a été proposée par Baggiolini en 1952 [1]. Elle comportait initialement 10 stades qui ont été complétés en 1993 par Baillod et Baggiolini [2] pour atteindre 16 stades. En 1977, Eichhorn et Lorenz (EL) ont proposé une échelle plus détaillée de 24 stades pour la vigne [3].\n\n\nUn standard multifilière : l’échelle BBCH\nL’échelle universelle connue sous le nom de BBCH (Biologische Bundesanstalt, Bundessortenamt und CHemische Industrie) pour les plantes cultivées mono et dicotylédones a été proposée en 1992, puis adaptée à la vigne en 1995 par Lorenz et al. [4]. L’échelle individuelle BBCH de la vigne permet la comparaison avec d’autres espèces, aussi bien annuelles que pérennes, et s’est progressivement imposée comme l’échelle de référence dans la communauté scientifique.\nC’est aujourd’hui l’échelle à utiliser.",
+    "crumbs": [
+      "Référentiels",
+      "Référentiel des stades phénologiques"
+    ]
+  },
+  {
+    "objectID": "ref_ppdgv.html#le-référentiel-ppd-gv-pour-la-vigne",
+    "href": "ref_ppdgv.html#le-référentiel-ppd-gv-pour-la-vigne",
+    "title": "Référentiel des stades phénologiques",
+    "section": "Le référentiel ppd-gv pour la vigne",
+    "text": "Le référentiel ppd-gv pour la vigne\nRoussey et al. (2021) [5] ont publié sur le Web à l’aide des technologies Web sémantique des échelles phénologiques pour la vigne, avec un travail d’alignement entre les échelles existantes.\nChaque stade a un identifiant de type URI, affichable par un navigateur Web, se présentant sous une suite de caractère, par exemple le stade “BBCH 75” a pour identifiant Web https://opendata.inrae.fr/ppd-res/grapevine#bbch_grapevine_secondaryStage_BBCH75.\nPar simplicité les labels de type “BBCH 75” peuvent être utilisés Table 1.\n\n\n\n\nTable 1: Stades secondaires de l’échelle BBCH de la vigne\n\n\n\n\n\n\n\n\n\n\n\nAccès au référentiel\nLe référentiel complet ppd-gv est accessible sous AgroPortal et téléchargeable à partir d’un dépôt git.\nUn point de requêtage est accessible, avec une liste de requêtes disponible en ligne.",
+    "crumbs": [
+      "Référentiels",
+      "Référentiel des stades phénologiques"
+    ]
+  },
+  {
+    "objectID": "ref_ppdgv.html#ressources-complémentaires",
+    "href": "ref_ppdgv.html#ressources-complémentaires",
+    "title": "Référentiel des stades phénologiques",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nFiche au format pdf présentant les différents stades BBCH illustrés par des photos et schémas [6].",
+    "crumbs": [
+      "Référentiels",
+      "Référentiel des stades phénologiques"
     ]
   }
 ]
