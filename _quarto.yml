@@ -57,6 +57,9 @@ website:
             contents:
               - fiche_rdt.qmd
               - fiche_matu.qmd
+          - section: "Gestion du sol"
+            contents:
+              - fiche_cov_sol.qmd
       - section: "Référentiels"
         contents:
           - ref_co356.qmd

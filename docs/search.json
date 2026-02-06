@@ -1613,5 +1613,68 @@
       "Référentiels",
       "Référentiel des stades phénologiques"
     ]
+  },
+  {
+    "objectID": "fiche_cov_sol.html",
+    "href": "fiche_cov_sol.html",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "",
+    "text": "L’objectif de la mesure est d’évaluer le taux de couverture du sol par la végétation (adventices ou couvert semé). Ce taux de couverture est un indicateur qui peut être utile dans différentes situations :\n\nPour évaluer l’efficacité d’une technique de désherbage\nPour évaluer un niveau de concurrence potentiel du couvert végétal sur la vigne\nPour évaluer le développement d’un couvert semé"
+  },
+  {
+    "objectID": "fiche_cov_sol.html#échantillonnage",
+    "href": "fiche_cov_sol.html#échantillonnage",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Échantillonnage",
+    "text": "Échantillonnage\n\nNombre d’observations\nUn minimum de 3 observations est à réaliser, à adapter suivant la taille et la variabilité sur le terrain.\n\n\nChoix des zones à observer\nChaque zone d’observation doit être suffisamment grande pour éviter les variations trop locales, mais pas trop grande pour que l’estimation reste fiable. En cas d’estimation visuelle, une longueur maximale d’environ 5m est recommandée. Au-delà, il est préférable de faire plusieurs mesures ou d’utiliser des outils d’estimation.\n\n\n\n\n\n\nNote\n\n\n\nSi vous souhaiter évaluer un taux de couverture global pour la parcelle, différencier les zones selon leurs modalités d’entretien du sol (sous le rang / inter-rang) et mesurer la largeur de chaque zone."
+  },
+  {
+    "objectID": "fiche_cov_sol.html#mesure",
+    "href": "fiche_cov_sol.html#mesure",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Mesure",
+    "text": "Mesure\n\nRéalisation\n\nPar estimation visuelle\nLe pourcentage de couverture du sol est estimé visuellement. Dans la pratique, il est important de prendre des repères visuels pour bien limiter la zone à évaluer, qui ne doit pas être trop grande. L’effet observateur est potentiellement important, et il doit être pris en compte, en particulier en cas d’observateurs multiples :\n\nEntraîner les observateurs\nCaler les observateurs entre eux (tous les observateurs évaluent une série commune de placettes)\nAdapter la collecte des données au plan d’expérience (par exemple chaque observateur observe un bloc complet)\nUtiliser un abaque de notation (voir Annexe)\n\n\n\n\n\n\n\nAstuce\n\n\n\nL’estimation visuelle étant par nature variable et subjective, l’utilisation d’un outil basé sur l’analyse d’image est recommandé. Néanmoins ceux qui existent actuellement ne permettent pas de différencier le sol nu du mulch.\n\n\n\n\nPar analyse d’image\n\nAu champ, avec une application mobile\nIl existe plusieurs applications permettant d’automatiser l’évaluation du taux de couverture (Canopeo, Canopy Cover). Canopeo est une application reconnue par la communauté scientifique [1].\nAvec l’application Canopeo, pour prendre en considération l’influence de l’ensoleillement et des ombres portées, réaliser une mesure sur la gauche puis sur la droite du rang sur lequel est disposée la placette.\nEn utilisant le mode video de l’application on obtient une moyenne de 2 mesures par mètre de long de chaque côté. Pour une placette de 10m de long, cela permet d’obtenir 40 valeurs par placette, résumées en 2 moyennes.\n\n\n\n\n\n\nAvertissement\n\n\n\nEn cas de présence de mulch, et selon les objectifs, il peut être utile de différencier la part entre couvert végétal fonctionnel et couvert végétal non-fonctionnel. L’application Canopeo ne permet pas de faire cette différence.\n\n\n\n\nEn post-traitement des photos prises au champ\nIl est aussi possible d’analyser les images en post-traitement, par exemple sur Canopeo. Il est nécessaire de créer un compte. Attention, il importe de bien nommer et organiser ses photos pour pouvoir faire le lien avec les zones et parcelles observées.\nPour obtenir un indicateur de développement du couvert, une mesure de la hauteur moyenne du couvert est estimée visuellement ou à l’aide d’une règle. Une mesure par placette suffit, elle vise juste à caractériser le « volume » de végétation présent.\n\n\n\n\n\n\nNote\n\n\n\nPour une estimation plus précise de la biomasse d’un couvert, en particulier pour les engrais verts, l’utilisation de la méthode MERCI est recommandée.\n\n\n\n\n\n\nOutils\nLa mesure peut être réalisée avec l’application Canopeo [1].\n\n\n\nExemple de traitement d’image par l’application Canopeo.\n\n\n\n\nPériode de mesure\nSuivant les objectifs, tout au long de la saison.\nPour évaluer l’efficacité d’une technique de désherbage, mesures à effectuer à T0 (avant), T+2j, T+7j, T+ 14j et T+30 jours.\n\n\nAspects pratiques\nMesure assez rapide réalisable à une personne."
+  },
+  {
+    "objectID": "fiche_cov_sol.html#définition-des-variables",
+    "href": "fiche_cov_sol.html#définition-des-variables",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Définition des variables",
+    "text": "Définition des variables\n\nTaux de couverture\nLe taux de couverture du sol est exprimé en pourcentage. Bien préciser s’il s’agit de couvert fonctionnel uniquement ou si le mulch est aussi pris en compte.\nLa hauteur moyenne du couvert est exprimée en cm.\n\n\nSoil cover days\nLa couverture du sol durant une certaine période peut être exprimée en «soil cover days» (SCD) [2]. Le nombre de SCD est calculé en additionnant les taux quotidiens de couverture du sol (entre 0% et 100%) durant la période considérée. Une valeur de 1 SCD peut donc signifier qu’une parcelle est couverte à 100% pendant 1 jour, ou à 50% pendant 2 jours."
+  },
+  {
+    "objectID": "fiche_cov_sol.html#interprétation-des-résultats",
+    "href": "fiche_cov_sol.html#interprétation-des-résultats",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Interprétation des résultats",
+    "text": "Interprétation des résultats\nUne couverture du sol inférieure à 30% est considérée comme critique en termes de perte en nutriments et d’érosion [3]."
+  },
+  {
+    "objectID": "fiche_cov_sol.html#ressources-complémentaires",
+    "href": "fiche_cov_sol.html#ressources-complémentaires",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Ressources complémentaires",
+    "text": "Ressources complémentaires\nSite web Canopeo\nPage web de l’Agroscope Changins (Suisse) sur la couverture du sol et indicateurs agro-environnementaux"
+  },
+  {
+    "objectID": "fiche_cov_sol.html#références",
+    "href": "fiche_cov_sol.html#références",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Références",
+    "text": "Références"
+  },
+  {
+    "objectID": "fiche_cov_sol.html#annexe",
+    "href": "fiche_cov_sol.html#annexe",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Annexe",
+    "text": "Annexe\n\n\n\nAbaque d’estimation du recouvrement du sol par les cultures, les adventices, le mulch et/ou les cailloux\n\n\n[4]"
+  },
+  {
+    "objectID": "fiche_cov_sol.html#annexe-abaque-destimation-du-taux-de-couverture-du-sol",
+    "href": "fiche_cov_sol.html#annexe-abaque-destimation-du-taux-de-couverture-du-sol",
+    "title": "Evaluation du taux de couverture du sol",
+    "section": "Annexe : Abaque d’estimation du taux de couverture du sol",
+    "text": "Annexe : Abaque d’estimation du taux de couverture du sol\n\n\n\nAbaque d’estimation du recouvrement du sol par les cultures, les adventices, le mulch et/ou les cailloux [4]"
   }
 ]

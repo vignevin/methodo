@@ -53,6 +53,12 @@ author:
   - name: Vincent Dumot
     affiliations:
         - ref : bnic
+  - name: Laure Gontier
+    affiliations: 
+        - ref: ifv
+  - name: Christophe Gaviglio
+    affiliations: 
+        - ref: ifv
 ---
 
 Ces pages web sont éditées et gérées par l’Institut Français de la Vigne et du Vin, 2025.
