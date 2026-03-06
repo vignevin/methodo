@@ -3,16 +3,19 @@ title: "Fiches méthodologies d'expérimentation en viticulture"
 format:  html
 ---
 
-Ce site recense des fiches méthodologiques pour la collecte de données dans un cadre d'expérimentation en vigne et vin. L'objectif est de partager des méthodes reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.
+Ce site recense des fiches méthodologiques[@delpuech:hal-05497709] pour la collecte de données dans un cadre d'expérimentation en vigne et vin. L'objectif est de partager des méthodes reconnues et validées par la communauté scientifique vigne et vin, de façon ouverte et collaborative.
+
+::: callout-note
+## Citer ce document
+
+Delpuech, X.; Cahurel, J.-Y.; Claverie, M.; Bonnisseau, M.; Gontier, L.; Gaviglio, C.; Dumot, V.; Fortin, N.; Moulinet, L. [*Fiches méthodologies d’expérimentation en viticulture*](https://hal.inrae.fr/hal-05497709) 2025, https://vignevin.github.io/methodo/.
+:::
 
 # Description des fiches
 
 Chaque fiche est dédiée à une mesure ou observation avec des explications sur la réalisation sur le terrain et sur le traitement des résultats.
 
-
-Chaque mesure ou observation génère des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le [référentiel CO_356](ref_co356.qmd) [@duchene2019]. 
-Le nom préféré de la variable est indiqué en gras avec entre parenthèse son identifiant. 
-
+Chaque mesure ou observation génère des variables qui sont décrites dans les fiches. Le cas échéant, chaque variable est alignée avec le [référentiel CO_356](ref_co356.qmd). Le nom préféré de la variable est indiqué en gras avec entre parenthèse son identifiant.
 
 L'utilisation d'un référentiel commun est recommandé pour faciliter l'interopérabilité des données.
 
@@ -45,4 +48,4 @@ Il est toutefois recommandé de prendre contact avec nous au préalable, d'une p
 -   [Centre de ressources viti-oeno](https://vitioeno.mistea.inrae.fr/resource/app/) : un site web qui recense des documents, applications, référentiels (variables et matériel végétal) à destination des expérimentateurs de la filière vigne et vin.
 -   [Guide pour la description d’une expérimentation en vigne](https://vignevin.github.io/standard_guide/) : un guide pour décrire une expérimentation en viticulture.
 
-# Références
+## Références
