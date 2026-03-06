@@ -63,6 +63,7 @@ website:
       - section: "Référentiels"
         contents:
           - ref_co356.qmd
+          - ref_mat_vegetal.qmd
           - ref_ppdgv.qmd
       - about.qmd
   page-footer:
